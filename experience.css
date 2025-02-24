@@ -89,11 +89,6 @@ body {
   background-position: center;
 }
 
-.mu--card-link:hover .mu--card-overlay {
-  opacity: 0.8;
-  transition: 0.5s;
-}
-
 .mu--card-link:hover mu--card-text-label {
   transition: 0.5s;
   text-shadow: 0px 0px 10px #000;
@@ -145,7 +140,6 @@ body {
 /* Imported from Googles Material Design */
 .material-symbols-outlined {
   padding-left: 5px;
-  fill: 1;
 }
 
 .mu--light-blue {
@@ -153,19 +147,19 @@ body {
 }
 
 .mu--subtext-link1 {
-  bottom: 0%;
+  bottom: 1%;
 }
 
 .mu--subtext-link2 {
-  bottom: 20%;
+  bottom: 20.75%;
 }
 
 .mu--subtext-link3 {
-  bottom: 40%;
+  bottom: 40.5%;
 }
 
 .mu--subtext-link4 {
-  bottom: 60%;
+  bottom: 60.25%;
 }
 
 .mu--subtext-link5 {
@@ -182,7 +176,7 @@ body {
   right: 0;
   z-index: 70;
   text-shadow: 0px 0px 10px #000;
-  height: 20%;
+  height: 19.75%;
 }
 
 .mu--subtext-link1 .material-symbols-outlined,
@@ -195,6 +189,7 @@ body {
   transition: 0.5s;
   background-color: RGBA(0, 0, 0, 0.5);
   padding: 0 5px;
+  scale: 95%;
 }
 
 .mu--subtext-link1 .material-symbols-outlined:hover,
@@ -204,6 +199,7 @@ body {
 .mu--subtext-link5 .material-symbols-outlined:hover {
   color: #ffffff;
   transition: 0.5s;
+  scale: 100%;
 }
 
 /* End Custom HTML Cards CSS */
