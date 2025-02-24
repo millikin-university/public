@@ -5,10 +5,6 @@
   overflow: hidden;
 }
 
-p {
-  margin: 0px 0px 5px 0px;
-}
-
 body {
   height: 100%;
   width: 100%;
@@ -112,7 +108,7 @@ body {
   padding: 0 72px 0 48px;
   padding-top: 0px;
   box-sizing: border-box;
-  font-size: 14pt;
+  font-size: 12pt;
   z-index: 60;
 }
 
@@ -132,6 +128,9 @@ body {
   width: 32px;
 }
 
+.mu--subtext-card-bottom p {
+  margin: 5px 0px 0px 0px;
+}
 .mu--subtext-card-bottom a {
   color: #44a6df;
   text-decoration: none;
