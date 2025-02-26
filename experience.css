@@ -215,13 +215,16 @@ body {
 
 .mu--flexlink-container a {
   flex-basis: 100%;
-  border: 2px solid #44a6df;
+  border-bottom: 4px solid #44a6df;
   background-color: #004185;
   color: #ffffff;
-  font-weight: bold;
   text-decoration: none;
   position: relative;
   transition: 0.25s;
+}
+
+.mu--flexlink-container a:last-child {
+  border-bottom: none;
 }
 
 .mu--flexlink-container a:hover {
@@ -257,27 +260,12 @@ body {
 
 .mu--flexlink-label {
   font-family: Publico-Headline, serif;
-  font-size: 300%;
+  font-size: 24pt;
   transition: 0.25s;
   position: absolute;
   bottom: 2%;
   left: 1%;
+  text-shadow: 0px 0px 3px #000;
   z-index: 55;
-}
-
-.mu--flexlink-label .material-symbols-outlined {
-  padding: 5px;
-  font-size: 24pt;
-  color: #44a6df;
-  transition: 0.25s;
-  margin-left: -1%;
-  margin-bottom: -1%;
-  margin-right: 1%;
-  scale: 95%;
-}
-
-.mu--flexlink-container a:hover .material-symbols-outlined {
-  color: #ffffff;
-  scale: 100%;
 }
 /* End Custom HTML Cards CSS */
