@@ -240,7 +240,7 @@ body {
   transition: 0.75s;
 }
 
-.mu--flexlink-container a:hover .mu--card-bg-image {
+.mu--flexlink-container a:hover .mu--flexlink-bg-image {
   transform: scale(110%);
 }
 
