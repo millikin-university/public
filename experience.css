@@ -57,7 +57,7 @@ body {
   border-right: 4px solid #44a6df;
 }
 
-.mu--mutlicard :last-child {
+.mu--card .mu--mutlicard:last-child {
   border-right: none;
 }
 
@@ -88,7 +88,7 @@ body {
   z-index: 55;
   color: #fff;
   font-family: Publico-Headline, serif;
-  font-size: 28pt;
+  font-size: 24pt;
   transition: 0.5s;
   text-shadow: 0px 0px 3px #000;
 }
@@ -97,9 +97,9 @@ body {
   text-decoration: none;
   width: 100%;
   height: 100%;
-  /* position: relative;
+  position: relative;
   top: 0;
-  left: 0; */
+  left: 0;
   z-index: 60;
   padding-right: 72px;
 }
