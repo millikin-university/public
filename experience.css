@@ -237,6 +237,11 @@ body {
   width: 100%;
   position: relative;
   z-index: 45;
+  transition: 0.75s;
+}
+
+.mu--flexlink-container a:hover .mu--card-bg-image {
+  transform: scale(110%);
 }
 
 .mu--flexlink-overlay {
