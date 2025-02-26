@@ -140,69 +140,37 @@ body {
   text-decoration: none;
 }
 
-/* Imported from Googles Material Design */
-.material-symbols-outlined {
-  padding-left: 5px;
-}
-
 .mu--light-blue {
   color: #44a6df;
 }
 
-.mu--subtext-link1 {
-  bottom: 2%;
-}
-
-.mu--subtext-link2 {
-  bottom: 21.5%;
-}
-
-.mu--subtext-link3 {
-  bottom: 41%;
-}
-
-.mu--subtext-link4 {
-  bottom: 60.5%;
-}
-
-.mu--subtext-link5 {
-  bottom: 80%;
-}
-
-.mu--subtext-link1,
-.mu--subtext-link2,
-.mu--subtext-link3,
-.mu--subtext-link4,
-.mu--subtext-link5 {
+.mu--card-links {
+  display: flex;
+  flex-direction: column-reverse;
   position: absolute;
-  padding-right: 0px;
+  bottom: 0;
   right: 0;
+  height: 100%;
+}
+
+.mu--card-links a {
+  flex-basis: 20%;
   z-index: 70;
   text-shadow: 0px 0px 10px #000;
-  height: 19.5%;
 }
 
-.mu--subtext-link1 .material-symbols-outlined,
-.mu--subtext-link2 .material-symbols-outlined,
-.mu--subtext-link3 .material-symbols-outlined,
-.mu--subtext-link4 .material-symbols-outlined,
-.mu--subtext-link5 .material-symbols-outlined {
-  font-size: 48pt;
+.mu--card-links .material-symbols-outlined {
+  font-size: 20vh;
   color: #44a6df;
   transition: 0.5s;
   background-color: RGBA(0, 0, 0, 0.5);
   padding: 0 5px;
-  scale: 95%;
 }
 
-.mu--subtext-link1 .material-symbols-outlined:hover,
-.mu--subtext-link2 .material-symbols-outlined:hover,
-.mu--subtext-link3 .material-symbols-outlined:hover,
-.mu--subtext-link4 .material-symbols-outlined:hover,
-.mu--subtext-link5 .material-symbols-outlined:hover {
+.mu--card-links .material-symbols-outlined:hover {
   color: #ffffff;
   transition: 0.5s;
-  scale: 100%;
+  scale: 105%;
 }
 
 .mu--flexlink-container {
