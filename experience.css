@@ -54,10 +54,10 @@ body {
 
 .mu--multicard {
   flex-basis: 100%;
-  border-right: 4px solid #44a6df;
+  border-right: 4px solid #ffffff;
 }
 
-.mu--card .mu--mutlicard:last-child {
+.mu--card .mu--multicard:last-child {
   border-right: none;
 }
 
@@ -154,8 +154,13 @@ body {
 }
 
 .mu--subtext-card-bottom a {
-  color: #44a6df;
+  color: #19aced;
   text-decoration: none;
+  transition: 0.25s;
+}
+
+.mu--subtext-card-bottom a:hover {
+  text-decoration: underline;
 }
 
 .mu--card-links {
@@ -182,7 +187,7 @@ body {
 }
 
 .mu--card-links .material-symbols-outlined:hover {
-  color: #ffffff;
+  color: #19aced;
   transition: 0.5s;
   scale: 105%;
 }
@@ -197,7 +202,7 @@ body {
 
 .mu--flexlink-container a {
   flex-basis: 100%;
-  border-bottom: 4px solid #44a6df;
+  border-bottom: 4px solid #0075bf;
   background-color: #004185;
   color: #ffffff;
   text-decoration: none;
@@ -206,7 +211,7 @@ body {
 }
 
 .mu--flexlink-container a:hover {
-  border-color: #ffffff;
+  border-color: #19aced;
   color: #ffffff;
 }
 
