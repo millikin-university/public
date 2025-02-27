@@ -12,6 +12,7 @@ html {
 body {
   height: 100%;
   width: 100%;
+  font-family: "Noto Sans", Helvetica, Arial, sans-serif;
 }
 
 /* Custom HTML Cards in Experience
@@ -86,7 +87,7 @@ body {
   left: 10px;
   position: absolute;
   z-index: 55;
-  color: #fff;
+  color: #ffffff;
   font-family: Publico-Headline, serif;
   font-size: 24pt;
   transition: 0.5s;
@@ -159,10 +160,6 @@ body {
   width: 32px;
 }
 
-.mu--subtext-card-bottom p {
-  margin: 5px 0px 0px 0px;
-}
-
 .mu--subtext-card-bottom a {
   color: #19aced;
   text-decoration: none;
@@ -170,6 +167,7 @@ body {
 }
 
 .mu--subtext-card-bottom a:hover {
+  color: #bbebff;
   text-decoration: underline;
 }
 
@@ -190,14 +188,14 @@ body {
 
 .mu--card-links .material-symbols-outlined {
   font-size: 20vh;
-  color: #0075bf;
+  color: #19aced;
   transition: 0.5s;
   background-color: RGBA(0, 0, 0, 0.5);
   padding: 0 5px;
 }
 
 .mu--card-links .material-symbols-outlined:hover {
-  color: #19aced;
+  color: #bbebff;
   transition: 0.5s;
   scale: 105%;
 }
@@ -212,7 +210,7 @@ body {
 
 .mu--flexlink-container a {
   flex-basis: 100%;
-  border-bottom: 4px solid #0075bf;
+  border-bottom: 4px solid #19aced;
   background-color: #004185;
   color: #ffffff;
   text-decoration: none;
@@ -221,8 +219,7 @@ body {
 }
 
 .mu--flexlink-container a:hover {
-  border-color: #19aced;
-  color: #ffffff;
+  border-color: #bbebff;
 }
 
 .mu--flexlink-bg-image {
