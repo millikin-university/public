@@ -12,7 +12,7 @@ html {
 body {
   height: 100%;
   width: 100%;
-  font-family: "Noto Sans", Helvetica, Arial, sans-serif;
+  font-family: 'Noto Sans', Helvetica, Arial, sans-serif;
 }
 
 /* Custom HTML Cards in Experience
@@ -65,8 +65,7 @@ body {
 .mu--card-overlay {
   height: 100%;
   width: 100%;
-  background: linear-gradient(255deg, rgba(0, 0, 0, 0) 70%, #000 100%),
-    linear-gradient(180deg, rgba(0, 0, 0, 0) 50%, #000 100%);
+  background: linear-gradient(255deg, rgba(0, 0, 0, 0) 70%, #000 100%), linear-gradient(180deg, rgba(0, 0, 0, 0) 50%, #000 100%);
   z-index: 50;
   position: absolute;
 }
@@ -145,17 +144,18 @@ body {
 }
 
 .mu--subtext-card-bottom h3 {
+  font-family: Publico-Headline, serif;
   font-weight: bold;
   display: inline-block;
 }
 
 .mu--subtext-card-bottom h3:before {
   background-color: #19aced;
-  content: "";
+  content: '';
   display: block;
   height: 2px;
   left: 0;
-  margin-top: 9px;
+  margin-top: 11px;
   position: absolute;
   width: 32px;
 }
@@ -169,6 +169,13 @@ body {
 .mu--subtext-card-bottom a:hover {
   color: #bbebff;
   text-decoration: underline;
+}
+
+/* Used for mu--subtext-card-bottom primarily */
+.mu--two-column-grid {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 10px;
 }
 
 .mu--card-links {
@@ -240,8 +247,7 @@ body {
 .mu--flexlink-overlay {
   height: 100%;
   width: 100%;
-  background: linear-gradient(255deg, rgba(0, 0, 0, 0) 70%, #000 100%),
-    linear-gradient(180deg, rgba(0, 0, 0, 0) 50%, #000 100%);
+  background: linear-gradient(255deg, rgba(0, 0, 0, 0) 70%, #000 100%), linear-gradient(180deg, rgba(0, 0, 0, 0) 50%, #000 100%);
   z-index: 50;
   position: absolute;
   bottom: 0;
