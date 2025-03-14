@@ -175,7 +175,7 @@ body {
 .mu--two-column-grid {
   display: grid;
   grid-template-columns: auto auto;
-  grid-gap: 10px;
+  grid-column-gap: 8px;
 }
 
 .mu--card-links {
