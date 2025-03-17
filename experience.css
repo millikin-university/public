@@ -262,7 +262,6 @@ div {
   align-items: stretch;
   height: 100%;
   width: 100%;
-  overflow: hidden;
 }
 
 .mu--flexlink-container a {
@@ -273,10 +272,12 @@ div {
   text-decoration: none;
   position: relative;
   transition: 0.25s;
+  overflow: hidden;
 }
 
 .mu--flexlink-container a:hover {
   border-color: #bbebff;
+  text-decoration: underline;
 }
 
 .mu--flexlink-bg-image {
