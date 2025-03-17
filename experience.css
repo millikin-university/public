@@ -6,43 +6,19 @@
 
 html {
   height: 100%;
+  width: 100%;
 }
 
 body {
+  font-family: 'Noto Sans', Helvetica, Arial, sans-serif;
   height: 100%;
   width: 100%;
-  font-family: 'Noto Sans', Helvetica, Arial, sans-serif;
+  overflow: hidden;
 }
 
 /* Custom HTML Cards in Experience
   --------------------------------
-  release 0.5 James Mueller
 */
-/* .mu--fullcard {
-  width: 100%;
-}
-
-.mu--left-halfcard,
-.mu--right-halfcard {
-  width: 50%;
-}
-
-.mu--fullcard,
-.mu--left-halfcard {
-  left: 0px;
-}
-
-.mu--right-halfcard {
-  left: 50%;
-}
-
-.mu--fullcard,
-.mu--left-halfcard,
-.mu--right-halfcard {
-  position: absolute;
-  height: 100%;
-  bottom: 0px;
-} */
 
 .mu--card {
   display: flex;
