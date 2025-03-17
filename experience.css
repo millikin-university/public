@@ -16,6 +16,10 @@ body {
   overflow: hidden;
 }
 
+div {
+  overflow: hidden;
+}
+
 /* Custom HTML Cards in Experience
   --------------------------------
 */
@@ -74,10 +78,10 @@ body {
 }
 
 .mu--card-link {
-  width: 100%;
-  height: 100%;
   position: relative;
-  padding-right: 72px;
+  height: 100%;
+  width: 100%;
+  padding-right: 60px;
 }
 
 .mu--card-link a {
