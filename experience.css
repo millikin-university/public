@@ -180,32 +180,86 @@ body {
 
 .mu--card-links {
   display: flex;
-  flex-direction: column-reverse;
   position: absolute;
-  bottom: 0;
+  flex-direction: row-reverse;
   right: 0;
-  height: 100%;
+  top: 0;
+}
+
+.mu-card-links-right {
+  flex-direction: column-reverse;
+  bottom: 0;
+  top: unset;
+  margin-right: unset;
 }
 
 .mu--card-links a {
-  flex-basis: 20%;
+  flex-basis: 15vh;
   z-index: 70;
   text-shadow: 0px 0px 10px #000;
+  border-radius: 0px 0 8px 8px;
+  margin-top: 0px;
+  margin-right: 4px;
+  margin-bottom: auto;
+  height: 48px;
+  transition: 0.25s;
+}
+
+.mu-card-links-right a {
+  border-radius: 8px 0 0 8px;
+  margin-top: unset;
+  margin-right: 0px;
+  margin-bottom: 4px;
+  margin-left: auto;
+  height: unset;
+  width: 48px;
+}
+
+.mu-card-links a:hover {
+  height: 54px;
+}
+
+.mu-card-links-right a:hover {
+  height: unset;
+  width: 54px;
 }
 
 .mu--card-links .material-symbols-outlined {
-  font-size: 20vh;
+  font-size: 15vh;
   color: #19aced;
   transition: 0.5s;
   background-color: RGBA(0, 0, 0, 0.5);
-  padding: 0 5px;
+  padding-top: 5px;
+  transition: 0.25s;
+}
+
+.mu-card-links-right .material-symbols-outlined {
+  padding-right: 5px;
 }
 
 .mu--card-links .material-symbols-outlined:hover {
   color: #bbebff;
   transition: 0.5s;
-  scale: 105%;
 }
+
+/* LIGHT VERSION */
+.mu--card-links-light a {
+  background-color: rgba(255, 255, 255, 0.85);
+  text-shadow: unset;
+}
+
+.mu--card-links-light a:hover {
+  background-color: rgba(255, 255, 255, 0.95);
+}
+
+.mu--card-links-light a .material-symbols-outlined {
+  color: #253b85;
+}
+
+.mu--card-links-light a .material-symbols-outlined:hover {
+  color: #3a6fbf;
+}
+/* END LIGHT VERSION */
 
 .mu--flexlink-container {
   display: flex;
