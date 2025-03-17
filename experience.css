@@ -100,11 +100,13 @@ div {
 .mu--card-link:hover .mu--card-bg-image {
   transform: scale(110%);
   background-position: center;
+  transition: 0.25s;
 }
 
 .mu--card-link:hover .mu--card-text-label {
-  transition: 0.25s;
   text-shadow: 0px 0px 10px #000;
+  text-decoration: underline;
+  transition: 0.25s;
 }
 
 .mu--subtext-card-top {
