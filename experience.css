@@ -114,13 +114,17 @@ body {
   display: inline-block;
 }
 
+.mu--card-link:hover {
+  text-decoration: underline;
+}
+
 .mu--card-link:hover .mu--card-bg-image {
   transform: scale(110%);
   background-position: center;
 }
 
 .mu--card-link:hover .mu--card-text-label {
-  transition: 0.5s;
+  transition: 0.25s;
   text-shadow: 0px 0px 10px #000;
 }
 
@@ -136,8 +140,7 @@ body {
   width: 100%;
   height: 42%;
   color: #ffffff;
-  padding: 0 72px 0 48px;
-  padding-top: 0px;
+  padding: 0 60px 0 40px;
   box-sizing: border-box;
   font-size: 12pt;
   z-index: 60;
@@ -175,7 +178,12 @@ body {
 .mu--two-column-grid {
   display: grid;
   grid-template-columns: auto auto;
-  grid-column-gap: 8px;
+  grid-column-gap: 1.5em;
+}
+
+.mu--two-column-grid {
+  text-indent: -1em;
+  padding-left: 1em;
 }
 
 .mu--card-links {
@@ -250,12 +258,12 @@ body {
 
 /* LIGHT VERSION */
 .mu--card-links-light a {
-  background-color: rgba(255, 255, 255, 0.85);
+  background-color: #ffffff;
   text-shadow: unset;
 }
 
 .mu--card-links-light a:hover {
-  background-color: rgba(255, 255, 255, 0.95);
+  background-color: rgba(255, 255, 255, 0.85);
 }
 
 .mu--card-links-light a .material-symbols-outlined {
