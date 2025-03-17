@@ -186,7 +186,7 @@ body {
   top: 0;
 }
 
-.mu-card-links-right {
+.mu--card-links-right {
   flex-direction: column-reverse;
   bottom: 0;
   top: unset;
@@ -197,6 +197,7 @@ body {
   flex-basis: 15vh;
   z-index: 70;
   text-shadow: 0px 0px 10px #000;
+  background-color: RGBA(0, 0, 0, 0.5);
   border-radius: 0px 0 8px 8px;
   margin-top: 0px;
   margin-right: 4px;
@@ -205,7 +206,7 @@ body {
   transition: 0.25s;
 }
 
-.mu-card-links-right a {
+.mu--card-links-right a {
   border-radius: 8px 0 0 8px;
   margin-top: unset;
   margin-right: 0px;
@@ -215,11 +216,11 @@ body {
   width: 48px;
 }
 
-.mu-card-links a:hover {
+.mu--card-links a:hover {
   height: 54px;
 }
 
-.mu-card-links-right a:hover {
+.mu--card-links-right a:hover {
   height: unset;
   width: 54px;
 }
@@ -228,12 +229,11 @@ body {
   font-size: 15vh;
   color: #19aced;
   transition: 0.5s;
-  background-color: RGBA(0, 0, 0, 0.5);
   padding-top: 5px;
   transition: 0.25s;
 }
 
-.mu-card-links-right .material-symbols-outlined {
+.mu--card-links-right .material-symbols-outlined {
   padding-right: 5px;
 }
 
