@@ -228,18 +228,24 @@ body {
 .mu--card-links .material-symbols-outlined {
   font-size: 15vh;
   color: #19aced;
-  transition: 0.5s;
-  padding-top: 5px;
+  padding-top: 4px;
   transition: 0.25s;
 }
 
 .mu--card-links-right .material-symbols-outlined {
-  padding-right: 5px;
+  padding-top: unset;
+  padding-right: 4px;
 }
 
 .mu--card-links .material-symbols-outlined:hover {
   color: #bbebff;
-  transition: 0.5s;
+  padding-top: 8px;
+  transition: 0.25s;
+}
+
+.mu--card-links-right .material-symbols-outlined:hover {
+  padding-top: unset;
+  padding-right: 8px;
 }
 
 /* LIGHT VERSION */
