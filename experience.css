@@ -188,55 +188,58 @@ div {
 .mu--card-links a {
   flex-basis: 15vh;
   z-index: 70;
-  text-shadow: 0px 0px 10px #000;
-  background-color: RGBA(0, 0, 0, 0.5);
+  background-color: #ffffff;
   border-radius: 50%;
-  padding: 5px;
-  margin-top: 4px;
-  margin-right: 4px;
+  padding: 6px;
+  margin-top: 8px;
+  margin-right: 8px;
   margin-bottom: auto;
-  height: 44px;
-  width: 44px;
-  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.75);
+  height: 40px;
+  width: 40px;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.75);
   transition: 0.25s;
 }
 
 .mu--card-links-right a {
   border-radius: 8px 0 0 8px;
   margin-top: unset;
-  margin-right: 4px;
-  margin-bottom: 4px;
+  margin-right: 8px;
+  margin-bottom: 8px;
   margin-left: auto;
 }
 
-.mu--card-links .material-symbols-outlined {
-  font-size: 34px;
-  color: #19aced;
+.mu--card-links a:hover {
+  background-color: #f3f3f3;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.85);
+}
+
+.mu--card-links a .material-symbols-outlined {
+  color: #3a6fbf;
+  font-size: 28px;
   transition: 0.25s;
 }
 
-.mu--card-links .material-symbols-outlined:hover {
-  color: #bbebff;
-}
-
-/* LIGHT VERSION */
-.mu--card-links-light a {
-  background-color: #ffffff;
-  text-shadow: unset;
-}
-
-.mu--card-links-light a:hover {
-  background-color: rgba(255, 255, 255, 0.85);
-}
-
-.mu--card-links-light a .material-symbols-outlined {
+.mu--card-links a .material-symbols-outlined:hover {
   color: #253b85;
 }
 
-.mu--card-links-light a .material-symbols-outlined:hover {
-  color: #3a6fbf;
+/* Dark Links */
+.mu--card-links-dark a {
+  background-color: RGBA(0, 0, 0, 0.65);
 }
-/* END LIGHT VERSION */
+
+.mu--card-links-dark a:hover {
+  background-color: RGBA(0, 0, 0, 0.75);
+}
+
+.mu--card-links-dark a .material-symbols-outlined {
+  color: #19aced;
+}
+
+.mu--card-links-dark a .material-symbols-outlined:hover {
+  color: #bbebff;
+}
+/* END Dark Links */
 
 .mu--flexlink-container {
   display: flex;
