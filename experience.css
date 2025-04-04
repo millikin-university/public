@@ -173,7 +173,7 @@ div {
   flex-direction: row-reverse;
   right: 0;
   top: 0;
-  height: 48px;
+  height: 54px;
 }
 
 .mu--card-links-right {
@@ -182,7 +182,7 @@ div {
   top: unset;
   margin-right: unset;
   height: unset;
-  width: 48px;
+  width: 54px;
 }
 
 .mu--card-links a {
