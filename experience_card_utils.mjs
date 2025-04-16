@@ -6,8 +6,8 @@
 */
 export function muInfoModalToggle(
   button = '.mu--info-corner',
-  target = '.--mu-info-modal',
-  label = '.--mu-info-label',
+  target = '.mu--info-modal',
+  label = '.mu--info-label',
   hideIcon = 'close',
   showIcon = 'question_mark'
 ) {
