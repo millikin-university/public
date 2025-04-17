@@ -21,6 +21,7 @@ div {
 }
 
 :root {
+  --mu-blue-dark: #0b2d50;
   --mu-blue: #004185;
   --mu-blue-medium-dark: #005ba2;
   --mu-blue-medium: #0075bf;
@@ -328,6 +329,7 @@ div {
 .mu--info-box {
   height: 100%;
   width: 100%;
+  color: var(--mu-blue-dark);
   background: #ffffff;
   border-radius: 8px;
   padding: 8px;
@@ -369,4 +371,32 @@ div {
   font-size: 18pt;
 }
 
+.mu--info-box p {
+  line-height: 1.25;
+  font-family: 'Roboto';
+  padding-top: 1em;
+}
+
+.mu--info-box p:first-child {
+  padding-top: 0;
+}
+
+.mu--info-box a {
+  color: var(--mu-blue-medium);
+  text-decoration-color: var(--mu-blue-light);
+}
+
+.mu--info-box a:hover {
+  color: var(--mu-blue-medium-dark);
+  text-decoration-color: var(--mu-blue-medium);
+}
+
+.mu--info-box ul,
+ol {
+  margin-left: 2em;
+}
+
+.mu--info-box li::marker {
+  color: var(--mu-blue);
+}
 /* End Custom HTML Cards CSS */
