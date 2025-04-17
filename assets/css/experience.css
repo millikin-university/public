@@ -1,0 +1,402 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: 'Noto Sans', Helvetica, Arial, sans-serif; /* Noto Sans is the Default font from Ellucian */
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+div {
+  overflow: hidden;
+}
+
+:root {
+  --mu-blue-dark: #0b2d50;
+  --mu-blue: #004185;
+  --mu-blue-medium-dark: #005ba2;
+  --mu-blue-medium: #0075bf;
+  --mu-blue-medium-light: #3a6fbf;
+  --mu-blue-light: #19aced;
+  --mu-blue-lightest: #bbebff;
+}
+
+/* Custom HTML Cards in Experience
+  --------------------------------
+*/
+
+.mu--card {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.mu--multicard {
+  flex-basis: 100%;
+  border-right: 4px solid #ffffff;
+}
+
+.mu--card .mu--multicard:last-child {
+  border-right: none;
+}
+
+.mu--card-overlay {
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(255deg, rgba(0, 0, 0, 0) 70%, #000 100%), linear-gradient(180deg, rgba(0, 0, 0, 0) 50%, #000 100%);
+  z-index: 50;
+  position: absolute;
+}
+
+.mu--card-bg-image {
+  height: 100%;
+  width: 100%;
+  z-index: 45;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  transition: 0.75s;
+}
+
+.mu--card-text-label {
+  bottom: 10px;
+  left: 10px;
+  position: absolute;
+  z-index: 55;
+  color: #ffffff;
+  font-size: 24pt;
+  transition: 0.5s;
+  text-shadow: 0px 0px 3px #000;
+}
+
+/* Make it a bit smaller for multicards */
+.mu--multicard .mu--card-text-label {
+  font-size: 18pt;
+}
+
+.mu--card-link {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  padding-right: 60px;
+}
+
+.mu--card-link a {
+  text-decoration: none;
+  display: inline-block;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: 60;
+}
+
+.mu--card-link:hover a {
+  text-decoration: underline;
+}
+
+.mu--card-link:hover .mu--card-bg-image {
+  transform: scale(110%);
+  background-position: center;
+  transition: 0.25s;
+}
+
+.mu--card-link:hover .mu--card-text-label {
+  text-shadow: 0px 0px 10px #000;
+  text-decoration: underline;
+  transition: 0.25s;
+}
+
+.mu--subtext-card-top {
+  height: 60%;
+  top: 0;
+}
+
+.mu--subtext-card-bottom {
+  position: absolute;
+  bottom: 0;
+  background-color: #000000;
+  width: 100%;
+  height: 42%;
+  color: #ffffff;
+  padding: 0 60px 0 40px;
+  box-sizing: border-box;
+  font-size: 12pt;
+  z-index: 60;
+}
+
+.mu--subtext-card-bottom h3 {
+  font-family: Roboto; /*Secondary Standard font from Ellucian */
+  font-weight: bold;
+  display: inline-block;
+}
+
+.mu--subtext-card-bottom h3:before {
+  background-color: var(--mu-blue-light);
+  content: '';
+  display: block;
+  height: 2px;
+  left: 0;
+  margin-top: 11px;
+  position: absolute;
+  width: 32px;
+}
+
+.mu--subtext-card-bottom a {
+  color: var(--mu-blue-light);
+  text-decoration: none;
+  transition: 0.25s;
+}
+
+.mu--subtext-card-bottom a:hover {
+  color: var(--mu-blue-lightest);
+  text-decoration: underline;
+}
+
+/* Used for mu--subtext-card-bottom primarily */
+.mu--two-column-grid {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-column-gap: 1.5em;
+}
+
+.mu--two-column-grid {
+  text-indent: -1em;
+  padding-left: 1em;
+}
+
+.mu--card-links {
+  display: flex;
+  position: absolute;
+  flex-direction: row-reverse;
+  right: 0;
+  top: 0;
+  height: 54px;
+}
+
+.mu--card-links-right {
+  flex-direction: column-reverse;
+  bottom: 0;
+  top: unset;
+  margin-right: unset;
+  height: unset;
+  width: 54px;
+}
+
+.mu--card-links a {
+  flex-basis: 15vh;
+  z-index: 70;
+  background-color: #ffffff;
+  border-radius: 50%;
+  padding: 6px;
+  margin-top: 8px;
+  margin-right: 8px;
+  margin-bottom: auto;
+  height: 40px;
+  width: 40px;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.75);
+  transition: 0.25s;
+}
+
+.mu--card-links-right a {
+  margin-top: unset;
+  margin-right: 8px;
+  margin-bottom: 8px;
+  margin-left: auto;
+}
+
+.mu--card-links a .material-symbols-outlined {
+  color: var(--mu-blue-medium);
+  font-size: 28px;
+  transition: 0.25s;
+}
+
+.mu--card-links a:hover {
+  background-color: var(--mu-blue-medium-light);
+}
+
+.mu--card-links a:hover .material-symbols-outlined {
+  color: #ffffff;
+}
+
+/* Dark Links */
+.mu--card-links-dark a {
+  background-color: rgba(0, 0, 0, 0.65);
+}
+.mu--card-links-dark a .material-symbols-outlined {
+  color: var(--mu-blue-light);
+}
+
+.mu--card-links-dark a:hover {
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+.mu--card-links-dark a:hover .material-symbols-outlined {
+  color: var(--mu-blue-lightest);
+}
+/* END Dark Links */
+
+.mu--flexlink-container {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  height: 100%;
+  width: 100%;
+}
+
+.mu--flexlink-container a {
+  flex-basis: 100%;
+  border-bottom: 4px solid var(--mu-blue-light);
+  background-color: var(--mu-blue);
+  color: #ffffff;
+  text-decoration: none;
+  position: relative;
+  transition: 0.25s;
+  overflow: hidden;
+}
+
+.mu--flexlink-container a:hover {
+  border-color: var(--mu-blue-lightest);
+  text-decoration: underline;
+}
+
+.mu--flexlink-bg-image {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  z-index: 45;
+  transition: 0.75s;
+}
+
+.mu--flexlink-container a:hover .mu--flexlink-bg-image {
+  transform: scale(110%);
+}
+
+.mu--flexlink-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(255deg, rgba(0, 0, 0, 0) 70%, #000 100%), linear-gradient(180deg, rgba(0, 0, 0, 0) 50%, #000 100%);
+  z-index: 50;
+}
+
+.mu--flexlink-label {
+  position: absolute;
+  bottom: 2%;
+  left: 1%;
+  font-size: 24pt;
+  transition: 0.25s;
+  text-shadow: 0px 0px 3px #000000;
+  z-index: 55;
+}
+
+.mu--flexlink-label:hover {
+  text-decoration: underline;
+}
+
+/* Info Corners at the bottom right of a card
+    Uses JavaScript function to then show/hide modal muInfoCardToggle()
+  */
+.mu--info-modal {
+  position: absolute;
+  visibility: hidden; /* overriden by JavaScript as needed */
+  opacity: 0; /* overriden by JavaScript as needed */
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  padding: 10px;
+  z-index: 100;
+  transition: 0.33s;
+}
+
+.mu--info-box {
+  height: 100%;
+  width: 100%;
+  color: var(--mu-blue-dark);
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 8px;
+  box-shadow: 2px 2px 2px #000000;
+}
+
+.mu--info-corner {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 30px;
+  width: 30px;
+  transition: 0.33s;
+  background-color: var(--mu-blue-medium);
+  border-top-left-radius: 100%;
+  box-shadow: 0px 2px 8px #000000;
+  z-index: 101;
+}
+
+.mu--info-label {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  color: #ffffff;
+  font-size: 12pt;
+  padding-right: 4px;
+  padding-bottom: 4px;
+  z-index: 103;
+  transition: 0.33s;
+}
+
+.mu--info-corner:hover {
+  width: 42px;
+  height: 42px;
+  background-color: var(--mu-blue-medium-dark);
+}
+
+.mu--info-corner:hover .mu--info-label {
+  font-size: 18pt;
+}
+
+.mu--info-box p {
+  line-height: 1.25;
+  font-family: 'Roboto';
+  padding-top: 1em;
+}
+
+.mu--info-box p:first-child {
+  padding-top: 0;
+}
+
+.mu--info-box a {
+  color: var(--mu-blue-medium);
+  text-decoration-color: var(--mu-blue-light);
+}
+
+.mu--info-box a:hover {
+  color: var(--mu-blue-medium-dark);
+  text-decoration-color: var(--mu-blue-medium);
+}
+
+.mu--info-box ul,
+ol {
+  margin-left: 2em;
+}
+
+.mu--info-box li::marker {
+  color: var(--mu-blue);
+}
+/* End Custom HTML Cards CSS */
