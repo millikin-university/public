@@ -336,6 +336,17 @@ div {
   box-shadow: 2px 2px 2px #000000;
 }
 
+@media screen and (max-width: 550px) {
+  .mu--info-box {
+    font-size: 11pt;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .mu--info-box {
+    font-size: 10pt;
+  }
+}
 .mu--info-corner {
   position: absolute;
   bottom: 0;
