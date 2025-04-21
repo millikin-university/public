@@ -177,13 +177,13 @@ div {
 }
 
 .mu--card-links {
-  z-index: 70;
   display: flex;
   position: absolute;
   flex-direction: row-reverse;
   right: 0;
   top: 0;
   height: 54px;
+  z-index: 79;
 }
 
 .mu--card-links-right {
