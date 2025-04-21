@@ -371,37 +371,44 @@ div {
   font-size: 18pt;
 }
 
-.mu--info-box p {
+.mu--info-box,
+.mu--modal-content p {
   line-height: 1.25;
   font-family: 'Roboto';
   padding-top: 1em;
 }
 
-.mu--info-box p:first-child {
+.mu--info-box,
+.mu--modal-content p:first-child {
   padding-top: 0;
 }
 
-.mu--info-box a {
+.mu--info-box,
+.mu--modal-content a {
   color: var(--mu-blue-medium);
   text-decoration-color: var(--mu-blue-light);
 }
 
-.mu--info-box a:hover {
+.mu--info-box,
+.mu--modal-content a:hover {
   color: var(--mu-blue-medium-dark);
   text-decoration-color: var(--mu-blue-medium);
 }
 
-.mu--info-box ul,
+.mu--info-box,
+.mu--modal-content ul,
 ol {
   margin-left: 2em;
 }
 
-.mu--info-box li::marker {
+.mu--info-box,
+.mu--modal-content li::marker {
   color: var(--mu-blue);
 }
 
 /* Modal Links */
 #modal-shade {
+  position: absolute;
   top: 0;
   left: 0;
   height: 100%;
@@ -409,6 +416,10 @@ ol {
   padding: 10px;
   z-index: 100;
   transition: 0.33s;
+}
+
+#modal-shade.mu--modal-top {
+  padding-top: 54px;
 }
 
 .mu--indicator {
@@ -422,12 +433,9 @@ ol {
   z-index: 105;
   position: absolute;
 }
+
 .mu--indicator-right {
   border-width: 0 8px 8px 8px;
-}
-
-.mu--modal-top {
-  padding-top: 54px;
 }
 
 .mu--modal-content {
