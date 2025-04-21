@@ -11,7 +11,7 @@ export function muInfoModalToggle(button = '.mu--info-corner', target = '.mu--in
   const infoContainer = document.querySelector(target);
   const infoLabel = document.querySelector(label);
 
-  const elementPosition = infoElement.infoElement.addEventListener('click', function () {
+  const elementPosition = infoElement.addEventListener('click', function () {
     infoStatus = Math.abs(infoStatus - 1); // Status Toggle for 0 -> 1 -> 0
 
     if (infoStatus == 1) {

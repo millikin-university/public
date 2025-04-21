@@ -55,7 +55,72 @@
   </div>
 
   <script type="module">
-    import { muModalLinks } from 'https://millikin-university.github.io/public/assets/js/experience_card_utils.mjs';
-    muModalLinks();
+    const shade = document.querySelector('#modal-shade');
+    const indicator = document.querySelector('.mu--indicator');
+    const modals = document.querySelectorAll('.mu--modals');
+    modals.forEach(modalPrep);
+    shade.addEventListener('click', closeModals); //Allows clicking on the shade to close all the open modals
+
+    function closeModals() {
+      const openModals = document.querySelectorAll('[data-open]');
+      openModals.forEach(function (modal) {
+        modal.toggleAttribute('data-open');
+        modal.toggleAttribute('data-closed');
+        const content = document.querySelector(`#${modal.id}-modal`);
+        shade.classList.add('mu--modal-shade-closed');
+        shade.classList.add('mu--modal-closed');
+        shade.classList.remove('mu--modal-shade-open');
+        shade.classList.remove('mu--modal-open');
+        content.classList.add('mu--modal-closed');
+        content.classList.remove('mu--modal-open');
+        indicator.classList.add('mu--modal-closed');
+        indicator.classList.remove('mu--modal-open');
+      });
+    }
+
+    function openModal(id) {
+      const modal = document.querySelector(`#${id}`);
+      modal.toggleAttribute('data-closed');
+      modal.toggleAttribute('data-open');
+      const content = document.querySelector(`#${modal.id}-modal`);
+      shade.classList.remove('mu--modal-shade-closed');
+      shade.classList.remove('mu--modal-closed');
+      shade.classList.add('mu--modal-shade-open');
+      shade.classList.add('mu--modal-open');
+      content.classList.remove('mu--modal-closed');
+      content.classList.add('mu--modal-open');
+      indicator.classList.remove('mu--modal-closed');
+      indicator.classList.add('mu--modal-open');
+      setIndicator(id);
+    }
+
+    function setIndicator(id) {
+      const modal = document.querySelector(`#${id}`);
+      const modalLocation = modal.getBoundingClientRect();
+      if ((indicator.className = 'mu--indicator')) {
+        // Top indicator
+        const posTop = modalLocation.bottom;
+        const posLeft = modalLocation.left + (modalLocation.right - modalLocation.left) / 2 - parseFloat(getComputedStyle(indicator).borderLeftWidth);
+        indicator.style.top = posTop + 'px';
+        indicator.style.left = posLeft + 'px';
+      }
+    }
+
+    function modalPrep(modal) {
+      const iconSpan = document.createElement('span');
+      iconSpan.className = 'material-symbols-outlined';
+      iconSpan.textContent = modal.id;
+      modal.appendChild(iconSpan);
+      modal.toggleAttribute('data-closed');
+      closeModals();
+      modal.addEventListener('click', function () {
+        if (modal.hasAttribute('data-closed')) {
+          closeModals();
+          openModal(modal.id);
+        } else {
+          closeModals();
+        }
+      });
+    }
   </script>
 </body>
