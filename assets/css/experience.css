@@ -177,6 +177,7 @@ div {
 }
 
 .mu--card-links {
+  z-index: 70;
   display: flex;
   position: absolute;
   flex-direction: row-reverse;
@@ -196,7 +197,6 @@ div {
 
 .mu--card-links a {
   flex-basis: 15vh;
-  z-index: 70;
   background-color: #ffffff;
   border-radius: 50%;
   padding: 6px;
@@ -322,7 +322,7 @@ div {
   height: 100%;
   width: 100%;
   padding: 10px;
-  z-index: 100;
+  z-index: 80;
   transition: 0.33s;
 }
 
@@ -346,7 +346,7 @@ div {
   background-color: var(--mu-blue-medium);
   border-top-left-radius: 100%;
   box-shadow: 0px 2px 8px #000000;
-  z-index: 101;
+  z-index: 85;
 }
 
 .mu--info-label {
@@ -357,7 +357,6 @@ div {
   font-size: 12pt;
   padding-right: 4px;
   padding-bottom: 4px;
-  z-index: 103;
   transition: 0.33s;
 }
 
@@ -415,7 +414,7 @@ div {
   height: 100%;
   width: 100%;
   padding: 10px;
-  z-index: 100;
+  z-index: 70;
   transition: 0.33s;
 }
 
@@ -431,8 +430,8 @@ div {
   border-style: solid;
   border-width: 0 8px 8px 8px;
   border-color: transparent transparent #ffffff transparent;
-  z-index: 105;
   position: absolute;
+  z-index: 71;
 }
 
 .mu--indicator-right {
@@ -447,6 +446,7 @@ div {
   border-radius: 8px;
   padding: 8px;
   box-shadow: 2px 2px 2px #000000;
+  z-index: 75;
 }
 
 .mu--modal-shade-closed {
