@@ -371,37 +371,38 @@ div {
   font-size: 18pt;
 }
 
-.mu--info-box,
+.mu--info-box p,
 .mu--modal-content p {
   line-height: 1.25;
   font-family: 'Roboto';
   padding-top: 1em;
 }
 
-.mu--info-box,
+.mu--info-box p:first-child,
 .mu--modal-content p:first-child {
   padding-top: 0;
 }
 
-.mu--info-box,
+.mu--info-box a,
 .mu--modal-content a {
   color: var(--mu-blue-medium);
   text-decoration-color: var(--mu-blue-light);
 }
 
-.mu--info-box,
+.mu--info-box a:hover,
 .mu--modal-content a:hover {
   color: var(--mu-blue-medium-dark);
   text-decoration-color: var(--mu-blue-medium);
 }
 
-.mu--info-box,
-.mu--modal-content ul,
-ol {
+.mu--info-box ol,
+.mu--info-box ul,
+.mu--modal-content ol,
+.mu--modal-content ul {
   margin-left: 2em;
 }
 
-.mu--info-box,
+.mu--info-box li::marker,
 .mu--modal-content li::marker {
   color: var(--mu-blue);
 }
