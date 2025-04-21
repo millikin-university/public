@@ -399,4 +399,73 @@ ol {
 .mu--info-box li::marker {
   color: var(--mu-blue);
 }
+
+/* Modal Links */
+#modal-shade {
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  padding: 10px;
+  z-index: 100;
+  transition: 0.33s;
+}
+
+.mu--indicator {
+  width: 0;
+  height: 0;
+  top: 0;
+  left: 0;
+  border-style: solid;
+  border-width: 0 8px 8px 8px;
+  border-color: transparent transparent #ffffff transparent;
+  z-index: 105;
+  position: absolute;
+}
+.mu--indicator-right {
+  border-width: 0 8px 8px 8px;
+}
+
+.mu--modal-top {
+  padding-top: 54px;
+}
+
+.mu--modal-content {
+  height: 100%;
+  width: 100%;
+  color: var(--mu-blue-dark);
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 8px;
+  box-shadow: 2px 2px 2px #000000;
+}
+
+.mu--modal-shade-closed {
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.mu--modal-closed {
+  visibility: hidden;
+  display: none;
+}
+
+.mu--modal-open {
+  visibility: visible;
+  display: block;
+}
+.mu--modal-shade-open {
+  opacity: 1;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.mu--card-links a[data-open] {
+  background-color: var(--mu-blue-light);
+}
+.mu--card-links a[data-open]:hover {
+  background-color: var(--mu-blue-medium-light);
+}
+.mu--card-links a[data-open] .material-symbols-outlined {
+  color: #ffffff;
+}
 /* End Custom HTML Cards CSS */
