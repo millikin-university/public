@@ -35,7 +35,7 @@ export function muModalLinks() {
   const indicator = document.querySelector('.mu--indicator');
   const modals = document.querySelectorAll('.mu--modals');
   modals.forEach(modalPrep);
-  shade.addEventListener('click', closeModals()); //Allows clicking on the shade to close all the open modals
+  shade.addEventListener('click', closeModals); //Allows clicking on the shade to close all the open modals
 
   function closeModals() {
     const openModals = document.querySelectorAll('[data-open]');
