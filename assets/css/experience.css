@@ -498,6 +498,12 @@ a.mu--link {
   transition: 0.25s;
 }
 
+@media screen and (max-width: 550px) {
+  a.mu--link {
+    width: 46%;
+  }
+}
+
 a.mu--link span.mu--link-icon {
   background-color: #ffffff;
   border-radius: 20px;
