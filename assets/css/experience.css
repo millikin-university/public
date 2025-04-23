@@ -40,6 +40,8 @@ div {
   --ms-exchange-blue: #005a9e;
   --ms-teams-blue: #464775;
   --ms-microsoft365-purple: #664a96;
+  /* Other non-color variables */
+  --transition-speed: 0.25s;
 }
 
 /* Custom HTML Cards in Experience
@@ -88,14 +90,23 @@ div {
   position: absolute;
   z-index: 55;
   color: #ffffff;
-  font-size: 24pt;
+  font-size: 20pt;
   transition: 0.5s;
   text-shadow: 0px 0px 3px #000;
 }
-
 /* Make it a bit smaller for multicards */
 .mu--multicard .mu--card-text-label {
-  font-size: 18pt;
+  font-size: 16pt;
+}
+
+@media screen and (max-width: 440px) {
+  .mu--card-text-label {
+    font-size: 18pt;
+  }
+  /* Make it a bit smaller for multicards */
+  .mu--multicard .mu--card-text-label {
+    font-size: 14pt;
+  }
 }
 
 .mu--card-link {
@@ -121,13 +132,13 @@ div {
 .mu--card-link:hover .mu--card-bg-image {
   transform: scale(110%);
   background-position: center;
-  transition: 0.25s;
+  transition: var(--transition-speed);
 }
 
 .mu--card-link:hover .mu--card-text-label {
   text-shadow: 0px 0px 10px #000;
   text-decoration: underline;
-  transition: 0.25s;
+  transition: var(--transition-speed);
 }
 
 .mu--subtext-card-top {
@@ -144,8 +155,14 @@ div {
   color: #ffffff;
   padding: 0 60px 0 40px;
   box-sizing: border-box;
-  font-size: 12pt;
+  font-size: 11pt;
   z-index: 60;
+}
+
+@media screen and (max-width: 440px) {
+  .mu--subtext-card-bottom {
+    font-size: 10pt;
+  }
 }
 
 .mu--subtext-card-bottom h3 {
@@ -168,7 +185,7 @@ div {
 .mu--subtext-card-bottom a {
   color: var(--mu-blue-light);
   text-decoration: none;
-  transition: 0.25s;
+  transition: var(--transition-speed);
 }
 
 .mu--subtext-card-bottom a:hover {
@@ -218,7 +235,7 @@ div {
   height: 40px;
   width: 40px;
   box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.75);
-  transition: 0.25s;
+  transition: var(--transition-speed);
 }
 
 .mu--card-links-right a {
@@ -231,7 +248,7 @@ div {
 .mu--card-links a .material-symbols-outlined {
   color: var(--mu-blue-medium);
   font-size: 28px;
-  transition: 0.25s;
+  transition: var(--transition-speed);
 }
 
 .mu--card-links a:hover {
@@ -274,7 +291,7 @@ div {
   color: #ffffff;
   text-decoration: none;
   position: relative;
-  transition: 0.25s;
+  transition: var(--transition-speed);
   overflow: hidden;
 }
 
@@ -291,7 +308,7 @@ div {
   width: 100%;
   position: relative;
   z-index: 45;
-  transition: 0.75s;
+  transition: var(--transition-speed);
 }
 
 .mu--flexlink-container a:hover .mu--flexlink-bg-image {
@@ -313,7 +330,7 @@ div {
   bottom: 2%;
   left: 1%;
   font-size: 24pt;
-  transition: 0.25s;
+  transition: var(--transition-speed);
   text-shadow: 0px 0px 3px #000000;
   z-index: 55;
 }
@@ -335,7 +352,7 @@ div {
   width: 100%;
   padding: 10px;
   z-index: 80;
-  transition: 0.33s;
+  transition: var(--transition-speed);
 }
 
 .mu--info-box {
@@ -361,7 +378,7 @@ div {
   right: 0;
   height: 30px;
   width: 30px;
-  transition: 0.33s;
+  transition: var(--transition-speed);
   background-color: var(--mu-blue-medium);
   border-top-left-radius: 100%;
   box-shadow: 0px 2px 8px #000000;
@@ -376,7 +393,7 @@ div {
   font-size: 12pt;
   padding-right: 4px;
   padding-bottom: 4px;
-  transition: 0.33s;
+  transition: var(--transition-speed);
 }
 
 .mu--info-corner:hover {
@@ -434,7 +451,7 @@ div {
   width: 100%;
   padding: 10px;
   z-index: 70;
-  transition: 0.33s;
+  transition: var(--transition-speed);
 }
 
 #modal-shade.mu--modal-top {
@@ -524,7 +541,7 @@ a.mu--link {
   display: inline-flex;
   text-decoration: none;
   box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.75);
-  transition: 0.25s;
+  transition: var(--transition-speed);
 }
 
 a.mu--link:nth-child(even) {
@@ -538,7 +555,7 @@ a.mu--link span.mu--link-icon {
   height: 40px;
   width: 40px;
   box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.75);
-  transition: 0.25s;
+  transition: var(--transition-speed);
   padding: 4px;
   text-decoration: none;
 }
@@ -549,12 +566,12 @@ a.mu--link span.material-symbols-outlined {
   height: 40px;
   width: 40px;
   box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.75);
-  transition: 0.25s;
+  transition: var(--transition-speed);
   padding: 6px;
   text-decoration: none;
   color: var(--mu-blue-medium);
   font-size: 28px;
-  transition: 0.25s;
+  transition: var(--transition-speed);
 }
 
 a.mu--link span.mu--link-label {
