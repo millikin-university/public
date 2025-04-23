@@ -6,6 +6,7 @@
 
 a {
   text-underline-offset: 2px;
+  transition: var(--transition-speed);
 }
 
 html {
@@ -81,7 +82,7 @@ div {
   background-repeat: no-repeat;
   background-position: center;
   position: absolute;
-  transition: 0.75s;
+  transition: calc(var(--transition-speed) * 2.5);
 }
 
 .mu--card-text-label {
@@ -91,7 +92,6 @@ div {
   z-index: 55;
   color: #ffffff;
   font-size: 20pt;
-  transition: 0.5s;
   text-shadow: 0px 0px 3px #000;
 }
 /* Make it a bit smaller for multicards */
@@ -132,13 +132,10 @@ div {
 .mu--card-link:hover .mu--card-bg-image {
   transform: scale(110%);
   background-position: center;
-  transition: var(--transition-speed);
 }
 
 .mu--card-link:hover .mu--card-text-label {
-  text-shadow: 0px 0px 10px #000;
   text-decoration: underline;
-  transition: var(--transition-speed);
 }
 
 .mu--subtext-card-top {
@@ -185,7 +182,6 @@ div {
 .mu--subtext-card-bottom a {
   color: var(--mu-blue-light);
   text-decoration: none;
-  transition: var(--transition-speed);
 }
 
 .mu--subtext-card-bottom a:hover {
@@ -235,7 +231,6 @@ div {
   height: 40px;
   width: 40px;
   box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.75);
-  transition: var(--transition-speed);
 }
 
 .mu--card-links-right a {
@@ -291,7 +286,6 @@ div {
   color: #ffffff;
   text-decoration: none;
   position: relative;
-  transition: var(--transition-speed);
   overflow: hidden;
 }
 
@@ -541,7 +535,6 @@ a.mu--link {
   display: inline-flex;
   text-decoration: none;
   box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.75);
-  transition: var(--transition-speed);
 }
 
 a.mu--link:nth-child(even) {
@@ -555,7 +548,6 @@ a.mu--link span.mu--link-icon {
   height: 40px;
   width: 40px;
   box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.75);
-  transition: var(--transition-speed);
   padding: 4px;
   text-decoration: none;
 }
@@ -566,7 +558,6 @@ a.mu--link span.material-symbols-outlined {
   height: 40px;
   width: 40px;
   box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.75);
-  transition: var(--transition-speed);
   padding: 6px;
   text-decoration: none;
   color: var(--mu-blue-medium);
