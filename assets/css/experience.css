@@ -28,6 +28,14 @@ div {
   --mu-blue-medium-light: #3a6fbf;
   --mu-blue-light: #19aced;
   --mu-blue-lightest: #bbebff;
+  /* from Microsoft https://developer.microsoft.com/en-us/fluentui#/styles/web/colors/products */
+  --ms-excel-green: #0c5f32;
+  --ms-powerpoint-orange: #a92b1a;
+  --ms-word-blue: #124078;
+  --ms-onenote-purple: #5c1384;
+  --ms-exchange-blue: #005a9e;
+  --ms-teams-blue: #464775;
+  --ms-microsoft365-purple: #664a96;
 }
 
 /* Custom HTML Cards in Experience
@@ -329,6 +337,7 @@ div {
 .mu--info-box {
   height: 100%;
   width: 100%;
+  font-size: 11pt;
   color: var(--mu-blue-dark);
   background: #ffffff;
   border-radius: 8px;
@@ -336,17 +345,12 @@ div {
   box-shadow: 2px 2px 2px #000000;
 }
 
-@media screen and (max-width: 550px) {
-  .mu--info-box {
-    font-size: 11pt;
-  }
-}
-
 @media screen and (max-width: 440px) {
   .mu--info-box {
     font-size: 10pt;
   }
 }
+
 .mu--info-corner {
   position: absolute;
   bottom: 0;
@@ -453,11 +457,18 @@ div {
   height: 100%;
   width: 100%;
   color: var(--mu-blue-dark);
+  font-size: 11pt;
   background: #ffffff;
   border-radius: 8px;
   padding: 8px;
   box-shadow: 2px 2px 2px #000000;
   z-index: 75;
+}
+
+@media screen and (max-width: 440px) {
+  .mu--modal-content {
+    font-size: 10pt;
+  }
 }
 
 .mu--modal-shade-closed {
@@ -474,6 +485,7 @@ div {
   visibility: visible;
   display: block;
 }
+
 .mu--modal-shade-open {
   opacity: 1;
   background-color: rgba(0, 0, 0, 0.5);
@@ -482,9 +494,11 @@ div {
 .mu--card-links a[data-open] {
   background-color: var(--mu-blue-light);
 }
+
 .mu--card-links a[data-open]:hover {
   background-color: var(--mu-blue-medium-light);
 }
+
 .mu--card-links a[data-open] .material-symbols-outlined {
   color: #ffffff;
 }
@@ -495,27 +509,23 @@ a.mu--link {
   background-color: #ffffff;
   color: var(--mu-blue-dark);
   border: 2px solid var(--mu-blue-dark);
-  border-radius: 20px;
+  border-radius: 22px;
+  font-size: 10pt;
   font-weight: bold;
-  height: 40px;
-  width: 30%;
-  margin-left: 2%;
-  margin-right: auto;
+  height: 44px;
+  width: 48%;
+  margin-left: auto;
+  margin-right: 1%;
   margin-top: 16px;
   display: inline-flex;
   text-decoration: none;
   box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.75);
-  box-sizing: content-box;
   transition: 0.25s;
 }
 
-@media screen and (max-width: 550px) {
-  a.mu--link {
-    width: 44%;
-    font-size: 10pt;
-  }
-
-  a.mu--link 
+a.mu--link:nth-child(even) {
+  margin-left: 1%;
+  margin-right: auto;
 }
 
 a.mu--link span.mu--link-icon {
@@ -526,19 +536,28 @@ a.mu--link span.mu--link-icon {
   box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.75);
   transition: 0.25s;
   padding: 4px;
-  margin-left: -2px;
+  text-decoration: none;
 }
+
+a.mu--link span.material-symbols-outlined {
+  background-color: #ffffff;
+  border-radius: 20px;
+  height: 40px;
+  width: 40px;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.75);
+  transition: 0.25s;
+  padding: 6px;
+  text-decoration: none;
+  color: var(--mu-blue-medium);
+  font-size: 28px;
+  transition: 0.25s;
+}
+
 a.mu--link span.mu--link-label {
-  margin: 4px 4px 4px 16px;
+  margin: 4px 4px 4px 8px;
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-@media screen and (max-width: 550px) {
-  a.mu--link span.mu--link-label {
-    margin-left: 8px;
-  }
 }
 
 a.mu--link:hover {
@@ -546,4 +565,8 @@ a.mu--link:hover {
   border-color: #ffffff;
   color: #ffffff;
   text-decoration: underline;
+}
+
+a.mu--link:hover span.material-symbols-outlined {
+  text-decoration: none;
 }
