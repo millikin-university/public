@@ -176,6 +176,7 @@ div {
   text-decoration: underline;
 }
 
+/* Bottom of cards */
 .mu--subtext-card-bottom {
   position: absolute;
   bottom: 0;
@@ -491,7 +492,17 @@ div {
 /* End Custom HTML Cards CSS */
 
 /* Stacked Links */
-a.mu--link {
+.mu--multilink-card {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  column-gap: 10px;
+  padding: 10px;
+}
+
+.mu--multilink-card a.mu--multilink {
+  display: inline-flex;
+  flex-basis: 33.33%;
   background-color: #ffffff;
   color: var(--mu-blue-dark);
   border: 2px solid var(--mu-blue-dark);
@@ -499,21 +510,18 @@ a.mu--link {
   font-size: 10pt;
   font-weight: bold;
   height: 44px;
-  width: 48%;
-  margin-left: auto;
-  margin-right: 1%;
   margin-top: 16px;
-  display: inline-flex;
   text-decoration: none;
   box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.75);
 }
 
-a.mu--link:nth-child(even) {
-  margin-left: 1%;
-  margin-right: auto;
+@media screen and (max-width: 500px) {
+  .mu--multilink-card a.mu--multilink {
+    flex-basis: 50%;
+  }
 }
 
-a.mu--link span.mu--link-icon {
+.mu--multilink-card a.mu--link span.mu--link-icon {
   background-color: #ffffff;
   border-radius: 20px;
   height: 40px;
@@ -523,7 +531,7 @@ a.mu--link span.mu--link-icon {
   text-decoration: none;
 }
 
-a.mu--link span.material-symbols-outlined {
+.mu--multilink-card a.mu--link span.material-symbols-outlined {
   background-color: #ffffff;
   border-radius: 20px;
   height: 40px;
@@ -536,20 +544,20 @@ a.mu--link span.material-symbols-outlined {
   transition: var(--transition-speed);
 }
 
-a.mu--link span.mu--link-label {
+.mu--multilink-card a.mu--link span.mu--link-label {
   margin: 4px 4px 4px 8px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-a.mu--link:hover {
+.mu--multilink-card a.mu--link:hover {
   background-color: var(--mu-blue-medium-light);
   border-color: #ffffff;
   color: #ffffff;
   text-decoration: underline;
 }
 
-a.mu--link:hover span.material-symbols-outlined {
+.mu--multilink-card a.mu--link:hover span.material-symbols-outlined {
   text-decoration: none;
 }
