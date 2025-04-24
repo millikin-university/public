@@ -108,6 +108,7 @@ div {
   height: 100%;
   width: 100%;
   z-index: 60;
+  overflow: hidden;
 }
 
 .mu--card-link:hover a {
@@ -159,27 +160,19 @@ div {
   align-items: stretch;
 }
 
-.mu--multicard-stacked a {
+.mu--multicard-stacked .mu--card-link {
+  padding-right: 0px;
   flex-basis: 100%;
+}
+
+.mu--multicard-stacked .mu--card-link a {
   border-bottom: 4px solid var(--mu-blue-light);
   background-color: var(--mu-blue);
-  color: #ffffff;
-  text-decoration: none;
   position: relative;
-  overflow: hidden;
 }
 
-.mu--multicard-stacked a:hover {
+.mu--multicard-stacked .mu--card-link:hover a {
   border-color: var(--mu-blue-lightest);
-  text-decoration: underline;
-}
-
-.mu--multicard-stacked a:hover .mu--card-bg-image {
-  transform: scale(105%);
-  background-position: center;
-}
-
-.mu--multicard-stacked a:hover .mu--card-text-label {
   text-decoration: underline;
 }
 
