@@ -176,7 +176,7 @@ div {
   background-position: center;
 }
 
-.mu--multicard-stacked a:hover .mu--label {
+.mu--multicard-stacked a:hover .mu--card-text-label {
   text-decoration: underline;
 }
 
