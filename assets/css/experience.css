@@ -50,20 +50,9 @@ div {
 */
 
 .mu--card {
-  display: flex;
-  flex-direction: row;
   width: 100%;
   height: 100%;
   position: relative;
-}
-
-.mu--multicard {
-  flex-basis: 100%;
-  border-right: 4px solid #ffffff;
-}
-
-.mu--card .mu--multicard:last-child {
-  border-right: none;
 }
 
 .mu--card-overlay {
@@ -98,18 +87,10 @@ div {
   font-size: 20pt;
   text-shadow: 0px 0px 3px #000;
 }
-/* Make it a bit smaller for multicards */
-.mu--multicard .mu--card-text-label {
-  font-size: 16pt;
-}
 
 @media screen and (max-width: 440px) {
   .mu--card-text-label {
     font-size: 18pt;
-  }
-  /* Make it a bit smaller for multicards */
-  .mu--multicard .mu--card-text-label {
-    font-size: 14pt;
   }
 }
 
@@ -147,13 +128,35 @@ div {
   top: 0;
 }
 
+/* Multicard horizontal layout */
+.mu--multicard {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  column-gap: 4px;
+}
+
+.mu--multicard .mu--card-link {
+  flex-basis: 100%;
+}
+
+/* Make it a bit smaller for multicards */
+.mu--multicard .mu--card-text-label {
+  font-size: 16pt;
+}
+
+@media screen and (max-width: 440px) {
+  /* Make it a bit smaller for multicards */
+  .mu--multicard .mu--card-text-label {
+    font-size: 14pt;
+  }
+}
+
 /* Multicard stacked vertical layout */
 .mu--multicard-stacked {
   display: flex;
   flex-direction: column;
   align-items: stretch;
-  height: 100%;
-  width: 100%;
 }
 
 .mu--multicard-stacked a {
