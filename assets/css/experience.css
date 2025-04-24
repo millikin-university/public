@@ -156,6 +156,16 @@ div {
   width: 100%;
 }
 
+.mu--multicard-stacked a {
+  flex-basis: 100%;
+  border-bottom: 4px solid var(--mu-blue-light);
+  background-color: var(--mu-blue);
+  color: #ffffff;
+  text-decoration: none;
+  position: relative;
+  overflow: hidden;
+}
+
 .mu--multicard-stacked a:hover {
   border-color: var(--mu-blue-lightest);
   text-decoration: underline;
