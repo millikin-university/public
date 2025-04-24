@@ -333,6 +333,69 @@ div {
   text-decoration: underline;
 }
 
+/* Multicard stacked vertical layout */
+.mu--multicard-stacked {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  height: 100%;
+  width: 100%;
+}
+
+.mu--multicard-stacked .mu--overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(255deg, rgba(0, 0, 0, 0) 70%, #000 100%), linear-gradient(180deg, rgba(0, 0, 0, 0) 50%, #000 100%);
+  z-index: 50;
+}
+
+.mu--multicard-stacked a {
+  flex-basis: 100%;
+  border-bottom: 4px solid var(--mu-blue-light);
+  background-color: var(--mu-blue);
+  color: #ffffff;
+  text-decoration: none;
+  position: relative;
+  overflow: hidden;
+}
+
+.mu--multicard-stacked .mu--bg-image {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  z-index: 45;
+  transition: var(--transition-speed);
+}
+
+.mu--multicard-stacked .mu--label {
+  position: absolute;
+  bottom: 2%;
+  left: 1%;
+  font-size: 20pt;
+  transition: var(--transition-speed);
+  text-shadow: 0px 0px 3px #000000;
+  z-index: 55;
+}
+
+.mu--multicard-stacked a:hover {
+  border-color: var(--mu-blue-lightest);
+  text-decoration: underline;
+}
+
+.mu--multicard-stacked a:hover .mu--bg-image {
+  transform: scale(110%);
+}
+
+.mu--multicard-stacked a:hover .mu--label {
+  text-decoration: underline;
+}
+
 /* Info Corners at the bottom right of a card
     Uses JavaScript function to then show/hide modal muInfoCardToggle()
   */
