@@ -496,13 +496,12 @@ div {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  column-gap: 10px;
-  padding: 10px;
+  column-gap: 1%;
 }
 
 .mu--multilink-card a.mu--multilink {
   display: inline-flex;
-  flex-basis: 33.33%;
+  flex-basis: calc(98% / 3);
   background-color: #ffffff;
   color: var(--mu-blue-dark);
   border: 2px solid var(--mu-blue-dark);
@@ -517,7 +516,7 @@ div {
 
 @media screen and (max-width: 500px) {
   .mu--multilink-card a.mu--multilink {
-    flex-basis: 50%;
+    flex-basis: 49.5%;
   }
 }
 
