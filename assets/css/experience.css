@@ -507,7 +507,7 @@ div {
   background-color: #ffffff;
   color: var(--mu-blue-dark);
   border: 2px solid var(--mu-blue-dark);
-  border-radius: calc(var(--rectangle-radius) + 2);
+  border-radius: calc(var(--rectangle-radius) + 2px);
   font-size: 10pt;
   font-weight: bold;
   height: 44px;
