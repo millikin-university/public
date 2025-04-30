@@ -545,7 +545,7 @@ div {
   transition: var(--transition-speed);
 }
 
-.mu--multilink-card a.mu--multilink span.mu--link-label {
+.mu--multilink-card a.mu--multilink .mu--link-label {
   margin: 4px 4px 4px 8px;
   display: flex;
   align-items: center;
@@ -556,6 +556,9 @@ div {
   background-color: var(--mu-blue-medium-light);
   border-color: #ffffff;
   color: #ffffff;
+}
+
+.mu--multilink-card a.mu--multilink:hover .mu--link-label {
   text-decoration: underline;
 }
 
