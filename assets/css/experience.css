@@ -565,3 +565,18 @@ div {
 .mu--multilink-card a.mu--multilink:hover span.material-symbols-outlined {
   text-decoration: none;
 }
+
+.mu--multilink-card a.mu--multilink .mu--link-label.mu--has-sub-label {
+  margin: 4px 4px auto 8px;
+  display: unset;
+  text-decoration: unset;
+}
+
+.mu--multilink-card a.mu--multilink:hover .mu--link-label.mu--has-sub-label :first-child {
+  text-decoration: underline;
+}
+
+.mu--multilink-card a.mu--multilink .mu--has-sub-label :last-child {
+  font-size: 8pt;
+  font-weight: normal;
+}
