@@ -510,7 +510,7 @@ span.material-symbols-outlined {
   flex-basis: calc(98% / 3);
   background-color: #ffffff;
   color: var(--mu-blue-dark);
-  border: 2px solid var(--mu-blue-dark);
+  border: 2px solid var(--mu-blue-light);
   border-radius: calc(var(--rectangle-radius) + 2px);
   font-size: 10pt;
   font-weight: bold;
