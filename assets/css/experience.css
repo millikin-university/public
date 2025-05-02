@@ -8,13 +8,13 @@ body.mu--body {
   width: 100%;
 }
 
-body.mu--body * {
+.mu--body * {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
 }
 
-body.mu--body a {
+.mu--body a {
   text-underline-offset: 2px;
   transition: var(--transition-speed);
 }
