@@ -525,6 +525,13 @@ span.material-symbols-outlined {
   }
 }
 
+/* Handle when rendered in a React box */
+@container (max-width: 500px) {
+  .mu--multilink-card a.mu--multilink {
+    flex-basis: 49.5%;
+  }
+}
+
 .mu--multilink-card a.mu--multilink span.mu--link-icon {
   background-color: #ffffff;
   border-radius: var(--rectangle-radius);
