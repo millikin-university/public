@@ -32,6 +32,7 @@ html {
   padding: 0;
   overflow: hidden;
   font-family: 'Noto Sans', Helvetica, Arial, sans-serif; /* Noto Sans is the Default font from Ellucian */
+  container-type: size;
 }
 
 .mu--body * {
@@ -502,7 +503,6 @@ span.material-symbols-outlined {
   flex-direction: row;
   flex-wrap: wrap;
   column-gap: 1%;
-  container-type: size;
 }
 
 .mu--multilink-card a.mu--multilink {
