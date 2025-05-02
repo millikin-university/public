@@ -502,6 +502,7 @@ span.material-symbols-outlined {
   flex-direction: row;
   flex-wrap: wrap;
   column-gap: 1%;
+  container-type: size;
 }
 
 .mu--multilink-card a.mu--multilink {
@@ -525,7 +526,6 @@ span.material-symbols-outlined {
   }
 }
 
-/* Handle when rendered in a React box */
 @container (max-width: 500px) {
   .mu--multilink-card a.mu--multilink {
     flex-basis: 49.5%;
