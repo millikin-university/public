@@ -1,24 +1,11 @@
-* {
-  margin: 0px;
-  padding: 0px;
-  box-sizing: border-box;
-}
-
-a {
-  text-underline-offset: 2px;
-  transition: var(--transition-speed);
-}
-
 html {
   height: 100%;
   width: 100%;
 }
 
 body {
-  font-family: 'Noto Sans', Helvetica, Arial, sans-serif; /* Noto Sans is the Default font from Ellucian */
   height: 100%;
   width: 100%;
-  overflow: hidden;
 }
 
 :root {
@@ -48,9 +35,21 @@ body {
 */
 
 .mu--card {
+  font-family: 'Noto Sans', Helvetica, Arial, sans-serif; /* Noto Sans is the Default font from Ellucian */
   width: 100%;
   height: 100%;
   position: relative;
+}
+
+.mu--card * {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.mu--card a {
+  text-underline-offset: 2px;
+  transition: var(--transition-speed);
 }
 
 .mu--card-overlay {
