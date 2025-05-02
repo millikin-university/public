@@ -3,18 +3,20 @@ html {
   width: 100%;
 }
 
-body.mu--body {
+.mu--body {
   height: 100%;
   width: 100%;
   margin: 0;
   padding: 0;
   overflow: hidden;
+  font-family: 'Noto Sans', Helvetica, Arial, sans-serif; /* Noto Sans is the Default font from Ellucian */
 }
 
 .mu--body * {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
+  font-family: 'Noto Sans', Helvetica, Arial, sans-serif; /* Noto Sans is the Default font from Ellucian */
 }
 
 .mu--body a {
@@ -49,7 +51,6 @@ body.mu--body {
 */
 
 .mu--card {
-  font-family: 'Noto Sans', Helvetica, Arial, sans-serif; /* Noto Sans is the Default font from Ellucian */
   width: 100%;
   height: 100%;
   position: relative;
