@@ -8,7 +8,10 @@ body.mu--body {
   width: 100%;
   margin: 0;
   padding: 0;
+<<<<<<< HEAD
   overflow: hidden;
+=======
+>>>>>>> 3da6175a3eaa2ea7cc67d3ca9763d366c569cb5e
 }
 
 .mu--body * {
