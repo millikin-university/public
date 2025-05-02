@@ -1,3 +1,25 @@
+:root {
+  --mu-blue-dark: #0b2d50;
+  --mu-blue: #004185;
+  --mu-blue-medium-dark: #005ba2;
+  --mu-blue-medium: #0075bf;
+  --mu-blue-medium-light: #3a6fbf;
+  --mu-blue-light: #19aced;
+  --mu-blue-lightest: #bbebff;
+  /* from Microsoft https://developer.microsoft.com/en-us/fluentui#/styles/web/colors/products */
+  --ms-excel-green: #0c5f32;
+  --ms-powerpoint-orange: #a92b1a;
+  --ms-word-blue: #124078;
+  --ms-onenote-purple: #5c1384;
+  --ms-exchange-blue: #005a9e;
+  --ms-teams-blue: #464775;
+  --ms-microsoft365-purple: #664a96;
+  /* Other non-color variables */
+  --transition-speed: 0.25s;
+  --circle-radius: 50%;
+  --rectangle-radius: 4px;
+}
+
 html {
   height: 100%;
   width: 100%;
@@ -24,26 +46,8 @@ html {
   transition: var(--transition-speed);
 }
 
-:root {
-  --mu-blue-dark: #0b2d50;
-  --mu-blue: #004185;
-  --mu-blue-medium-dark: #005ba2;
-  --mu-blue-medium: #0075bf;
-  --mu-blue-medium-light: #3a6fbf;
-  --mu-blue-light: #19aced;
-  --mu-blue-lightest: #bbebff;
-  /* from Microsoft https://developer.microsoft.com/en-us/fluentui#/styles/web/colors/products */
-  --ms-excel-green: #0c5f32;
-  --ms-powerpoint-orange: #a92b1a;
-  --ms-word-blue: #124078;
-  --ms-onenote-purple: #5c1384;
-  --ms-exchange-blue: #005a9e;
-  --ms-teams-blue: #464775;
-  --ms-microsoft365-purple: #664a96;
-  /* Other non-color variables */
-  --transition-speed: 0.25s;
-  --circle-radius: 50%;
-  --rectangle-radius: 4px;
+span.material-symbols-outlined {
+  font-family: 'Material Symbols Outlined';
 }
 
 /* Custom HTML Cards in Experience
