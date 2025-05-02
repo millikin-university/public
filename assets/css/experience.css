@@ -21,10 +21,6 @@ body {
   overflow: hidden;
 }
 
-div {
-  overflow: hidden;
-}
-
 :root {
   --mu-blue-dark: #0b2d50;
   --mu-blue: #004185;
