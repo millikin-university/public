@@ -524,6 +524,10 @@ span.material-symbols-outlined {
   column-gap: 1%;
 }
 
+.mu--subtext-card-bottom .mu--multicard {
+  column-gap: 2%;
+}
+
 .mu--multilink-card a.mu--multilink {
   display: inline-flex;
   flex-basis: calc(98% / 3);
@@ -538,9 +542,11 @@ span.material-symbols-outlined {
   text-decoration: none;
   box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.75);
 }
+
 .mu--subtext-card-bottom .mu--multilink-card a.mu--multilink {
   background-color: var(--mu-blue-dark);
   color: #ffffff;
+  flex-basis: 32%;
   height: 36px;
 }
 
@@ -548,11 +554,17 @@ span.material-symbols-outlined {
   .mu--multilink-card a.mu--multilink {
     flex-basis: 49.5%;
   }
+  .mu--subtext-card-bottom .mu--multilink-card a.mu--multilink {
+    flex-basis: 49%;
+  }
 }
 
 @container (max-width: 500px) {
   .mu--multilink-card a.mu--multilink {
     flex-basis: 49.5%;
+  }
+  .mu--subtext-card-bottom .mu--multilink-card a.mu--multilink {
+    flex-basis: 49%;
   }
 }
 
