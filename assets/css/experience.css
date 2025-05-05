@@ -1,11 +1,11 @@
 :root {
-  --mu-blue-dark: #0b2d50;
-  --mu-blue: #004185;
-  --mu-blue-medium-dark: #005ba2;
-  --mu-blue-medium: #0075bf;
-  --mu-blue-medium-light: #3a6fbf;
-  --mu-blue-light: #19aced;
-  --mu-blue-lightest: #bbebff;
+  --mu-blue-dark: rgb(11, 45, 80); /*#0b2d50*/
+  --mu-blue: rgb(0, 65, 133); /*#004185*/
+  --mu-blue-medium-dark: rgb(0, 91, 162); /*#005ba2*/
+  --mu-blue-medium: rgb(0, 117, 191); /*#0075bf*/
+  --mu-blue-medium-light: rgb(58, 111, 191); /*#3a6fbf*/
+  --mu-blue-light: rgb(25, 172, 237); /*#19aced*/
+  --mu-blue-lightest: rgb(187, 235, 255); /*#bbebff*/
   /* from Microsoft https://developer.microsoft.com/en-us/fluentui#/styles/web/colors/products */
   --ms-excel-green: #0c5f32;
   --ms-powerpoint-orange: #a92b1a;
@@ -195,7 +195,7 @@ span.material-symbols-outlined {
   width: 100%;
   height: 40%;
   color: #ffffff;
-  padding: 0 40px 0 40px;
+  padding: 0 24px 0 24px;
   box-sizing: border-box;
   font-size: 11pt;
   z-index: 60;
@@ -224,9 +224,9 @@ span.material-symbols-outlined {
   display: block;
   height: 2px;
   left: 0;
-  margin-top: 11px;
+  margin-top: 0.5em;
   position: absolute;
-  width: 32px;
+  width: 20px;
 }
 
 .mu--subtext-card-bottom a {
@@ -518,7 +518,19 @@ span.material-symbols-outlined {
 .mu--card-links a[data-open] .material-symbols-outlined {
   color: #ffffff;
 }
-/* Stacked Links */
+
+.mu--multilink-shade {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  padding: 10px 20px;
+  opacity: 1;
+  background-color: rgba(var(--mu-blue-dark), 0.6);
+  z-index: 50;
+}
+
 .mu--multilink-card {
   display: flex;
   flex-direction: row;
