@@ -552,7 +552,7 @@ span.material-symbols-outlined {
   height: 36px;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 440px) {
   .mu--multilink-card a.mu--multilink {
     flex-basis: 49.5%;
   }
@@ -561,7 +561,7 @@ span.material-symbols-outlined {
   }
 }
 
-@container (max-width: 500px) {
+@container (max-width: 440px) {
   .mu--multilink-card a.mu--multilink {
     flex-basis: 49.5%;
   }
