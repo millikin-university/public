@@ -256,7 +256,6 @@ span.material-symbols-outlined {
   right: 0;
   top: 0;
   height: 54px;
-  z-index: 79;
 }
 
 .mu--card-links-right {
@@ -279,6 +278,7 @@ span.material-symbols-outlined {
   height: 40px;
   width: 40px;
   box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.75);
+  z-index: 79;
 }
 
 .mu--card-links-right a {
@@ -436,6 +436,19 @@ span.material-symbols-outlined {
 
 #modal-shade.mu--modal-top {
   padding-top: 54px;
+}
+
+.mu--card-links a.mu--modals {
+  background-color: var(--mu-blue-medium);
+  z-index: 79;
+}
+
+.mu--card-links a.mu--modals:hover {
+  background-color: var(--mu-blue-medium-dark);
+}
+
+.mu--card-links a.mu--modals .material-symbols-outlined {
+  color: #ffffff;
 }
 
 .mu--indicator {
