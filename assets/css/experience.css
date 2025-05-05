@@ -1,11 +1,11 @@
 :root {
-  --mu-blue-dark: rgb(11, 45, 80); /*#0b2d50*/
-  --mu-blue: rgb(0, 65, 133); /*#004185*/
-  --mu-blue-medium-dark: rgb(0, 91, 162); /*#005ba2*/
-  --mu-blue-medium: rgb(0, 117, 191); /*#0075bf*/
-  --mu-blue-medium-light: rgb(58, 111, 191); /*#3a6fbf*/
-  --mu-blue-light: rgb(25, 172, 237); /*#19aced*/
-  --mu-blue-lightest: rgb(187, 235, 255); /*#bbebff*/
+  --mu-blue-dark: #0b2d50;
+  --mu-blue: #004185;
+  --mu-blue-medium-dark: #005ba2;
+  --mu-blue-medium: #0075bf;
+  --mu-blue-medium-light: #3a6fbf;
+  --mu-blue-light: #19aced;
+  --mu-blue-lightest: #bbebff;
   /* from Microsoft https://developer.microsoft.com/en-us/fluentui#/styles/web/colors/products */
   --ms-excel-green: #0c5f32;
   --ms-powerpoint-orange: #a92b1a;
@@ -527,7 +527,7 @@ span.material-symbols-outlined {
   width: 100%;
   padding: 10px 20px;
   opacity: 1;
-  background-color: rgba(var(--mu-blue-dark), 0.6);
+  background-color: rgba(0, 0, 0, 0.6);
   z-index: 50;
 }
 
