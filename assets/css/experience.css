@@ -199,6 +199,7 @@ span.material-symbols-outlined {
   box-sizing: border-box;
   font-size: 11pt;
   z-index: 60;
+  overflow-y: auto;
 }
 
 .mu--subtext-card-bottom.mu--subtext-60 {
