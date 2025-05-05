@@ -582,40 +582,41 @@ span.material-symbols-outlined {
   }
 }
 
-.mu--multilink-card a.mu--multilink span.mu--link-icon {
+.mu--multilink-card a.mu--multilink span.mu--link-icon,
+.mu--multilink-card a.mu--multilink span.material-symbols-outlined {
   background-color: #ffffff;
-  border-radius: var(--rectangle-radius);
+  border-top-left-radius: var(--rectangle-radius);
+  border-bottom-left-radius: var(--rectangle-radius);
+  box-shadow: 2px 0px 4px -1px rgba(0, 0, 0, 0.5);
   height: 40px;
   width: 40px;
-  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.75);
-  padding: 4px;
   text-decoration: none;
+  transition: var(--transition-speed);
 }
 
-.mu--subtext-card-bottom .mu--multilink-card a.mu--multilink span.mu--link-icon {
-  background-color: rgba(255, 255, 255, 0.2);
+.mu--multilink-card a.mu--multilink span.mu--link-icon {
+  padding: 4px;
+}
+
+.mu--multilink-card a.mu--multilink span.material-symbols-outlined {
+  color: var(--mu-blue-medium);
+  padding: 6px;
+  font-size: 28px;
+}
+
+.mu--subtext-card-bottom .mu--multilink-card a.mu--multilink span.mu--link-icon,
+.mu--subtext-card-bottom .mu--multilink-card a.mu--multilink span.material-symbols-outlined {
   height: 32px;
   width: 32px;
 }
 
-.mu--multilink-card a.mu--multilink span.material-symbols-outlined {
-  background-color: #ffffff;
-  color: var(--mu-blue-medium);
-  border-radius: var(--rectangle-radius);
-  height: 40px;
-  width: 40px;
-  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.75);
-  padding: 6px;
-  text-decoration: none;
-  font-size: 28px;
-  transition: var(--transition-speed);
+.mu--subtext-card-bottom .mu--multilink-card a.mu--multilink span.mu--link-icon {
+  background-color: rgba(255, 255, 255, 0.2);
 }
 
 .mu--subtext-card-bottom .mu--multilink-card a.mu--multilink span.material-symbols-outlined {
   background-color: var(--mu-blue);
   color: #ffffff;
-  height: 32px;
-  width: 32px;
   font-size: 24px;
   padding: 4px;
 }
@@ -633,6 +634,10 @@ span.material-symbols-outlined {
   color: #ffffff;
 }
 
+.mu--subtext-card-bottom .mu--multilink-card a.mu--multilink:hover {
+  background-color: var(--mu-blue);
+}
+
 .mu--multilink-card a.mu--multilink:hover {
   background-color: var(--mu-blue-medium-light);
   border-color: #ffffff;
@@ -645,6 +650,10 @@ span.material-symbols-outlined {
 
 .mu--multilink-card a.mu--multilink:hover span.material-symbols-outlined {
   text-decoration: none;
+}
+
+.mu--subtext-card-bottom .mu--multilink-card a.mu--multilink:hover span.material-symbols-outlined {
+  background-color: var(--mu-blue-medium-dark);
 }
 
 .mu--multilink-card a.mu--multilink .mu--link-label.mu--has-sub-label {
