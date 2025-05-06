@@ -346,6 +346,7 @@ span.material-symbols-outlined {
   border-radius: 8px;
   padding: 8px;
   box-shadow: 2px 2px 2px #000000;
+  overflow-y: auto;
 }
 
 @media screen and (max-width: 440px) {
@@ -547,7 +548,7 @@ span.material-symbols-outlined {
   flex-basis: calc(calc(100% - 10px) / 3);
   background-color: #ffffff;
   color: var(--mu-blue-dark);
-  border: 2px solid var(--mu-blue-light);
+  border: 2px solid var(--mu-blue-medium-light);
   border-radius: calc(var(--rectangle-radius) + 2px);
   font-size: 10pt;
   font-weight: bold;
