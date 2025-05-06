@@ -535,16 +535,16 @@ span.material-symbols-outlined {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  column-gap: 1%;
+  column-gap: 5px;
 }
 
 .mu--subtext-card-bottom .mu--multicard {
-  column-gap: 2%;
+  column-gap: 5px;
 }
 
 .mu--multilink-card a.mu--multilink {
   display: inline-flex;
-  flex-basis: calc(98% / 3);
+  flex-basis: calc(calc(100% - 10px) / 3);
   background-color: #ffffff;
   color: var(--mu-blue-dark);
   border: 2px solid var(--mu-blue-light);
@@ -560,25 +560,18 @@ span.material-symbols-outlined {
 .mu--subtext-card-bottom .mu--multilink-card a.mu--multilink {
   background-color: var(--mu-blue-dark);
   color: #ffffff;
-  flex-basis: 32%;
   height: 36px;
 }
 
 @media screen and (max-width: 440px) {
   .mu--multilink-card a.mu--multilink {
-    flex-basis: 49.5%;
-  }
-  .mu--subtext-card-bottom .mu--multilink-card a.mu--multilink {
-    flex-basis: 49%;
+    flex-basis: calc(calc(100% - 10px) / 2);
   }
 }
 
 @container (max-width: 440px) {
   .mu--multilink-card a.mu--multilink {
-    flex-basis: 49.5%;
-  }
-  .mu--subtext-card-bottom .mu--multilink-card a.mu--multilink {
-    flex-basis: 49%;
+    flex-basis: calc(calc(100% - 10px) / 2);
   }
 }
 
