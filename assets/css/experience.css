@@ -425,6 +425,27 @@ span.material-symbols-outlined {
   color: var(--mu-blue);
 }
 
+.mu--info-box ol li,
+.mu--info-box ul li,
+.mu--modal-content ol li,
+.mu--modal-content ul li {
+  padding-top: 0.5em;
+}
+
+.mu--info-box ol li,
+.mu--info-box ul li,
+.mu--modal-content ol li,
+.mu--modal-content ul li {
+  padding-top: 0.5em;
+}
+
+.mu--info-box ol li:first-child,
+.mu--info-box ul li:first-child,
+.mu--modal-content ol li:first-child,
+.mu--modal-content ul li:first-child {
+  padding-top: unset;
+}
+
 /* Modal Links */
 #modal-shade {
   position: absolute;
