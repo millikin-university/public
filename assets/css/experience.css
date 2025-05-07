@@ -25,24 +25,30 @@ html {
   width: 100%;
 }
 
-.mu--body {
+.mu--body,
+.mu--page-body {
   height: 100%;
   width: 100%;
   margin: 0;
   padding: 0;
-  overflow: hidden;
   font-family: 'Noto Sans', Helvetica, Arial, sans-serif; /* Noto Sans is the Default font from Ellucian */
   container-type: size;
 }
 
-.mu--body * {
+.mu--body {
+  overflow: hidden;
+}
+
+.mu--body *,
+.mu--page-body * {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
   font-family: 'Noto Sans', Helvetica, Arial, sans-serif; /* Noto Sans is the Default font from Ellucian */
 }
 
-.mu--body a {
+.mu--body a,
+.mu--page-body a {
   text-underline-offset: 2px;
   transition: var(--transition-speed);
 }
@@ -564,7 +570,8 @@ span.material-symbols-outlined {
   column-gap: 5px;
 }
 
-.mu--multilink-card a.mu--multilink {
+.mu--multilink-card a.mu--multilink,
+.mu--page-content a.mu--multilink {
   display: inline-flex;
   flex-basis: calc(calc(100% - 10px) / 3);
   background-color: #ffffff;
@@ -579,26 +586,31 @@ span.material-symbols-outlined {
   box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.75);
 }
 
-.mu--subtext-card-bottom .mu--multilink-card a.mu--multilink {
+.mu--subtext-card-bottom .mu--multilink-card a.mu--multilink,
+.mu--page-content a.mu--multilink {
   background-color: var(--mu-blue-dark);
   color: #ffffff;
   height: 36px;
 }
 
 @media screen and (max-width: 440px) {
-  .mu--multilink-card a.mu--multilink {
+  .mu--multilink-card a.mu--multilink,
+  .mu--page-content a.mu--multilink {
     flex-basis: calc(calc(100% - 10px) / 2);
   }
 }
 
 @container (max-width: 440px) {
-  .mu--multilink-card a.mu--multilink {
+  .mu--multilink-card a.mu--multilink,
+  .mu--page-content a.mu--multilink {
     flex-basis: calc(calc(100% - 10px) / 2);
   }
 }
 
 .mu--multilink-card a.mu--multilink span.mu--link-icon,
-.mu--multilink-card a.mu--multilink span.material-symbols-outlined {
+.mu--multilink-card a.mu--multilink span.material-symbols-outlined,
+.mu--page-content a.mu--multilink span.mu--link-icon,
+.mu--page-content a.mu--multilink span.material-symbols-outlined {
   background-color: #ffffff;
   border-top-left-radius: var(--rectangle-radius);
   border-bottom-left-radius: var(--rectangle-radius);
@@ -609,79 +621,124 @@ span.material-symbols-outlined {
   transition: var(--transition-speed);
 }
 
-.mu--multilink-card a.mu--multilink span.mu--link-icon {
+.mu--multilink-card a.mu--multilink span.mu--link-icon,
+.mu--page-content a.mu--multilink span.mu--link-icon {
   padding: 4px;
 }
 
-.mu--multilink-card a.mu--multilink span.material-symbols-outlined {
+.mu--multilink-card a.mu--multilink span.material-symbols-outlined,
+.mu--page-content a.mu--multilink span.material-symbols-outlined {
   color: var(--mu-blue-medium);
   padding: 6px;
   font-size: 28px;
 }
 
 .mu--subtext-card-bottom .mu--multilink-card a.mu--multilink span.mu--link-icon,
-.mu--subtext-card-bottom .mu--multilink-card a.mu--multilink span.material-symbols-outlined {
+.mu--subtext-card-bottom .mu--multilink-card a.mu--multilink span.material-symbols-outlined,
+.mu--page-content a.mu--multilink span.mu--link-icon,
+.mu--page-content a.mu--multilink span.material-symbols-outlined {
   height: 32px;
   width: 32px;
 }
 
-.mu--subtext-card-bottom .mu--multilink-card a.mu--multilink span.mu--link-icon {
+.mu--subtext-card-bottom .mu--multilink-card a.mu--multilink span.mu--link-icon,
+.mu--page-content a.mu--multilink span.mu--link-icon {
   background-color: rgba(255, 255, 255, 0.2);
 }
 
-.mu--subtext-card-bottom .mu--multilink-card a.mu--multilink span.material-symbols-outlined {
+.mu--subtext-card-bottom .mu--multilink-card a.mu--multilink span.material-symbols-outlined,
+.mu--page-content a.mu--multilink span.material-symbols-outlined {
   background-color: var(--mu-blue);
   color: #ffffff;
   font-size: 24px;
   padding: 4px;
 }
 
-.mu--multilink-card a.mu--multilink .mu--link-label {
+.mu--multilink-card a.mu--multilink .mu--link-label,
+.mu--page-content a.mu--multilink .mu--link-label {
   margin: 4px 4px 4px 8px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.mu--multilink-card a.mu--multilink:hover {
+.mu--multilink-card a.mu--multilink:hover,
+.mu--page-content a.mu--multilink:hover {
   background-color: var(--mu-blue-medium-light);
   border-color: #ffffff;
   color: #ffffff;
 }
 
-.mu--subtext-card-bottom .mu--multilink-card a.mu--multilink:hover {
+.mu--subtext-card-bottom .mu--multilink-card a.mu--multilink:hover,
+.mu--page-content a.mu--multilink:hover {
   background-color: var(--mu-blue);
 }
 
-.mu--multilink-card a.mu--multilink:hover {
-  background-color: var(--mu-blue-medium-light);
-  border-color: #ffffff;
-  color: #ffffff;
-}
-
-.mu--multilink-card a.mu--multilink:hover .mu--link-label {
+.mu--multilink-card a.mu--multilink:hover .mu--link-label,
+.mu--page-content a.mu--multilink:hover .mu--link-label {
   text-decoration: underline;
 }
 
-.mu--multilink-card a.mu--multilink:hover span.material-symbols-outlined {
+.mu--multilink-card a.mu--multilink:hover span.material-symbols-outlined,
+.mu--page-content a.mu--multilink:hover span.material-symbols-outlined {
   text-decoration: none;
 }
 
-.mu--subtext-card-bottom .mu--multilink-card a.mu--multilink:hover span.material-symbols-outlined {
+.mu--subtext-card-bottom .mu--multilink-card a.mu--multilink:hover span.material-symbols-outlined,
+.mu--page-content a.mu--multilink:hover span.material-symbols-outlined {
   background-color: var(--mu-blue-medium-dark);
 }
 
-.mu--multilink-card a.mu--multilink .mu--link-label.mu--has-sub-label {
+.mu--multilink-card a.mu--multilink .mu--link-label.mu--has-sub-label,
+.mu--page-content a.mu--multilink .mu--link-label.mu--has-sub-label {
   margin: 4px 4px auto 8px;
   display: unset;
   text-decoration: unset;
 }
 
-.mu--multilink-card a.mu--multilink:hover .mu--link-label.mu--has-sub-label :first-child {
+.mu--multilink-card a.mu--multilink:hover .mu--link-label.mu--has-sub-label :first-child,
+.mu--page-content a.mu--multilink:hover .mu--link-label.mu--has-sub-label :first-child {
   text-decoration: underline;
 }
 
-.mu--multilink-card a.mu--multilink .mu--has-sub-label :last-child {
+.mu--multilink-card a.mu--multilink .mu--has-sub-label :last-child,
+.mu--page-content a.mu--multilink .mu--has-sub-label :last-child {
   font-size: 8pt;
   font-weight: normal;
+}
+
+/* Page styles */
+.mu--page-header {
+  width: 100%;
+  padding: 8px;
+  background-color: var(--mu-blue);
+  color: #ffffff;
+  font-family: 'Noto Sans', sans;
+  font-size: 18pt;
+  border-top-left-radius: var(--rectangle-radius);
+  border-top-right-radius: var(--rectangle-radius);
+}
+
+.mu--page-content {
+  width: 100%;
+  padding: 16px;
+  background-color: #ffffff;
+  color: var(--mu-blue-dark);
+  font-size: 12pt;
+  border-bottom-left-radius: var(--rectangle-radius);
+  border-bottom-right-radius: var(--rectangle-radius);
+  border: 2px solid var(--mu-blue);
+}
+
+.mu--page-content.mu--dark {
+  background-color: #333333;
+  color: #ffffff;
+}
+
+.mu--page-content p {
+  padding-top: 0.5em;
+}
+
+.mu--page-content p:first-child {
+  padding-top: unset;
 }
