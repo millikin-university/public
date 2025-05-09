@@ -700,6 +700,10 @@ span.material-symbols-outlined {
   text-decoration: unset;
 }
 
+.mu--subtext-card-bottom .mu--multilink-card a.mu--multilink .mu--link-label.mu--has-sub-label {
+  margin-top: 0px;
+}
+
 .mu--multilink-card a.mu--multilink:hover .mu--link-label.mu--has-sub-label :first-child,
 .mu--page-content a.mu--multilink:hover .mu--link-label.mu--has-sub-label :first-child {
   text-decoration: underline;
