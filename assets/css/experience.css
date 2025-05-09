@@ -396,14 +396,18 @@ span.material-symbols-outlined {
 }
 
 .mu--info-box p,
-.mu--modal-content p {
+.mu--modal-content p,
+.mu--info-box h3,
+.mu--modal-content h3 {
   line-height: 1.25;
   font-family: 'Roboto';
   padding-top: 1em;
 }
 
 .mu--info-box p:first-child,
-.mu--modal-content p:first-child {
+.mu--modal-content p:first-child,
+.mu--info-box h3:first-child,
+.mu--modal-content h3:first-child {
   padding-top: 0;
 }
 
