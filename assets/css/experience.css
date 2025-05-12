@@ -557,7 +557,7 @@ span.material-symbols-outlined {
   left: 0;
   height: 100%;
   width: 100%;
-  padding: 10px 20px;
+  padding: 10px;
   opacity: 1;
   background-color: rgba(0, 0, 0, 0.6);
   z-index: 50;
@@ -567,22 +567,18 @@ span.material-symbols-outlined {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  column-gap: 5px;
-}
-
-.mu--subtext-card-bottom .mu--multicard {
-  column-gap: 5px;
+  column-gap: 4px;
 }
 
 .mu--multilink-card a.mu--multilink,
 .mu--page-content a.mu--multilink {
   display: inline-flex;
-  flex-basis: calc(calc(100% - 10px) / 3);
+  flex-basis: calc(calc(100% - 8px) / 3);
   background-color: #ffffff;
   color: var(--mu-blue-dark);
   border: 2px solid var(--mu-blue-medium-light);
   border-radius: calc(var(--rectangle-radius) + 2px);
-  font-size: 10pt;
+  font-size: 9.5pt;
   font-weight: bold;
   height: 44px;
   margin-top: 10px;
@@ -600,14 +596,14 @@ span.material-symbols-outlined {
 @media screen and (max-width: 440px) {
   .mu--multilink-card a.mu--multilink,
   .mu--page-content a.mu--multilink {
-    flex-basis: calc(calc(100% - 10px) / 2);
+    flex-basis: calc(calc(100% - 4px) / 2);
   }
 }
 
 @container (max-width: 440px) {
   .mu--multilink-card a.mu--multilink,
   .mu--page-content a.mu--multilink {
-    flex-basis: calc(calc(100% - 10px) / 2);
+    flex-basis: calc(calc(100% - 4px) / 2);
   }
 }
 
@@ -660,7 +656,7 @@ span.material-symbols-outlined {
 
 .mu--multilink-card a.mu--multilink .mu--link-label,
 .mu--page-content a.mu--multilink .mu--link-label {
-  margin: 4px 4px 4px 8px;
+  margin: 4px auto 4px 8px;
   display: flex;
   align-items: center;
   justify-content: center;
