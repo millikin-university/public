@@ -557,7 +557,7 @@ span.material-symbols-outlined {
   left: 0;
   height: 100%;
   width: 100%;
-  padding: 10px;
+  padding: 8px;
   opacity: 1;
   background-color: rgba(0, 0, 0, 0.6);
   z-index: 50;
@@ -581,7 +581,7 @@ span.material-symbols-outlined {
   font-size: 9.5pt;
   font-weight: bold;
   height: 44px;
-  margin-top: 10px;
+  margin-top: 8px;
   text-decoration: none;
   box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.75);
 }
