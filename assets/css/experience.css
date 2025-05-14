@@ -701,7 +701,20 @@ span.material-symbols-outlined {
   margin-top: 0px;
 }
 
-.mu--multilink-card a.mu--multilink:hover .mu--link-label.mu--has-sub-label :first-child,
+/* Need more room if we have sub-labels */
+.mu--subtext-card-bottom .mu--multilink-card a.mu--multilink.mu--has-sub-label span.mu--link-icon,
+.mu--subtext-card-bottom .mu--multilink-card a.mu--multilink.mu--has-sub-label span.material-symbols-outlined {
+  height: 32px;
+  width: 32px;
+  font-size: 24px;
+}
+
+.mu--subtext-card-bottom .mu--multilink-card a.mu--multilink.mu--has-sub-label,
+.mu--page-content a.mu--multilink.mu--has-sub-label {
+  height: 36px;
+}
+
+.mu--multilink-card a.mu--multilink .mu--multilink-card a.mu--multilink:hover .mu--link-label.mu--has-sub-label :first-child,
 .mu--page-content a.mu--multilink:hover .mu--link-label.mu--has-sub-label :first-child {
   text-decoration: underline;
 }
