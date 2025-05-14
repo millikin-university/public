@@ -592,6 +592,9 @@ span.material-symbols-outlined {
 .mu--page-content a.mu--multilink {
   background-color: var(--mu-blue-dark);
   color: #ffffff;
+}
+
+.mu--subtext-card-bottom .mu--multilink-card a.mu--multilink {
   height: 28px;
   font-size: 9pt;
 }
@@ -618,28 +621,34 @@ span.material-symbols-outlined {
   border-top-left-radius: var(--rectangle-radius);
   border-bottom-left-radius: var(--rectangle-radius);
   box-shadow: 2px 0px 4px -1px rgba(0, 0, 0, 0.5);
-  height: 40px;
-  width: 40px;
   text-decoration: none;
   transition: var(--transition-speed);
 }
 
 .mu--multilink-card a.mu--multilink span.mu--link-icon,
-.mu--page-content a.mu--multilink span.mu--link-icon {
+.mu--multilink-card a.mu--multilink span.material-symbols-outlined,
+.mu--page-content a.mu--multilink span.material-symbols-outlined {
+  height: 40px;
+  width: 40px;
+}
+
+.mu--multilink-card a.mu--multilink span.mu--link-icon {
   padding: 4px;
 }
 
 .mu--multilink-card a.mu--multilink span.material-symbols-outlined,
 .mu--page-content a.mu--multilink span.material-symbols-outlined {
   color: var(--mu-blue-medium);
+}
+
+.mu--multilink-card a.mu--multilink span.material-symbols-outlined,
+.mu--page-content a.mu--multilink span.material-symbols-outlined {
   padding: 6px;
   font-size: 28px;
 }
 
 .mu--subtext-card-bottom .mu--multilink-card a.mu--multilink span.mu--link-icon,
-.mu--subtext-card-bottom .mu--multilink-card a.mu--multilink span.material-symbols-outlined,
-.mu--page-content a.mu--multilink span.mu--link-icon,
-.mu--page-content a.mu--multilink span.material-symbols-outlined {
+.mu--subtext-card-bottom .mu--multilink-card a.mu--multilink span.material-symbols-outlined {
   height: 24px;
   width: 24px;
 }
@@ -653,13 +662,16 @@ span.material-symbols-outlined {
 .mu--page-content a.mu--multilink span.material-symbols-outlined {
   background-color: var(--mu-blue);
   color: #ffffff;
-  font-size: 16px;
   padding: 4px;
+}
+
+.mu--subtext-card-bottom .mu--multilink-card a.mu--multilink span.material-symbols-outlined {
+  font-size: 16px;
 }
 
 .mu--multilink-card a.mu--multilink .mu--link-label,
 .mu--page-content a.mu--multilink .mu--link-label {
-  margin: 4px 4px 4px 8px;
+  margin: 4px 8px 4px 8px;
   display: flex;
   align-items: center;
   justify-content: center;
