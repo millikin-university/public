@@ -573,7 +573,7 @@ span.material-symbols-outlined {
 .mu--multilink-card a.mu--multilink,
 .mu--page-content a.mu--multilink {
   display: inline-flex;
-  flex-basis: calc(calc(100% - 8px) / 3);
+  flex-basis: 45%; /* Under half, so there is some give or take for those items that don't quite split nicely */
   flex-grow: 1;
   white-space: nowrap;
   background-color: #ffffff;
