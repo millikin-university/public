@@ -574,6 +574,8 @@ span.material-symbols-outlined {
 .mu--page-content a.mu--multilink {
   display: inline-flex;
   flex-basis: calc(calc(100% - 8px) / 3);
+  flex-grow: 1;
+  white-space: nowrap;
   background-color: #ffffff;
   color: var(--mu-blue-dark);
   border: 2px solid var(--mu-blue-medium-light);
@@ -594,7 +596,7 @@ span.material-symbols-outlined {
   font-size: 9pt;
 }
 
-@media screen and (max-width: 440px) {
+/* @media screen and (max-width: 440px) {
   .mu--multilink-card a.mu--multilink,
   .mu--page-content a.mu--multilink {
     flex-basis: calc(calc(100% - 4px) / 2);
@@ -606,7 +608,7 @@ span.material-symbols-outlined {
   .mu--page-content a.mu--multilink {
     flex-basis: calc(calc(100% - 4px) / 2);
   }
-}
+} */
 
 .mu--multilink-card a.mu--multilink span.mu--link-icon,
 .mu--multilink-card a.mu--multilink span.material-symbols-outlined,
