@@ -590,7 +590,8 @@ span.material-symbols-outlined {
 .mu--page-content a.mu--multilink {
   background-color: var(--mu-blue-dark);
   color: #ffffff;
-  height: 36px;
+  height: 28px;
+  font-size: 9pt;
 }
 
 @media screen and (max-width: 440px) {
@@ -637,8 +638,8 @@ span.material-symbols-outlined {
 .mu--subtext-card-bottom .mu--multilink-card a.mu--multilink span.material-symbols-outlined,
 .mu--page-content a.mu--multilink span.mu--link-icon,
 .mu--page-content a.mu--multilink span.material-symbols-outlined {
-  height: 32px;
-  width: 32px;
+  height: 24px;
+  width: 24px;
 }
 
 .mu--subtext-card-bottom .mu--multilink-card a.mu--multilink span.mu--link-icon,
@@ -650,13 +651,13 @@ span.material-symbols-outlined {
 .mu--page-content a.mu--multilink span.material-symbols-outlined {
   background-color: var(--mu-blue);
   color: #ffffff;
-  font-size: 24px;
+  font-size: 16px;
   padding: 4px;
 }
 
 .mu--multilink-card a.mu--multilink .mu--link-label,
 .mu--page-content a.mu--multilink .mu--link-label {
-  margin: 4px auto 4px 8px;
+  margin: 4px 4px 4px 8px;
   display: flex;
   align-items: center;
   justify-content: center;
