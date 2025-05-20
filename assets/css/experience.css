@@ -783,6 +783,19 @@ html {
 
 */
 
+.mu--card-shade {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  padding: 8px;
+  opacity: 1;
+  background-color: rgba(0, 0, 0, 0.6);
+  overflow-y: auto;
+  z-index: 50;
+}
+
 /* For holding Link Buttons that flex */
 .mu--flex-link-container {
   display: flex;
@@ -821,7 +834,7 @@ html {
 
 .mu--link-button .mu--link-icon,
 .mu--link-button .material-symbols-outlined {
-  padding: 2px 4px; /* Some reason 4px doesn't work for top/bottom*/
+  padding: 4px;
   font-size: 32px;
   height: 40px;
   width: 40px;
@@ -833,6 +846,10 @@ html {
   transition: var(--transition-speed);
 }
 
+.mu--link-button .mu--link-icon {
+  padding-top: 2px; /* Some reason 4px doesn't work for top with the icons*/
+}
+
 .mu--link-button .mu--link-label {
   margin: 4px 8px 4px 8px;
   display: flex;
@@ -840,7 +857,7 @@ html {
   justify-content: center;
 }
 
-/* Sub label varient */
+/* Sub label variant */
 .mu--link-button.mu--has-sub-label {
   display: unset;
   text-decoration: unset;
