@@ -53,7 +53,7 @@ html {
   transition: var(--transition-speed);
 }
 
-span.material-symbols-outlined {
+*.material-symbols-outlined {
   font-family: 'Material Symbols Outlined';
 }
 
@@ -774,3 +774,123 @@ span.material-symbols-outlined {
 .mu--page-content p:first-child {
   padding-top: unset;
 }
+
+/*
+
+
+
+
+
+*/
+
+/* Link Button Basic Styling */
+.mu--link-button {
+  display: inline-flex;
+  flex-basis: 45%; /* Under half, so there is some give or take for those items that don't quite split nicely */
+  flex-grow: 1;
+  white-space: nowrap;
+  color: var(--mu-blue-dark);
+  background-color: #ffffff;
+  border: 2px solid var(--mu-blue-medium-light);
+  border-radius: calc(var(--rectangle-radius) + 2px);
+  font-size: 9.5pt;
+  font-weight: bold;
+  height: 44px;
+  margin-top: 8px;
+  text-decoration: none;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.75);
+}
+
+.mu--link-button:hover {
+  color: #ffffff;
+  background-color: var(--mu-blue-medium-light);
+  border-color: #ffffff;
+}
+
+.mu--link-button:hover .mu--link-label {
+  text-decoration: underline;
+}
+
+.mu--link-button .mu--link-icon,
+.mu--link-button .material-symbols-outlined {
+  padding: 4px;
+  font-size: 32px;
+  height: 40px;
+  width: 40px;
+  color: var(--mu-blue-medium);
+  border-top-left-radius: var(--rectangle-radius);
+  border-bottom-left-radius: var(--rectangle-radius);
+  box-shadow: 2px 0px 4px -1px rgba(0, 0, 0, 0.5);
+  text-decoration: none;
+  transition: var(--transition-speed);
+}
+
+.mu--link-button .mu--link-label {
+  margin: 4px 8px 4px 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Sub label varient */
+.mu--link-button.mu--has-sub-label {
+  display: unset;
+  text-decoration: unset;
+}
+
+.mu--link-button.mu--has-sub-label .mu--link-label :first-child {
+  text-decoration: underline;
+}
+.mu--link-button.mu--has-sub-label .mu--link-label :last-child {
+  font-size: 8pt;
+  font-weight: normal;
+}
+
+/* Link Button Dark Variant */
+.mu--link-button-dark {
+  color: #ffffff;
+  background-color: var(--mu-blue-dark);
+}
+
+.mu--link-button-dark:hover {
+  background-color: var(--mu-blue);
+}
+
+.mu--link-button-dark .material-symbols-outlined {
+  background-color: var(--mu-blue);
+  color: #ffffff;
+}
+
+.mu--link-button-dark:hover .material-symbols-outlined {
+  background-color: var(--mu-blue-medium-dark);
+}
+
+.mu--link-button-dark .mu--link-icon {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Link Button Small Varient */
+.mu--link-button-small {
+  font-size: 9pt;
+  height: 28px;
+}
+
+.mu--link-button-small .mu--link-icon,
+.mu--link-button-small .material-symbols-outlined {
+  font-size: 16px;
+  height: 24px;
+  width: 24px;
+}
+
+/* Small sub-labels */
+.mu--link-button-small.mu--has-sub-label {
+  margin-top: 0;
+}
+
+/*
+
+
+
+
+
+*/
