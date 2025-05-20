@@ -561,7 +561,7 @@ html {
   color: #ffffff;
 }
 
-.mu--multilink-shade {
+/* .mu--multilink-shade {
   position: absolute;
   top: 0;
   left: 0;
@@ -583,7 +583,7 @@ html {
 .mu--multilink-card a.mu--multilink,
 .mu--page-content a.mu--multilink {
   display: inline-flex;
-  flex-basis: 45%; /* Under half, so there is some give or take for those items that don't quite split nicely */
+  flex-basis: 45%;
   flex-grow: 1;
   white-space: nowrap;
   background-color: #ffffff;
@@ -608,20 +608,6 @@ html {
   height: 28px;
   font-size: 9pt;
 }
-
-/* @media screen and (max-width: 440px) {
-  .mu--multilink-card a.mu--multilink,
-  .mu--page-content a.mu--multilink {
-    flex-basis: calc(calc(100% - 4px) / 2);
-  }
-}
-
-@container (max-width: 440px) {
-  .mu--multilink-card a.mu--multilink,
-  .mu--page-content a.mu--multilink {
-    flex-basis: calc(calc(100% - 4px) / 2);
-  }
-} */
 
 .mu--multilink-card a.mu--multilink span.mu--link-icon,
 .mu--multilink-card a.mu--multilink span.material-symbols-outlined,
@@ -725,7 +711,6 @@ html {
   margin-top: 0px;
 }
 
-/* Need more room if we have sub-labels */
 .mu--subtext-card-bottom .mu--multilink-card a.mu--multilink.mu--has-sub-label span.mu--link-icon,
 .mu--subtext-card-bottom .mu--multilink-card a.mu--multilink.mu--has-sub-label span.material-symbols-outlined {
   height: 32px;
@@ -747,7 +732,7 @@ html {
 .mu--page-content a.mu--multilink .mu--has-sub-label :last-child {
   font-size: 8pt;
   font-weight: normal;
-}
+} */
 
 /* Page styles */
 .mu--page-header {
@@ -785,14 +770,7 @@ html {
   padding-top: unset;
 }
 
-/*
-
-
-
-
-
-*/
-
+/* Shade allows futerher darkening background, great for link button cards */
 .mu--card-shade {
   position: absolute;
   top: 0;
