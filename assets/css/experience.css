@@ -783,6 +783,14 @@ html {
 
 */
 
+/* For holding Link Buttons that flex */
+.mu--flex-link-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  column-gap: 4px;
+}
+
 /* Link Button Basic Styling */
 .mu--link-button {
   display: inline-flex;
@@ -813,7 +821,7 @@ html {
 
 .mu--link-button .mu--link-icon,
 .mu--link-button .material-symbols-outlined {
-  padding: 4px;
+  padding: 2px 4px; /* Some reason 4px doesn't work for top/bottom*/
   font-size: 32px;
   height: 40px;
   width: 40px;
