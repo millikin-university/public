@@ -245,6 +245,16 @@ html {
   text-decoration: underline;
 }
 
+/* This haver their own settings */
+.mu--subtext-card-bottom a.mu--link-button {
+  color: unset;
+}
+
+.mu--subtext-card-bottom a.mu--link-button:hover {
+  color: unset;
+  text-decoration: unset;
+}
+
 /* Used for mu--subtext-card-bottom primarily */
 .mu--two-column-grid {
   display: grid;
@@ -863,12 +873,13 @@ html {
   text-decoration: unset;
 }
 
-.mu--link-button.mu--has-sub-label .mu--link-label :first-child {
-  text-decoration: underline;
-}
 .mu--link-button.mu--has-sub-label .mu--link-label :last-child {
   font-size: 8pt;
   font-weight: normal;
+}
+
+.mu--link-button.mu--has-sub-label:hover .mu--link-label :first-child {
+  text-decoration: underline;
 }
 
 /* Link Button Dark Variant */
@@ -894,7 +905,23 @@ html {
   background-color: #333333;
 }
 
-/* Link Button Small Varient */
+/* Link Button Medium Variant */
+.mu--link-button-medium {
+  height: 36px;
+}
+
+.mu--link-button-medium .mu--link-icon,
+.mu--link-button-medium .material-symbols-outlined {
+  height: 32px;
+  width: 32px;
+  font-size: 24px;
+}
+
+.mu--link-button-medium.mu--has-sub-label .mu--link-label {
+  margin-top: 0;
+}
+
+/* Link Button Small Variant */
 .mu--link-button-small {
   font-size: 9pt;
   height: 28px;
@@ -906,16 +933,3 @@ html {
   height: 24px;
   width: 24px;
 }
-
-/* Small sub-labels */
-.mu--link-button-small.mu--has-sub-label {
-  margin-top: 0;
-}
-
-/*
-
-
-
-
-
-*/
