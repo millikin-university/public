@@ -849,6 +849,7 @@ html {
   height: 40px;
   width: 40px;
   color: var(--mu-blue-medium);
+  background-color: #ffffff;
   border-top-left-radius: var(--rectangle-radius);
   border-bottom-left-radius: var(--rectangle-radius);
   box-shadow: 2px 0px 4px -1px rgba(0, 0, 0, 0.5);
@@ -932,4 +933,10 @@ html {
   font-size: 16px;
   height: 24px;
   width: 24px;
+}
+
+/* Stand alone link buttons */
+.mu--link-button.mu--link-button-standalone {
+  flex-basis: unset;
+  flex-grow: unset;
 }
