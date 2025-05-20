@@ -384,7 +384,7 @@ html {
   z-index: 85;
 }
 
-.mu--info-label {
+.mu--info-corner .mu--info-label {
   position: absolute;
   right: 0;
   bottom: 0;
