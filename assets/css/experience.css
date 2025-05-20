@@ -858,7 +858,7 @@ html {
 }
 
 /* Sub label variant */
-.mu--link-button.mu--has-sub-label {
+.mu--link-button.mu--has-sub-label .mu--link-label {
   display: unset;
   text-decoration: unset;
 }
@@ -891,7 +891,7 @@ html {
 }
 
 .mu--link-button-dark .mu--link-icon {
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: #333333;
 }
 
 /* Link Button Small Varient */
