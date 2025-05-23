@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 220 60">
+  <!-- Generator: Adobe Illustrator 29.1.0, SVG Export Plug-In . SVG Version: 2.1.0 Build 142)  -->
+  <defs>
+    <style>
+      .st0 {
+        fill: #004185;
+      }
+
+      .st1 {
+        fill: #a7a9ac;
+        font-family: OraqleScript, 'Oraqle Script';
+        font-size: 55.24px;
+      }
+    </style>
+  </defs>
+  <g>
+    <rect class="st0" x="80.41" y="11.83" width="7.6" height="33.17"/>
+    <rect class="st0" x="137.58" y="11.83" width="7.6" height="33.17"/>
+    <rect class="st0" x="178.24" y="11.83" width="7.6" height="33.17"/>
+    <polygon class="st0" points="174.87 11.83 166.06 11.83 156.56 25.7 156.56 11.83 148.96 11.83 148.96 45 156.56 45 156.56 31.13 166.06 45 174.87 45 163.09 28.42 174.87 11.83"/>
+    <polygon class="st0" points="99.38 37.4 99.38 11.83 91.79 11.83 91.79 45 111.77 45 111.77 37.4 99.38 37.4"/>
+    <polygon class="st0" points="121.99 37.4 121.99 11.83 114.39 11.83 114.39 45 134.37 45 134.37 37.4 121.99 37.4"/>
+    <polygon class="st0" points="65.25 11.83 65.24 11.83 59.36 29.45 53.47 11.83 53.47 11.83 42.08 11.83 42.08 45 49.67 45 49.67 23.78 57.39 45 61.32 45 69.04 23.78 69.04 45 76.64 45 76.64 11.83 65.25 11.83"/>
+    <polygon class="st0" points="209 11.83 209 33.05 201.28 11.83 189.61 11.83 189.61 45 197.21 45 197.21 23.78 204.93 45 205.2 45 205.21 45 216.6 45 216.6 11.83 209 11.83"/>
+  </g>
+  <text class="st1" transform="translate(2.45 44.55)"><tspan x="0" y="0">my</tspan></text>
+</svg>
