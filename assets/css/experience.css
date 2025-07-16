@@ -411,7 +411,7 @@ html {
 .mu--modal-content h3 {
   line-height: 1.25;
   font-family: 'Roboto';
-  padding-top: 1em;
+  padding-top: 0.5em;
 }
 
 .mu--info-box p:first-child,
