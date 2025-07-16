@@ -21,6 +21,11 @@
   font-weight: bold;
 }
 
+.map--legend .map--label-emergency {
+  margin-left: 4px;
+  margin-right: 4px;
+}
+
 .map--legend-group {
   display: grid;
   gap: 12px 6px;
@@ -28,13 +33,7 @@
   margin-left: 16px;
 }
 
-.map--legend .map--legend-number-emergency {
-  margin-left: 4px;
-  margin-right: 4px;
-}
-
-.map--legend-number {
-  background-color: rgba(255, 255, 255, 0.25);
+.map--label {
   color: #ffffff;
   border: 1px solid #ffffff;
   text-align: center;
@@ -47,32 +46,44 @@
   display: inline-block;
 }
 
-.map--legend-number span {
+.map--label span {
   display: inline-block;
   padding-top: 50%;
   padding-bottom: 50%;
 }
 
-.map--legend-lot {
-  position: absolute;
+.map--label .material-symbols-outlined {
+  font-size: 20px;
+  line-height: 0;
+}
+
+.map--label-number {
+  background-color: rgba(255, 255, 255, 0.25);
+}
+
+.map--label-safety {
+  background-color: #ff0000;
+}
+
+.map--label-emergency {
+  background-color: #ff0000;
+  width: 20px;
+  height: 20px;
+}
+
+.map--label-lot {
   background-color: rgba(255, 255, 255, 0.75);
   color: #000000;
   border: 1px solid #000000;
-  text-align: center;
-  line-height: 0;
-  width: 28px;
-  height: 28px;
-  font-family: Roboto;
   font-size: 16px;
   display: inline-block;
-  scale: 50%;
 }
 
-.map--legend-lot-wide {
-  width: 38px;
+.map--label-lot-wide {
+  width: 36px;
 }
 
-.map--legend-lot div:first-child {
+.map--label-lot div:first-child {
   position: absolute;
   top: 5px;
   left: 1px;
@@ -80,7 +91,7 @@
   font-variant: small-caps;
 }
 
-.map--legend-lot div:last-child {
+.map--label-lot div:last-child {
   position: absolute;
   bottom: 8px;
   left: 1px;
@@ -89,35 +100,23 @@
   font-variant: small-caps;
 }
 
-.map--legend-label {
+.map--label-value {
   line-height: 1;
   display: inline-block;
 }
 
-.map--legend-sublabel {
+.map--label-sublabel {
   padding-top: 4px;
   font-size: 10pt;
   font-style: italic;
 }
 
-.map--legend-number-emergency {
-  background-color: #ff0000;
-  width: 20px;
-  height: 20px;
-}
-
-.map--legend-number-emergency .material-symbols-outlined {
-  font-size: 20px;
-  line-height: 0;
-}
-
-.map--overlay {
+#map--container .map--label {
   position: absolute;
   scale: 50%;
-  transition: var(--transition-speed);
 }
 
-.map--overlay-number {
+#map--container .map--label-number {
   background-color: rgba(0, 0, 0, 0.75);
 }
 
@@ -131,11 +130,7 @@
     width: 900px; /* default width is 50% original image width */
   }
 
-  .map--overlay {
-    scale: 75%;
-  }
-
-  .map--legend-lot {
+  #map--container .map--label {
     scale: 75%;
   }
 }
@@ -150,11 +145,7 @@
     width: 1350px; /* default width is 50% original image width */
   }
 
-  .map--overlay {
-    scale: 100%;
-  }
-
-  .map--legend-lot {
+  #map--container .map--label {
     scale: 100%;
   }
 }

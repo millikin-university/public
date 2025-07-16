@@ -1,76 +1,70 @@
-const mapBaseWidth = 3600;
-const mapBaseHeight = 1800;
-
-const mapOverlaysPublicSafety = [{ loc_x: '1980', loc_y: '520' }];
-
-const mapOverlayEmergency = [
-  { loc_x: '780', loc_y: '140' },
-  { loc_x: '2140', loc_y: '0' },
-  { loc_x: '2160', loc_y: '80' },
-  { loc_x: '2200', loc_y: '180' },
-  { loc_x: '340', loc_y: '680' },
-  { loc_x: '360', loc_y: '860' },
-  { loc_x: '580', loc_y: '1340' },
-  { loc_x: '940', loc_y: '820' },
-  { loc_x: '1640', loc_y: '1120' },
-  { loc_x: '2240', loc_y: '920' },
-  { loc_x: '2260', loc_y: '1400' },
+//MAP OVERLAY DATA
+//---------------------------------------------
+const mapOverlays = [
+  { type: 'safety', label: 'S', loc_x: '1980', loc_y: '520' },
+  { type: 'emergency', label: 'emergency', loc_x: '780', loc_y: '140' },
+  { type: 'emergency', label: 'emergency', loc_x: '2140', loc_y: '0' },
+  { type: 'emergency', label: 'emergency', loc_x: '2160', loc_y: '80' },
+  { type: 'emergency', label: 'emergency', loc_x: '2200', loc_y: '180' },
+  { type: 'emergency', label: 'emergency', loc_x: '340', loc_y: '680' },
+  { type: 'emergency', label: 'emergency', loc_x: '360', loc_y: '860' },
+  { type: 'emergency', label: 'emergency', loc_x: '580', loc_y: '1340' },
+  { type: 'emergency', label: 'emergency', loc_x: '940', loc_y: '820' },
+  { type: 'emergency', label: 'emergency', loc_x: '1640', loc_y: '1120' },
+  { type: 'emergency', label: 'emergency', loc_x: '2240', loc_y: '920' },
+  { type: 'emergency', label: 'emergency', loc_x: '2260', loc_y: '1400' },
+  { type: 'number', label: '1', loc_x: '640', loc_y: '740' },
+  { type: 'number', label: '2', loc_x: '840', loc_y: '1300' },
+  { type: 'number', label: '3', loc_x: '1260', loc_y: '640' },
+  { type: 'number', label: '4', loc_x: '1540', loc_y: '180' },
+  { type: 'number', label: '5', loc_x: '640', loc_y: '600' },
+  { type: 'number', label: '6', loc_x: '2260', loc_y: '300' },
+  { type: 'number', label: '7', loc_x: '1120', loc_y: '600' },
+  { type: 'number', label: '8', loc_x: '820', loc_y: '860' },
+  { type: 'number', label: '9', loc_x: '1580', loc_y: '660' },
+  { type: 'number', label: '10', loc_x: '3000', loc_y: '940' },
+  { type: 'number', label: '11', loc_x: '1620', loc_y: '440' },
+  { type: 'number', label: '12', loc_x: '920', loc_y: '640' },
+  { type: 'number', label: '13', loc_x: '1220', loc_y: '1300' },
+  { type: 'number', label: '14', loc_x: '2040', loc_y: '880' },
+  { type: 'number', label: '16', loc_x: '2380', loc_y: '960' },
+  { type: 'number', label: '17', loc_x: '1700', loc_y: '1540' },
+  { type: 'number', label: '18', loc_x: '940', loc_y: '200' },
+  { type: 'number', label: '19', loc_x: '1700', loc_y: '40' },
+  { type: 'number', label: '20', loc_x: '2560', loc_y: '1680' },
+  { type: 'number', label: '22', loc_x: '1940', loc_y: '160' },
+  { type: 'number', label: '23', loc_x: '1020', loc_y: '400' },
+  { type: 'number', label: '24', loc_x: '3260', loc_y: '780' },
+  { type: 'number', label: '25', loc_x: '1480', loc_y: '340' },
+  { type: 'number', label: '29', loc_x: '80', loc_y: '640' },
+  { type: 'number', label: '31', loc_x: '1920', loc_y: '420' },
+  { type: 'number', label: '32', loc_x: '2180', loc_y: '560' },
+  { type: 'number', label: '36', loc_x: '260', loc_y: '820' },
+  { type: 'number', label: '40', loc_x: '2020', loc_y: '1060' },
+  { type: 'number', label: '41', loc_x: '2200', loc_y: '1000' },
+  { type: 'number', label: '42', loc_x: '180', loc_y: '740' },
+  { type: 'number', label: '43', loc_x: '2200', loc_y: '840' },
+  { type: 'number', label: '44', loc_x: '1680', loc_y: '1000' },
+  { type: 'number', label: '45', loc_x: '2060', loc_y: '480' },
+  { type: 'number', label: '46', loc_x: '1860', loc_y: '940' },
+  { type: 'number', label: '47', loc_x: '3280', loc_y: '1100' },
+  { type: 'lot', label: 'M1', loc_x: '1800', loc_y: '120' },
+  { type: 'lot', label: 'M2', loc_x: '2220', loc_y: '80' },
+  { type: 'lot', label: 'M3', loc_x: '2340', loc_y: '160' },
+  { type: 'lot', label: 'M4', loc_x: '2060', loc_y: '140' },
+  { type: 'lot', label: 'M5', loc_x: '3500', loc_y: '780' },
+  { type: 'lot', label: 'M6', loc_x: '1740', loc_y: '340' },
+  { type: 'lot', label: 'M7', loc_x: '380', loc_y: '580' },
+  { type: 'lot', label: 'M8', loc_x: '1160', loc_y: '880' },
+  { type: 'lot', label: 'M9', loc_x: '1500', loc_y: '1180' },
+  { type: 'lot', label: 'M10', loc_x: '2360', loc_y: '1280' },
+  { type: 'lot', label: 'M11', loc_x: '360', loc_y: '960' },
+  { type: 'lot', label: 'M12', loc_x: '380', loc_y: '1460' },
 ];
 
-const mapOverlayNumbers = [
-  { legend: '1', loc_x: '640', loc_y: '740' },
-  { legend: '2', loc_x: '840', loc_y: '1300' },
-  { legend: '3', loc_x: '1260', loc_y: '640' },
-  { legend: '4', loc_x: '1540', loc_y: '180' },
-  { legend: '5', loc_x: '640', loc_y: '600' },
-  { legend: '6', loc_x: '2260', loc_y: '300' },
-  { legend: '7', loc_x: '1120', loc_y: '600' },
-  { legend: '8', loc_x: '820', loc_y: '860' },
-  { legend: '9', loc_x: '1580', loc_y: '660' },
-  { legend: '10', loc_x: '3000', loc_y: '940' },
-  { legend: '11', loc_x: '1620', loc_y: '440' },
-  { legend: '12', loc_x: '920', loc_y: '640' },
-  { legend: '13', loc_x: '1220', loc_y: '1300' },
-  { legend: '14', loc_x: '2040', loc_y: '880' },
-  { legend: '16', loc_x: '2380', loc_y: '960' },
-  { legend: '17', loc_x: '1700', loc_y: '1540' },
-  { legend: '18', loc_x: '940', loc_y: '200' },
-  { legend: '19', loc_x: '1700', loc_y: '40' },
-  { legend: '20', loc_x: '2560', loc_y: '1720' },
-  { legend: '22', loc_x: '1940', loc_y: '160' },
-  { legend: '23', loc_x: '1020', loc_y: '400' },
-  { legend: '24', loc_x: '3260', loc_y: '780' },
-  { legend: '25', loc_x: '1480', loc_y: '340' },
-  { legend: '29', loc_x: '80', loc_y: '640' },
-  { legend: '31', loc_x: '1920', loc_y: '420' },
-  { legend: '32', loc_x: '2180', loc_y: '560' },
-  { legend: '36', loc_x: '260', loc_y: '820' },
-  { legend: '40', loc_x: '2020', loc_y: '1060' },
-  { legend: '41', loc_x: '2200', loc_y: '1000' },
-  { legend: '42', loc_x: '180', loc_y: '740' },
-  { legend: '43', loc_x: '2200', loc_y: '840' },
-  { legend: '44', loc_x: '1680', loc_y: '1000' },
-  { legend: '45', loc_x: '2060', loc_y: '480' },
-  { legend: '46', loc_x: '1860', loc_y: '940' },
-  { legend: '47', loc_x: '3280', loc_y: '1100' },
-];
-
-const mapOverlayLots = [
-  { legend: 'M1', loc_x: '1800', loc_y: '120' },
-  { legend: 'M2', loc_x: '2220', loc_y: '80' },
-  { legend: 'M3', loc_x: '2340', loc_y: '160' },
-  { legend: 'M4', loc_x: '2060', loc_y: '140' },
-  { legend: 'M5', loc_x: '3500', loc_y: '780' },
-  { legend: 'M6', loc_x: '1740', loc_y: '340' },
-  { legend: 'M7', loc_x: '380', loc_y: '580' },
-  { legend: 'M8', loc_x: '1160', loc_y: '880' },
-  { legend: 'M9', loc_x: '1500', loc_y: '1180' },
-  { legend: 'M10', loc_x: '2360', loc_y: '1280' },
-  { legend: 'M11', loc_x: '360', loc_y: '960' },
-  { legend: 'M12', loc_x: '380', loc_y: '1460' },
-];
-
-const mapLegendEntriesAcad = [
+//LEGEND ENTRY DATA
+//---------------------------------------------
+const mapLegendEntries = [
   {
     legend: '12',
     group: 'acad',
@@ -155,8 +149,6 @@ const mapLegendEntriesAcad = [
     label: 'ADM-Scovill Hall',
     sublabel: 'Tabor School of Business, Center for Entrepreneurship, SCORE',
   },
-];
-const mapLegendEntriesAthletics = [
   {
     legend: '19',
     group: 'athletics',
@@ -205,8 +197,6 @@ const mapLegendEntriesAthletics = [
     label: 'Athletic Department',
     sublabel: '',
   },
-];
-const mapLegendEntriesArts = [
   {
     legend: '24',
     group: 'arts',
@@ -249,8 +239,6 @@ const mapLegendEntriesArts = [
     label: '3D Arts & Theatre Center',
     sublabel: '',
   },
-];
-const mapLegendEntriesDining = [
   {
     legend: '9',
     group: 'dining',
@@ -269,8 +257,6 @@ const mapLegendEntriesDining = [
     label: 'Dining Hall, Common Grounds',
     sublabel: 'University Commons',
   },
-];
-const mapLegendEntriesHousing = [
   {
     legend: '46',
     group: 'housing',
@@ -345,87 +331,67 @@ const mapLegendEntriesHousing = [
   },
 ];
 
-const mapContainer = document.getElementById('map--container');
-
+//FUNCTIONS
+//---------------------------------------------
 function loadLabels() {
-  //Load Public Safety Labels
-  for (const label of mapOverlaysPublicSafety) {
-    mapContainer.insertAdjacentHTML(
-      'afterBegin',
+  //Get elements we'll need to interact with from the DOM
+  const mapContainer = document.getElementById('map--container');
+
+  //Get dimensions we'll be using to place the Overlays on the map
+  const mapBaseWidth = 3600;
+  const mapBaseHeight = 1800;
+
+  //Use a Map to define our classes for the DIV that contains the label
+  const labelClassMap = new Map([
+    ['safety', 'map--label map--label-safety'],
+    ['emergency', 'map--label map--label-emergency'],
+    ['lot', 'map--label map--label-lot'],
+    ['lot-wide', 'map--label map--label-lot map--label-lot-wide'],
+    ['number', 'map--label map--label-number'],
+  ]);
+
+  for (const label of mapOverlays) {
+    const divClass = label.type === 'lot' && label.label.length >= 3 ? labelClassMap.get('lot-wide') : labelClassMap.get(label.type);
+    const spanClass = label.type === 'emergency' ? 'material-symbols-outlined' : '';
+    // Build the HTML we want to put on the page, yes could be done in the command, doing here to make easier to follow
+    const labelContent =
+      label.type === 'lot'
+        ? `
+        <div>lot</div>
+        <div>${label.label}</div>
       `
-            <div class="map--legend-number map--overlay" style="background-color: #ff0000; left: calc( ${label.loc_x} / ${mapBaseWidth} * 100%); top: calc( ${label.loc_y} / ${mapBaseHeight} * 100% );">
-              <span>S</span>
-            </div>
-            `
-    );
-  }
+        : `
+        <span class="${spanClass}">${label.label}</span>
+      `;
+    const labelHtml = `
+      <div class="${divClass}" style="left: calc( ${label.loc_x} / ${mapBaseWidth} * 100%); top: calc( ${label.loc_y} / ${mapBaseHeight} * 100% );">
+        ${labelContent}  
+      </div>`;
 
-  //Load Emergency Labels
-  for (const label of mapOverlayEmergency) {
-    mapContainer.insertAdjacentHTML(
-      'afterBegin',
-      `
-            <div class="map--legend-number map--legend-number-emergency map--overlay" style="left: calc( ${label.loc_x} / ${mapBaseWidth} * 100%); top: calc( ${label.loc_y} / ${mapBaseHeight} * 100% );">
-              <span class="material-symbols-outlined">emergency</span>
-            </div>
-            `
-    );
-  }
-
-  //Load Number Labels
-  for (const label of mapOverlayNumbers) {
-    mapContainer.insertAdjacentHTML(
-      'afterBegin',
-      `
-            <div class="map--legend-number map--overlay map--overlay-number" style="left: calc( ${label.loc_x} / ${mapBaseWidth} * 100%); top: calc( ${label.loc_y} / ${mapBaseHeight} * 100% );">
-              <span>${label.legend}</span>
-            </div>
-            `
-    );
-  }
-
-  //Load Lot Labels
-  for (const label of mapOverlayLots) {
-    let labelStyle = 'map--legend-lot';
-    if (label.legend.length >= 3) {
-      labelStyle += '  map--legend-lot-wide';
-    }
-    mapContainer.insertAdjacentHTML(
-      'afterBegin',
-      `
-            <div class="${labelStyle}" style="left: calc( ${label.loc_x} / ${mapBaseWidth} * 100%); top: calc( ${label.loc_y} / ${mapBaseHeight} * 100% );">
-              <div>lot</div>
-              <div>${label.legend}</div>
-            </div>
-            `
-    );
-  }
-}
-
-const acadLegends = document.getElementById('acad-legends');
-const athleticsLegends = document.getElementById('athletics-legends');
-const artsLegends = document.getElementById('arts-legends');
-const diningLegends = document.getElementById('dining-legends');
-const housingLegends = document.getElementById('housing-legends');
-
-function loadLegend(sourceArray, targetElement) {
-  for (const legend of sourceArray) {
-    const sublabel = legend.sublabel && legend.sublabel != '' ? `<div class="map--legend-sublabel">${legend.sublabel}</div>` : '';
-
-    targetElement.insertAdjacentHTML(
-      'afterBegin',
-      `
-            <div class="map--legend-number"><span>${legend.legend}</span></div>
-            <div class="map--legend-label">${legend.label}
-            ${sublabel}</div>`
-    );
+    //Load the HTML to the Page
+    mapContainer.insertAdjacentHTML('afterbegin', labelHtml);
   }
 }
 
 function loadLegends() {
-  loadLegend(mapLegendEntriesAcad, acadLegends);
-  loadLegend(mapLegendEntriesArts, artsLegends);
-  loadLegend(mapLegendEntriesAthletics, athleticsLegends);
-  loadLegend(mapLegendEntriesDining, diningLegends);
-  loadLegend(mapLegendEntriesHousing, housingLegends);
+  //These are the "buckets" each of the legend entries can go into
+  //We need a way to convert the data from the json object to the actual element on the page, so we'll use a Map to let us do that
+  const legendsMap = new Map([
+    ['acad', document.getElementById('acad-legends')],
+    ['athletics', document.getElementById('athletics-legends')],
+    ['arts', document.getElementById('arts-legends')],
+    ['dining', document.getElementById('dining-legends')],
+    ['housing', document.getElementById('housing-legends')],
+  ]);
+  for (const entry of mapLegendEntries) {
+    const sublabel = entry.sublabel && entry.sublabel != '' ? `<div class="map--label-sublabel">${entry.sublabel}</div>` : '';
+
+    legendsMap.get(entry.group).insertAdjacentHTML(
+      'afterBegin',
+      `
+            <div class="map--label map--label-number"><span>${entry.legend}</span></div>
+            <div class="map--label-value">${entry.label}
+            ${sublabel}</div>`
+    );
+  }
 }
