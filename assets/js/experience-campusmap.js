@@ -31,7 +31,7 @@ const mapOverlays = [
   { type: 'number', label: '17', loc_x: '1700', loc_y: '1540' },
   { type: 'number', label: '18', loc_x: '940', loc_y: '200' },
   { type: 'number', label: '19', loc_x: '1700', loc_y: '40' },
-  { type: 'number', label: '20', loc_x: '2560', loc_y: '1680' },
+  { type: 'number', label: '20', loc_x: '2560', loc_y: '1640' },
   { type: 'number', label: '22', loc_x: '1940', loc_y: '160' },
   { type: 'number', label: '23', loc_x: '1020', loc_y: '400' },
   { type: 'number', label: '24', loc_x: '3260', loc_y: '780' },
