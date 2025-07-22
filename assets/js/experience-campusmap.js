@@ -1,397 +1,342 @@
 //MAP OVERLAY DATA
 //---------------------------------------------
-const mapOverlays = [
-  { type: 'safety', label: 'S', loc_x: '1980', loc_y: '520' },
-  { type: 'emergency', label: 'emergency', loc_x: '780', loc_y: '140' },
-  { type: 'emergency', label: 'emergency', loc_x: '2140', loc_y: '0' },
-  { type: 'emergency', label: 'emergency', loc_x: '2160', loc_y: '80' },
-  { type: 'emergency', label: 'emergency', loc_x: '2200', loc_y: '180' },
-  { type: 'emergency', label: 'emergency', loc_x: '340', loc_y: '680' },
-  { type: 'emergency', label: 'emergency', loc_x: '360', loc_y: '860' },
-  { type: 'emergency', label: 'emergency', loc_x: '580', loc_y: '1340' },
-  { type: 'emergency', label: 'emergency', loc_x: '940', loc_y: '820' },
-  { type: 'emergency', label: 'emergency', loc_x: '1640', loc_y: '1120' },
-  { type: 'emergency', label: 'emergency', loc_x: '2240', loc_y: '920' },
-  { type: 'emergency', label: 'emergency', loc_x: '2260', loc_y: '1400' },
-  { type: 'number', label: '1', loc_x: '640', loc_y: '740' },
-  { type: 'number', label: '2', loc_x: '840', loc_y: '1300' },
-  { type: 'number', label: '3', loc_x: '1260', loc_y: '640' },
-  { type: 'number', label: '4', loc_x: '1540', loc_y: '180' },
-  { type: 'number', label: '5', loc_x: '640', loc_y: '600' },
-  { type: 'number', label: '6', loc_x: '2260', loc_y: '300' },
-  { type: 'number', label: '7', loc_x: '1120', loc_y: '600' },
-  { type: 'number', label: '8', loc_x: '820', loc_y: '860' },
-  { type: 'number', label: '9', loc_x: '1580', loc_y: '660' },
-  { type: 'number', label: '10', loc_x: '3000', loc_y: '940' },
-  { type: 'number', label: '11', loc_x: '1620', loc_y: '440' },
-  { type: 'number', label: '12', loc_x: '920', loc_y: '640' },
-  { type: 'number', label: '13', loc_x: '1220', loc_y: '1300' },
-  { type: 'number', label: '14', loc_x: '2040', loc_y: '880' },
-  { type: 'number', label: '16', loc_x: '2380', loc_y: '960' },
-  { type: 'number', label: '17', loc_x: '1700', loc_y: '1540' },
-  { type: 'number', label: '18', loc_x: '940', loc_y: '200' },
-  { type: 'number', label: '19', loc_x: '1700', loc_y: '40' },
-  { type: 'number', label: '20', loc_x: '2560', loc_y: '1640' },
-  { type: 'number', label: '22', loc_x: '1940', loc_y: '160' },
-  { type: 'number', label: '23', loc_x: '1020', loc_y: '400' },
-  { type: 'number', label: '24', loc_x: '3260', loc_y: '780' },
-  { type: 'number', label: '25', loc_x: '1480', loc_y: '340' },
-  { type: 'number', label: '29', loc_x: '80', loc_y: '640' },
-  { type: 'number', label: '31', loc_x: '1920', loc_y: '420' },
-  { type: 'number', label: '32', loc_x: '2180', loc_y: '560' },
-  { type: 'number', label: '36', loc_x: '260', loc_y: '820' },
-  { type: 'number', label: '40', loc_x: '2020', loc_y: '1060' },
-  { type: 'number', label: '41', loc_x: '2200', loc_y: '1000' },
-  { type: 'number', label: '42', loc_x: '180', loc_y: '740' },
-  { type: 'number', label: '43', loc_x: '2200', loc_y: '840' },
-  { type: 'number', label: '44', loc_x: '1680', loc_y: '1000' },
-  { type: 'number', label: '45', loc_x: '2060', loc_y: '480' },
-  { type: 'number', label: '46', loc_x: '1860', loc_y: '940' },
-  { type: 'number', label: '47', loc_x: '3280', loc_y: '1100' },
-  { type: 'lot', label: 'M1', loc_x: '1800', loc_y: '120' },
-  { type: 'lot', label: 'M2', loc_x: '2220', loc_y: '80' },
-  { type: 'lot', label: 'M3', loc_x: '2340', loc_y: '160' },
-  { type: 'lot', label: 'M4', loc_x: '2060', loc_y: '140' },
-  { type: 'lot', label: 'M5', loc_x: '3480', loc_y: '780' },
-  { type: 'lot', label: 'M6', loc_x: '1740', loc_y: '340' },
-  { type: 'lot', label: 'M7', loc_x: '380', loc_y: '580' },
-  { type: 'lot', label: 'M8', loc_x: '1180', loc_y: '880' },
-  { type: 'lot', label: 'M9', loc_x: '1500', loc_y: '1180' },
-  { type: 'lot', label: 'M10', loc_x: '2360', loc_y: '1280' },
-  { type: 'lot', label: 'M11', loc_x: '360', loc_y: '960' },
-  { type: 'lot', label: 'M12', loc_x: '380', loc_y: '1460' },
+// Create the Object Prototype that will contain our Points
+function MapLocationData(type, label, loc_x, loc_y, id) {
+  this.type = type;
+  this.label = label;
+  this.loc_x = loc_x;
+  this.loc_y = loc_y;
+  this.id = id;
+}
+
+// Load the Data
+const mapLocationEntries = [
+  new MapLocationData('safety', 'S', '1980', '520', 'mu--loc-s3'),
+  new MapLocationData('emergency', 'emergency', '780', '140', 'mu--loc-e4'),
+  new MapLocationData('emergency', 'emergency', '2140', '0', 'mu--loc-e5'),
+  new MapLocationData('emergency', 'emergency', '2160', '80', 'mu--loc-e6'),
+  new MapLocationData('emergency', 'emergency', '2200', '180', 'mu--loc-e7'),
+  new MapLocationData('emergency', 'emergency', '340', '680', 'mu--loc-e8'),
+  new MapLocationData('emergency', 'emergency', '360', '860', 'mu--loc-e9'),
+  new MapLocationData('emergency', 'emergency', '580', '1340', 'mu--loc-e10'),
+  new MapLocationData('emergency', 'emergency', '940', '820', 'mu--loc-e11'),
+  new MapLocationData('emergency', 'emergency', '1640', '1120', 'mu--loc-e12'),
+  new MapLocationData('emergency', 'emergency', '2240', '920', 'mu--loc-e13'),
+  new MapLocationData('emergency', 'emergency', '2260', '1400', 'mu--loc-e14'),
+  new MapLocationData('number', '1', '640', '740', 'mu--loc-n15'),
+  new MapLocationData('number', '2', '840', '1300', 'mu--loc-n16'),
+  new MapLocationData('number', '3', '1260', '640', 'mu--loc-n17'),
+  new MapLocationData('number', '4', '1540', '180', 'mu--loc-n18'),
+  new MapLocationData('number', '5', '640', '600', 'mu--loc-n19'),
+  new MapLocationData('number', '6', '2260', '300', 'mu--loc-n20'),
+  new MapLocationData('number', '7', '1120', '600', 'mu--loc-n21'),
+  new MapLocationData('number', '8', '820', '860', 'mu--loc-n22'),
+  new MapLocationData('number', '9', '1580', '660', 'mu--loc-n23'),
+  new MapLocationData('number', '10', '3000', '940', 'mu--loc-n24'),
+  new MapLocationData('number', '11', '1620', '440', 'mu--loc-n25'),
+  new MapLocationData('number', '12', '920', '640', 'mu--loc-n26'),
+  new MapLocationData('number', '13', '1220', '1300', 'mu--loc-n27'),
+  new MapLocationData('number', '14', '2040', '880', 'mu--loc-n28'),
+  new MapLocationData('number', '16', '2380', '960', 'mu--loc-n29'),
+  new MapLocationData('number', '17', '1700', '1540', 'mu--loc-n30'),
+  new MapLocationData('number', '18', '940', '200', 'mu--loc-n31'),
+  new MapLocationData('number', '19', '1700', '40', 'mu--loc-n32'),
+  new MapLocationData('number', '20', '2560', '1640', 'mu--loc-n33'),
+  new MapLocationData('number', '22', '1940', '160', 'mu--loc-n34'),
+  new MapLocationData('number', '23', '1020', '400', 'mu--loc-n35'),
+  new MapLocationData('number', '24', '3260', '780', 'mu--loc-n36'),
+  new MapLocationData('number', '25', '1480', '340', 'mu--loc-n37'),
+  new MapLocationData('number', '29', '80', '640', 'mu--loc-n38'),
+  new MapLocationData('number', '31', '1920', '420', 'mu--loc-n39'),
+  new MapLocationData('number', '32', '2180', '560', 'mu--loc-n40'),
+  new MapLocationData('number', '36', '260', '820', 'mu--loc-n41'),
+  new MapLocationData('number', '40', '2020', '1060', 'mu--loc-n42'),
+  new MapLocationData('number', '41', '2200', '1000', 'mu--loc-n43'),
+  new MapLocationData('number', '42', '180', '740', 'mu--loc-n44'),
+  new MapLocationData('number', '43', '2200', '840', 'mu--loc-n45'),
+  new MapLocationData('number', '44', '1680', '1000', 'mu--loc-n46'),
+  new MapLocationData('number', '45', '2060', '480', 'mu--loc-n47'),
+  new MapLocationData('number', '46', '1860', '940', 'mu--loc-n48'),
+  new MapLocationData('number', '47', '3280', '1100', 'mu--loc-n49'),
+  new MapLocationData('lot', 'M1', '1800', '120', 'mu--loc-l50'),
+  new MapLocationData('lot', 'M2', '2220', '80', 'mu--loc-l51'),
+  new MapLocationData('lot', 'M3', '2340', '160', 'mu--loc-l52'),
+  new MapLocationData('lot', 'M4', '2060', '140', 'mu--loc-l53'),
+  new MapLocationData('lot', 'M5', '3480', '780', 'mu--loc-l54'),
+  new MapLocationData('lot', 'M6', '1740', '340', 'mu--loc-l55'),
+  new MapLocationData('lot', 'M7', '380', '580', 'mu--loc-l56'),
+  new MapLocationData('lot', 'M8', '1180', '880', 'mu--loc-l57'),
+  new MapLocationData('lot', 'M9', '1500', '1180', 'mu--loc-l58'),
+  new MapLocationData('lot', 'M10', '2360', '1280', 'mu--loc-l59'),
+  new MapLocationData('lot', 'M11', '360', '960', 'mu--loc-l60'),
+  new MapLocationData('lot', 'M12', '380', '1460', 'mu--loc-l61'),
 ];
 
 //LEGEND ENTRY DATA
 //---------------------------------------------
+// Create the Object Prototype that will contain our Points
+function MapLegendData(group, legend, label, sublabel) {
+  this.group = group;
+  this.legend = legend;
+  this.label = label;
+  this.sublabel = sublabel;
+}
+
+// Load the Data
 const mapLegendEntries = [
-  {
-    legend: '12',
-    group: 'acad',
-    label: 'University Commons & Staley Library',
-    sublabel: 'Student Success Center',
-  },
-  {
-    legend: '9',
-    group: 'acad',
-    label: 'Shilling Hall',
-    sublabel: 'Student Financial Services, Help Desk',
-  },
-  {
-    legend: '7',
-    group: 'acad',
-    label: 'Pilling Chapel',
-    sublabel: '',
-  },
-  {
-    legend: '8',
-    group: 'acad',
-    label: 'Perkinson Music Center',
-    sublabel: '',
-  },
-  {
-    legend: '13',
-    group: 'acad',
-    label: 'Millikin Health Clinic',
-    sublabel: '',
-  },
-  {
-    legend: '5',
-    group: 'acad',
-    label: 'Leighty-Tabor Science Center',
-    sublabel: '',
-  },
-  {
-    legend: '10',
-    group: 'acad',
-    label: 'Health Sciences Center West',
-    sublabel: '',
-  },
-  {
-    legend: '24',
-    group: 'acad',
-    label: 'Health Sciences Center',
-    sublabel: '',
-  },
-  {
-    legend: '4',
-    group: 'acad',
-    label: 'Griswold Physical Education Center',
-    sublabel: '',
-  },
-  {
-    legend: '3',
-    group: 'acad',
-    label: 'Gorin Hall',
-    sublabel: 'Admission Office, Registrar, Marketing',
-  },
-  {
-    legend: '6',
-    group: 'acad',
-    label: 'Dolson Hall',
-    sublabel: 'Office of Residence Life',
-  },
-  {
-    legend: '11',
-    group: 'acad',
-    label: 'Center for Theatre & Dance',
-    sublabel: '',
-  },
-  {
-    legend: '2',
-    group: 'acad',
-    label: 'Alumni/Development Center',
-    sublabel: '',
-  },
-  {
-    legend: '1',
-    group: 'acad',
-    label: 'ADM-Scovill Hall',
-    sublabel: 'Tabor School of Business, Center for Entrepreneurship, SCORE',
-  },
-  {
-    legend: '19',
-    group: 'athletics',
-    label: 'Workman Family Softball Field',
-    sublabel: '',
-  },
-  {
-    legend: '20',
-    group: 'athletics',
-    label: 'Workman Family Baseball Field',
-    sublabel: '',
-  },
-  {
-    legend: '25',
-    group: 'athletics',
-    label: 'Rathje Athletic Center',
-    sublabel: 'Coming soon!',
-  },
-  {
-    legend: '4',
-    group: 'athletics',
-    label: 'Griswold Physical Education Center',
-    sublabel: '',
-  },
-  {
-    legend: '18',
-    group: 'athletics',
-    label: 'Frank M. Lindsay Track & Field',
-    sublabel: '',
-  },
-  {
-    legend: '17',
-    group: 'athletics',
-    label: 'Decatur Indoor Sports Center',
-    sublabel: '(DISC)',
-  },
-  {
-    legend: '16',
-    group: 'athletics',
-    label: 'Bartlett Tennis Courts',
-    sublabel: '',
-  },
-  {
-    legend: '14',
-    group: 'athletics',
-    label: 'Athletic Department',
-    sublabel: '',
-  },
-  {
-    legend: '24',
-    group: 'arts',
-    label: 'Pipe Dreams Studio Theatre',
-    sublabel: '',
-  },
-  {
-    legend: '7',
-    group: 'arts',
-    label: 'Pilling Chapel',
-    sublabel: '',
-  },
-  {
-    legend: '8',
-    group: 'arts',
-    label: 'Perkinson Music Center',
-    sublabel: '',
-  },
-  {
-    legend: '40',
-    group: 'arts',
-    label: 'Percussion House',
-    sublabel: '',
-  },
-  {
-    legend: '23',
-    group: 'arts',
-    label: 'Kirkland Fine Arts Center',
-    sublabel: '',
-  },
-  {
-    legend: '11',
-    group: 'arts',
-    label: 'Center for Theatre & Dance',
-    sublabel: '',
-  },
-  {
-    legend: '22',
-    group: 'arts',
-    label: '3D Arts & Theatre Center',
-    sublabel: '',
-  },
-  {
-    legend: '9',
-    group: 'dining',
-    label: 'Einstein Bros. Bagels',
-    sublabel: 'Shilling Hall (North Entrance)',
-  },
-  {
-    legend: '10',
-    group: 'dining',
-    label: 'Domino’s, University Dogs',
-    sublabel: '',
-  },
-  {
-    legend: '12',
-    group: 'dining',
-    label: 'Dining Hall, Common Grounds',
-    sublabel: 'University Commons',
-  },
-  {
-    legend: '46',
-    group: 'housing',
-    label: 'Weck Hall',
-    sublabel: '',
-  },
-  {
-    legend: '45',
-    group: 'housing',
-    label: 'Walker Hall',
-    sublabel: '',
-  },
-  {
-    legend: '47',
-    group: 'housing',
-    label: 'The Woods at Millikin',
-    sublabel: '',
-  },
-  {
-    legend: '44',
-    group: 'housing',
-    label: 'Tau Kappa Epsilon',
-    sublabel: '',
-  },
-  {
-    legend: '43',
-    group: 'housing',
-    label: 'Sigma Alpha Epsilon',
-    sublabel: '',
-  },
-  {
-    legend: '42',
-    group: 'housing',
-    label: 'Pi Beta Phi',
-    sublabel: '',
-  },
-  {
-    legend: '41',
-    group: 'housing',
-    label: 'New Hall 4',
-    sublabel: '',
-  },
-  {
-    legend: '36',
-    group: 'housing',
-    label: 'Huss House',
-    sublabel: '',
-  },
-  {
-    legend: '6',
-    group: 'housing',
-    label: 'Dolson Hall',
-    sublabel: '',
-  },
-  {
-    legend: '32',
-    group: 'housing',
-    label: 'Blackburn Hall',
-    sublabel: '',
-  },
-  {
-    legend: '31',
-    group: 'housing',
-    label: 'Aston Hall',
-    sublabel: '',
-  },
-  {
-    legend: '29',
-    group: 'housing',
-    label: 'Alpha Chi Omega',
-    sublabel: '',
-  },
+  new MapLegendData('emergency', 'emergency', 'Emergency', ''),
+  new MapLegendData('safety', 'S', 'Public Safety', 'Walker Hall'),
+  new MapLegendData('acad', '12', 'University Commons & Staley Library', 'Student Success Center'),
+  new MapLegendData('acad', '9', 'Shilling Hall', 'Student Financial Services, Help Desk'),
+  new MapLegendData('acad', '7', 'Pilling Chapel', ''),
+  new MapLegendData('acad', '8', 'Perkinson Music Center', ''),
+  new MapLegendData('acad', '13', 'Millikin Health Clinic', ''),
+  new MapLegendData('acad', '5', 'Leighty-Tabor Science Center', ''),
+  new MapLegendData('acad', '10', 'Health Sciences Center West', ''),
+  new MapLegendData('acad', '24', 'Health Sciences Center', ''),
+  new MapLegendData('acad', '4', 'Griswold Physical Education Center', ''),
+  new MapLegendData('acad', '3', 'Gorin Hall', 'Admission Office, Registrar, Marketing'),
+  new MapLegendData('acad', '6', 'Dolson Hall', 'Office of Residence Life'),
+  new MapLegendData('acad', '11', 'Center for Theatre & Dance', ''),
+  new MapLegendData('acad', '2', 'Alumni/Development Center', ''),
+  new MapLegendData('acad', '1', 'ADM-Scovill Hall', 'Tabor School of Business, Center for Entrepreneurship, SCORE'),
+  new MapLegendData('arts', '24', 'Pipe Dreams Studio Theatre', ''),
+  new MapLegendData('arts', '7', 'Pilling Chapel', ''),
+  new MapLegendData('arts', '8', 'Perkinson Music Center', ''),
+  new MapLegendData('arts', '40', 'Percussion House', ''),
+  new MapLegendData('arts', '23', 'Kirkland Fine Arts Center', ''),
+  new MapLegendData('arts', '11', 'Center for Theatre & Dance', ''),
+  new MapLegendData('arts', '22', '3D Arts & Theatre Center', ''),
+  new MapLegendData('athletics', '19', 'Workman Family Softball Field', ''),
+  new MapLegendData('athletics', '20', 'Workman Family Baseball Field', ''),
+  new MapLegendData('athletics', '25', 'Rathje Athletic Center', 'Coming soon!'),
+  new MapLegendData('athletics', '4', 'Griswold Physical Education Center', ''),
+  new MapLegendData('athletics', '18', 'Frank M. Lindsay Track & Field', ''),
+  new MapLegendData('athletics', '17', 'Decatur Indoor Sports Center', '(DISC)'),
+  new MapLegendData('athletics', '16', 'Bartlett Tennis Courts', ''),
+  new MapLegendData('athletics', '14', 'Athletic Department', ''),
+  new MapLegendData('dining', '9', 'Einstein Bros. Bagels', 'Shilling Hall (North Entrance)'),
+  new MapLegendData('dining', '10', 'Domino’s, University Dogs', ''),
+  new MapLegendData('dining', '12', 'Dining Hall, Common Grounds', 'University Commons'),
+  new MapLegendData('housing', '46', 'Weck Hall', ''),
+  new MapLegendData('housing', '45', 'Walker Hall', ''),
+  new MapLegendData('housing', '47', 'The Woods at Millikin', ''),
+  new MapLegendData('housing', '44', 'Tau Kappa Epsilon', ''),
+  new MapLegendData('housing', '43', 'Sigma Alpha Epsilon', ''),
+  new MapLegendData('housing', '42', 'Pi Beta Phi', ''),
+  new MapLegendData('housing', '41', 'New Hall 4', ''),
+  new MapLegendData('housing', '36', 'Huss House', ''),
+  new MapLegendData('housing', '6', 'Dolson Hall', ''),
+  new MapLegendData('housing', '32', 'Blackburn Hall', ''),
+  new MapLegendData('housing', '31', 'Aston Hall', ''),
+  new MapLegendData('housing', '29', 'Alpha Chi Omega', ''),
+  new MapLegendData('lot', 'M1', 'Lot M1', ''),
+  new MapLegendData('lot', 'M2', 'Lot M2', ''),
+  new MapLegendData('lot', 'M3', 'Lot M3', ''),
+  new MapLegendData('lot', 'M4', 'Lot M4', ''),
+  new MapLegendData('lot', 'M5', 'Lot M5', ''),
+  new MapLegendData('lot', 'M6', 'Lot M6', ''),
+  new MapLegendData('lot', 'M7', 'Lot M7', ''),
+  new MapLegendData('lot', 'M8', 'Lot M8', ''),
+  new MapLegendData('lot', 'M9', 'Lot M9', ''),
+  new MapLegendData('lot', 'M10', 'Lot M10', ''),
+  new MapLegendData('lot', 'M11', 'Lot M11', ''),
+  new MapLegendData('lot', 'M12', 'Lot M12', ''),
 ];
+
+// MAPS
+//---------------------------------------------
+//Use a Map to define our classes for the DIV that contains the label
+const labelClassMap = new Map([
+  ['safety', 'map--label map--label-safety'],
+  ['emergency', 'map--label map--label-emergency'],
+  ['lot', 'map--label map--label-lot'],
+  ['lot-wide', 'map--label map--label-lot map--label-lot-wide'],
+  ['number', 'map--label map--label-number'],
+  ['acad', 'map--label map--label-number'],
+  ['arts', 'map--label map--label-number'],
+  ['athletics', 'map--label map--label-number'],
+  ['dining', 'map--label map--label-number'],
+  ['housing', 'map--label map--label-number'],
+]);
+
+//Use a Map to define our objects that are the groups of Legend Enties
+const legendsMap = new Map([
+  ['acad', document.getElementById('acad-legends')],
+  ['athletics', document.getElementById('athletics-legends')],
+  ['arts', document.getElementById('arts-legends')],
+  ['dining', document.getElementById('dining-legends')],
+  ['housing', document.getElementById('housing-legends')],
+  ['safety', document.getElementById('safety-legends')],
+  ['emergency', document.getElementById('safety-legends')],
+  ['lot', document.getElementById('lot-legends')],
+]);
+
+// Display Values of the Group Names
+const groupsMap = new Map([
+  ['acad', 'Academic / Administration'],
+  ['arts', 'Fine & Performing Arts'],
+  ['athletics', 'Athletics'],
+  ['dining', 'Dining'],
+  ['housing', 'Housing'],
+  ['safety', 'Safety & Emergency'],
+  ['emergency', 'Safety & Emergency'],
+  ['lot', 'Parking Lots'],
+]);
+
+//GLOBAL CONSTANTS
+//---------------------------------------------
+//Get elements we'll need to interact with from the DOM
+const mapContainer = document.getElementById('map--container');
+
+// Handle Helper Box Overlay
+const mapHelper = document.getElementById('map--helper');
+
+//Get dimensions we'll be using to place the Overlays on the map
+//Should rarely change, this is the width of the actual image used to locate points on it in our data
+//If you ever change the map enough you need to measure new points, you'll likely need to change this
+const mapBaseWidth = 3600;
+const mapBaseHeight = 1800;
 
 //FUNCTIONS
 //---------------------------------------------
-function loadLabels() {
-  //Get elements we'll need to interact with from the DOM
-  const mapContainer = document.getElementById('map--container');
+// METHODS
+// These get placed on the objects containing our Data
+// Makes it a lot Easier/Cleaner to get the resulting HTML
 
-  //Get dimensions we'll be using to place the Overlays on the map
-  const mapBaseWidth = 3600;
-  const mapBaseHeight = 1800;
+// For Labels
+// Location Style gives the position to place each label
+MapLocationData.prototype.getLocStyle = function () {
+  return `left: calc( ${this.loc_x} / ${mapBaseWidth} * 100%); top: calc( ${this.loc_y} / ${mapBaseHeight} * 100% )`;
+};
 
-  //Use a Map to define our classes for the DIV that contains the label
-  const labelClassMap = new Map([
-    ['safety', 'map--label map--label-safety'],
-    ['emergency', 'map--label map--label-emergency'],
-    ['lot', 'map--label map--label-lot'],
-    ['lot-wide', 'map--label map--label-lot map--label-lot-wide'],
-    ['number', 'map--label map--label-number'],
-  ]);
+//Creates labels, pass a location style to actually overlay it on the map, otherwise it's for display somewhere else.
+MapLocationData.prototype.getLabelHTML = function (locStyle = '') {
+  // Lots need to be a bit wider if they are two digit lots.
+  const divClass = this.type === 'lot' && this.label.length >= 3 ? labelClassMap.get('lot-wide') : labelClassMap.get(this.type);
+  // Emergency labels use the Material Icons
+  const spanClass = this.type === 'emergency' ? 'material-symbols-outlined' : '';
 
-  for (const label of mapOverlays) {
-    const divClass = label.type === 'lot' && label.label.length >= 3 ? labelClassMap.get('lot-wide') : labelClassMap.get(label.type);
-    const spanClass = label.type === 'emergency' ? 'material-symbols-outlined' : '';
-    // Build the HTML we want to put on the page, yes could be done in the command, doing here to make easier to follow
-    const labelContent =
-      label.type === 'lot'
-        ? `
+  // Build the HTML we want to put on the page, yes could be done in the command, doing here to make easier to follow
+  // Lots have a slightly different content because they have two rows
+  const labelContent =
+    this.type === 'lot'
+      ? `
         <div>lot</div>
-        <div>${label.label}</div>
-      `
-        : `
-        <span class="${spanClass}">${label.label}</span>
+        <div>${this.label}</div>`
+      : `
+        <span class="${spanClass}">${this.label}</span>
       `;
-    const labelHtml = `
-      <div class="${divClass}" style="left: calc( ${label.loc_x} / ${mapBaseWidth} * 100%); top: calc( ${label.loc_y} / ${mapBaseHeight} * 100% );">
-        ${labelContent}  
-      </div>`;
+  const labelHTML = `<div id="${this.id}" class="map--clickable-label ${divClass}" style="${locStyle}" onclick="loadHelper('${this.label}','${this.id}')">${labelContent}</div>`;
+  return labelHTML;
+};
 
-    //Load the HTML to the Page
-    mapContainer.insertAdjacentHTML('afterbegin', labelHtml);
+// For Legends
+MapLegendData.prototype.getLabelHTML = function () {
+  const divClass = this.group === 'lot' && this.legend.length >= 3 ? labelClassMap.get('lot-wide') : labelClassMap.get(this.group);
+  const sublabelHTML = this.sublabel && this.sublabel != '' ? `<div class="map--label-sublabel">${this.sublabel}</div>` : '';
+  // Emergency labels use the Material Icons
+  const spanClass = this.legend === 'emergency' ? 'material-symbols-outlined' : '';
+
+  // Build the HTML we want to put on the page, yes could be done in the command, doing here to make easier to follow
+  // Lots have a slightly different content because they have two rows
+  const labelContent =
+    this.group === 'lot'
+      ? `
+        <div>lot</div>
+        <div>${this.legend}</div>`
+      : `
+        <span class="${spanClass}">${this.legend}</span>
+      `;
+  const labelHTML = `
+      <div class="${divClass}">${labelContent}</div>
+      <div class="map--label-value">
+        ${this.label}
+        ${sublabelHTML}
+      </div>`;
+  return labelHTML;
+};
+
+MapLegendData.prototype.getHelperHTML = function () {
+  const divClass = this.group === 'lot' && this.legend.length >= 3 ? labelClassMap.get('lot-wide') : labelClassMap.get(this.group);
+  const sublabelHTML = this.sublabel && this.sublabel != '' ? `<div class="map--helper-sublabel">${this.sublabel}</div>` : '';
+  // Emergency labels use the Material Icons
+  const spanClass = this.legend === 'emergency' ? 'material-symbols-outlined' : '';
+
+  // Build the HTML we want to put on the page, yes could be done in the command, doing here to make easier to follow
+  // Lots have a slightly different content because they have two rows
+  const labelContent =
+    this.group === 'lot'
+      ? `
+        <div>lot</div>
+        <div>${this.legend}</div>`
+      : `
+        <span class="${spanClass}">${this.legend}</span>
+      `;
+  const labelHTML = `
+    <div class="map--helper-section">
+      <div class="${divClass}">
+        ${labelContent}
+      </div>
+      <div class="map--helper-description">
+        <div class="map--helper-group">${groupsMap.get(this.group)}</div>
+        <div class="map--helper-label">${this.label}</div>
+        ${sublabelHTML}
+      </div>
+    </div>
+    `;
+
+  return labelHTML;
+};
+
+// Clears the Helper Box and any clicked elements
+function clearHelper() {
+  const clicked = document.getElementsByClassName('map--clickable-clicked');
+  for (const element of clicked) {
+    element.classList.remove('map--clickable-clicked');
+  }
+  mapHelper.innerHTML = '';
+  mapHelper.classList = 'mu--modal-closed';
+}
+
+// Loads the Helper Box with content
+function loadHelper(label, id) {
+  clearHelper();
+  const legendData = mapLegendEntries.filter((value) => value.legend == label); //get the whole array, can be more than one
+
+  let innerHTML = '';
+  for (const entry of legendData) {
+    innerHTML += entry.getHelperHTML();
+  }
+  const finalHTML = `<div class="map--helper-block">${innerHTML}</div>`;
+
+  mapHelper.innerHTML = finalHTML;
+  mapHelper.classList = 'mu--modal-open';
+
+  const trigger = document.getElementById(id);
+  trigger.classList.add('map--clickable-clicked');
+}
+// RENDERS
+//---------------------------------------------
+document.getElementById('map--image').addEventListener('click', clearHelper);
+
+// INTERACTIONS
+//---------------------------------------------
+// Give the map a way to clear the Helper Box when clicked
+// Done on the Map itself so other clicks don't propogate to it.
+
+// EXTERNAL METHODS
+// Designed to be called by the page after load
+// Loads all the Labels on the Map
+function loadMapLabels() {
+  for (const label of mapLocationEntries) {
+    mapContainer.insertAdjacentHTML('afterbegin', label.getLabelHTML(label.getLocStyle()));
   }
 }
 
+// Loads all the Entries in the Legend
 function loadLegends() {
-  //These are the "buckets" each of the legend entries can go into
-  //We need a way to convert the data from the json object to the actual element on the page, so we'll use a Map to let us do that
-  const legendsMap = new Map([
-    ['acad', document.getElementById('acad-legends')],
-    ['athletics', document.getElementById('athletics-legends')],
-    ['arts', document.getElementById('arts-legends')],
-    ['dining', document.getElementById('dining-legends')],
-    ['housing', document.getElementById('housing-legends')],
-  ]);
   for (const entry of mapLegendEntries) {
-    const sublabel = entry.sublabel && entry.sublabel != '' ? `<div class="map--label-sublabel">${entry.sublabel}</div>` : '';
-
-    legendsMap.get(entry.group).insertAdjacentHTML(
-      'afterBegin',
-      `
-            <div class="map--label map--label-number"><span>${entry.legend}</span></div>
-            <div class="map--label-value">${entry.label}
-            ${sublabel}</div>`
-    );
+    legendsMap.get(entry.group).insertAdjacentHTML('afterBegin', entry.getLabelHTML());
   }
 }
