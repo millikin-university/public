@@ -84,8 +84,6 @@ function MapLegendData(group, legend, label, sublabel) {
 
 // Load the Data
 const mapLegendEntries = [
-  new MapLegendData('emergency', 'emergency', 'Emergency', ''),
-  new MapLegendData('safety', 'S', 'Public Safety', 'Walker Hall'),
   new MapLegendData('acad', '12', 'University Commons & Staley Library', 'Student Success Center'),
   new MapLegendData('acad', '9', 'Shilling Hall', 'Student Financial Services, Help Desk'),
   new MapLegendData('acad', '7', 'Pilling Chapel', ''),
@@ -118,6 +116,7 @@ const mapLegendEntries = [
   new MapLegendData('dining', '9', 'Einstein Bros. Bagels', 'Shilling Hall (North Entrance)'),
   new MapLegendData('dining', '10', 'Domino’s, University Dogs', ''),
   new MapLegendData('dining', '12', 'Dining Hall, Common Grounds', 'University Commons'),
+  new MapLegendData('emergency', 'emergency', 'Emergency', ''),
   new MapLegendData('housing', '46', 'Weck Hall', ''),
   new MapLegendData('housing', '45', 'Walker Hall', ''),
   new MapLegendData('housing', '47', 'The Woods at Millikin', ''),
@@ -130,18 +129,19 @@ const mapLegendEntries = [
   new MapLegendData('housing', '32', 'Blackburn Hall', ''),
   new MapLegendData('housing', '31', 'Aston Hall', ''),
   new MapLegendData('housing', '29', 'Alpha Chi Omega', ''),
-  new MapLegendData('lot', 'M1', 'Lot M1', ''),
-  new MapLegendData('lot', 'M2', 'Lot M2', ''),
-  new MapLegendData('lot', 'M3', 'Lot M3', ''),
-  new MapLegendData('lot', 'M4', 'Lot M4', ''),
-  new MapLegendData('lot', 'M5', 'Lot M5', ''),
-  new MapLegendData('lot', 'M6', 'Lot M6', ''),
-  new MapLegendData('lot', 'M7', 'Lot M7', ''),
-  new MapLegendData('lot', 'M8', 'Lot M8', ''),
-  new MapLegendData('lot', 'M9', 'Lot M9', ''),
-  new MapLegendData('lot', 'M10', 'Lot M10', ''),
-  new MapLegendData('lot', 'M11', 'Lot M11', ''),
   new MapLegendData('lot', 'M12', 'Lot M12', ''),
+  new MapLegendData('lot', 'M11', 'Lot M11', ''),
+  new MapLegendData('lot', 'M10', 'Lot M10', ''),
+  new MapLegendData('lot', 'M9', 'Lot M9', ''),
+  new MapLegendData('lot', 'M8', 'Lot M8', ''),
+  new MapLegendData('lot', 'M7', 'Lot M7', ''),
+  new MapLegendData('lot', 'M6', 'Lot M6', ''),
+  new MapLegendData('lot', 'M5', 'Lot M5', ''),
+  new MapLegendData('lot', 'M4', 'Lot M4', ''),
+  new MapLegendData('lot', 'M3', 'Lot M3', ''),
+  new MapLegendData('lot', 'M2', 'Lot M2', ''),
+  new MapLegendData('lot', 'M1', 'Lot M1', ''),
+  new MapLegendData('safety', 'S', 'Public Safety', 'Walker Hall'),
 ];
 
 // MAPS
