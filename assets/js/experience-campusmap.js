@@ -304,13 +304,12 @@ function loadHelper(label, id) {
   clearHelper();
   const legendData = mapLegendEntries.filter((value) => value.legend == label); //get the whole array, can be more than one
 
-  let innerHTML = '';
+  let blockHTML = '';
   for (const entry of legendData) {
-    innerHTML += entry.getHelperHTML();
+    blockHTML += entry.getHelperHTML();
   }
-  const finalHTML = `<div class="map--helper-block">${innerHTML}</div>`;
 
-  mapHelper.innerHTML = finalHTML;
+  mapHelper.innerHTML = blockHTML;
   mapHelper.classList = 'mu--modal-open';
 
   const trigger = document.getElementById(id);
@@ -319,6 +318,7 @@ function loadHelper(label, id) {
 // RENDERS
 //---------------------------------------------
 document.getElementById('map--image').addEventListener('click', clearHelper);
+mapHelper.addEventListener('click', clearHelper);
 
 // INTERACTIONS
 //---------------------------------------------

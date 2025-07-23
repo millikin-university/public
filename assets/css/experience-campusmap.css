@@ -1,21 +1,18 @@
 #map--image {
   width: 100%;
-  min-width: 600px;
-  transition: var(--transition-speed);
 }
 
 #map--container {
   position: relative;
   width: 100%;
-  min-width: 600px;
-  transition: var(--transition-speed);
 }
 
 .map--legend {
   display: grid;
   gap: 16px;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   margin-bottom: 24px;
+  font-size: 11pt;
 }
 
 .map--legend summary {
@@ -40,10 +37,10 @@
   border: 1px solid #ffffff;
   text-align: center;
   line-height: 0;
-  width: 28px;
-  height: 28px;
+  width: 24px;
+  height: 24px;
   font-family: Roboto;
-  font-size: 20px;
+  font-size: 16px;
   font-weight: bold;
   display: inline-block;
 }
@@ -54,7 +51,7 @@
 }
 
 .map--label .material-symbols-outlined {
-  font-size: 20px;
+  font-size: 16px;
   padding-top: 50%;
   line-height: 0;
   margin-left: -1px; /* They don't seem quite aligned at 0px*/
@@ -70,15 +67,15 @@
 
 .map--label-emergency {
   background-color: #ff0000;
-  width: 20px;
-  height: 20px;
+  width: 16px;
+  height: 16px;
 }
 
 .map--label-lot {
   background-color: rgba(255, 255, 255, 0.75);
   color: #000000;
   border: 1px solid #000000;
-  font-size: 16px;
+  font-size: 12px;
   text-align: left;
   display: inline-block;
   padding-left: 1px;
@@ -97,7 +94,7 @@
 }
 
 .map--label-lot div:last-child {
-  top: 18px;
+  top: 16px;
   font-weight: bold;
 }
 
@@ -114,6 +111,7 @@
 
 .map--clickable-label {
   cursor: pointer;
+  transition: var(--transition-speed);
 }
 
 .map--clickable-label:hover {
@@ -142,80 +140,44 @@
   position: absolute;
   top: 0;
   right: 0;
-  width: calc(1020 / 3600 * 100%);
-  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  flex-basis: 25%;
+  flex-grow: 1;
+  text-align: left;
+  color: #000000;
+  background-color: rgba(255, 255, 255, 0.88);
   font-size: max(min(1.5vw, 11pt), 8pt);
   border-bottom-left-radius: 8px;
-  background-color: rgba(255, 255, 255, 0.8);
-  color: #000000;
-  transition: var(--transition-speed);
+  z-index: 60;
 }
 
-.map--helper-block {
+#map--helper .map--helper-block {
   text-align: left;
 }
 
-.map--helper-section {
+#map--helper .map--helper-section {
   display: grid;
   gap: 12px 6px;
   grid-template-columns: 30px auto;
+  padding: 2px 4px 4px 0px;
 }
 
 #map--helper .map--helper-section .map--label {
   position: unset;
+  margin-top: -1px;
   visibility: hidden;
 }
-
 #map--helper .map--helper-section:first-child .map--label {
   visibility: unset;
 }
 
-.map--helper-group {
+#map--helper .map--helper-group {
   font-weight: bold;
+  color: var(--mu-blue-dark);
 }
 
-.map--helper-sublabel {
+#map--helper .map--helper-sublabel {
   font-style: italic;
-  font-size: min(1.25vw, 10pt);
-}
-
-@media screen and (min-width: 1000px) {
-  #map--image {
-    width: 900px;
-  }
-
-  #map--container {
-    position: relative;
-    width: 900px; /* default width is 50% original image width */
-  }
-
-  #map--container .map--label {
-    scale: 87.5%;
-  }
-}
-
-@media screen and (min-width: 1450px) {
-  #map--image {
-    width: 1350px;
-  }
-
-  #map--container {
-    position: relative;
-    width: 1350px; /* default width is 50% original image width */
-  }
-
-  #map--container .map--label {
-    scale: 100%;
-  }
-}
-
-@media screen and (min-width: 2000px) {
-  #map--image {
-    width: 1800px;
-  }
-
-  #map--container {
-    position: relative;
-    width: 1800px; /* default width is 50% original image width */
-  }
+  font-size: max(min(1.25vw, 10pt), 7.5pt);
 }
