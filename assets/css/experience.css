@@ -555,179 +555,6 @@ html {
   color: #ffffff;
 }
 
-/* .mu--multilink-shade {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  padding: 8px;
-  opacity: 1;
-  background-color: rgba(0, 0, 0, 0.6);
-  z-index: 50;
-}
-
-.mu--multilink-card {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  column-gap: 4px;
-}
-
-.mu--multilink-card a.mu--multilink,
-.mu--page-content a.mu--multilink {
-  display: inline-flex;
-  flex-basis: 45%;
-  flex-grow: 1;
-  white-space: nowrap;
-  background-color: #ffffff;
-  color: var(--mu-blue-dark);
-  border: 2px solid var(--mu-blue-medium-light);
-  border-radius: calc(var(--rectangle-radius) + 2px);
-  font-size: 9.5pt;
-  font-weight: bold;
-  height: 44px;
-  margin-top: 8px;
-  text-decoration: none;
-  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.75);
-}
-
-.mu--subtext-card-bottom .mu--multilink-card a.mu--multilink,
-.mu--page-content a.mu--multilink {
-  background-color: var(--mu-blue-dark);
-  color: #ffffff;
-}
-
-.mu--subtext-card-bottom .mu--multilink-card a.mu--multilink {
-  height: 28px;
-  font-size: 9pt;
-}
-
-.mu--multilink-card a.mu--multilink span.mu--link-icon,
-.mu--multilink-card a.mu--multilink span.material-symbols-outlined,
-.mu--page-content a.mu--multilink span.mu--link-icon,
-.mu--page-content a.mu--multilink span.material-symbols-outlined {
-  background-color: #ffffff;
-  border-top-left-radius: var(--rectangle-radius);
-  border-bottom-left-radius: var(--rectangle-radius);
-  box-shadow: 2px 0px 4px -1px rgba(0, 0, 0, 0.5);
-  text-decoration: none;
-  transition: var(--transition-speed);
-}
-
-.mu--multilink-card a.mu--multilink span.mu--link-icon,
-.mu--multilink-card a.mu--multilink span.material-symbols-outlined,
-.mu--page-content a.mu--multilink span.material-symbols-outlined {
-  height: 40px;
-  width: 40px;
-}
-
-.mu--multilink-card a.mu--multilink span.mu--link-icon {
-  padding: 4px;
-}
-
-.mu--multilink-card a.mu--multilink span.material-symbols-outlined,
-.mu--page-content a.mu--multilink span.material-symbols-outlined {
-  color: var(--mu-blue-medium);
-}
-
-.mu--multilink-card a.mu--multilink span.material-symbols-outlined,
-.mu--page-content a.mu--multilink span.material-symbols-outlined {
-  padding: 6px;
-  font-size: 28px;
-}
-
-.mu--subtext-card-bottom .mu--multilink-card a.mu--multilink span.mu--link-icon,
-.mu--subtext-card-bottom .mu--multilink-card a.mu--multilink span.material-symbols-outlined {
-  height: 24px;
-  width: 24px;
-}
-
-.mu--subtext-card-bottom .mu--multilink-card a.mu--multilink span.mu--link-icon,
-.mu--page-content a.mu--multilink span.mu--link-icon {
-  background-color: rgba(255, 255, 255, 0.2);
-}
-
-.mu--subtext-card-bottom .mu--multilink-card a.mu--multilink span.material-symbols-outlined,
-.mu--page-content a.mu--multilink span.material-symbols-outlined {
-  background-color: var(--mu-blue);
-  color: #ffffff;
-  padding: 4px;
-}
-
-.mu--subtext-card-bottom .mu--multilink-card a.mu--multilink span.material-symbols-outlined {
-  font-size: 16px;
-}
-
-.mu--multilink-card a.mu--multilink .mu--link-label,
-.mu--page-content a.mu--multilink .mu--link-label {
-  margin: 4px 8px 4px 8px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.mu--multilink-card a.mu--multilink:hover,
-.mu--page-content a.mu--multilink:hover {
-  background-color: var(--mu-blue-medium-light);
-  border-color: #ffffff;
-  color: #ffffff;
-}
-
-.mu--subtext-card-bottom .mu--multilink-card a.mu--multilink:hover,
-.mu--page-content a.mu--multilink:hover {
-  background-color: var(--mu-blue);
-}
-
-.mu--multilink-card a.mu--multilink:hover .mu--link-label,
-.mu--page-content a.mu--multilink:hover .mu--link-label {
-  text-decoration: underline;
-}
-
-.mu--multilink-card a.mu--multilink:hover span.material-symbols-outlined,
-.mu--page-content a.mu--multilink:hover span.material-symbols-outlined {
-  text-decoration: none;
-}
-
-.mu--subtext-card-bottom .mu--multilink-card a.mu--multilink:hover span.material-symbols-outlined,
-.mu--page-content a.mu--multilink:hover span.material-symbols-outlined {
-  background-color: var(--mu-blue-medium-dark);
-}
-
-.mu--multilink-card a.mu--multilink .mu--link-label.mu--has-sub-label,
-.mu--page-content a.mu--multilink .mu--link-label.mu--has-sub-label {
-  margin: 4px 4px auto 8px;
-  display: unset;
-  text-decoration: unset;
-}
-
-.mu--subtext-card-bottom .mu--multilink-card a.mu--multilink .mu--link-label.mu--has-sub-label {
-  margin-top: 0px;
-}
-
-.mu--subtext-card-bottom .mu--multilink-card a.mu--multilink.mu--has-sub-label span.mu--link-icon,
-.mu--subtext-card-bottom .mu--multilink-card a.mu--multilink.mu--has-sub-label span.material-symbols-outlined {
-  height: 32px;
-  width: 32px;
-  font-size: 24px;
-}
-
-.mu--subtext-card-bottom .mu--multilink-card a.mu--multilink.mu--has-sub-label,
-.mu--page-content a.mu--multilink.mu--has-sub-label {
-  height: 36px;
-}
-
-.mu--multilink-card a.mu--multilink .mu--multilink-card a.mu--multilink:hover .mu--link-label.mu--has-sub-label :first-child,
-.mu--page-content a.mu--multilink:hover .mu--link-label.mu--has-sub-label :first-child {
-  text-decoration: underline;
-}
-
-.mu--multilink-card a.mu--multilink .mu--has-sub-label :last-child,
-.mu--page-content a.mu--multilink .mu--has-sub-label :last-child {
-  font-size: 8pt;
-  font-weight: normal;
-} */
-
 /* Page styles */
 .mu--page-header {
   width: 100%;
@@ -857,7 +684,6 @@ html {
 
 /* Link Button Dark Variant */
 .mu--link-button-dark {
-  color: #ffffff;
   background-color: var(--mu-blue-dark);
 }
 
@@ -865,9 +691,13 @@ html {
   background-color: var(--mu-blue);
 }
 
-.mu--link-button-dark .material-symbols-outlined {
-  background-color: var(--mu-blue);
+.mu--link-button-dark .mu--link-label {
   color: #ffffff;
+}
+
+.mu--link-button-dark .material-symbols-outlined {
+  color: #ffffff;
+  background-color: var(--mu-blue);
 }
 
 .mu--link-button-dark:hover .material-symbols-outlined {
