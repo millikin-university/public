@@ -411,7 +411,7 @@ html {
 .mu--modal-content h3 {
   line-height: 1.25;
   font-family: 'Roboto';
-  padding-top: 0.5em;
+  padding-top: 0.75em;
 }
 
 .mu--info-box p:first-child,
@@ -449,14 +449,7 @@ html {
 .mu--info-box ul li,
 .mu--modal-content ol li,
 .mu--modal-content ul li {
-  padding-top: 0.5em;
-}
-
-.mu--info-box ol li,
-.mu--info-box ul li,
-.mu--modal-content ol li,
-.mu--modal-content ul li {
-  padding-top: 0.5em;
+  padding-top: 0.25em;
 }
 
 .mu--info-box ol li:first-child,
