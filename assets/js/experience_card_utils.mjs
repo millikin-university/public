@@ -86,6 +86,8 @@ export function muModalLinks() {
     const iconSpan = document.createElement('span');
     iconSpan.className = 'material-symbols-outlined';
     iconSpan.textContent = modal.id;
+    iconSpan.title = modal.title;
+
     modal.appendChild(iconSpan);
     modal.toggleAttribute('data-closed');
     closeModals();
