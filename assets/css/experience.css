@@ -421,14 +421,14 @@ html {
   padding-top: 0;
 }
 
-.mu--info-box a,
-.mu--modal-content a {
+.mu--info-box a:not(.mu--link-button),
+.mu--modal-content a:not(.mu--link-button) {
   color: var(--mu-blue-medium);
   text-decoration-color: var(--mu-blue-light);
 }
 
-.mu--info-box a:hover,
-.mu--modal-content a:hover {
+.mu--info-box a:not(.mu--link-button):hover,
+.mu--modal-content a:not(.mu--link-button):hover {
   color: var(--mu-blue-medium-dark);
   text-decoration-color: var(--mu-blue-medium);
 }
