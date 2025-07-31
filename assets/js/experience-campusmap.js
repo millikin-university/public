@@ -32,7 +32,7 @@ const mapLocationEntries = [
   new MapLocationData('number', '7', '1120', '600', 'mu--loc-n21'),
   new MapLocationData('number', '8', '820', '860', 'mu--loc-n22'),
   new MapLocationData('number', '9', '1580', '660', 'mu--loc-n23'),
-  new MapLocationData('number', '10', '3000', '940', 'mu--loc-n24'),
+  new MapLocationData('number', '10', '2980', '840', 'mu--loc-n24'),
   new MapLocationData('number', '11', '1620', '440', 'mu--loc-n25'),
   new MapLocationData('number', '12', '920', '640', 'mu--loc-n26'),
   new MapLocationData('number', '13', '1220', '1300', 'mu--loc-n27'),
@@ -44,7 +44,7 @@ const mapLocationEntries = [
   new MapLocationData('number', '20', '2560', '1640', 'mu--loc-n33'),
   new MapLocationData('number', '22', '1940', '160', 'mu--loc-n34'),
   new MapLocationData('number', '23', '1020', '400', 'mu--loc-n35'),
-  new MapLocationData('number', '24', '3260', '780', 'mu--loc-n36'),
+  new MapLocationData('number', '24', '3200', '740', 'mu--loc-n36'),
   new MapLocationData('number', '25', '1480', '340', 'mu--loc-n37'),
   new MapLocationData('number', '29', '80', '640', 'mu--loc-n38'),
   new MapLocationData('number', '31', '1920', '420', 'mu--loc-n39'),
@@ -57,19 +57,19 @@ const mapLocationEntries = [
   new MapLocationData('number', '44', '1680', '1000', 'mu--loc-n46'),
   new MapLocationData('number', '45', '2060', '480', 'mu--loc-n47'),
   new MapLocationData('number', '46', '1860', '940', 'mu--loc-n48'),
-  new MapLocationData('number', '47', '3280', '1100', 'mu--loc-n49'),
+  new MapLocationData('number', '47', '2900', '1000', 'mu--loc-n49'),
   new MapLocationData('lot', 'M1', '1800', '120', 'mu--loc-l50'),
   new MapLocationData('lot', 'M2', '2220', '80', 'mu--loc-l51'),
   new MapLocationData('lot', 'M3', '2340', '160', 'mu--loc-l52'),
   new MapLocationData('lot', 'M4', '2060', '140', 'mu--loc-l53'),
-  new MapLocationData('lot', 'M5', '3480', '780', 'mu--loc-l54'),
+  new MapLocationData('lot', 'M5', '3420', '740', 'mu--loc-l54'),
   new MapLocationData('lot', 'M6', '1740', '340', 'mu--loc-l55'),
   new MapLocationData('lot', 'M7', '380', '580', 'mu--loc-l56'),
   new MapLocationData('lot', 'M8', '1180', '880', 'mu--loc-l57'),
   new MapLocationData('lot', 'M9', '1500', '1180', 'mu--loc-l58'),
   new MapLocationData('lot', 'M10', '2360', '1280', 'mu--loc-l59'),
   new MapLocationData('lot', 'M11', '360', '960', 'mu--loc-l60'),
-  new MapLocationData('lot', 'M12', '380', '1460', 'mu--loc-l61'),
+  //new MapLocationData('lot', 'M12', '380', '1460', 'mu--loc-l61'), //Closed, no longer own property
 ];
 
 //LEGEND ENTRY DATA
@@ -84,7 +84,7 @@ function MapLegendData(group, legend, label, sublabel) {
 
 // Load the Data
 const mapLegendEntries = [
-  new MapLegendData('acad', '12', 'University Commons & Staley Library', 'Student Success Center'),
+  new MapLegendData('acad', '12', 'University Commons & Staley Library', 'Student Success Center, Office of Residence Life'),
   new MapLegendData('acad', '9', 'Shilling Hall', 'Student Financial Services, Help Desk'),
   new MapLegendData('acad', '7', 'Pilling Chapel', ''),
   new MapLegendData('acad', '8', 'Perkinson Music Center', ''),
@@ -94,7 +94,7 @@ const mapLegendEntries = [
   new MapLegendData('acad', '24', 'Health Sciences Center', ''),
   new MapLegendData('acad', '4', 'Griswold Physical Education Center', ''),
   new MapLegendData('acad', '3', 'Gorin Hall', 'Admission Office, Registrar, Marketing'),
-  new MapLegendData('acad', '6', 'Dolson Hall', 'Office of Residence Life'),
+  new MapLegendData('acad', '6', 'Dolson Hall', ''),
   new MapLegendData('acad', '11', 'Center for Theatre & Dance', ''),
   new MapLegendData('acad', '2', 'Alumni/Development Center', ''),
   new MapLegendData('acad', '1', 'ADM-Scovill Hall', 'Tabor School of Business, Center for Entrepreneurship, SCORE'),
@@ -113,12 +113,13 @@ const mapLegendEntries = [
   new MapLegendData('athletics', '17', 'Decatur Indoor Sports Center', '(DISC)'),
   new MapLegendData('athletics', '16', 'Bartlett Tennis Courts', ''),
   new MapLegendData('athletics', '14', 'Athletic Department', ''),
+  new MapLegendData('athletics', '6', 'Athletic Department', ''),
   new MapLegendData('dining', '9', 'Einstein Bros. Bagels', 'Shilling Hall (North Entrance)'),
   new MapLegendData('dining', '10', 'Domino’s, University Dogs', ''),
   new MapLegendData('dining', '12', 'Dining Hall, Common Grounds', 'University Commons'),
   new MapLegendData('emergency', 'emergency', 'Emergency', ''),
   new MapLegendData('housing', '46', 'Weck Hall', ''),
-  new MapLegendData('housing', '45', 'Walker Hall', ''),
+  // new MapLegendData('housing', '45', 'Walker Hall', ''), //Condemned
   new MapLegendData('housing', '47', 'The Woods at Millikin', ''),
   new MapLegendData('housing', '44', 'Tau Kappa Epsilon', ''),
   new MapLegendData('housing', '43', 'Sigma Alpha Epsilon', ''),
@@ -129,7 +130,7 @@ const mapLegendEntries = [
   new MapLegendData('housing', '32', 'Blackburn Hall', ''),
   new MapLegendData('housing', '31', 'Aston Hall', ''),
   new MapLegendData('housing', '29', 'Alpha Chi Omega', ''),
-  new MapLegendData('lot', 'M12', 'Lot M12', ''),
+  // new MapLegendData('lot', 'M12', 'Lot M12', ''),  //Closed, no longer own property
   new MapLegendData('lot', 'M11', 'Lot M11', ''),
   new MapLegendData('lot', 'M10', 'Lot M10', ''),
   new MapLegendData('lot', 'M9', 'Lot M9', ''),
