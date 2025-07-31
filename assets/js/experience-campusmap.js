@@ -55,7 +55,7 @@ const mapLocationEntries = [
   new MapLocationData('number', '42', '180', '740', 'mu--loc-n44'),
   new MapLocationData('number', '43', '2200', '840', 'mu--loc-n45'),
   new MapLocationData('number', '44', '1680', '1000', 'mu--loc-n46'),
-  new MapLocationData('number', '45', '2060', '480', 'mu--loc-n47'),
+  // new MapLocationData('number', '45', '2060', '480', 'mu--loc-n47'),  //condemned
   new MapLocationData('number', '46', '1860', '940', 'mu--loc-n48'),
   new MapLocationData('number', '47', '2900', '1000', 'mu--loc-n49'),
   new MapLocationData('lot', 'M1', '1800', '120', 'mu--loc-l50'),
