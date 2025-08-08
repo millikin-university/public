@@ -442,6 +442,11 @@ html {
   margin-left: 2em;
 }
 
+.mu--info-box ul,
+.mu--modal-content ul {
+  list-style: none;
+}
+
 .mu--info-box li::marker,
 .mu--modal-content li::marker {
   color: var(--mu-blue);
