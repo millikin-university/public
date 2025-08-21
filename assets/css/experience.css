@@ -653,13 +653,13 @@ a:hover .ss--mso {
   color: #ffffff;
 }
 
-.mu--page-content.mu--dark a,
-.ss--pgc.ss--dark a {
+.mu--page-content.mu--dark a:not(.mu--link-button),
+.ss--pgc.ss--dark a:not(.ss--btn) {
   color: var(--mu-blue-light);
 }
 
-.mu--page-content.mu--dark a:hover,
-.ss--pgc.ss--dark a:hover {
+.mu--page-content.mu--dark a:not(.mu--link-button):hover,
+.ss--pgc.ss--dark a:not(.ss--btn):hover {
   color: var(--mu-blue-medium-light);
 }
 
