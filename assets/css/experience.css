@@ -653,6 +653,16 @@ a:hover .ss--mso {
   color: #ffffff;
 }
 
+.mu--page-content.mu--dark a,
+.ss--pgc.ss--dark a {
+  color: var(--mu-blue-light);
+}
+
+.mu--page-content.mu--dark a:hover,
+.ss--pgc.ss--dark a:hover {
+  color: var(--mu-blue-medium-light);
+}
+
 .mu--page-content p,
 .ss-pgc p {
   padding-top: 0.5em;
