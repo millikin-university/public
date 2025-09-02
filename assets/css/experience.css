@@ -199,8 +199,16 @@ a:hover .ss--mso {
   top: 0;
 }
 
+.mu--subtext-card-top.mu--subtext-50 {
+  height: 50%;
+}
+
 .mu--subtext-card-top.mu--subtext-60 {
   height: 40%;
+}
+
+.mu--subtext-card-top.mu--subtext-70 {
+  height: 30%;
 }
 
 /* Multicard horizontal layout */
@@ -265,8 +273,16 @@ a:hover .ss--mso {
   overflow-y: auto;
 }
 
+.mu--subtext-card-bottom.mu--subtext-50 {
+  height: 50%;
+}
+
 .mu--subtext-card-bottom.mu--subtext-60 {
   height: 60%;
+}
+
+.mu--subtext-card-bottom.mu--subtext-70 {
+  height: 70%;
 }
 
 @media screen and (max-width: 440px) {
@@ -695,6 +711,7 @@ a:hover .ss--mso {
   flex-direction: row;
   flex-wrap: wrap;
   column-gap: 4px;
+  padding-bottom: 4px;
 }
 
 /* Link Button Basic Styling */
