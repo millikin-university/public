@@ -199,6 +199,10 @@ a:hover .ss--mso {
   top: 0;
 }
 
+.mu--subtext-card-top.mu--subtext-30 {
+  height: 70%;
+}
+
 .mu--subtext-card-top.mu--subtext-50 {
   height: 50%;
 }
@@ -271,6 +275,10 @@ a:hover .ss--mso {
   font-size: 11pt;
   z-index: 60;
   overflow-y: auto;
+}
+
+.mu--subtext-card-bottom.mu--subtext-30 {
+  height: 30%;
 }
 
 .mu--subtext-card-bottom.mu--subtext-50 {
