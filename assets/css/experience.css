@@ -170,7 +170,9 @@ a:hover .ss--mso {
 }
 /* End Import of Roboto Mono */
 
-.mu--monospace {
+.mu--body .mu--monospace,
+.mu--page-body .mu--monospace,
+.ss--pgb .ss--mono {
   font-family: 'Roboto Mono';
 }
 
