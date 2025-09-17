@@ -925,3 +925,64 @@ a:hover .ss--mso {
   flex-basis: unset;
   flex-grow: unset;
 }
+
+/* Fullscreen Overlays from Cards */
+.mu--overlay-shadow {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.75);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 20000;
+}
+
+.mu--overlay-container {
+  margin: 5%;
+  background-color: #ffffff;
+  border-radius: var(--rectangle-radius);
+  padding: 25px;
+  width: 90%;
+  height: 90%;
+}
+
+.mu--overlay-close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 36px;
+  width: 36px;
+  transition: var(--transition-speed);
+  background-color: var(--mu-blue-medium);
+  border-bottom-left-radius: calc(var(--circle-radius) * 2);
+  box-shadow: 0px 2px 8px #000000;
+  z-index: 20005;
+}
+
+.mu--info-box.mu--overlay-box {
+  margin: 25px;
+  height: calc(100% - 50px);
+  width: calc(100% - 50px);
+}
+
+.mu--overlay-close .material-symbols-outlined {
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: #ffffff;
+  padding-right: 4px;
+  padding-top: 4px;
+  transition: var(--transition-speed);
+  font-size: 24px;
+  transition: var(--transition-speed);
+}
+
+.mu--overlay-close:hover {
+  width: 48px;
+  height: 48px;
+  background-color: var(--mu-blue-medium-dark);
+}
+
+.mu--overlay-close:hover .material-symbols-outlined {
+  font-size: 32px;
+}
