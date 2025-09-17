@@ -947,6 +947,7 @@ a:hover .ss--mso {
 }
 
 .mu--overlay-close {
+  cursor: pointer;
   position: absolute;
   top: 25px;
   right: 25px;
@@ -978,12 +979,14 @@ a:hover .ss--mso {
   transition: var(--transition-speed);
 }
 
-.mu--overlay-close:hover {
+.mu--overlay-close:hover,
+.mu--overlay-close:focus {
   width: 48px;
   height: 48px;
   background-color: var(--mu-blue-medium-dark);
 }
 
-.mu--overlay-close:hover .material-symbols-outlined {
+.mu--overlay-close:hover .material-symbols-outlined,
+.mu--overlay-close:focus .material-symbols-outlined {
   font-size: 32px;
 }
