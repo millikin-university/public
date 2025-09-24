@@ -1057,17 +1057,25 @@ a:hover .ss--mso {
   margin-bottom: 2px;
 }
 
-[class^='sdk--input']:disabled {
+[class^='sdk--input']:disabled,
+.sdk--input-with-button input:last-child:disabled {
   background-color: #dddddd;
   color: var(--mu-blue-dark);
 }
 
-[class^='sdk--input']:not(:disabled):hover {
+[class^='sdk--input']:not(:disabled):hover option {
+  color: #000000;
+  background-color: #ffffff;
+}
+
+[class^='sdk--input']:not(:disabled):hover,
+.sdk--input-with-button input:last-child:not(:disabled):hover {
   color: #ffffff;
   background-color: var(--mu-blue-medium-light);
 }
 
-[class^='sdk--input']:not(:disabled):active {
+[class^='sdk--input']:not(:disabled):active,
+.sdk--input-with-button input:last-child:not(:disabled):hover {
   background-color: var(--mu-blue-medium);
 }
 
