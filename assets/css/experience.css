@@ -958,7 +958,6 @@ a:hover .ss--mso {
   border-bottom-left-radius: calc(var(--circle-radius) * 2);
   border-top-right-radius: var(--rectangle-radius);
   box-shadow: 0px 0px 10px #000000;
-  z-index: 20005;
 }
 
 .mu--info-box.mu--overlay-box {
@@ -989,4 +988,116 @@ a:hover .ss--mso {
 .mu--overlay-close:hover .material-symbols-outlined,
 .mu--overlay-close:focus .material-symbols-outlined {
   font-size: 32px;
+}
+
+/* SDK Cards */
+.sdk--item-hidden {
+  display: none;
+  visibility: hidden;
+}
+
+.sdk--data-loading-indicator {
+  border: 4px solid #ffffff66;
+  border-top: 4px solid var(--mu-blue-light);
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  animation: spin 2s linear infinite;
+  margin-left: calc(50% - 16px);
+  margin-top: 75px;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.sdk--input-with-button {
+  height: 36px;
+  background-color: #ffffff;
+  width: fit-content;
+  border: 2px solid var(--mu-blue-medium-dark);
+  border-radius: var(--rectangle-radius);
+  margin-bottom: 4px;
+}
+
+.sdk--input-with-button input:first-child {
+  /* The input */
+  height: 100%;
+  border: none;
+  padding-left: 4px;
+  display: block;
+  float: left;
+  border-top-left-radius: calc(var(--rectangle-radius) - 2px);
+  border-bottom-left-radius: calc(var(--rectangle-radius) - 2px);
+}
+
+.sdk--input-with-button input:last-child {
+  /* The button */
+  height: 32px;
+  width: 32px;
+  color: var(--mu-blue-medium);
+  background-color: #ffffff;
+  border: none;
+  border-top-right-radius: calc(var(--rectangle-radius) - 2px);
+  border-bottom-right-radius: calc(var(--rectangle-radius) - 2px);
+  box-shadow: -2px 0px 4px -1px rgba(0, 0, 0, 0.5);
+  font-size: 20px;
+}
+
+.sdk--input-select {
+  padding: 2px;
+  border-radius: var(--rectangle-radius);
+  border: 2px solid var(--mu-blue-medium-dark);
+  display: block;
+  margin-bottom: 2px;
+}
+
+[class^='sdk--input']:disabled {
+  background-color: #dddddd;
+  color: var(--mu-blue-dark);
+}
+
+[class^='sdk--input']:not(:disabled):hover {
+  color: #ffffff;
+  background-color: var(--mu-blue-medium-light);
+}
+
+[class^='sdk--input']:not(:disabled):active {
+  background-color: var(--mu-blue-medium);
+}
+
+.sdk--header {
+  margin-bottom: 8px;
+}
+
+.sdk--data-grid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  column-gap: 4px;
+  margin-bottom: 2px;
+  font-size: 10pt;
+}
+
+.sdk--data-header {
+  display: inline-flex;
+  flex-basis: 60px;
+  flex-grow: 1;
+  color: #ffffff;
+  background-color: var(--mu-blue-medium);
+  padding: 4px 6px;
+  font-weight: bold;
+}
+
+.sdk--data-value {
+  display: inline-flex;
+  flex-basis: max(180px, 80%);
+  flex-grow: 1;
+  padding: 4px 6px;
+  background-color: #ffffff;
 }
