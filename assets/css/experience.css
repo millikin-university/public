@@ -1073,7 +1073,7 @@ a:hover .ss--mso {
 }
 
 [class^='sdk--input']:not(:disabled):hover,
-.sdk--input-with-button input:last-child:not(:disabled):hover {
+.sdk--input-with-button :last-child:not(:disabled):hover {
   color: #ffffff;
   background-color: var(--mu-blue-medium-light);
 }
