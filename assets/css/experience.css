@@ -630,18 +630,18 @@ a:hover .ss--mso {
 }
 
 .mu--card-links a.mu--modals,
-.sdk--link-modal a {
+a.sdk--link-modal {
   background-color: var(--mu-blue-medium);
   z-index: 79;
 }
 
 .mu--card-links a.mu--modals:hover,
-.sdk--link-modal a:hover {
+a.sdk--link-modal:hover {
   background-color: var(--mu-blue-medium-dark);
 }
 
 .mu--card-links a.mu--modals .material-symbols-outlined,
-.sdk--link-modal a .material-symbols-outlined,
+a.sdk--link-modal .material-symbols-outlined,
 .mu--card-links a.mu--modals .ss--mso {
   color: #ffffff;
 }
