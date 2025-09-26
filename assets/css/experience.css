@@ -1109,3 +1109,112 @@ a:hover .ss--mso {
   padding: 4px 6px;
   background-color: #ffffff;
 }
+
+.mu--card-shade.sdk--slide-content {
+  padding: 8px 30px 44px 30px;
+}
+.sdk--carousel-container {
+  height: 100%;
+  width: 100%;
+}
+
+.sdk--carousel-slide {
+  height: 100%;
+}
+
+/* Next & previous buttons */
+.sdk--carousel-prev,
+.sdk--carousel-next {
+  cursor: pointer;
+  position: absolute;
+  z-index: 90;
+  top: 50%;
+  padding: 6px;
+  border: none;
+  background-color: #ffffff55;
+  color: var(--mu-blue-dark);
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.sdk--carousel-prev {
+  left: 0;
+  padding-right: 12px;
+  border-top-right-radius: var(--circle-radius);
+  border-bottom-right-radius: var(--circle-radius);
+}
+.sdk--carousel-next {
+  right: 0;
+  padding-left: 12px;
+  border-top-left-radius: var(--circle-radius);
+  border-bottom-left-radius: var(--circle-radius);
+}
+
+.sdk--carousel-prev:hover,
+.sdk--carousel-next:hover,
+.sdk--carousel-prev:focus,
+.sdk--carousel-next:focus {
+  color: #ffffff;
+  background-color: var(--mu-blue-medium-dark);
+}
+
+/* Caption text */
+.sdk--slide-legend {
+  background-color: #ffffff22;
+  color: #ffffff;
+  z-index: 60;
+  bottom: 0;
+  font-size: 14px;
+  padding: 4px 12px;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  height: 30px;
+}
+/* Fading animation */
+.sdk--slide-fade {
+  animation-name: sdkSlideFade;
+  animation-duration: 1.5s;
+}
+
+@keyframes sdkSlideFade {
+  from {
+    opacity: 0.5;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.sdk--progress-bar-container {
+  width: 100%;
+  height: 30px;
+  overflow: hidden;
+  z-index: 59;
+  opacity: 0.5;
+}
+
+.sdk--carousel-footer .sdk--progress-bar-container {
+  position: absolute;
+  bottom: 0px;
+}
+
+.sdk--progress-bar-fill {
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(90deg, #00418533, #004185, #3a6fbf, #19aced33);
+  transition: width 3s linear;
+  animation: sdkProgressBar 3s infinite linear;
+}
+
+@keyframes sdkProgressBar {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
