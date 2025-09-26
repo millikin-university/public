@@ -9,6 +9,7 @@
   /* Appearance for cloring interactive elements that are disabled */
   --mu-disabled-bg-color: #808080;
   --mu-disabled-color: #0b2d50;
+  --mu-error-color: #791a0e;
   /* from Microsoft https://developer.microsoft.com/en-us/fluentui#/styles/web/colors/products */
   --ms-excel-green: #0c5f32;
   --ms-powerpoint-orange: #a92b1a;
@@ -1111,6 +1112,12 @@ a:hover .ss--mso {
   flex-grow: 1;
   padding: 4px 6px;
   background-color: #ffffff;
+}
+
+.sdk--data-error-message {
+  width: 100%;
+  text-align: center;
+  color: var(--mu-error-color);
 }
 
 .mu--card-shade.sdk--slide-content {
