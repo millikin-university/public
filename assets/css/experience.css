@@ -6,6 +6,9 @@
   --mu-blue-medium-light: #3a6fbf;
   --mu-blue-light: #19aced;
   --mu-blue-lightest: #bbebff;
+  /* Appearance for cloring interactive elements that are disabled */
+  --mu-disabled-bg-color: #808080;
+  --mu-disabled-color: #0b2d50;
   /* from Microsoft https://developer.microsoft.com/en-us/fluentui#/styles/web/colors/products */
   --ms-excel-green: #0c5f32;
   --ms-powerpoint-orange: #a92b1a;
@@ -1059,8 +1062,8 @@ a:hover .ss--mso {
 
 [class^='sdk--input']:disabled,
 .sdk--input-with-button input:last-child:disabled {
-  background-color: #dddddd;
-  color: var(--mu-blue-dark);
+  color: var(--mu-disabled-color);
+  background-color: var(--mu-disabled-bg-color);
 }
 
 [class^='sdk--input']:not(:disabled):hover option {
@@ -1217,4 +1220,25 @@ a:hover .ss--mso {
   100% {
     transform: translateX(100%);
   }
+}
+
+/*  Allows for the links on SDK card to be disabled.
+    'a' tags do not natively support the 'disabled' global attribute
+    This will make them look disabled and control an overlay that blocks their access
+*/
+.sdk--card-links-disabled div {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+}
+
+.sdk--card-links-disabled a {
+  background-color: var(--mu-disabled--bg-color);
+}
+
+.sdk--card-links-disabled a .material-symbols-outlined {
+  color: var(--mu-disabled-color);
 }
