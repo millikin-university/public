@@ -1226,6 +1226,11 @@ a:hover .ss--mso {
     'a' tags do not natively support the 'disabled' global attribute
     This will make them look disabled and control an overlay that blocks their access
 */
+.sdk--linkbar-container {
+  height: 40px;
+  margin-bottom: 4px;
+}
+
 .sdk--card-links-disabled div {
   position: absolute;
   top: 0px;
