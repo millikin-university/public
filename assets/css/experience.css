@@ -1236,7 +1236,7 @@ a:hover .ss--mso {
 }
 
 .sdk--card-links-disabled a {
-  background-color: var(--mu-disabled--bg-color);
+  background-color: var(--mu-disabled-bg-color);
 }
 
 .sdk--card-links-disabled a .material-symbols-outlined {
