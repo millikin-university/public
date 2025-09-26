@@ -1190,12 +1190,12 @@ a.sdk--link-modal .material-symbols-outlined,
 /* Fading animation */
 .sdk--slide-fade {
   animation-name: sdkSlideFade;
-  animation-duration: 1.5s;
+  animation-duration: 1s;
 }
 
 @keyframes sdkSlideFade {
   from {
-    opacity: 0.5;
+    opacity: 0.75;
   }
   to {
     opacity: 1;
@@ -1256,4 +1256,13 @@ a.sdk--link-modal .material-symbols-outlined,
 
 .sdk--card-links-disabled a .material-symbols-outlined {
   color: var(--mu-disabled-color);
+}
+
+/* Reverse for modal buttons */
+.sdk--card-links-disabled a.sdk--link-modal {
+  background-color: var(--mu-disabled-color);
+}
+
+.sdk--card-links-disabled a.sdk--link-modal .material-symbols-outlined {
+  color: var(--mu-disabled-bg-color);
 }
