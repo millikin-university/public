@@ -1128,8 +1128,7 @@ a.sdk--link-modal .material-symbols-outlined,
 }
 
 .mu--card-shade.sdk--slide-content {
-  padding: 36px;
-  padding-top: 8px;
+  padding: 8px 36px;
   height: 100%;
 }
 
