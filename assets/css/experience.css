@@ -1056,6 +1056,10 @@ a.sdk--link-modal .material-symbols-outlined,
   font-size: 20px;
 }
 
+[class^='sdk--input'] {
+  max-width: 100%; /* prevents inputs from going outside of card bounds */
+}
+
 .sdk--input-select {
   padding: 2px;
   border-radius: var(--rectangle-radius);
