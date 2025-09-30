@@ -1126,7 +1126,13 @@ a.sdk--link-modal .material-symbols-outlined,
 .mu--card-shade.sdk--slide-content {
   padding: 36px;
   padding-top: 8px;
+  height: 100%;
 }
+
+.mu--card-shade.sdk--slide-content.sdk--slide-has-legend {
+  height: calc(100% - 30px); /* Match the height for .sdk--slide-legend this allows slides to handle overflow-y properly */
+}
+
 .sdk--carousel-container {
   height: 100%;
   width: 100%;
