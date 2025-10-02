@@ -1191,12 +1191,19 @@ a.sdk--link-modal .material-symbols-outlined,
   z-index: 60;
   bottom: 0;
   font-size: 14px;
+  font-weight: bold;
   padding: 4px 12px;
   position: absolute;
   width: 100%;
   text-align: center;
   height: 30px;
 }
+
+.sdk--slide-legen-blue {
+  color: #ffffff;
+  background-color: var(--mu-blue);
+}
+
 /* Fading animation */
 .sdk--slide-fade {
   animation-name: sdkSlideFade;
