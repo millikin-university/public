@@ -781,6 +781,10 @@ a.sdk--link-modal .material-symbols-outlined,
   z-index: 50;
 }
 
+.mu--card-shade-darker {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
 /* For holding Link Buttons that flex */
 .mu--flex-link-container,
 .ss--flc {
@@ -1199,7 +1203,7 @@ a.sdk--link-modal .material-symbols-outlined,
   height: 30px;
 }
 
-.sdk--slide-legen-blue {
+.sdk--slide-legend-blue {
   color: #ffffff;
   background-color: var(--mu-blue);
 }
