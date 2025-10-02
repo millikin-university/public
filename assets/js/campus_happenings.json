@@ -1,13 +1,13 @@
 [
   {
-    "date": "09/25/2025",
+    "date": "2025-09-29",
     "events": [
       { "time": "8:30 a.m.-3 p.m.", "title": "Future Lawyers Experience at Millikin" },
       { "time": "4-5 p.m.", "title": "Vocal Festival Finale (KFAC)" }
     ]
   },
   {
-    "date": "09/30/2025",
+    "date": "2025-09-30",
     "events": [
       { "time": "4-6 p.m.", "title": "Great Start First 6 Weeks Goal Setting Presentation (UC Collab Room 142/144)" },
       { "time": "7 p.m.", "title": "Women's Soccer vs. Washington University" },
@@ -16,7 +16,7 @@
     ]
   },
   {
-    "date": "10/01/2025",
+    "date": "2025-10-01",
     "events": [
       { "time": "All day", "title": "Nihonga Artists From the Japanese Painting Academy (Robert Crowder Art Gallery)" },
       { "time": "7:30-10 a.m.", "title": "Millikin WSOY Food Drive Collection (UC)" },
@@ -26,14 +26,14 @@
     ]
   },
   {
-    "date": "10/02/2025",
+    "date": "2025-10-02",
     "events": [
       { "time": "10 a.m.-2 p.m.", "title": "Homecoming 2025 Chalk the Walk (Outside UC)" },
       { "time": "5 p.m.", "title": "\"Greeks Go Blue\" Paint Fight (Dolson Lawn)" }
     ]
   },
   {
-    "date": "10/03/2025",
+    "date": "2025-10-03",
     "events": [
       { "time": "All day", "title": " Homecoming Weekend Begins" },
       { "time": "All day", "title": "Big Blue Spirit Friday" },
@@ -46,7 +46,7 @@
     ]
   },
   {
-    "date": "10/04/2025",
+    "date": "2025-10-04",
     "events": [
       { "time": "10:45 a.m.-noon", "title": "Jazz Combos & Electric Guitar Ensemble (Miller Quad)" },
       { "time": "10 a.m.-2 p.m.", "title": "Makers Market & Food Trucks (Miller Quad & Arrival Court)" },
@@ -58,5 +58,5 @@
       { "time": "7:30-8:30 p.m.", "title": "MSWE I (with alumni) and Jazz Band 1: Home Sweet Home (KFAC)" }
     ]
   },
-  { "date": "10/05/2025", "events": [{ "time": "11 a.m.-1 p.m.", "title": "Athletic Hall of Fame Induction (UC Banquet Rooms)" }] }
+  { "date": "2025-10-05", "events": [{ "time": "11 a.m.-1 p.m.", "title": "Athletic Hall of Fame Induction (UC Banquet Rooms)" }] }
 ]
