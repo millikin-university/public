@@ -672,6 +672,10 @@ a:hover .ss--mso {
   overflow-y: auto;
 }
 
+.mu--info-box h3 {
+  font-size: 12pt;
+}
+
 .mu--info-corner {
   position: absolute;
   bottom: 0;
