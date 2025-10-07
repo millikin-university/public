@@ -742,8 +742,8 @@ a:hover .ss--mso {
   padding-top: unset;
 }
 
-/* Modal Links */
-#modal-shade {
+#modal-shade,
+.mu--card [id$='--modal-shade'] {
   position: absolute;
   top: 0;
   left: 0;
@@ -754,7 +754,8 @@ a:hover .ss--mso {
   transition: var(--transition-speed);
 }
 
-#modal-shade.mu--modal-top {
+#modal-shade.mu--modal-top,
+.mu--card [id$='--modal-shade'].mu--modal-top {
   padding-top: 54px;
 }
 
