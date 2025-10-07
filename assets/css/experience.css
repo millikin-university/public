@@ -752,6 +752,7 @@ a:hover .ss--mso {
   padding: 10px;
   z-index: 70;
   transition: var(--transition-speed);
+  cursor: pointer;
 }
 
 #modal-shade.mu--modal-top,
@@ -808,6 +809,7 @@ button.sdk--link-modal .material-symbols-outlined {
   box-shadow: 2px 2px 2px #000000;
   z-index: 75;
   overflow-y: auto;
+  cursor: default;
 }
 
 .mu--modal-shade-closed {
