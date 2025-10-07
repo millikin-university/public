@@ -582,18 +582,11 @@ a:hover .ss--mso {
   height: 54px;
 }
 
-.mu--card-links-right {
-  flex-direction: column-reverse;
-  bottom: 0;
-  top: unset;
-  margin-right: unset;
-  height: unset;
-  width: 54px;
-}
-
-.mu--card-links a {
+.mu--card-links a,
+.mu--card-links button {
   flex-basis: 15vh;
   background-color: #ffffff;
+  border: none;
   border-radius: var(--circle-radius);
   cursor: pointer;
   padding: 6px;
@@ -606,43 +599,22 @@ a:hover .ss--mso {
   z-index: 69;
 }
 
-.mu--card-links-right a {
-  margin-top: unset;
-  margin-right: 8px;
-  margin-bottom: 8px;
-  margin-left: auto;
-}
-
-.mu--card-links a .material-symbols-outlined {
+.mu--card-links a .material-symbols-outlined,
+.mu--card-links button .material-symbols-outlined {
   color: var(--mu-blue-medium);
   font-size: 28px;
   transition: var(--transition-speed);
 }
 
-.mu--card-links a:hover {
+.mu--card-links a:hover,
+.mu--card-links button:hover {
   background-color: var(--mu-blue-medium-light);
 }
 
-.mu--card-links a:hover .material-symbols-outlined {
+.mu--card-links a:hover .material-symbols-outlined,
+.mu--card-links button:hover .material-symbols-outlined {
   color: #ffffff;
 }
-
-/* Dark Links */
-.mu--card-links-dark a {
-  background-color: rgba(0, 0, 0, 0.65);
-}
-.mu--card-links-dark a .material-symbols-outlined {
-  color: var(--mu-blue-light);
-}
-
-.mu--card-links-dark a:hover {
-  background-color: rgba(0, 0, 0, 0.75);
-}
-
-.mu--card-links-dark a:hover .material-symbols-outlined {
-  color: var(--mu-blue-lightest);
-}
-/* END Dark Links */
 
 /* Info Corners at the bottom right of a card
     Uses JavaScript function to then show/hide modal muInfoCardToggle()
@@ -787,19 +759,24 @@ a:hover .ss--mso {
 }
 
 .mu--card-links a.mu--modals,
-a.sdk--link-modal {
+.mu--card-links button.mu--modals,
+a.sdk--link-modal,
+button.sdk--link-modal {
   background-color: var(--mu-blue-medium);
   z-index: 79;
 }
 
 .mu--card-links a.mu--modals:hover,
-a.sdk--link-modal:hover {
+.mu--card-links button.mu--modals:hover,
+a.sdk--link-modal:hover,
+button.sdk--link-modal:hover {
   background-color: var(--mu-blue-medium-dark);
 }
 
 .mu--card-links a.mu--modals .material-symbols-outlined,
 a.sdk--link-modal .material-symbols-outlined,
-.mu--card-links a.mu--modals .ss--mso {
+.mu--card-links button.mu--modals .material-symbols-outlined,
+button.sdk--link-modal .material-symbols-outlined {
   color: #ffffff;
 }
 
@@ -856,12 +833,13 @@ a.sdk--link-modal .material-symbols-outlined,
   background-color: var(--mu-blue-light);
 }
 
-.mu--card-links a[data-open]:hover {
+.mu--card-links a[data-open]:hover,
+.mu--card-links button[data-open]:hover {
   background-color: var(--mu-blue-medium-light);
 }
 
 .mu--card-links a[data-open] .material-symbols-outlined,
-.mu--card-links a[data-open] .ss--mso {
+.mu--card-links button[data-open] .material-symbols-outlined {
   color: #ffffff;
 }
 
