@@ -73,13 +73,11 @@ export function muModalLinks() {
   function setIndicator(id) {
     const modal = document.querySelector(`#${id}`);
     const modalLocation = modal.getBoundingClientRect();
-    if ((indicator.className = 'mu--indicator')) {
-      // Top indicator
-      const posTop = modalLocation.bottom;
-      const posLeft = modalLocation.left + (modalLocation.right - modalLocation.left) / 2 - parseFloat(getComputedStyle(indicator).borderLeftWidth);
-      indicator.style.top = posTop + 'px';
-      indicator.style.left = posLeft + 'px';
-    }
+    // Top indicator
+    const posTop = modalLocation.bottom;
+    const posLeft = modalLocation.left + (modalLocation.right - modalLocation.left) / 2 - parseFloat(getComputedStyle(indicator).borderLeftWidth);
+    indicator.style.top = posTop + 'px';
+    indicator.style.left = posLeft + 'px';
   }
 
   function modalPrep(modal) {
