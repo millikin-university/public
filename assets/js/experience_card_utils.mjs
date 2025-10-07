@@ -68,6 +68,10 @@ export function muModalLinks() {
     indicator.classList.remove('mu--modal-closed');
     indicator.classList.add('mu--modal-open');
     setIndicator(id);
+    // Prevent the modal overlay content from closing the modal if it is clicked on.
+    content.addEventListener('click', function (e) {
+      e.stopPropagation();
+    });
   }
 
   function setIndicator(id) {
