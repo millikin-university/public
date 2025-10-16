@@ -1,5 +1,14 @@
 [
   {
+    "date": "2025-10-11",
+    "events": [
+      { "time": "TBA", "title": "Women's Tennis vs. Wheaton College" },
+      { "time": "1 p.m.", "title": "Women's Soccer vs. Carroll University" },
+      { "time": "3:30 p.m.", "title": "Men's Soccer vs. Carroll University" },
+      { "time": "7:30-8:30 p.m.", "title": "Masterworks I: Apotheosis of the Dance (KFAC)" }
+    ]
+  },
+  {
     "date": "2025-10-13",
     "events": [
       { "time": "8 a.m.-noon ", "title": "Campus Visit Day" },
