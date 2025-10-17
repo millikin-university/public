@@ -608,12 +608,12 @@ a:hover .ss--mso {
 }
 
 .mu--card-links a:hover,
-.mu--card-links button:hover {
+.mu--card-links button:not(:disabled):hover {
   background-color: var(--mu-blue-medium-light);
 }
 
 .mu--card-links a:hover .material-symbols-outlined,
-.mu--card-links button:hover .material-symbols-outlined {
+.mu--card-links button:not(:disabled):hover .material-symbols-outlined {
   color: #ffffff;
 }
 
