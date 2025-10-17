@@ -1409,19 +1409,23 @@ button.sdk--link-modal .material-symbols-outlined {
   display: none;
 }
 
-.sdk--card-links-disabled a {
+.sdk--card-links-disabled a,
+.mu--card-link-disabled {
   background-color: var(--mu-disabled-bg-color);
 }
 
-.sdk--card-links-disabled a .material-symbols-outlined {
+.sdk--card-links-disabled a .material-symbols-outlined,
+.mu--card-link-disabled .material-symbols-outlined {
   color: var(--mu-disabled-color);
 }
 
 /* Reverse for modal buttons */
-.sdk--card-links-disabled a.sdk--link-modal {
+.sdk--card-links-disabled a.sdk--link-modal,
+.mu--card-link-disabled.sdk--link-modal {
   background-color: var(--mu-disabled-color);
 }
 
-.sdk--card-links-disabled a.sdk--link-modal .material-symbols-outlined {
+.sdk--card-links-disabled a.sdk--link-modal .material-symbols-outlined,
+.mu--card-link-disabled.sdk--link-modal .material-symbols-outlined {
   color: var(--mu-disabled-bg-color);
 }
