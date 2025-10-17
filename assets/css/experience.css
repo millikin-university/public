@@ -1429,3 +1429,28 @@ button.sdk--link-modal .material-symbols-outlined {
 .mu--card-links .mu--card-link-disabled.sdk--link-modal .material-symbols-outlined {
   color: var(--mu-disabled-bg-color);
 }
+
+/* Tables */
+.sdk--data-table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.sdk--data-table-header-row {
+  color: #ffffff;
+  background-color: var(--mu-blue);
+  font-weight: bold;
+}
+.sdk--data-table-header-row th {
+  padding: 4px;
+  border: 2px solid #ffffff;
+}
+.sdk--data-table td {
+  padding: 4px;
+  padding-top: 8px;
+  vertical-align: top;
+}
+
+.sdk--data-table td.sdk--data-table-cell-input {
+  padding-top: 4px;
+}
