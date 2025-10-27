@@ -1,26 +1,29 @@
 [
+  { "date": "2025-10-27", "events": [{ "time": " 8:30 a.m.-12:30 p.m.", "title": "Careers in the Visual Arts Day" }] },
+  { "date": "2025-10-28", "events": [{ "time": "7:30 p.m.", "title": "Public Observation Night (Requarth Observatory)" }] },
   {
-    "date": "2025-10-20",
+    "date": "2025-10-29",
     "events": [
-      { "time": "All Day", "title": "Tomorrow's Teachers Conference" },
-      { "time": "6-7 p.m.", "title": "Millikin Honor Band Festival (Kirkland Fine Arts Center)" }
+      { "time": "7 p.m.", "title": " Women's Volleyball vs. North Central College" },
+      { "time": "7 p.m.", "title": "Women's Soccer vs. Illinois Wesleyan University" },
+      { "time": "7:30 p.m.", "title": "Halloween! Percussion Ensemble (Albert Taylor Theatre)" }
     ]
   },
   {
-    "date": "2025-10-21",
+    "date": "2025-10-30",
     "events": [
-      { "time": "5-7 p.m.", "title": "Safe & Strong: Self-Defense Night (Millikin Wrestling Facility)" },
-      { "time": "7:30 p.m.", "title": "Public Observation Night (Requarth Observatory)" }
+      { "time": "5 p.m.", "title": "Halloween! Percussion Ensemble (Albert Taylor Theatre)" },
+      { "time": "7 p.m.", "title": "Halloween! Percussion Ensemble (Albert Taylor Theatre)" }
     ]
   },
-  { "date": "2025-10-22", "events": [{ "time": "7:30-9 p.m.", "title": "Sports to Skills Seminar (UC)" }] },
-  { "date": "2025-10-24", "events": [{ "time": "7 p.m.", "title": "Women's Volleyball vs. Illinois Wesleyan University" }] },
+  { "date": "2025-10-31", "events": [{ "time": "2-4 p.m.", "title": "Millikin Market Ribbon Cutting (New Hall 2)" }] },
   {
-    "date": "2025-10-25",
+    "date": "2025-11-01",
     "events": [
-      { "time": "Noon", "title": "Wrestling vs. Blue-White Dual" },
-      { "time": "1 p.m.", "title": "Women's Soccer vs. Augustana College" },
-      { "time": "3:30 p.m.", "title": "Men's Soccer vs. Augustana College" }
+      { "time": "1 p.m. ", "title": "Real Men Wear Pink Football Game vs. Washington University " },
+      { "time": "2-3 p.m.", "title": " Samantha Katschke's Senior Recital (Kaeuper Hall)" },
+      { "time": "5 p.m.", "title": "Wrestling vs. Westminster College (Mo.)" }
     ]
-  }
+  },
+  { "date": "2025-11-02", "events": [{ "time": "4-6 p.m.", "title": "NUTCRACKER! Magical Christmas Ballet (Kirkland Fine Arts Center)" }] }
 ]
