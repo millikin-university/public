@@ -1550,3 +1550,7 @@ button.sdk--link-modal .material-symbols-outlined {
 .sdk--hide-content.sdk--content-hidden:hover .ds-icon {
   scale: 1.5;
 }
+
+.sdk--card-cover-label {
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.75);
+}
