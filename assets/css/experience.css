@@ -380,6 +380,15 @@ a:hover .ss--mso {
   position: absolute;
 }
 
+/* Used to blur the background of some cards */
+.mu--background-blur {
+  filter: blur(2px);
+}
+
+.mu--background-blur-more {
+  filter: blur(8px);
+}
+
 .mu--card-bg-image {
   height: 100%;
   width: 100%;
