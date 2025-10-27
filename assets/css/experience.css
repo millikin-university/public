@@ -392,11 +392,11 @@ a:hover .ss--mso {
 }
 
 /* Used to blur the background of some cards */
-.mu--background-blur {
+.mu--card-bg-blur {
   filter: blur(2px);
 }
 
-.mu--background-blur-more {
+.mu--card-bg-blur-more {
   filter: blur(8px);
 }
 
