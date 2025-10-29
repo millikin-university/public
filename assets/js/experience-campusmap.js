@@ -105,7 +105,7 @@ const mapLegendEntries = [
   new MapLegendData('arts', '22', '3D Arts & Theatre Center', ''),
   new MapLegendData('athletics', '19', 'Workman Family Softball Field', ''),
   new MapLegendData('athletics', '20', 'Workman Family Baseball Field', ''),
-  new MapLegendData('athletics', '25', 'Rathje Athletic Center', 'Coming soon!'),
+  new MapLegendData('athletics', '25', 'Rathje Athletic Center', ''),
   new MapLegendData('athletics', '4', 'Griswold Physical Education Center', ''),
   new MapLegendData('athletics', '18', 'Frank M. Lindsay Track & Field', ''),
   new MapLegendData('athletics', '17', 'Decatur Indoor Sports Center', '(DISC)'),
