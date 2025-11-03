@@ -1,29 +1,29 @@
 [
-  { "date": "2025-10-27", "events": [{ "time": " 8:30 a.m.-12:30 p.m.", "title": "Careers in the Visual Arts Day" }] },
-  { "date": "2025-10-28", "events": [{ "time": "7:30 p.m.", "title": "Public Observation Night (Requarth Observatory)" }] },
+  { "date": "2025-11-03", "events": [{ "time": "8:30 a.m.-12:30 p.m.", "title": "Explore Nursing Day (UC)" }] },
   {
-    "date": "2025-10-29",
+    "date": "2025-11-04",
     "events": [
-      { "time": "7 p.m.", "title": " Women's Volleyball vs. North Central College" },
-      { "time": "7 p.m.", "title": "Women's Soccer vs. Illinois Wesleyan University" },
-      { "time": "7:30 p.m.", "title": "Halloween! Percussion Ensemble (Albert Taylor Theatre)" }
+      { "time": "8:30 a.m.-12:30 p.m.", "title": "Explore STEM Day (UC)" },
+      { "time": "7:30 p.m.", "title": "Public Observation Night (Requarth Observatory)" },
+      { "time": "7:30-8:30 p.m.", "title": "Fall Jazz Concert (Perkinson Music Center)" }
     ]
   },
   {
-    "date": "2025-10-30",
+    "date": "2025-11-05",
     "events": [
-      { "time": "5 p.m.", "title": "Halloween! Percussion Ensemble (Albert Taylor Theatre)" },
-      { "time": "7 p.m.", "title": "Halloween! Percussion Ensemble (Albert Taylor Theatre)" }
+      { "time": "6-8 p.m.", "title": "Global Freedom Summit (UC Banquet Rooms)" },
+      { "time": "7 p.m.", "title": "Women's Volleyball vs. Carthage College" }
     ]
   },
-  { "date": "2025-10-31", "events": [{ "time": "2-4 p.m.", "title": "Millikin Market Ribbon Cutting (New Hall 2)" }] },
+  { "date": "2025-11-07", "events": [{ "time": "2-4 p.m.", "title": "Millikin's Student Writing Retreat (Writing Center)" }] },
   {
-    "date": "2025-11-01",
+    "date": "2025-11-08",
     "events": [
-      { "time": "1 p.m. ", "title": "Real Men Wear Pink Football Game vs. Washington University " },
-      { "time": "2-3 p.m.", "title": " Samantha Katschke's Senior Recital (Kaeuper Hall)" },
-      { "time": "5 p.m.", "title": "Wrestling vs. Westminster College (Mo.)" }
+      { "time": "8 a.m.-noon", "title": "Campus Visit Day" },
+      { "time": "9:30 a.m.", "title": "Wrestling vs. Millikin Open" },
+      { "time": "11 a.m.", "title": "Women's Volleyball vs. DePauw University" },
+      { "time": "3 p.m.", "title": "Women's Volleyball vs. Washington University in St. Louis" },
+      { "time": "7:30-8:30 p.m.", "title": "Masterworks II: Symphonic Colors (Kirkland Fine Arts Center)" }
     ]
-  },
-  { "date": "2025-11-02", "events": [{ "time": "4-6 p.m.", "title": "NUTCRACKER! Magical Christmas Ballet (Kirkland Fine Arts Center)" }] }
+  }
 ]
