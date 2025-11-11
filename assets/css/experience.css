@@ -1441,7 +1441,8 @@ button.sdk--link-modal .material-symbols-outlined {
 
 /* Tables */
 .sdk--data-table {
-  border-collapse: collapse;
+  border-collapse: separate;
+  border-spacing: 2px 0px;
   width: 100%;
 }
 
@@ -1450,9 +1451,9 @@ button.sdk--link-modal .material-symbols-outlined {
   background-color: var(--mu-blue);
   font-weight: bold;
 }
+
 .sdk--data-table-header-row th {
   padding: 4px;
-  border: 2px solid #ffffff;
 }
 .sdk--data-table td {
   padding: 4px;
@@ -1462,6 +1463,14 @@ button.sdk--link-modal .material-symbols-outlined {
 
 .sdk--data-table td.sdk--data-table-cell-input {
   padding-top: 4px;
+}
+
+.sdk--data-table td.sdk--data-table-cell-align-right {
+  text-align: right;
+}
+
+.sdk--data-table td.sdk--data-table-cell-align-center {
+  text-align: center;
 }
 
 .sdk--card-cover {
