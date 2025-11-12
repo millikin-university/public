@@ -52,9 +52,9 @@ html {
   overflow: hidden;
 }
 
-.mu--body *,
-.mu--page-body *,
-.ss--pgb * {
+.mu--body :not(*[class^='Mui']),
+.mu--page-body :not(*[class^='Mui']),
+.ss--pgb :not(*[class^='Mui']) {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
@@ -1455,6 +1455,7 @@ button.sdk--link-modal .material-symbols-outlined {
 .sdk--data-table-header-row th {
   padding: 4px;
 }
+
 .sdk--data-table td {
   padding: 4px;
   padding-top: 8px;
