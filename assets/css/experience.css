@@ -1618,7 +1618,7 @@ button.sdk--link-modal .material-symbols-outlined {
 }
 
 .sdk--message-success .MuiAlert-icon {
-  color: var(--mu-alert-success-bgcolor);
+  color: var(--mu-alert-success-border);
 }
 
 .sdk--message-info {
@@ -1631,7 +1631,7 @@ button.sdk--link-modal .material-symbols-outlined {
 }
 
 .sdk--message-info .MuiAlert-icon {
-  color: var(--mu-alert-info-bgcolor);
+  color: var(--mu-alert-info-border);
 }
 
 .sdk--message-warn {
@@ -1644,7 +1644,7 @@ button.sdk--link-modal .material-symbols-outlined {
 }
 
 .sdk--message-warn .MuiAlert-icon {
-  color: var(--mu-alert-warn-bgcolor);
+  color: var(--mu-alert-warn-border);
 }
 
 .sdk--message-error {
@@ -1657,5 +1657,5 @@ button.sdk--link-modal .material-symbols-outlined {
 }
 
 .sdk--message-error .MuiAlert-icon {
-  color: var(--mu-alert-error-bgcolor);
+  color: var(--mu-alert-error-border);
 }
