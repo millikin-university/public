@@ -1,45 +1,26 @@
 [
   {
-    "date": "2025-11-11",
+    "date": "2025-11-17",
+    "events": [
+      { "time": "8:30 a.m.-noon", "title": "Explore the Arts Day (UC)" },
+      { "time": "7:30-8:30 p.m.", "title": "Bradley Rossbach's Senior Recital (Kaeuper Hall)" }
+    ]
+  },
+  {
+    "date": "2025-11-18",
     "events": [
       { "time": "11 a.m.-noon", "title": "Walk-in Resume Workshop (UC, Center Room 336)" },
-      { "time": "11 a.m.-3 p.m.", "title": "Registration Preparation (UC)" },
-      { "time": "7:30 p.m.", "title": "Public Observation Night (Requarth Observatory)" }
-    ]
-  },
-  { "date": "2025-11-12", "events": [{ "time": "7 p.m.", "title": "Men's Basketball vs. Concordia University Chicago" }] },
-  {
-    "date": "2025-11-13",
-    "events": [
-      { "time": "3-4 p.m.", "title": "Walk-in Resume Workshop (UC, Center Room 336)" },
-      { "time": "7:30-9:30 p.m.", "title": "Jazz I and OneVoice (Albert Taylor Theatre)" },
-      { "time": "7:30-9:30 p.m.", "title": "The Tempest (Virginia Rogers Theatre)" }
+      { "time": "7 p.m.", "title": "Men's Basketball vs. Illinois College" }
     ]
   },
   {
-    "date": "2025-11-14",
+    "date": "2025-11-19",
     "events": [
-      { "time": "2-3 p.m.", "title": "Walk-in Resume Workshop (UC, Center Room 336)" },
-      { "time": "7:30-9:30 p.m.", "title": "The Tempest (Virginia Rogers Theatre)" }
+      { "time": "5:30 p.m.", "title": "Women's Basketball vs. DePauw University" },
+      { "time": "7:30-9:30 p.m.", "title": "Guitar Ensembles: Fall Concert (Kaeuper Hall)" }
     ]
   },
-  {
-    "date": "2025-11-15",
-    "events": [
-      { "time": "Noon", "title": "Football vs. Elmhurst University" },
-      { "time": "1 p.m.", "title": "Men's Swimming vs. Monmouth College" },
-      { "time": "1 p.m.", "title": "Women's Swimming vs. Monmouth College" },
-      { "time": "7 p.m.", "title": "Men's Wrestling vs. Illinois Wesleyan University" },
-      { "time": "7:30-9:30 p.m. ", "title": "MSWE II: A Silence Haunts Me (Kirkland Fine Arts Center)" },
-      { "time": "7:30-9:30 p.m.", "title": "The Tempest (Virginia Rogers Theatre)" },
-      { "time": "7:30-9:30 p.m. ", "title": " Millikin Opera Theatre: Opera Scenes (Kaeuper Hall)" }
-    ]
-  },
-  {
-    "date": "2025-11-16",
-    "events": [
-      { "time": "2-4 p.m.", "title": "The Tempest (Virginia Rogers Theatre)" },
-      { "time": "4-6 p.m.", "title": "Faculty Series I: Impressions and Visions: A Piano Recital of Tone Poems (Kaeuper Hall)" }
-    ]
-  }
+  { "date": "2025-11-20", "events": [{ "time": "3-4 p.m.", "title": "Walk-in Resume Workshop (UC, Center Room 336)" }] },
+  { "date": "2025-11-21", "events": [{ "time": "2-3 p.m.", "title": "Walk-in Resume Workshop (UC, Center Room 336)" }] },
+  { "date": "2025-11-22", "events": [{ "time": "2 p.m.", "title": "Women's Basketball vs. Washington University in St. Louis" }] }
 ]
