@@ -1,26 +1,5 @@
 [
-  {
-    "date": "2025-11-17",
-    "events": [
-      { "time": "8:30 a.m.-noon", "title": "Explore the Arts Day (UC)" },
-      { "time": "7:30-8:30 p.m.", "title": "Bradley Rossbach's Senior Recital (Kaeuper Hall)" }
-    ]
-  },
-  {
-    "date": "2025-11-18",
-    "events": [
-      { "time": "11 a.m.-noon", "title": "Walk-in Resume Workshop (UC, Center Room 336)" },
-      { "time": "7 p.m.", "title": "Men's Basketball vs. Illinois College" }
-    ]
-  },
-  {
-    "date": "2025-11-19",
-    "events": [
-      { "time": "5:30 p.m.", "title": "Women's Basketball vs. DePauw University" },
-      { "time": "7:30-9:30 p.m.", "title": "Guitar Ensembles: Fall Concert (Kaeuper Hall)" }
-    ]
-  },
-  { "date": "2025-11-20", "events": [{ "time": "3-4 p.m.", "title": "Walk-in Resume Workshop (UC, Center Room 336)" }] },
-  { "date": "2025-11-21", "events": [{ "time": "2-3 p.m.", "title": "Walk-in Resume Workshop (UC, Center Room 336)" }] },
-  { "date": "2025-11-22", "events": [{ "time": "2 p.m.", "title": "Women's Basketball vs. Washington University in St. Louis" }] }
+  { "date": "2025-11-24", "events": [{ "time": "7:30-9:30 p.m.", "title": "Decatur Youth Symphony Orchestra (Kirkland Fine Arts Center)" }] },
+  { "date": "2025-11-25", "events": [{ "time": "11 a.m.-noon", "title": "Walk-in Resume Workshop (UC, Center Room 336)" }] },
+  { "date": "2025-11-27", "events": [{ "time": "All Day", "title": "Happy Thanksgiving!" }] }
 ]
