@@ -675,6 +675,7 @@ a:hover .ss--mso {
 }
 
 .mu--info-corner {
+  border: none;
   position: absolute;
   bottom: 0;
   right: 0;
