@@ -1491,6 +1491,27 @@ button.sdk--link-modal .material-symbols-outlined {
   text-align: center;
 }
 
+.sdk--horizontal-table {
+  border-collapse: collapse;
+}
+
+.sdk--horizontal-table {
+  border-collapse: collapse;
+}
+
+.sdk--horizontal-table th,
+.sdk--horizontal-table td {
+  border: 1px solid var(--mu-blue-dark);
+  padding: 4px 8px;
+  text-align: left;
+}
+
+.sdk--horizontal-table th {
+  background-color: var(--mu-blue-medium-dark);
+  color: #ffffff;
+  font-weight: bold;
+}
+
 .sdk--card-cover {
   color: #eeeeee;
   text-shadow: 0px 0px 3px #000;
