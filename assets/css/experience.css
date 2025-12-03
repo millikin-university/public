@@ -1611,7 +1611,6 @@ button.sdk--link-modal .material-symbols-outlined {
   border-top: 2px solid #000000;
   color: #000000;
   transition: 0.5s;
-  transform: translateY(-100px);
 }
 
 /* Fix Identified Material UI Items  we use due to our .mu-body * breaking them */
