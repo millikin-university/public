@@ -1,37 +1,17 @@
 [
-  { "date": "2025-12-08", "events": [{ "time": "5-7 p.m.", "title": "Holidays Around the World (UC)" }] },
+  { "date": "2025-12-16", "events": [{ "time": "11 a.m.-noon", "title": "Walk-in Resume Hours (UC, Room 336)" }] },
   {
-    "date": "2025-12-09",
-    "events": [
-      { "time": "11 a.m.-noon", "title": "Walk-in Resume Hours (UC, Room 336)" },
-      { "time": "5:30 p.m.", "title": "Women's Basketball vs. Knox College" }
-    ]
-  },
-  { "date": "2025-12-10", "events": [{ "time": "2-4 p.m.", "title": "Cookie Party 2025 (UC Banquet Rooms)" }] },
-  {
-    "date": "2025-12-11",
+    "date": "2025-12-18",
     "events": [
       { "time": "3-4 p.m.", "title": "Walk-in Resume Hours (UC, Room 336)" },
-      { "time": "7:30-9:30 p.m.", "title": "Solstice: A Concert of Dance (Virginia Rogers Theatre)" }
+      { "time": "6-7:30 p.m.", "title": "St. Louis-Area Cookie Party (Parkway United Church of Christ, St. Louis)" }
     ]
   },
   {
-    "date": "2025-12-12",
+    "date": "2025-12-19",
     "events": [
-      { "time": "1-11 p.m.", "title": "Big Blue Boardgame to Boardroom" },
       { "time": "2-3 p.m.", "title": "Walk-in Resume Hours (UC, Room 336)" },
-      { "time": "7:30-9:30 p.m.", "title": "Solstice: A Concert of Dance (Virginia Rogers Theatre)" }
+      { "time": "7 p.m.", "title": "Men's Basketball vs. Greenville University" }
     ]
-  },
-  {
-    "date": "2025-12-13",
-    "events": [
-      { "time": "8 a.m.-1 p.m.", "title": "Big Blue Boardgame to Boardroom" },
-      { "time": "2 p.m.", "title": "Women's Basketball vs. Augustana" },
-      { "time": "4:15 p.m.", "title": "Men's Basketball vs. Augustana" },
-      { "time": "7:30-9:30 p.m.", "title": "Solstice: A Concert of Dance (Virginia Rogers Theatre)" },
-      { "time": "7:30-9:30 p.m.", "title": "Pop/Rock Vocal Seminar Final Concert (Kaeuper Hall)" }
-    ]
-  },
-  { "date": "2025-12-14", "events": [{ "time": "2-3 p.m.", "title": "2025 Winter Commencement (Kirkland Fine Arts Center) Congratulations, Seniors!" }] }
+  }
 ]
