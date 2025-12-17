@@ -1186,6 +1186,31 @@ button.sdk--link-modal .material-symbols-outlined {
   }
 }
 
+.sdk-inline-form {
+  display: flex;
+}
+
+.sdk--input-text {
+  height: 36px;
+  padding: 2px;
+  border-radius: var(--rectangle-radius);
+  border: 2px solid var(--mu-blue-medium-dark);
+  display: block;
+  margin-bottom: 2px;
+}
+
+.sdk--input-button {
+  height: 36px;
+  width: 36px;
+  color: var(--mu-blue-medium);
+  background-color: #ffffff;
+  border-radius: calc(var(--rectangle-radius) - 2px);
+  box-shadow: -2px 0px 4px -1px rgba(0, 0, 0, 0.5);
+  font-size: 20px;
+  border-radius: var(--rectangle-radius);
+  border: 2px solid var(--mu-blue-medium-dark);
+}
+
 .sdk--input-with-button {
   height: 36px;
   background-color: #ffffff;
@@ -1219,10 +1244,6 @@ button.sdk--link-modal .material-symbols-outlined {
   font-size: 20px;
 }
 
-[class^='sdk--input'] {
-  max-width: 100%; /* prevents inputs from going outside of card bounds */
-}
-
 .sdk--input-select {
   padding: 2px;
   border-radius: var(--rectangle-radius);
@@ -1231,24 +1252,32 @@ button.sdk--link-modal .material-symbols-outlined {
   margin-bottom: 2px;
 }
 
-[class^='sdk--input']:not(.sdk--input-with-button):disabled,
-.sdk--input-with-button input:disabled {
+[class^='sdk--input'] {
+  font-size: 10pt;
+  max-width: 100%; /* prevents inputs from going outside of card bounds */
+}
+
+.sdk--input-select:disabled,
+.sdk--input-with-button input:disabled,
+.sdk--input-button:disabled {
   color: var(--mu-disabled-color);
   background-color: var(--mu-disabled-bg-color);
 }
 
-[class^='sdk--input']:not(.sdk--input-with-button):not(:disabled):hover option {
+.sdk--input-select:not(:disabled):hover option {
   color: #000000;
   background-color: #ffffff;
 }
 
-[class^='sdk--input']:not(.sdk--input-with-button):not(:disabled):hover,
+.sdk--input-select:not(:disabled):hover,
+.sdk--input-button:not(:disabled):hover,
 .sdk--input-with-button input:last-child:not(:disabled):hover {
   color: #ffffff;
   background-color: var(--mu-blue-medium-light);
 }
 
-[class^='sdk--input']:not(.sdk--input-with-button):not(:disabled):active,
+.sdk--input-select:not(:disabled):active,
+.sdk--input-button:not(:disabled):active,
 .sdk--input-with-button input:last-child:not(:disabled):hover {
   background-color: var(--mu-blue-medium);
 }
