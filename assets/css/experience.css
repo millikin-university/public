@@ -1187,7 +1187,6 @@ button.sdk--link-modal .material-symbols-outlined {
 }
 
 .sdk--input-text {
-  background-color: #eeeeee;
   height: 36px;
   padding: 2px 6px;
   border-radius: var(--rectangle-radius);
@@ -1198,7 +1197,7 @@ button.sdk--link-modal .material-symbols-outlined {
 
 .sdk--input-text:focus {
   color: var(--mu-blue-dark);
-  background-color: #ffffff;
+  scale: 1.1;
 }
 
 .sdk--input-button {
@@ -1290,12 +1289,14 @@ button.sdk--link-modal .material-symbols-outlined {
 
 .sdk--inline-form input {
   border-radius: 0px;
-  border-right: 0px;
+  border-right: 1px;
+  border-left: 1px;
 }
 
 .sdk--inline-form input:first-child {
   border-top-left-radius: var(--rectangle-radius);
   border-bottom-left-radius: var(--rectangle-radius);
+  border-left: 2px;
 }
 
 .sdk--inline-form input:last-child {
