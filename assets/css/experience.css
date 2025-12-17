@@ -1194,10 +1194,8 @@ button.sdk--link-modal .material-symbols-outlined {
   display: block;
   margin-bottom: 2px;
 }
-
 .sdk--input-text:focus {
   color: var(--mu-blue-dark);
-  scale: 1.1;
 }
 
 .sdk--input-button {
@@ -1272,7 +1270,10 @@ button.sdk--link-modal .material-symbols-outlined {
 
 .sdk--input-select:not(:disabled):hover,
 .sdk--input-button:not(:disabled):hover,
-.sdk--input-with-button input:last-child:not(:disabled):hover {
+.sdk--input-with-button input:last-child:not(:disabled):hover,
+.sdk--input-select:not(:disabled):focus,
+.sdk--input-button:not(:disabled):focus,
+.sdk--input-with-button input:last-child:not(:disabled):focus {
   color: #ffffff;
   background-color: var(--mu-blue-medium-light);
 }
@@ -1291,6 +1292,10 @@ button.sdk--link-modal .material-symbols-outlined {
   border-radius: 0px;
   border-right: 1px;
   border-left: 1px;
+}
+
+.sdk--inline-form input:focus {
+  scale: 1.05;
 }
 
 .sdk--inline-form input:first-child {
