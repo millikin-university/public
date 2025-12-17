@@ -1186,17 +1186,19 @@ button.sdk--link-modal .material-symbols-outlined {
   }
 }
 
-.sdk-inline-form {
-  display: flex;
-}
-
 .sdk--input-text {
+  background-color: #eeeeee;
   height: 36px;
-  padding: 2px;
+  padding: 2px 6px;
   border-radius: var(--rectangle-radius);
   border: 2px solid var(--mu-blue-medium-dark);
   display: block;
   margin-bottom: 2px;
+}
+
+.sdk--input-text:focus {
+  color: var(--mu-blue-dark);
+  background-color: #ffffff;
 }
 
 .sdk--input-button {
@@ -1227,8 +1229,8 @@ button.sdk--link-modal .material-symbols-outlined {
   padding-left: 4px;
   display: block;
   float: left;
-  border-top-left-radius: calc(var(--rectangle-radius) - 2px);
-  border-bottom-left-radius: calc(var(--rectangle-radius) - 2px);
+  border-top-left-radius: var(--rectangle-radius);
+  border-bottom-left-radius: var(--rectangle-radius);
 }
 
 .sdk--input-with-button input:last-child {
@@ -1238,8 +1240,8 @@ button.sdk--link-modal .material-symbols-outlined {
   color: var(--mu-blue-medium);
   background-color: #ffffff;
   border: none;
-  border-top-right-radius: calc(var(--rectangle-radius) - 2px);
-  border-bottom-right-radius: calc(var(--rectangle-radius) - 2px);
+  border-top-right-radius: var(--rectangle-radius);
+  border-bottom-right-radius: var(--rectangle-radius);
   box-shadow: -2px 0px 4px -1px rgba(0, 0, 0, 0.5);
   font-size: 20px;
 }
@@ -1280,6 +1282,26 @@ button.sdk--link-modal .material-symbols-outlined {
 .sdk--input-button:not(:disabled):active,
 .sdk--input-with-button input:last-child:not(:disabled):hover {
   background-color: var(--mu-blue-medium);
+}
+
+.sdk--inline-form {
+  display: flex;
+}
+
+.sdk--inline-form input {
+  border-radius: 0px;
+  border-right: 0px;
+}
+
+.sdk--inline-form input:first-child {
+  border-top-left-radius: var(--rectangle-radius);
+  border-bottom-left-radius: var(--rectangle-radius);
+}
+
+.sdk--inline-form input:last-child {
+  border-top-right-radius: var(--rectangle-radius);
+  border-bottom-right-radius: var(--rectangle-radius);
+  border-right: 2px;
 }
 
 .sdk--header {
