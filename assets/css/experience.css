@@ -1520,6 +1520,11 @@ button.sdk--link-modal .material-symbols-outlined {
   width: 100%;
 }
 
+.sdk--data-table-shrink {
+  width: fit-content;
+  max-width: 100%;
+}
+
 .sdk--data-table-header-row {
   color: #ffffff;
   background-color: var(--mu-blue);
@@ -1567,6 +1572,22 @@ button.sdk--link-modal .material-symbols-outlined {
   background-color: var(--mu-blue-medium-dark);
   color: #ffffff;
   font-weight: bold;
+}
+
+.sdk--ellucian-table th,
+.sdk--ellucian-table td {
+  padding: 0.25rem 16px;
+}
+
+.sdk--tab-search-container {
+  width: 100%;
+  padding: 16px 8px;
+  background-color: #ffffff;
+}
+
+.sdk--panel {
+  background-color: #ffffff;
+  border-radius: 4px;
 }
 
 .sdk--card-cover {
