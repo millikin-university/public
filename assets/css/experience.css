@@ -1302,7 +1302,8 @@ button.sdk--link-modal .material-symbols-outlined {
   border-color: var(--mu-blue-light);
 }
 
-.sdk--inline-form input:first-child .sdk--inline-form-with-button input:first-child {
+.sdk--inline-form input:first-child,
+.sdk--inline-form-with-button input:first-child {
   border-top-left-radius: var(--rectangle-radius);
   border-bottom-left-radius: var(--rectangle-radius);
   border-left-width: 2px;
