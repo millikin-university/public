@@ -700,13 +700,15 @@ a:hover .ss--mso {
   transition: var(--transition-speed);
 }
 
-.mu--info-corner:hover {
+.mu--info-corner:hover,
+.mu--info-corner:focus {
   width: 42px;
   height: 42px;
   background-color: var(--mu-blue-medium-dark);
 }
 
-.mu--info-corner:hover .mu--info-label {
+.mu--info-corner:hover .mu--info-label,
+.mu--info-corner:focus .mu--info-label {
   font-size: 18pt;
 }
 
@@ -733,7 +735,9 @@ a:hover .ss--mso {
 }
 
 .mu--info-box a:not(.mu--link-button):hover,
-.mu--modal-content a:not(.mu--link-button):hover {
+.mu--modal-content a:not(.mu--link-button):hover,
+.mu--info-box a:not(.mu--link-button):focus,
+.mu--modal-content a:not(.mu--link-button):focus {
   color: var(--mu-blue-medium-dark);
   text-decoration-color: var(--mu-blue-medium);
 }
