@@ -1285,6 +1285,7 @@ button.sdk--link-modal .material-symbols-outlined {
 .sdk--input-select:not(:disabled):active,
 .sdk--input-button:not(:disabled):active,
 .sdk--input-with-button input:last-child:not(:disabled):hover {
+  color: #ffffff;
   background-color: var(--mu-blue-medium);
 }
 

@@ -1,17 +1,294 @@
-[
-  { "date": "2025-12-16", "events": [{ "time": "11 a.m.-noon", "title": "Walk-in Resume Hours (UC, Room 336)" }] },
-  {
-    "date": "2025-12-18",
-    "events": [
-      { "time": "3-4 p.m.", "title": "Walk-in Resume Hours (UC, Room 336)" },
-      { "time": "6-7:30 p.m.", "title": "St. Louis-Area Cookie Party (Parkway United Church of Christ, St. Louis)" }
-    ]
-  },
-  {
-    "date": "2025-12-19",
-    "events": [
-      { "time": "2-3 p.m.", "title": "Walk-in Resume Hours (UC, Room 336)" },
-      { "time": "7 p.m.", "title": "Men's Basketball vs. Greenville University" }
-    ]
-  }
-]
+{
+  "status": 200,
+  "statusText": "",
+  "data": [
+    {
+      "header": {
+        "httpFittingRequestAttempts": 1
+      },
+      "payload": {
+        "addresses": [
+          {
+            "address": {
+              "id": "fd9aa759-263f-4bdf-9b2a-55e6ae56a0c0"
+            },
+            "startOn": "2024-10-22T05:00:00Z",
+            "type": {
+              "addressType": "mailing",
+              "detail": {
+                "id": "272b4820-8418-4192-b9b3-370e873ebdc8"
+              }
+            },
+            "verification": {
+              "verifiedBy": "20250308:",
+              "verifiedStatus": "verified"
+            }
+          },
+          {
+            "address": {
+              "id": "c8c5a248-d129-4047-93da-ee9cab9ad23e"
+            },
+            "startOn": "2024-03-21T05:00:00Z",
+            "type": {
+              "addressType": "business",
+              "detail": {
+                "id": "1dceb583-3c23-4ab6-a26d-cd79390a6519"
+              }
+            },
+            "verification": {
+              "verifiedBy": "20240312:",
+              "verifiedStatus": "verified"
+            }
+          }
+        ],
+        "alternativeCredentials": [
+          {
+            "type": {
+              "id": "656fda4b-2466-46fe-a2e1-96e6546bf910"
+            },
+            "value": "003f400000Ry7r6AAB"
+          },
+          {
+            "type": {
+              "id": "cbdf728e-e2fa-4e04-801f-6433c88bf3cc"
+            },
+            "value": "005Ro0000021m9XIAQ"
+          },
+          {
+            "type": {
+              "id": "de204ed7-5841-4128-8c2d-d19f481ce7b1"
+            },
+            "value": "a0cf4000002gyiZAAQ"
+          }
+        ],
+        "citizenshipStatus": {
+          "category": "citizen",
+          "detail": {
+            "id": "2d539390-fa14-43c3-8e94-102fb1b2c2a7"
+          }
+        },
+        "credentials": [
+          {
+            "type": "bannerSourcedId",
+            "value": "88046"
+          },
+          {
+            "type": "bannerUserName",
+            "value": "893195"
+          },
+          {
+            "type": "bannerUdcId",
+            "value": "7597603E84B4B02AE053510110AC58AA"
+          },
+          {
+            "type": "bannerId",
+            "value": "00893195"
+          }
+        ],
+        "dateOfBirth": "2001-09-13",
+        "emails": [
+          {
+            "address": "theinle@millikin.edu",
+            "preference": "primary",
+            "type": {
+              "detail": {
+                "id": "ac2081b4-3bec-4e9d-b429-879677a079d7"
+              },
+              "emailType": "school"
+            }
+          },
+          {
+            "address": "tateraeh@gmail.com",
+            "type": {
+              "detail": {
+                "id": "44211d46-5a30-49d5-b97c-b23795e2ea4e"
+              },
+              "emailType": "personal"
+            }
+          },
+          {
+            "address": "trheinle@gmail.com",
+            "type": {
+              "detail": {
+                "id": "44211d46-5a30-49d5-b97c-b23795e2ea4e"
+              },
+              "emailType": "personal"
+            }
+          },
+          {
+            "address": "tateraeh@gmail.com",
+            "type": {
+              "detail": {
+                "id": "b7edc78b-bd99-43b0-8327-1b650496cbbf"
+              },
+              "emailType": "support"
+            }
+          }
+        ],
+        "ethnicity": {
+          "ethnicGroup": {
+            "id": "71428a22-ff2f-4961-bd0f-fe00d2633acb"
+          },
+          "reporting": [
+            {
+              "country": {
+                "code": "USA",
+                "ethnicCategory": "nonHispanic"
+              }
+            }
+          ]
+        },
+        "gender": "female",
+        "genderIdentity": {
+          "id": "6f01745a-96d2-48cf-aa58-64992cf6e804"
+        },
+        "genderMarker": {
+          "id": "9eea11b1-315f-4f10-8a59-a258b69eef4f"
+        },
+        "id": "defc6a7c-9c7f-4816-b6b5-4067ac6886e9",
+        "maritalStatus": {
+          "detail": {
+            "id": "fe204b49-e33e-480e-925e-f14ad56dae73"
+          },
+          "maritalCategory": "single"
+        },
+        "names": [
+          {
+            "firstName": "Taylor",
+            "fullName": "Taylor Rae Heinle",
+            "lastName": "Heinle",
+            "middleName": "Rae",
+            "preference": "preferred"
+          },
+          {
+            "firstName": "Tate",
+            "fullName": "Tate Rae Heinle",
+            "lastName": "Heinle",
+            "middleName": "Rae",
+            "type": {
+              "category": "birth",
+              "detail": {
+                "id": "11b26d6d-39d9-481e-b9e3-6b88c9bdc37d"
+              }
+            }
+          },
+          {
+            "firstName": "Tate",
+            "fullName": "Tate Rae Heinle",
+            "lastName": "Heinle",
+            "middleName": "Rae",
+            "type": {
+              "category": "favored"
+            }
+          }
+        ],
+        "personalPronoun": {
+          "id": "8fe25db8-0da2-49c8-bb15-72a3ca0a3192"
+        },
+        "phones": [
+          {
+            "number": "7575154116",
+            "type": {
+              "detail": {
+                "id": "a2217661-50ff-4f43-b5b1-e8a485dd5842"
+              },
+              "phoneType": "mobile"
+            }
+          },
+          {
+            "number": "2176373845",
+            "type": {
+              "detail": {
+                "id": "a2217661-50ff-4f43-b5b1-e8a485dd5842"
+              },
+              "phoneType": "mobile"
+            }
+          },
+          {
+            "number": "2173626484",
+            "type": {
+              "detail": {
+                "id": "fe8debd0-0493-40a5-b37d-2be943d60a53"
+              },
+              "phoneType": "main"
+            }
+          }
+        ],
+        "privacyStatus": {
+          "privacyCategory": "unrestricted"
+        },
+        "races": [
+          {
+            "race": {
+              "id": "c20a1014-3ac7-4f31-87f1-c5ff7b0f002a"
+            },
+            "reporting": [
+              {
+                "country": {
+                  "code": "USA",
+                  "racialCategory": "hawaiianOrPacificIslander"
+                }
+              }
+            ]
+          }
+        ],
+        "roles": [
+          {
+            "role": "student",
+            "startOn": "2019-08-26T05:00:00Z"
+          },
+          {
+            "endOn": "2999-05-15T05:00:00Z",
+            "role": "instructor",
+            "startOn": "2024-08-26T05:00:00Z"
+          },
+          {
+            "endOn": "2999-05-15T05:00:00Z",
+            "role": "advisor",
+            "startOn": "2024-08-26T05:00:00Z"
+          },
+          {
+            "role": "alumni",
+            "startOn": "2024-02-15T19:45:05Z"
+          },
+          {
+            "role": "employee",
+            "startOn": "2019-08-01T05:00:00Z"
+          },
+          {
+            "role": "vendor",
+            "startOn": "2019-11-13T06:00:00Z"
+          }
+        ],
+        "gorirol": {
+          "id": "defc6a7c-9c7f-4816-b6b5-4067ac6886e9",
+          "udcIdentifier": "7597603E84B4B02AE053510110AC58AA",
+          "dateOfBirth": "2001-09-13",
+          "bannerId": "00893195",
+          "affix": [
+            {
+              "type": "form of address"
+            }
+          ],
+          "institutionRoles": ["MU_ACCESS_ARGOS", "MU_ACCESS_BANNER"],
+          "principal": "893195",
+          "credential": "ABE814BAA5454CA1EC509EA19D657FA1E523BCB4",
+          "personIdentity": {
+            "personName": {
+              "formattedName": "Taylor Rae Heinle",
+              "givenName": "Taylor",
+              "familyName": "Heinle",
+              "middleName": "Rae",
+              "preferredGivenName": "Tate"
+            }
+          },
+          "primaryAddress": {
+            "addressLines": ["."]
+          }
+        }
+      },
+      "__type": "ETHOS_MESSAGE"
+    }
+  ],
+  "runId": "6abbae57-5b49-43ab-b0ba-0e5110298e04"
+}
