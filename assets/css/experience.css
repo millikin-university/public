@@ -1284,7 +1284,8 @@ button.sdk--link-modal .material-symbols-outlined {
   background-color: var(--mu-blue-medium);
 }
 
-.sdk--inline-form {
+.sdk--inline-form,
+.sdk--inline-form-with-button {
   display: flex;
 }
 
