@@ -1288,23 +1288,28 @@ button.sdk--link-modal .material-symbols-outlined {
   display: flex;
 }
 
-.sdk--inline-form input {
+.sdk--inline-form input,
+.sdk--inline-form-with-button input,
+.sdk--inline-form-with-button button {
   border-radius: 0px;
   border-right-width: 1px;
   border-left-width: 1px;
 }
 
-.sdk--inline-form input:focus {
+.sdk--inline-form input:focus,
+.sdk--inline-form-with-button input:focus,
+.sdk--inline-form-with-button button:focus {
   border-color: var(--mu-blue-light);
 }
 
-.sdk--inline-form input:first-child {
+.sdk--inline-form input:first-child .sdk--inline-form-with-button input:first-child {
   border-top-left-radius: var(--rectangle-radius);
   border-bottom-left-radius: var(--rectangle-radius);
   border-left-width: 2px;
 }
 
-.sdk--inline-form input:last-child {
+.sdk--inline-form input:last-child,
+.sdk--inline-form-with-button button {
   border-top-right-radius: var(--rectangle-radius);
   border-bottom-right-radius: var(--rectangle-radius);
   border-right-width: 2px;
