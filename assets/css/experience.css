@@ -1532,7 +1532,7 @@ button.sdk--link-modal .material-symbols-outlined {
   width: 100%;
 }
 
-.sdk--data-table-shrink {
+table.sdk--data-table-shrink {
   width: fit-content;
   max-width: 100%;
 }
