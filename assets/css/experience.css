@@ -1359,6 +1359,17 @@ button.sdk--link-modal .material-symbols-outlined {
   color: var(--mu-error-color);
 }
 
+.sdk--link {
+  color: var(--mu-blue-medium-light);
+  text-decoration: none;
+}
+
+.sdk--link:hover,
+.sdk--link:focus {
+  color: var(--mu-blue-medium-dark);
+  text-decoration: underline;
+}
+
 .mu--card-shade.sdk--slide-content {
   padding: 8px 36px;
   height: 100%;
