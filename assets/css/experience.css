@@ -84,6 +84,10 @@ html {
   transition: var(--transition-speed);
 }
 
+.mu--page-body {
+  overflow-y: auto;
+}
+
 .ss--pgb {
   min-width: 600px;
 }
