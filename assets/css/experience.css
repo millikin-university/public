@@ -1717,6 +1717,10 @@ table.sdk--data-table-shrink {
   z-index: 120;
 }
 
+.sdk--MuiTabs {
+  padding: 16px;
+}
+
 /* Fix Identified Material UI Items  we use due to our .mu-body * breaking them */
 .mu--body .MuiAlert-root,
 .mu--page-body .MuiAlert-root {
