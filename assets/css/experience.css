@@ -1716,8 +1716,8 @@ table.sdk--data-table-shrink {
   transition: 0.5s;
   z-index: 120;
 }
-
-.sdk--MuiTabs {
+/* Reset spacing for MUI Tabs */
+.sdk--MuiTabs .MuiTab-root {
   padding: 16px;
 }
 
