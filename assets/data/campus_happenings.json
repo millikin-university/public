@@ -1,0 +1,17 @@
+[
+  { "date": "2025-12-16", "events": [{ "time": "11 a.m.-noon", "title": "Walk-in Resume Hours (UC, Room 336)" }] },
+  {
+    "date": "2025-12-18",
+    "events": [
+      { "time": "3-4 p.m.", "title": "Walk-in Resume Hours (UC, Room 336)" },
+      { "time": "6-7:30 p.m.", "title": "St. Louis-Area Cookie Party (Parkway United Church of Christ, St. Louis)" }
+    ]
+  },
+  {
+    "date": "2025-12-19",
+    "events": [
+      { "time": "2-3 p.m.", "title": "Walk-in Resume Hours (UC, Room 336)" },
+      { "time": "7 p.m.", "title": "Men's Basketball vs. Greenville University" }
+    ]
+  }
+]

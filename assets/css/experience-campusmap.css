@@ -1,0 +1,187 @@
+#map--image {
+  width: 100%;
+}
+
+#map--container {
+  position: relative;
+  width: 100%;
+}
+
+.map--legend {
+  display: grid;
+  gap: 16px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  margin-bottom: 24px;
+  font-size: 11pt;
+}
+
+.map--legend summary {
+  padding-bottom: 12px;
+  font-weight: bold;
+}
+
+.map--legend .map--label-emergency {
+  margin-left: 4px;
+  margin-right: 4px;
+}
+
+.map--legend-group {
+  display: grid;
+  gap: 12px 6px;
+  grid-template-columns: 35px auto;
+  margin-left: 16px;
+}
+
+.map--label {
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  text-align: center;
+  line-height: 0;
+  width: 24px;
+  height: 24px;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.map--label span {
+  display: inline-block;
+  padding-top: 45%; /* They don't seem quite aligned at 50% */
+}
+
+.map--label .material-symbols-outlined {
+  font-size: 16px;
+  padding-top: 50%;
+  line-height: 0;
+  margin-left: -1px; /* They don't seem quite aligned at 0px*/
+}
+
+.map--label-number {
+  background-color: rgba(255, 255, 255, 0.25);
+}
+
+.map--label-safety {
+  background-color: #ff0000;
+}
+
+.map--label-emergency {
+  background-color: #ff0000;
+  width: 16px;
+  height: 16px;
+}
+
+.map--label-lot {
+  background-color: rgba(255, 255, 255, 0.75);
+  color: #000000;
+  border: 1px solid #000000;
+  font-size: 12px;
+  text-align: left;
+  display: inline-block;
+  padding-left: 1px;
+}
+
+.map--label-lot-wide {
+  width: 30px;
+}
+.map--label-lot div {
+  position: relative;
+  display: inline-block;
+  font-variant: small-caps;
+}
+.map--label-lot div:first-child {
+  top: 4px;
+}
+
+.map--label-lot div:last-child {
+  top: 16px;
+  font-weight: bold;
+}
+
+.map--label-value {
+  line-height: 1;
+  display: inline-block;
+}
+
+.map--label-sublabel {
+  padding-top: 4px;
+  font-size: 10pt;
+  font-style: italic;
+}
+
+.map--clickable-label {
+  cursor: pointer;
+  transition: var(--transition-speed);
+}
+
+.map--clickable-label:hover {
+  box-shadow: 0px 0px 5px 5px rgba(0, 117, 191, 0.9);
+}
+
+.map--clickable-clicked,
+.map--clickable-label:active {
+  box-shadow: 0px 0px 8px 8px rgba(25, 172, 237, 0.9);
+}
+
+#map--container .map--label,
+#map--helper .map-label {
+  position: absolute;
+  scale: 70%;
+}
+
+#map--container .map--label-safety,
+#map--helper .map--label-emergency {
+  font-size: 22px;
+}
+
+#map--container .map--label-number,
+#map--helper .map--label-number {
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+#map--helper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding-right: 16px;
+  display: flex;
+  flex-direction: row;
+  flex-basis: 25%;
+  flex-grow: 1;
+  text-align: left;
+  color: #000000;
+  background-color: rgba(255, 255, 255, 0.88);
+  font-size: max(min(1.5vw, 11pt), 8pt);
+  border-bottom-left-radius: 4px;
+  z-index: 60;
+}
+
+#map--helper .map--helper-block {
+  text-align: left;
+}
+
+#map--helper .map--helper-section {
+  display: grid;
+  gap: 12px 6px;
+  grid-template-columns: 30px auto;
+  padding: 2px 4px 4px 0px;
+}
+
+#map--helper .map--helper-section .map--label {
+  position: unset;
+  margin-top: -1px;
+  visibility: hidden;
+}
+#map--helper .map--helper-section:first-child .map--label {
+  visibility: unset;
+}
+
+#map--helper .map--helper-group {
+  font-weight: bold;
+  color: var(--mu-blue-dark);
+}
+
+#map--helper .map--helper-sublabel {
+  font-style: italic;
+  font-size: max(min(1.25vw, 10pt), 7.5pt);
+}
