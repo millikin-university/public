@@ -128,12 +128,10 @@ html {
 }
 
 a .material-symbols-outlined,
-a .material-symbols-outlined,
 a .ss--mso {
   text-decoration: none;
 }
 
-a:hover .material-symbols-outlined,
 a:hover .material-symbols-outlined,
 a:hover .ss--mso {
   text-decoration: none;
@@ -796,6 +794,7 @@ a:hover .ss--mso {
   z-index: 70;
   transition: var(--transition-speed);
   cursor: pointer;
+  box-sizing: border-box;
 }
 
 #modal-shade.mu--modal-top,
@@ -853,6 +852,7 @@ button.sdk--link-modal .material-symbols-outlined {
   z-index: 75;
   overflow-y: auto;
   cursor: default;
+  box-sizing: border-box;
 }
 
 .mu--modal-shade-closed {
@@ -942,7 +942,7 @@ button.sdk--link-modal .material-symbols-outlined {
   padding-top: unset;
 }
 
-/* Shade allows futerher darkening background, great for link button cards */
+/* Shade allows further darkening background, great for link button cards */
 .mu--card-shade {
   position: absolute;
   top: 0;
