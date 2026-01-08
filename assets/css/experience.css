@@ -555,6 +555,7 @@ a:hover .ss--mso {
   font-family: Roboto; /*Secondary Standard font from Ellucian */
   font-weight: bold;
   display: inline-block;
+  margin: 0;
 }
 
 .mu--subtext-card-bottom h3:before {
@@ -586,6 +587,10 @@ a:hover .ss--mso {
 .mu--subtext-card-bottom a.mu--link-button:hover {
   color: #ffffff;
   text-decoration: unset;
+}
+
+.mu--subtext-card-bottom p {
+  margin: 0;
 }
 
 /* Used for mu--subtext-card-bottom primarily */
@@ -1726,27 +1731,8 @@ table.sdk--data-table-shrink {
   transition: 0.5s;
   z-index: 120;
 }
-/* Reset spacing for MUI Tabs */
-.sdk--MuiTabs .MuiTab-root {
-  padding: 16px;
-}
 
-/* Fix Identified Material UI Items  we use due to our .mu-body * breaking them */
-.mu--body .MuiAlert-root,
-.mu--page-body .MuiAlert-root {
-  padding: 6px 16px;
-}
-
-.mu--body .MuiAlert-root {
-  border-radius: 0px;
-  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.5);
-}
-
-.mu--body .MuiAlert-root .MuiAlert-icon {
-  margin-right: 12px;
-  padding: 7px 0;
-}
-
+/* Colorize the Alerts */
 .sdk--message-success {
   border-top-color: var(--mu-alert-success-border);
 }
