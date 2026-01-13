@@ -1,17 +1,21 @@
 [
-  { "date": "2025-12-16", "events": [{ "time": "11 a.m.-noon", "title": "Walk-in Resume Hours (UC, Room 336)" }] },
+  { "date": "2026-01-13", "events": [{ "time": "9 a.m.-4 p.m.", "title": "Big Blue Access Book Distribution (Blackburn Hall)" }] },
   {
-    "date": "2025-12-18",
+    "date": "2026-01-14",
     "events": [
-      { "time": "3-4 p.m.", "title": "Walk-in Resume Hours (UC, Room 336)" },
-      { "time": "6-7:30 p.m.", "title": "St. Louis-Area Cookie Party (Parkway United Church of Christ, St. Louis)" }
+      { "time": "9 a.m.-4 p.m.", "title": "Big Blue Access Book Distribution (Blackburn Hall)" },
+      { "time": "7 p.m.", "title": "Men's Basketball vs. Wheaton College (Griswold)" }
     ]
   },
+  { "date": "2026-01-15", "events": [{ "time": "9 a.m.-4 p.m.", "title": "Big Blue Access Book Distribution (Blackburn Hall)" }] },
+  { "date": "2026-01-16", "events": [{ "time": "9 a.m.-4 p.m.", "title": "Big Blue Access Book Distribution (Blackburn Hall)" }] },
   {
-    "date": "2025-12-19",
+    "date": "2026-01-17",
     "events": [
-      { "time": "2-3 p.m.", "title": "Walk-in Resume Hours (UC, Room 336)" },
-      { "time": "7 p.m.", "title": "Men's Basketball vs. Greenville University" }
+      { "time": "9 a.m.-4 p.m.", "title": "Big Blue Access Book Distribution (Blackburn Hall)" },
+      { "time": "2 p.m.", "title": "Women's Basketball vs. Carthage College (Griswold)" },
+      { "time": "4:15 p.m.", "title": "Men's Basketball vs. Carthage College (Griswold)" }
     ]
-  }
+  },
+  { "date": "2026-01-18", "events": [{ "time": "2-4 p.m.", "title": "University Choir Tour Finale (St. Patrick Church)" }] }
 ]
