@@ -90,6 +90,12 @@ html {
   min-width: 300px;
 }
 
+@media only screen and (min-width: 700px) {
+  .ss--pgb {
+    min-width: 600px;
+  }
+}
+
 .ss--pgf {
   padding-top: 16px;
   font-size: 10pt;
