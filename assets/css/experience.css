@@ -90,9 +90,9 @@ html {
   min-width: 300px;
 }
 
-@media only screen and (min-width: 700px) {
+@media only screen and (min-width: 800px) {
   .ss--pgb {
-    min-width: 600px;
+    min-width: 680px;
   }
 }
 
