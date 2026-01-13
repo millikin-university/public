@@ -86,7 +86,8 @@ html {
 }
 
 .ss--pgb {
-  min-width: 600px;
+  /* We don't have a lot of control of the CSS on Self-Service. We need this to be smaller for phones */
+  min-width: 300px;
 }
 
 .ss--pgf {
