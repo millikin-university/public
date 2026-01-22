@@ -595,7 +595,7 @@ a:hover .ss--mso {
 }
 
 .mu--subtext-card-bottom a.mu--link-button:hover,
-.mu--subtext-card-bottom button.mu--link-button:hover {
+.mu--subtext-card-bottom button.mu--link-button:not(:disabled):hover {
   color: #ffffff;
   text-decoration: unset;
 }
@@ -1006,14 +1006,14 @@ button.sdk--link-modal .material-symbols-outlined {
   box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.75);
 }
 
-.mu--link-button:hover,
+.mu--link-button:not(:disabled):hover,
 .ss--btn:hover {
   color: #ffffff;
   background-color: var(--mu-blue-medium-light);
   border-color: #ffffff;
 }
 
-.mu--link-button:hover .mu--link-label,
+.mu--link-button:not(:disabled):hover .mu--link-label,
 .ss--btn:hover .ss--lbl {
   text-decoration: underline;
 }
@@ -1292,7 +1292,14 @@ button.sdk--link-modal .material-symbols-outlined {
 
 .sdk--input-select:disabled,
 .sdk--input-with-button input:disabled,
-.sdk--input-button:disabled {
+.sdk--input-button:disabled,
+.mu--link-button:disabled {
+  color: var(--mu-disabled-color);
+  background-color: var(--mu-disabled-bg-color);
+  border-color: var(--mu-disabled-color);
+}
+
+.mu--link-button:disabled .material-symbols-outlined {
   color: var(--mu-disabled-color);
   background-color: var(--mu-disabled-bg-color);
 }
