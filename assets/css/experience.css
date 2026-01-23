@@ -54,7 +54,7 @@ html {
 
 .mu--body,
 .mu--page-body,
-.ss--pgb {
+.sdk--page-bodfy .ss--pgb {
   height: 100%;
   width: 100%;
   margin: 0;
@@ -82,7 +82,12 @@ html {
 }
 
 .mu--page-body {
+  padding: 8px;
   overflow-y: auto;
+}
+
+.mu--page-body-dark {
+  background-color: #333333;
 }
 
 .ss--pgb {
@@ -916,6 +921,10 @@ button.sdk--link-modal .material-symbols-outlined {
   text-align: center;
 }
 
+.mu--page-header-mediumblue {
+  background-color: var(--mu-blue-medium);
+}
+
 .mu--page-content,
 .ss--pgc {
   width: 100%;
@@ -927,6 +936,10 @@ button.sdk--link-modal .material-symbols-outlined {
   border-bottom-right-radius: var(--rectangle-radius);
   border: 2px solid var(--mu-blue);
   margin-bottom: 24px;
+}
+
+.mu--page-content-mediumblue {
+  border-color: var(--mu-blue-medium);
 }
 
 .mu--page-content.mu--dark,
