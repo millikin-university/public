@@ -1,51 +1,51 @@
 [
   {
-    "date": "2026-01-26",
+    "date": "2026-02-02",
     "events": [
-      { "time": "9 a.m.-4 p.m.", "title": "Big Blue Access Book Distribution (Blackburn Hall)" },
-      { "time": "9:30 a.m.-12:30 p.m.", "title": "Transfer Orientation Day (UC)" }
+      { "time": "All Day", "title": "Central Illinois High School Student & Educator Art Exhibition (Perkinson Gallery & Robert Crowder Art Gallery)" },
+      { "time": "Noon-4 p.m.", "title": "Big Blue Access Book Distribution (Blackburn Hall)" }
     ]
   },
   {
-    "date": "2026-01-27",
+    "date": "2026-02-03",
     "events": [
-      { "time": "9 a.m.-4 p.m.", "title": "Big Blue Access Book Distribution (Blackburn Hall)" },
-      { "time": "12:30-1:30 p.m.", "title": "Paraprofessional Informational Session (UC 138-140)" }
+      { "time": "11 a.m.-1 p.m.", "title": "Celebrating Black History, Trivia Table & Book Giveaway (UC Lobby)" },
+      { "time": "Noon-4 p.m.", "title": "Big Blue Access Book Distribution (Blackburn Hall)" },
+      { "time": "5-6 p.m.", "title": "Social Action Club Meeting (UC 144)" }
     ]
   },
   {
-    "date": "2026-01-28",
+    "date": "2026-02-04",
     "events": [
-      { "time": "9 a.m.-4 p.m.", "title": "Big Blue Access Book Distribution (Blackburn Hall)" },
-      { "time": "2-3 p.m.", "title": "Paraprofessional Informational Session (UC 138-140)" },
-      { "time": "6-7 p.m.", "title": "Ninth Annual Panel Discussion for Human Trafficking Prevention Month on Labor Trafficking (UC Bob & Debi Johnston Banquet Rooms)" },
-      { "time": "7 p.m.", "title": "Women's Basketball vs. Illinois Wesleyan University (Griswold)" }
+      { "time": "Noon-4 p.m.", "title": "Big Blue Access Book Distribution (Blackburn Hall)" },
+      { "time": "7 p.m.", "title": "Men's Basketball vs. North Park University (Griswold)" }
     ]
   },
   {
-    "date": "2026-01-29",
+    "date": "2026-02-05",
     "events": [
-      { "time": "9 a.m.-4 p.m.", "title": "Big Blue Access Book Distribution (Blackburn Hall)" },
-      { "time": "3:30-4:30 p.m.", "title": "Paraprofessional Informational Session (UC 138-140)" }
+      { "time": "11:30 a.m.-2 p.m.", "title": "Dress to Impress (UC Banquet Rooms)" },
+      { "time": "Noon-4 p.m.", "title": "Big Blue Access Book Distribution (Blackburn Hall)" },
+      { "time": "4-6 p.m.", "title": "“Our Freedom, Our Rights: Exploring Civil Rights in Paintings and Posters” Reception (Robert Crowder Art Gallery)" }
     ]
   },
   {
-    "date": "2026-01-30",
+    "date": "2026-02-06",
     "events": [
-      { "time": "9 a.m.-4 p.m.", "title": "Big Blue Access Book Distribution (Blackburn Hall)" },
-      { "time": "1-2 p.m.", "title": "Van Gogh With the Flow (UC 138)" }
+      { "time": "Noon-4 p.m.", "title": "Big Blue Access Book Distribution (Blackburn Hall)" },
+      { "time": "1-2 p.m.", "title": "Van Gogh With the Flow (UC 138)" },
+      { "time": "7 p.m.", "title": "Men's Wrestling vs. Blackburn College" }
     ]
   },
   {
-    "date": "2026-01-31",
+    "date": "2026-02-07",
     "events": [
-      { "time": "2-4 p.m.", "title": "Women's Basketball Youth Day Featuring Women's Basketball vs. Elmhurst University (Griswold)" },
-      { "time": "4:15 p.m.", "title": "Men's Basketball vs. Elmhurst University (Griswold)" },
-      { "time": "7:30-9:30 p.m.", "title": "Ruby's High School Reunion (Virginia Rogers Theater)" }
+      { "time": "8:30 a.m.-2 p.m.", "title": "Vocal Jazz Invitational" },
+      { "time": "10 a.m.-4:30 p.m.", "title": "Millikin Winter Percussion Workshop 2026 (Perkinson Music Center)" },
+      { "time": "1-5 p.m.", "title": "Clarinet Day 2026 (Perkinson Music Center)" },
+      { "time": "4-6 p.m.", "title": "Central Illinois High School Art Exhibition Reception and Awards (Perkinson Gallery & Robert Crowder Art Gallery)" },
+      { "time": "7:30 p.m.", "title": "Masterworks III: A Mosaic from Heaven and Young Artists (Kirkland Fine Arts Center)" }
     ]
   },
-  {
-    "date": "2026-02-01",
-    "events": [{ "time": "All Day, Through March 27", "title": "Our Freedom, Our Rights: Exploring Civil Rights in Paintings and Posters (Robert Crowder Art Gallery)" }]
-  }
+  { "date": "2026-02-08", "events": [{ "time": "11 a.m.-1 p.m.", "title": "Involvement Fair (UC Banquet Rooms)" }] }
 ]
