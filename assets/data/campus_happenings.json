@@ -1,51 +1,34 @@
 [
   {
-    "date": "2026-02-02",
+    "date": "2026-02-10",
     "events": [
-      { "time": "All Day", "title": "Central Illinois High School Student & Educator Art Exhibition (Perkinson Gallery & Robert Crowder Art Gallery)" },
-      { "time": "Noon-4 p.m.", "title": "Big Blue Access Book Distribution (Blackburn Hall)" }
+      { "time": "11 a.m.-1 p.m.", "title": "BHM Trivia and Book Giveaway (UC Lobby)" },
+      { "time": "6-7 p.m.", "title": "Living Single: Bills, Budget and Besties (SCO 212)" }
     ]
   },
   {
-    "date": "2026-02-03",
+    "date": "2026-02-11",
     "events": [
-      { "time": "11 a.m.-1 p.m.", "title": "Celebrating Black History, Trivia Table & Book Giveaway (UC Lobby)" },
-      { "time": "Noon-4 p.m.", "title": "Big Blue Access Book Distribution (Blackburn Hall)" },
-      { "time": "5-6 p.m.", "title": "Social Action Club Meeting (UC 144)" }
+      { "time": "1-3 p.m.", "title": "Millikin Study Tables (UC Third Floor)" },
+      { "time": "1:30-2:30 p.m.", "title": "WPA Free Plant Giveaway (UC Lobby)" },
+      { "time": "7 p.m.", "title": "Men's Basketball vs. Illinois Wesleyan University (Griswold)" }
     ]
   },
   {
-    "date": "2026-02-04",
+    "date": "2026-02-13",
     "events": [
-      { "time": "Noon-4 p.m.", "title": "Big Blue Access Book Distribution (Blackburn Hall)" },
-      { "time": "7 p.m.", "title": "Men's Basketball vs. North Park University (Griswold)" }
-    ]
-  },
-  {
-    "date": "2026-02-05",
-    "events": [
-      { "time": "11:30 a.m.-2 p.m.", "title": "Dress to Impress (UC Banquet Rooms)" },
-      { "time": "Noon-4 p.m.", "title": "Big Blue Access Book Distribution (Blackburn Hall)" },
-      { "time": "4-6 p.m.", "title": "“Our Freedom, Our Rights: Exploring Civil Rights in Paintings and Posters” Reception (Robert Crowder Art Gallery)" }
-    ]
-  },
-  {
-    "date": "2026-02-06",
-    "events": [
-      { "time": "Noon-4 p.m.", "title": "Big Blue Access Book Distribution (Blackburn Hall)" },
       { "time": "1-2 p.m.", "title": "Van Gogh With the Flow (UC 138)" },
-      { "time": "7 p.m.", "title": "Men's Wrestling vs. Blackburn College" }
+      { "time": "2-6 p.m.", "title": "Millikin Composition/Piano Festival 2026 (Kaeuper Hall, Perkinson Music Center)" }
     ]
   },
   {
-    "date": "2026-02-07",
+    "date": "2026-02-14",
     "events": [
-      { "time": "8:30 a.m.-2 p.m.", "title": "Vocal Jazz Invitational" },
-      { "time": "10 a.m.-4:30 p.m.", "title": "Millikin Winter Percussion Workshop 2026 (Perkinson Music Center)" },
-      { "time": "1-5 p.m.", "title": "Clarinet Day 2026 (Perkinson Music Center)" },
-      { "time": "4-6 p.m.", "title": "Central Illinois High School Art Exhibition Reception and Awards (Perkinson Gallery & Robert Crowder Art Gallery)" },
-      { "time": "7:30 p.m.", "title": "Masterworks III: A Mosaic from Heaven and Young Artists (Kirkland Fine Arts Center)" }
+      { "time": "8:30 a.m.-4 p.m.", "title": "Millikin Composition/Piano Festival 2026 (Kaeuper Hall, Perkinson Music Center)" },
+      { "time": "2 p.m.", "title": "Women's Basketball vs. Carroll University (Griswold)" },
+      { "time": "4:15 p.m.", "title": "Men's Basketball Campers Day Featuring Men's Basketball vs. Carroll University (Griswold)" },
+      { "time": "6-9 p.m.", "title": "Valentine’s Gala: Dinner & Show (The Hostetler)" },
+      { "time": "7:30-9:30 p.m.", "title": "Ain't Misbehavin' (Kirkland Fine Arts Center)" }
     ]
-  },
-  { "date": "2026-02-08", "events": [{ "time": "11 a.m.-1 p.m.", "title": "Involvement Fair (UC Banquet Rooms)" }] }
+  }
 ]
