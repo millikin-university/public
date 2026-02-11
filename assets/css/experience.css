@@ -1542,6 +1542,41 @@ button.sdk--link-modal .material-symbols-outlined {
   }
 }
 
+.sdk--tabbed-footer button.MuiTab-fullWidth {
+  color: var(--mu-blue-dark);
+  border-right: 1px solid var(--mu-blue);
+  border-left: 1px solid var(--mu-blue);
+}
+
+.sdk--tabbed-footer button.MuiTab-fullWidth:first-of-type {
+  border-left: none;
+}
+
+.sdk--tabbed-footer button.MuiTab-fullWidth:last-of-type {
+  border-right: none;
+}
+
+.sdk--tabbed-footer {
+  background-color: #e0e0e0;
+  padding: 0;
+}
+
+.sdk--tabbed-footer button.MuiTab-fullWidth.Mui-selected {
+  color: #ffffff;
+  font-weight: bold;
+  background-color: var(--mu-blue);
+}
+
+.sdk--tabbed-footer button.MuiTab-fullWidth:hover {
+  color: #ffffff;
+  font-weight: bold;
+  background-color: var(--mu-blue-medium);
+}
+
+.sdk--tabbed-footer button.MuiTab-fullWidth.Mui-selected:hover {
+  background-color: var(--mu-blue);
+}
+
 /*  Allows for the links on SDK card to be disabled.
     'a' tags do not natively support the 'disabled' global attribute
     This will make them look disabled and control an overlay that blocks their access
