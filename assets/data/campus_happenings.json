@@ -1,34 +1,21 @@
 [
   {
-    "date": "2026-02-10",
+    "date": "2026-02-17",
     "events": [
-      { "time": "11 a.m.-1 p.m.", "title": "BHM Trivia and Book Giveaway (UC Lobby)" },
-      { "time": "6-7 p.m.", "title": "Living Single: Bills, Budget and Besties (SCO 212)" }
+      { "time": "11 a.m.-1 p.m.", "title": "  BHM Trivia and Book Giveaway (UC Lobby)" },
+      { "time": "11 a.m.-7 p.m.", "title": "  Guitar Day (Perkinson Music Center)" },
+      { "time": "11:30 a.m.-1:30 p.m.", "title": "Lunch Special: National Cabbage Day (Dining Hall)" },
+      { "time": "6-8 p.m.", "title": "  WPA Love Lab (UC)" }
     ]
   },
+  { "date": "2026-02-18", "events": [{ "time": "7 p.m.", "title": " Women's Basketball vs. North Park University (Griswold)" }] },
+  { "date": "2026-02-20", "events": [{ "time": "1-2 p.m.", "title": "Van Gogh With the Flow (UC 138)" }] },
   {
-    "date": "2026-02-11",
+    "date": "2026-02-21",
     "events": [
-      { "time": "1-3 p.m.", "title": "Millikin Study Tables (UC Third Floor)" },
-      { "time": "1:30-2:30 p.m.", "title": "WPA Free Plant Giveaway (UC Lobby)" },
-      { "time": "7 p.m.", "title": "Men's Basketball vs. Illinois Wesleyan University (Griswold)" }
+      { "time": "8 a.m.-noon ", "title": "Campus Visit Day" },
+      { "time": "7:30-9:30 p.m.", "title": " Percussion Ensemble Synergy (Albert Taylor Theatre)" }
     ]
   },
-  {
-    "date": "2026-02-13",
-    "events": [
-      { "time": "1-2 p.m.", "title": "Van Gogh With the Flow (UC 138)" },
-      { "time": "2-6 p.m.", "title": "Millikin Composition/Piano Festival 2026 (Kaeuper Hall, Perkinson Music Center)" }
-    ]
-  },
-  {
-    "date": "2026-02-14",
-    "events": [
-      { "time": "8:30 a.m.-4 p.m.", "title": "Millikin Composition/Piano Festival 2026 (Kaeuper Hall, Perkinson Music Center)" },
-      { "time": "2 p.m.", "title": "Women's Basketball vs. Carroll University (Griswold)" },
-      { "time": "4:15 p.m.", "title": "Men's Basketball Campers Day Featuring Men's Basketball vs. Carroll University (Griswold)" },
-      { "time": "6-9 p.m.", "title": "Valentine’s Gala: Dinner & Show (The Hostetler)" },
-      { "time": "7:30-9:30 p.m.", "title": "Ain't Misbehavin' (Kirkland Fine Arts Center)" }
-    ]
-  }
+  { "date": "2026-02-22", "events": [{ "time": "4 p.m.", "title": "Faculty Recital Series II: The Metamorphosis: Trumpet Through the Ages" }] }
 ]
