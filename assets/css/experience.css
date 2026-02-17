@@ -1,4 +1,5 @@
 :root {
+  --mu-blue-darkest: #071c32;
   --mu-blue-dark: #0b2d50;
   --mu-blue: #004185;
   --mu-blue-medium-dark: #005ba2;
@@ -1619,6 +1620,39 @@ button.sdk--link-modal .material-symbols-outlined {
 .sdk--card-links-disabled a.sdk--link-modal .material-symbols-outlined,
 .mu--card-links .mu--card-link-disabled.sdk--link-modal .material-symbols-outlined {
   color: var(--mu-disabled-bg-color);
+}
+
+/* Handle Link buttons */
+a.mu--link-button.sdk--card-links-disabled {
+  pointer-events: none;
+  background-color: var(--mu-disabled-bg-color);
+  border-color: var(--mu-disabled-color);
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);
+}
+
+a.mu--link-button.sdk--card-links-disabled .mu--link-label {
+  color: var(--mu-disabled-color);
+}
+
+a.mu--link-button.sdk--card-links-disabled .material-symbols-outlined {
+  color: var(--mu-disabled-color);
+  background-color: var(--mu-disabled-bg-color);
+}
+
+/* Dark Variant */
+a.mu--link-button.sdk--card-links-disabled.mu--link-button-dark {
+  pointer-events: none;
+  background-color: var(--mu-blue-darkest);
+  border-color: var(--mu-blue-dark);
+}
+
+a.mu--link-button.sdk--card-links-disabled.mu--link-button-dark .mu--link-label {
+  color: #9f9f9f;
+}
+
+a.mu--link-button.sdk--card-links-disabled.mu--link-button-dark .material-symbols-outlined {
+  color: #9f9f9f;
+  background-color: var(--mu-blue-dark);
 }
 
 /* Tables */
