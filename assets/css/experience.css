@@ -1863,16 +1863,16 @@ table.sdk--data-table-shrink {
   color: var(--mu-alert-info-border);
 }
 
-.sdk--message-warn {
+.sdk--message-warning {
   border-top-color: var(--mu-alert-warn-border);
 }
 
-.sdk--message-warn .MuiAlert-root {
+.sdk--message-warning .MuiAlert-root {
   background-color: var(--mu-alert-warn-bgcolor);
   color: var(--mu-alert-warn-color);
 }
 
-.sdk--message-warn .MuiAlert-icon {
+.sdk--message-warning .MuiAlert-icon {
   color: var(--mu-alert-warn-border);
 }
 
