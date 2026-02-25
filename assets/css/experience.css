@@ -901,7 +901,7 @@ button.sdk--link-modal .material-symbols-outlined {
 
 .mu--card-links a[data-open]:hover,
 .mu--card-links button[data-open]:hover {
-  background-color: var(--mu-blue-medium-light);
+  background-color: var(--mu-blue-light);
 }
 
 .mu--card-links a[data-open] .material-symbols-outlined,
