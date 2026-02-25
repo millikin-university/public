@@ -895,7 +895,8 @@ button.sdk--link-modal .material-symbols-outlined {
   background-color: rgba(0, 0, 0, 0.5);
 }
 
-.mu--card-links a[data-open] {
+.mu--card-links a[data-open],
+.mu--card-links button[data-open] {
   background-color: var(--mu-blue-light);
 }
 
