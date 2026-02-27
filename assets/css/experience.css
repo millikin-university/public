@@ -146,7 +146,9 @@ a .ss--mso {
 }
 
 a:hover .material-symbols-outlined,
-a:hover .ss--mso {
+a:hover .ss--mso,
+a:focus .material-symbols-outlined,
+a:focus .ss--mso {
   text-decoration: none;
 }
 
@@ -462,16 +464,19 @@ a:hover .ss--mso {
   overflow: hidden;
 }
 
-.mu--card-link:hover a {
+.mu--card-link:hover a,
+.mu--card-link:focus a {
   text-decoration: underline;
 }
 
-.mu--card-link:hover .mu--card-bg-image {
+.mu--card-link:hover .mu--card-bg-image,
+.mu--card-link:focus .mu--card-bg-image {
   transform: scale(105%);
   background-position: center;
 }
 
-.mu--card-link:hover .mu--card-text-label {
+.mu--card-link:hover .mu--card-text-label,
+.mu--card-link:focus .mu--card-text-label {
   text-decoration: underline;
 }
 
@@ -531,7 +536,8 @@ a:hover .ss--mso {
   position: relative;
 }
 
-.mu--multicard-stacked .mu--card-link:hover a {
+.mu--multicard-stacked .mu--card-link:hover a,
+.mu--multicard-stacked .mu--card-link:focus a {
   border-color: var(--mu-blue-lightest);
   text-decoration: underline;
 }
@@ -590,7 +596,8 @@ a:hover .ss--mso {
   text-decoration: none;
 }
 
-.mu--subtext-card-bottom a:hover {
+.mu--subtext-card-bottom a:hover,
+.mu--subtext-card-bottom a:focus {
   color: var(--mu-blue-lightest);
   text-decoration: underline;
 }
@@ -602,7 +609,9 @@ a:hover .ss--mso {
 }
 
 .mu--subtext-card-bottom a.mu--link-button:hover,
-.mu--subtext-card-bottom button.mu--link-button:not(:disabled):hover {
+.mu--subtext-card-bottom button.mu--link-button:not(:disabled):hover,
+.mu--subtext-card-bottom a.mu--link-button:focus,
+.mu--subtext-card-bottom button.mu--link-button:not(:disabled):focus {
   color: #ffffff;
   text-decoration: unset;
 }
@@ -658,12 +667,16 @@ a:hover .ss--mso {
 }
 
 .mu--card-links a:hover,
-.mu--card-links button:not(:disabled):hover {
+.mu--card-links button:not(:disabled):hover,
+.mu--card-links a:focus,
+.mu--card-links button:not(:disabled):focus {
   background-color: var(--mu-blue-medium-light);
 }
 
 .mu--card-links a:hover .material-symbols-outlined,
-.mu--card-links button:not(:disabled):hover .material-symbols-outlined {
+.mu--card-links button:not(:disabled):hover .material-symbols-outlined,
+.mu--card-links a:focus .material-symbols-outlined,
+.mu--card-links button:not(:disabled):focus .material-symbols-outlined {
   color: #ffffff;
 }
 
@@ -833,7 +846,11 @@ button.sdk--link-modal {
 .mu--card-links a.mu--modals:hover,
 .mu--card-links button.mu--modals:hover,
 a.sdk--link-modal:hover,
-button.sdk--link-modal:hover {
+button.sdk--link-modal:hover,
+.mu--card-links a.mu--modals:focus,
+.mu--card-links button.mu--modals:focus,
+a.sdk--link-modal:focus,
+button.sdk--link-modal:focus {
   background-color: var(--mu-blue-medium-dark);
 }
 
@@ -901,7 +918,9 @@ button.sdk--link-modal .material-symbols-outlined {
 }
 
 .mu--card-links a[data-open]:hover,
-.mu--card-links button[data-open]:hover {
+.mu--card-links button[data-open]:hover,
+.mu--card-links a[data-open]:focus,
+.mu--card-links button[data-open]:focus {
   background-color: var(--mu-blue-medium-light);
 }
 
@@ -957,7 +976,9 @@ button.sdk--link-modal .material-symbols-outlined {
 }
 
 .mu--page-content.mu--dark a:not(.mu--link-button):hover,
-.ss--pgc.ss--dark a:not(.ss--btn):hover {
+.ss--pgc.ss--dark a:not(.ss--btn):hover,
+.mu--page-content.mu--dark a:not(.mu--link-button):focus,
+.ss--pgc.ss--dark a:not(.ss--btn):focus {
   color: var(--mu-blue-medium-light);
 }
 
@@ -1023,14 +1044,18 @@ button.sdk--link-modal .material-symbols-outlined {
 }
 
 .mu--link-button:not(:disabled):hover,
-.ss--btn:hover {
+.ss--btn:hover,
+.mu--link-button:not(:disabled):focus,
+.ss--btn:focus {
   color: #ffffff;
   background-color: var(--mu-blue-medium-light);
   border-color: #ffffff;
 }
 
 .mu--link-button:not(:disabled):hover .mu--link-label,
-.ss--btn:hover .ss--lbl {
+.ss--btn:hover .ss--lbl,
+.mu--link-button:not(:disabled):focus .mu--link-label,
+.ss--btn:focus .ss--lbl {
   text-decoration: underline;
 }
 
@@ -1077,7 +1102,9 @@ button.sdk--link-modal .material-symbols-outlined {
 }
 
 .mu--link-button.mu--has-sub-label:hover .mu--link-label :first-child,
-.ss--btn.ss--btn.ss--hsl:hover .ss--lbl :first-child {
+.ss--btn.ss--btn.ss--hsl:hover .ss--lbl :first-child,
+.mu--link-button.mu--has-sub-label:focus .mu--link-label :first-child,
+.ss--btn.ss--btn.ss--hsl:focus .ss--lbl :first-child {
   text-decoration: underline;
 }
 
@@ -1086,7 +1113,8 @@ button.sdk--link-modal .material-symbols-outlined {
   background-color: var(--mu-blue-dark);
 }
 
-.mu--link-button-dark:hover {
+.mu--link-button-dark:hover,
+.mu--link-button-dark:focus {
   background-color: var(--mu-blue);
 }
 
@@ -1101,7 +1129,9 @@ button.sdk--link-modal .material-symbols-outlined {
 }
 
 .mu--link-button-dark:hover .material-symbols-outlined,
-.mu--link-button-dark:hover .ss--mso {
+.mu--link-button-dark:hover .ss--mso,
+.mu--link-button-dark:focus .material-symbols-outlined,
+.mu--link-button-dark:focus .ss--mso {
   background-color: var(--mu-blue-medium-dark);
 }
 
@@ -1320,7 +1350,8 @@ button.sdk--link-modal .material-symbols-outlined {
   background-color: var(--mu-disabled-bg-color);
 }
 
-.sdk--input-select:not(:disabled):hover option {
+.sdk--input-select:not(:disabled):hover option,
+.sdk--input-select:not(:disabled):focus option {
   color: #000000;
   background-color: #ffffff;
 }
@@ -1337,7 +1368,8 @@ button.sdk--link-modal .material-symbols-outlined {
 
 .sdk--input-select:not(:disabled):active,
 .sdk--input-button:not(:disabled):active,
-.sdk--input-with-button input:last-child:not(:disabled):hover {
+.sdk--input-with-button input:last-child:not(:disabled):hover,
+.sdk--input-with-button input:last-child:not(:disabled):focus {
   color: #ffffff;
   background-color: var(--mu-blue-medium);
 }
@@ -1570,13 +1602,15 @@ button.sdk--link-modal .material-symbols-outlined {
   background-color: var(--mu-blue);
 }
 
-.sdk--tabbed-footer button.MuiTab-fullWidth:hover {
+.sdk--tabbed-footer button.MuiTab-fullWidth:hover,
+.sdk--tabbed-footer button.MuiTab-fullWidth:focus {
   color: #ffffff;
   font-weight: bold;
   background-color: var(--mu-blue-medium);
 }
 
-.sdk--tabbed-footer button.MuiTab-fullWidth.Mui-selected:hover {
+.sdk--tabbed-footer button.MuiTab-fullWidth.Mui-selected:hover,
+.sdk--tabbed-footer button.MuiTab-fullWidth.Mui-selected:focus {
   background-color: var(--mu-blue);
 }
 
@@ -1751,7 +1785,8 @@ table.sdk--data-table-shrink {
   align-items: center;
 }
 
-.sdk--card-cover:hover {
+.sdk--card-cover:hover,
+.sdk--card-cover:focus {
   color: var(--mu-blue-light);
 }
 
@@ -1770,7 +1805,8 @@ table.sdk--data-table-shrink {
   z-index: 79;
 }
 
-.sdk--hide-content:hover {
+.sdk--hide-content:hover,
+.sdk--hide-content:focus {
   width: 42px;
   height: 42px;
   background-color: var(--mu-blue-medium-dark);
@@ -1787,7 +1823,8 @@ table.sdk--data-table-shrink {
   scale: 0.75;
 }
 
-.sdk--hide-content:hover .ds-icon {
+.sdk--hide-content:hover .ds-icon,
+.sdk--hide-content:focus .ds-icon {
   scale: 1.25;
   left: 4px;
   bottom: 4px;
@@ -1808,7 +1845,8 @@ table.sdk--data-table-shrink {
   align-items: center;
 }
 
-.sdk--hide-content.sdk--content-hidden:hover {
+.sdk--hide-content.sdk--content-hidden:hover,
+.sdk--hide-content.sdk--content-hidden:focus {
   color: var(--mu-blue-light);
   height: 100%;
   width: 100%;
@@ -1819,6 +1857,7 @@ table.sdk--data-table-shrink {
   scale: 1.25;
 }
 
+.sdk--hide-content.sdk--content-hidden:focus .ds-icon,
 .sdk--hide-content.sdk--content-hidden:hover .ds-icon {
   scale: 1.5;
 }
