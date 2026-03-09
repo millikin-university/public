@@ -1,62 +1,32 @@
 [
   {
-    "date": "2026-03-02",
+    "date": "2026-03-09",
     "events": [
-      { "time": "11 a.m.-2 p.m.", "title": "Financial Aid & FAFSA Workshop (UC)" },
-      { "time": "5-6 p.m.", "title": "Making HERstory: Women in Millikin Poster Display (UC First Floor)" }
-    ]
-  },
-  { "date": "2026-03-03", "events": [{ "time": "6-8 p.m.", "title": "Spikeball Tournament (Griswold)" }] },
-  {
-    "date": "2026-03-04",
-    "events": [
-      { "time": "11 a.m.-2 p.m.", "title": "Financial Aid & FAFSA Workshop (UC)" },
-      { "time": "11:30 a.m.-1:30 p.m.", "title": "Lunch Special: National Pound Cake Day (Dining Hall)" }
+      { "time": "10 a.m.-2 p.m.", "title": "International Women’s Day Table (UC)" },
+      { "time": "6-7 p.m.", "title": "Vision Board Night With Environmental Affairs Council (LTSC 224)" }
     ]
   },
   {
-    "date": "2026-03-05",
+    "date": "2026-03-10",
     "events": [
-      { "time": "12:30-3 p.m.", "title": "Career and Internship Fair (UC Lobby & Third Floor Banquet Rooms)" },
-      { "time": "7:30-9:30 p.m.", "title": "The Great American Trailer Park Musical (Virginia Rogers Theatre)" }
+      { "time": "9:30 a.m.-2 p.m.", "title": "Ag Visit Day" },
+      { "time": "6:30-7:30 p.m.", "title": "Panel: Celebrating Women in Leadership (UC Banquet Rooms)" }
     ]
   },
   {
-    "date": "2026-03-06",
+    "date": "2026-03-13",
     "events": [
-      { "time": "11 a.m.-2 p.m.", "title": "Financial Aid & FAFSA Workshop (UC)" },
-      { "time": "11:30 a.m.-1:30 p.m.", "title": "Lunch Special: Oreo Cookie Day (Dining Hall)" },
+      { "time": "11:30 a.m.-1:30 p.m.", "title": "Lunch Special: National Chicken Noodle Soup Day (Dining Hall)" },
       { "time": "1-2 p.m.", "title": "Van Gogh With the Flow (UC 138)" },
-      { "time": "2 p.m.", "title": "Softball vs. Greenville University (Workman Family Softball Field)" },
-      { "time": "4 p.m.", "title": "Softball vs. Greenville University (Workman Family Softball Field)" },
-      { "time": "7:30-9:30 p.m.", "title": "The Great American Trailer Park Musical (Virginia Rogers Theatre)" }
+      { "time": "4 p.m.", "title": "Baseball vs. Marian University (Workman Family Baseball Field)" }
     ]
   },
   {
-    "date": "2026-03-07",
+    "date": "2026-03-14",
     "events": [
-      { "time": "10 a.m.", "title": "Jimmy Johns Invite: Baseball vs. Lawrence University (Workman Family Baseball Field)" },
-      { "time": "10:30 a.m.-2:30 p.m.", "title": "Transfer Visit Day" },
-      { "time": "10:30 a.m.-2:30 p.m.", "title": "Chicago and Northwest Indiana Admitted Student Visit Day" },
-      { "time": "11 a.m.", "title": "Softball vs. University of Wisconsin-Stevens Point (Workman Family Softball Field)" },
-      { "time": "11:30 a.m.-1:30 p.m.", "title": "Lunch Special: National Cereal Day (Dining Hall)" },
-      { "time": "Noon-5 p.m.", "title": "Behind The Curtain (UC)" },
-      { "time": "1 p.m.", "title": "Jimmy Johns Invite: Baseball vs. Knox College (Workman Family Baseball Field)" },
-      { "time": "1:30 p.m.", "title": "Softball vs. Coe College (Workman Family Softball Field)" },
-      { "time": "6-7:30 p.m.", "title": "Voice Faculty Recital (Kaeuper Hall)" },
-      { "time": "7:30-9:30 p.m.", "title": "The Great American Trailer Park Musical (Virginia Rogers Theatre)" },
-      { "time": "7:30-9:30 p.m.", "title": "MSWE III: She Speaks (Kirkland Fine Arts Center)" }
+      { "time": "10 a.m.", "title": "Baseball vs. Saint Mary's University (Minn.) (Workman Family Baseball Field)" },
+      { "time": "11:30 a.m.-1:30 p.m.", "title": "Lunch Special: National Potato Chip Day (Dining Hall)" }
     ]
   },
-  {
-    "date": "2026-03-08",
-    "events": [
-      { "time": "10 a.m.", "title": "Jimmy Johns Invite: Baseball vs. Lawrence University (Workman Family Baseball Field)" },
-      { "time": "12:30 p.m.", "title": "Softball vs. University of Wisconsin-Stevens Point (Workman Family Softball Field)" },
-      { "time": "2-4 p.m.", "title": "The Great American Trailer Park Musical (Virginia Rogers Theatre)" },
-      { "time": "3 p.m.", "title": "Softball vs. Coe College (Workman Family Softball Field)" },
-      { "time": "4 p.m.", "title": "Jimmy Johns Invite: Baseball vs. Coe College (Workman Family Baseball Field)" },
-      { "time": "6-8 p.m.", "title": "With a Voice of Singing (Central Christian Church)" }
-    ]
-  }
+  { "date": "2026-03-15", "events": [{ "time": "1 p.m.", "title": "Baseball vs. University of Dubuque (Workman Family Baseball Field)" }] }
 ]
