@@ -1,0 +1,50 @@
+[
+  {
+    "functionCode": "RARECIT",
+    "functionDecription": "RA - Recital",
+    "events": [{ "eventCode": "A3828", "eventDescription": "comp studio", "startDate": "12/09/2025", "startTime": "8:00 am", "endTime": "9:00 am", "eventType": "Check in" }]
+  },
+  {
+    "functionCode": "RAGUESTRECIT",
+    "functionDecription": "RA - Guest Recital",
+    "events": [
+      {
+        "eventCode": "A3825",
+        "eventDescription": "Recital Dr. Mark Dezwan",
+        "startDate": "12/05/2025",
+        "startTime": "2:00 am",
+        "endTime": "3:00 am",
+        "eventType": "Check in"
+      },
+      {
+        "eventCode": "A3831",
+        "eventDescription": "Composition studio recital 2",
+        "startDate": "12/12/2025",
+        "startTime": "1:00 am",
+        "endTime": "2:00 am",
+        "eventType": "Check in"
+      }
+    ]
+  },
+  {
+    "functionCode": "CLGE",
+    "functionDecription": "Campus Life - General Events",
+    "events": [
+      {
+        "eventCode": "A3826",
+        "eventDescription": "Holidays Around the World",
+        "startDate": "12/08/2025",
+        "startTime": "5:00 pm",
+        "endTime": "7:00 pm",
+        "eventType": "Check in"
+      }
+    ]
+  },
+  {
+    "functionCode": "WPAE",
+    "functionDecription": "Wellness Peer Advocate Events",
+    "events": [
+      { "eventCode": "A3829", "eventDescription": "WPA Pop-It Table", "startDate": "12/12/2025", "startTime": "11:00 am", "endTime": "1:30 am", "eventType": "Check in" }
+    ]
+  }
+]
