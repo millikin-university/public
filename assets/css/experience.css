@@ -1274,6 +1274,7 @@ button.sdk--link-modal .material-symbols-outlined {
   display: block;
   margin-bottom: 2px;
 }
+
 .sdk--input-text:focus {
   color: var(--mu-blue-dark);
 }
@@ -1372,6 +1373,12 @@ button.sdk--link-modal .material-symbols-outlined {
 .sdk--input-with-button input:last-child:not(:disabled):focus {
   color: #ffffff;
   background-color: var(--mu-blue-medium);
+}
+
+.sdk--input-select optgroup {
+  background-color: #ffffff;
+  color: var(--mu-blue-dark);
+  font-weight: bold;
 }
 
 .sdk--inline-form,
@@ -1885,6 +1892,8 @@ table.sdk--data-table-shrink {
 .sdk--message-success .MuiAlert-root {
   background-color: var(--mu-alert-success-bgcolor);
   color: var(--mu-alert-success-color);
+  border-top-left-radius: unset;
+  border-top-right-radius: unset;
 }
 
 .sdk--message-success .MuiAlert-icon {
@@ -1898,6 +1907,8 @@ table.sdk--data-table-shrink {
 .sdk--message-info .MuiAlert-root {
   background-color: var(--mu-alert-info-bgcolor);
   color: var(--mu-alert-info-color);
+  border-top-left-radius: unset;
+  border-top-right-radius: unset;
 }
 
 .sdk--message-info .MuiAlert-icon {
@@ -1911,6 +1922,8 @@ table.sdk--data-table-shrink {
 .sdk--message-warning .MuiAlert-root {
   background-color: var(--mu-alert-warn-bgcolor);
   color: var(--mu-alert-warn-color);
+  border-top-left-radius: unset;
+  border-top-right-radius: unset;
 }
 
 .sdk--message-warning .MuiAlert-icon {
@@ -1924,6 +1937,8 @@ table.sdk--data-table-shrink {
 .sdk--message-error .MuiAlert-root {
   background-color: var(--mu-alert-error-bgcolor);
   color: var(--mu-alert-error-color);
+  border-top-left-radius: unset;
+  border-top-right-radius: unset;
 }
 
 .sdk--message-error .MuiAlert-icon {
