@@ -1,32 +1,12 @@
 [
+  { "date": "2026-03-18", "events": [{ "time": "3 p.m.", "title": "Baseball vs. Franklin College (Workman Family Baseball Field)" }] },
+  { "date": "2026-03-20", "events": [{ "time": "7:30-9:30 p.m.", "title": "Matilda the Musical Jr. (Kirkland Fine Arts Center)" }] },
   {
-    "date": "2026-03-09",
+    "date": "2026-03-21",
     "events": [
-      { "time": "10 a.m.-2 p.m.", "title": "International Women’s Day Table (UC)" },
-      { "time": "6-7 p.m.", "title": "Vision Board Night With Environmental Affairs Council (LTSC 224)" }
+      { "time": "2-4 p.m.", "title": "Matilda the Musical Jr. (Kirkland Fine Arts Center)" },
+      { "time": "7:30-9:30 p.m.", "title": "Matilda the Musical Jr. (Kirkland Fine Arts Center)" }
     ]
   },
-  {
-    "date": "2026-03-10",
-    "events": [
-      { "time": "9:30 a.m.-2 p.m.", "title": "Ag Visit Day" },
-      { "time": "6:30-7:30 p.m.", "title": "Panel: Celebrating Women in Leadership (UC Banquet Rooms)" }
-    ]
-  },
-  {
-    "date": "2026-03-13",
-    "events": [
-      { "time": "11:30 a.m.-1:30 p.m.", "title": "Lunch Special: National Chicken Noodle Soup Day (Dining Hall)" },
-      { "time": "1-2 p.m.", "title": "Van Gogh With the Flow (UC 138)" },
-      { "time": "4 p.m.", "title": "Baseball vs. Marian University (Workman Family Baseball Field)" }
-    ]
-  },
-  {
-    "date": "2026-03-14",
-    "events": [
-      { "time": "10 a.m.", "title": "Baseball vs. Saint Mary's University (Minn.) (Workman Family Baseball Field)" },
-      { "time": "11:30 a.m.-1:30 p.m.", "title": "Lunch Special: National Potato Chip Day (Dining Hall)" }
-    ]
-  },
-  { "date": "2026-03-15", "events": [{ "time": "1 p.m.", "title": "Baseball vs. University of Dubuque (Workman Family Baseball Field)" }] }
+  { "date": "2026-03-22", "events": [{ "time": "2-4 p.m.", "title": "Matilda the Musical Jr. (Kirkland Fine Arts Center)" }] }
 ]
