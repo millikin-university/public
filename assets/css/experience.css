@@ -1884,14 +1884,16 @@ table.sdk--data-table-shrink {
   z-index: 120;
 }
 
+.sdk--message-container.sdk--message-inline {
+  position: relative;
+}
+
 /* Colorize the Alerts */
 .sdk--message-success {
-  border-top-color: var(--mu-alert-success-border);
+  border-top-color: var(--mu-alert-success-color);
 }
 
 .sdk--message-success .MuiAlert-root {
-  background-color: var(--mu-alert-success-bgcolor);
-  color: var(--mu-alert-success-color);
   border-top-left-radius: unset;
   border-top-right-radius: unset;
 }
