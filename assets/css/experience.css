@@ -1891,6 +1891,7 @@ table.sdk--data-table-shrink {
 
 .sdk--message-container.sdk--message-inline {
   position: relative;
+  margin: 8px 0px;
   border-radius: 6px 6px 4px 4px;
 }
 
