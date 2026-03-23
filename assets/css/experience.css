@@ -1878,24 +1878,30 @@ table.sdk--data-table-shrink {
   top: 0px;
   left: 0px;
   width: 100%;
-  border-top: 2px solid #000000;
+  border-top: 4px solid #000000;
   color: #000000;
   transition: 0.5s;
   z-index: 120;
 }
 
+.sdk--message-container .MuiAlert-root {
+  border-top-left-radius: unset;
+  border-top-right-radius: unset;
+}
+
 .sdk--message-container.sdk--message-inline {
   position: relative;
+  border-radius: 6px 6px 4px 4px;
+}
+
+.sdk--message-container.sdk--message-inline .MuiAlert-root {
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
 }
 
 /* Colorize the Alerts */
 .sdk--message-success {
   border-top-color: var(--mu-alert-success-color);
-}
-
-.sdk--message-success .MuiAlert-root {
-  border-top-left-radius: unset;
-  border-top-right-radius: unset;
 }
 
 .sdk--message-success .MuiAlert-icon {
@@ -1909,8 +1915,6 @@ table.sdk--data-table-shrink {
 .sdk--message-info .MuiAlert-root {
   background-color: var(--mu-alert-info-bgcolor);
   color: var(--mu-alert-info-color);
-  border-top-left-radius: unset;
-  border-top-right-radius: unset;
 }
 
 .sdk--message-info .MuiAlert-icon {
@@ -1924,8 +1928,6 @@ table.sdk--data-table-shrink {
 .sdk--message-warning .MuiAlert-root {
   background-color: var(--mu-alert-warn-bgcolor);
   color: var(--mu-alert-warn-color);
-  border-top-left-radius: unset;
-  border-top-right-radius: unset;
 }
 
 .sdk--message-warning .MuiAlert-icon {
@@ -1939,8 +1941,6 @@ table.sdk--data-table-shrink {
 .sdk--message-error .MuiAlert-root {
   background-color: var(--mu-alert-error-bgcolor);
   color: var(--mu-alert-error-color);
-  border-top-left-radius: unset;
-  border-top-right-radius: unset;
 }
 
 .sdk--message-error .MuiAlert-icon {
