@@ -1388,7 +1388,7 @@ button.sdk--link-modal .material-symbols-outlined {
 
 .sdk--inline-form input,
 .sdk--inline-form-with-button input,
-.sdk--inline-form-with-button button {
+.sdk--inline-form-with-button button:not(.mu--link-button) {
   border-radius: 0px;
   border-right-width: 1px;
   border-left-width: 1px;
@@ -1396,7 +1396,7 @@ button.sdk--link-modal .material-symbols-outlined {
 
 .sdk--inline-form input:focus,
 .sdk--inline-form-with-button input:focus,
-.sdk--inline-form-with-button button:focus {
+.sdk--inline-form-with-button button:not(.mu--link-button):focus {
   border-color: var(--mu-blue-light);
 }
 
@@ -1408,7 +1408,7 @@ button.sdk--link-modal .material-symbols-outlined {
 }
 
 .sdk--inline-form input:last-child,
-.sdk--inline-form-with-button button {
+.sdk--inline-form-with-button button:not(.mu--link-button) {
   border-top-right-radius: var(--rectangle-radius);
   border-bottom-right-radius: var(--rectangle-radius);
   border-right-width: 2px;
