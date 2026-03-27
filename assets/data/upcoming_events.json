@@ -1,20 +1,52 @@
 [
   {
-    "functionCode": "RARECIT",
-    "functionDecription": "RA - Recital",
-    "events": [{ "eventCode": "A3828", "eventDescription": "comp studio", "startDate": "12/09/2025", "startTime": "8:00 am", "endTime": "9:00 am", "eventType": "Check in" }]
-  },
-  {
-    "functionCode": "RAGUESTRECIT",
-    "functionDecription": "RA - Guest Recital",
+    "eventTypeCode": "CKIN",
+    "eventType": "Check in",
     "events": [
+      {
+        "eventCode": "A3821",
+        "eventDescription": "MIS Recital",
+        "startDate": "10/29/2025",
+        "startTime": "6:00 am",
+        "endTime": "7:00 am",
+        "functionCode": "RASTURECIT",
+        "functionDecription": "RA - Student Recital"
+      },
+      {
+        "eventCode": "A3820",
+        "eventDescription": "Thursday Recital",
+        "startDate": "11/06/2025",
+        "startTime": "2:00 am",
+        "endTime": "3:00 am",
+        "functionCode": "RASTURECIT",
+        "functionDecription": "RA - Student Recital"
+      },
+      {
+        "eventCode": "A3822",
+        "eventDescription": "Thursday Recital",
+        "startDate": "11/20/2025",
+        "startTime": "2:00 am",
+        "endTime": "3:00 am",
+        "functionCode": "RASTURECIT",
+        "functionDecription": "RA - Student Recital"
+      },
+      {
+        "eventCode": "A3827",
+        "eventDescription": "Student Recital",
+        "startDate": "11/01/2025",
+        "startTime": "2:00 am",
+        "endTime": "3:00 am",
+        "functionCode": "RASTURECIT",
+        "functionDecription": "RA - Student Recital"
+      },
       {
         "eventCode": "A3825",
         "eventDescription": "Recital Dr. Mark Dezwan",
         "startDate": "12/05/2025",
         "startTime": "2:00 am",
         "endTime": "3:00 am",
-        "eventType": "Check in"
+        "functionCode": "RAGUESTRECIT",
+        "functionDecription": "RA - Guest Recital"
       },
       {
         "eventCode": "A3831",
@@ -22,29 +54,54 @@
         "startDate": "12/12/2025",
         "startTime": "1:00 am",
         "endTime": "2:00 am",
-        "eventType": "Check in"
-      }
-    ]
-  },
-  {
-    "functionCode": "CLGE",
-    "functionDecription": "Campus Life - General Events",
-    "events": [
+        "functionCode": "RAGUESTRECIT",
+        "functionDecription": "RA - Guest Recital"
+      },
+      {
+        "eventCode": "A3828",
+        "eventDescription": "comp studio",
+        "startDate": "12/09/2025",
+        "startTime": "8:00 am",
+        "endTime": "9:00 am",
+        "functionCode": "RARECIT",
+        "functionDecription": "RA - Recital"
+      },
       {
         "eventCode": "A3826",
         "eventDescription": "Holidays Around the World",
         "startDate": "12/08/2025",
         "startTime": "5:00 pm",
         "endTime": "7:00 pm",
-        "eventType": "Check in"
+        "functionCode": "CLGE",
+        "functionDecription": "Campus Life - General Events"
+      },
+      {
+        "eventCode": "A3816",
+        "eventDescription": "Sensory Slime Lab",
+        "startDate": "11/05/2025",
+        "startTime": "4:00 pm",
+        "endTime": "6:00 pm",
+        "functionCode": "WPAE",
+        "functionDecription": "Wellness Peer Advocate Events"
+      },
+      {
+        "eventCode": "A3819",
+        "eventDescription": "Gratefulness Cards",
+        "startDate": "11/18/2025",
+        "startTime": "12:00 pm",
+        "endTime": "2:00 am",
+        "functionCode": "WPAE",
+        "functionDecription": "Wellness Peer Advocate Events"
+      },
+      {
+        "eventCode": "A3829",
+        "eventDescription": "WPA Pop-It Table",
+        "startDate": "12/12/2025",
+        "startTime": "11:00 am",
+        "endTime": "1:30 am",
+        "functionCode": "WPAE",
+        "functionDecription": "Wellness Peer Advocate Events"
       }
-    ]
-  },
-  {
-    "functionCode": "WPAE",
-    "functionDecription": "Wellness Peer Advocate Events",
-    "events": [
-      { "eventCode": "A3829", "eventDescription": "WPA Pop-It Table", "startDate": "12/12/2025", "startTime": "11:00 am", "endTime": "1:30 am", "eventType": "Check in" }
     ]
   }
 ]
