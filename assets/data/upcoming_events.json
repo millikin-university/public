@@ -7,6 +7,8 @@
     "startDate": "04/02/2026",
     "startTime": "10:00 am",
     "endTime": "5:00 pm",
+    "registrationLimit": false,
+    "functionTypeCode": "ANY",
     "functionCode": "EVENT1",
     "functionDecription": "Repeating Event 1"
   },
@@ -18,6 +20,8 @@
     "startDate": "04/09/2026",
     "startTime": "10:00 am",
     "endTime": "5:00 pm",
+    "registrationLimit": false,
+    "functionTypeCode": "ANY",
     "functionCode": "EVENT2",
     "functionDecription": "Repeating Event 2"
   },
@@ -29,6 +33,8 @@
     "startDate": "04/09/2026",
     "startTime": "6:00 pm",
     "endTime": "7:00 pm",
+    "registrationLimit": true,
+    "functionTypeCode": "ANY",
     "functionCode": "ANYGENERAL",
     "functionDecription": "General Event"
   },
@@ -40,6 +46,8 @@
     "startDate": "04/23/2026",
     "startTime": "6:00 pm",
     "endTime": "7:00 pm",
+    "registrationLimit": true,
+    "functionTypeCode": "ANY",
     "functionCode": "ANYGENERAL",
     "functionDecription": "General Event"
   }
