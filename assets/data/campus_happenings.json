@@ -1,40 +1,25 @@
 [
+  { "date": "2026-03-30", "events": [{ "time": "11 a.m.-2 p.m.", "title": "Commuter Appreciation & Recognition Week (UC)" }] },
   {
-    "date": "2026-03-23",
+    "date": "2026-03-31",
     "events": [
-      { "time": "10 a.m.", "title": "Men's Golf Dan Salisbury Memorial Collegiate Invitational (Red Tail Run Golf Course)" },
-      { "time": "2-3 p.m.", "title": "Cake & Current Events (UC, OCLP)" }
+      { "time": "3 p.m.", "title": "Men's & Women's Tennis vs. St. Olaf College (Fairview Park Tennis Complex)" },
+      { "time": "7:30-9:30 p.m.", "title": "Public Observation Night (Leighty-Tabor Science Center)" }
     ]
   },
-  { "date": "2026-03-24", "events": [{ "time": "10 a.m.", "title": "Men's Golf Dan Salisbury Memorial Collegiate Invitational (Red Tail Run Golf Course)" }] },
-  { "date": "2026-03-25", "events": [{ "time": "4 p.m.", "title": "Baseball vs. Illinois Wesleyan University (Workman Family Baseball Field)" }] },
-  { "date": "2026-03-26", "events": [{ "time": "8:15 a.m.-2:30 p.m.", "title": "Celebration of Storytelling (UC)" }] },
   {
-    "date": "2026-03-27",
+    "date": "2026-04-01",
     "events": [
-      { "time": "12:30 p.m.-3:30 p.m.", "title": "MENP (Master’s Entry into Nursing Practice) Visit Day" },
-      { "time": "1 p.m.", "title": "Women's Tennis vs. Southwestern Illinois College" },
+      { "time": "12:30-3 p.m.", "title": "Accelerated MBA Visit Day" },
+      { "time": "6 p.m.", "title": "Baseball vs. North Central College (Workman Family Baseball Field)" }
+    ]
+  },
+  {
+    "date": "2026-04-03",
+    "events": [
       { "time": "1-2 p.m.", "title": "Van Gogh With the Flow (UC 138)" },
-      { "time": "4 p.m.", "title": "Men's Tennis vs Southwestern Illinois College" },
-      { "time": "4-6 p.m.", "title": "The Music of Lord of the Rings, The Hobbit & The Rings of Power – The Concert (Kirkland Fine Arts Center)" },
-      { "time": "8-10 p.m.", "title": "The Music of Hans Zimmer and Others: A Celebration of Film Music (Kirkland Fine Arts Center)" }
+      { "time": "3 p.m.", "title": "Baseball vs. Carthage College (Workman Family Baseball Field)" }
     ]
   },
-  {
-    "date": "2026-03-28",
-    "events": [
-      { "time": "All Day", "title": "Admitted Student Day" },
-      { "time": "10 a.m.", "title": "Men's & Women's Track and Field at Big Blue Outdoor Opener" },
-      { "time": "10 a.m. & 12:30 p.m.", "title": "Softball Doubleheader vs. Hope College (Workman Family Softball Field)" },
-      { "time": "7:30-8:30 p.m.", "title": "Hollis Prize: Competition Finals (Kaeuper Hall)" }
-    ]
-  },
-  {
-    "date": "2026-03-29",
-    "events": [
-      { "time": "Noon", "title": "Men's Tennis vs. North Central College" },
-      { "time": "1 p.m.", "title": "Baseball vs. Elmhurst University (Workman Family Baseball Field)" },
-      { "time": "3 p.m. & 5 p.m.", "title": "Softball Doubleheader vs. Illinois College (Workman Family Softball Field)" }
-    ]
-  }
+  { "date": "2026-04-04", "events": [{ "time": "Noon", "title": "Baseball vs. Carthage College Doubleheader (Workman Family Baseball Field)" }] }
 ]
