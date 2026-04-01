@@ -10,7 +10,7 @@
     "registrationLimit": false,
     "functionTypeCode": "XADS",
     "functionCode": "XCAREERS",
-    "functionDecription": "Career Services",
+    "functionDescription": "Career Services",
     "buildingDescription": "University Commons",
     "locationDetails": "142/144"
   },
@@ -25,7 +25,7 @@
     "registrationLimit": true,
     "functionTypeCode": "XADS",
     "functionCode": "XCAREERS",
-    "functionDecription": "Career Services",
+    "functionDescription": "Career Services",
     "buildingDescription": "University Commons",
     "locationDetails": "142/144"
   },
@@ -41,7 +41,7 @@
     "registrationLimit": true,
     "functionTypeCode": "XADS",
     "functionCode": "XIDEAS",
-    "functionDecription": "IDEAS",
+    "functionDescription": "IDEAS",
     "buildingDescription": "Center for Theater & Dance",
     "locationDetails": "Lower Level"
   },
@@ -56,7 +56,7 @@
     "registrationLimit": false,
     "functionTypeCode": "ANY",
     "functionCode": "EVENT1",
-    "functionDecription": "Repeating Event 1",
+    "functionDescription": "Repeating Event 1",
     "buildingDescription": "New Hall 2",
     "eventComment": "A nutrition resource for students not enrolled in Millikin's All Access Meal Plan, as well as Millikin employees"
   },
@@ -71,7 +71,7 @@
     "registrationLimit": false,
     "functionTypeCode": "ANY",
     "functionCode": "EVENT2",
-    "functionDecription": "Repeating Event 2",
+    "functionDescription": "Repeating Event 2",
     "buildingDescription": "New Hall 2",
     "eventComment": "A nutrition resource for students not enrolled in Millikin's All Access Meal Plan, as well as Millikin employees"
   }
