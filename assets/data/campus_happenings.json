@@ -1,25 +1,46 @@
 [
-  { "date": "2026-03-30", "events": [{ "time": "11 a.m.-2 p.m.", "title": "Commuter Appreciation & Recognition Week (UC)" }] },
+  { "date": "2026-04-06", "events": [{ "time": "11:30 a.m.-1:30 p.m.", "title": "Lunch Special: Fresh Tomato Day (Dining Hall)" }] },
   {
-    "date": "2026-03-31",
+    "date": "2026-04-07",
     "events": [
-      { "time": "3 p.m.", "title": "Men's & Women's Tennis vs. St. Olaf College (Fairview Park Tennis Complex)" },
+      { "time": "11:30 a.m.-1:30 p.m.", "title": "Lunch Special: National Coffee Cake Day (Dining Hall)" },
+      { "time": "3-5 p.m.", "title": "Hang Out in the Library (UC 142-144)" },
       { "time": "7:30-9:30 p.m.", "title": "Public Observation Night (Leighty-Tabor Science Center)" }
     ]
   },
+  { "date": "2026-04-08", "events": [{ "time": "3 p.m. & 5 p.m.", "title": "Softball vs. DePauw University (Workman Family Softball Field)" }] },
   {
-    "date": "2026-04-01",
+    "date": "2026-04-09",
     "events": [
-      { "time": "12:30-3 p.m.", "title": "Accelerated MBA Visit Day" },
-      { "time": "6 p.m.", "title": "Baseball vs. North Central College (Workman Family Baseball Field)" }
+      { "time": "11 a.m.- 2 p.m.", "title": "EAC Plant Sale (UC)" },
+      { "time": "7:30-9:30 p.m.", "title": "Holy Chicken Sandwich (Pipe Dreams)" }
     ]
   },
   {
-    "date": "2026-04-03",
+    "date": "2026-04-10",
     "events": [
+      { "time": "1-3 p.m.", "title": "Presidential Inauguration (Kirkland Fine Arts Center)" },
       { "time": "1-2 p.m.", "title": "Van Gogh With the Flow (UC 138)" },
-      { "time": "3 p.m.", "title": "Baseball vs. Carthage College (Workman Family Baseball Field)" }
+      { "time": "7:30-9:30 p.m.", "title": "Holy Chicken Sandwich (Pipe Dreams)" }
     ]
   },
-  { "date": "2026-04-04", "events": [{ "time": "Noon", "title": "Baseball vs. Carthage College Doubleheader (Workman Family Baseball Field)" }] }
+  {
+    "date": "2026-04-11",
+    "events": [
+      { "time": "8 a.m.-Noon", "title": "Campus Visit Day" },
+      { "time": "Noon-4 p.m.", "title": "Wellness Retreat (Millikin Community Garden, NW Corner of Fairview Ave. & Wood St.)" },
+      { "time": "1-2 p.m.", "title": "MCAA Spring Recital (Kaeuper Hall)" },
+      { "time": "5 p.m.", "title": "Baseball vs. Carroll University (Workman Family Baseball Field)" },
+      { "time": "7:30-9:30 p.m.", "title": "Holy Chicken Sandwich (Pipe Dreams)" },
+      { "time": "7:30-9:30 p.m.", "title": "Masterworks IV: A German Requiem (Kirkland Fine Arts Center)" }
+    ]
+  },
+  {
+    "date": "2026-04-12",
+    "events": [
+      { "time": "Noon", "title": "Baseball vs. Carroll University (Workman Family Baseball Field)" },
+      { "time": "2-3 p.m.", "title": "Hollis Prize: Winner's Recital (Gail Borden Public Library, Elgin, Ill.)" },
+      { "time": "2-4 p.m.", "title": "Holy Chicken Sandwich (Pipe Dreams)" }
+    ]
+  }
 ]
