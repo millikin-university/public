@@ -1011,6 +1011,14 @@ button.sdk--link-modal .material-symbols-outlined {
   background-color: rgba(0, 0, 0, 0.7);
 }
 
+.mu--card-shade-none {
+  background-color: initial;
+}
+
+.mu--card-overlay-none {
+  background: none;
+}
+
 /* For holding Link Buttons that flex */
 .mu--flex-link-container,
 .ss--flc {
