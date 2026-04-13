@@ -20,30 +20,14 @@
     "eventType": "General",
     "eventCode": "A3833",
     "eventDescription": "Millikin Market",
-    "startDate": "04/09/2026",
+    "startDate": "04/16/2026",
     "startTime": "10:00 am",
     "endTime": "5:00 pm",
     "registrationLimit": false,
     "functionTypeCode": "ANY",
     "functionCode": "EVENT2",
     "functionDescription": "Repeating Event 2",
-    "buildingDescription": "New Hall 2",
-    "eventComment": "A nutrition resource for students not enrolled in Millikin's All Access Meal Plan, as well as Millikin employees"
-  },
-  {
-    "eventTypeCode": "XADS",
-    "eventType": "Academic Services",
-    "eventCode": "A3836",
-    "eventDescription": "How to find your Secret Sauce",
-    "startDate": "04/09/2026",
-    "startTime": "6:00 pm",
-    "endTime": "7:00 pm",
-    "registrationLimit": false,
-    "functionTypeCode": "XADS",
-    "functionCode": "XCAREERS",
-    "functionDescription": "Career Services",
-    "buildingDescription": "University Commons",
-    "locationDetails": "142/144"
+    "buildingDescription": "New Hall 2"
   },
   {
     "eventTypeCode": "XADS",
