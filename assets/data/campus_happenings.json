@@ -1,46 +1,39 @@
 [
-  { "date": "2026-04-06", "events": [{ "time": "11:30 a.m.-1:30 p.m.", "title": "Lunch Special: Fresh Tomato Day (Dining Hall)" }] },
+  { "date": "2026-04-13", "events": [{ "time": "11:30 a.m.-1:30 p.m.", "title": "Lunch Special: National Peach Cobbler Day (Dining Hall)" }] },
+  { "date": "2026-04-14", "events": [{ "time": "7:30-9:30 p.m.", "title": "Public Observation Night (Leighty-Tabor Science Center)" }] },
   {
-    "date": "2026-04-07",
+    "date": "2026-04-15",
     "events": [
-      { "time": "11:30 a.m.-1:30 p.m.", "title": "Lunch Special: National Coffee Cake Day (Dining Hall)" },
-      { "time": "3-5 p.m.", "title": "Hang Out in the Library (UC 142-144)" },
-      { "time": "7:30-9:30 p.m.", "title": "Public Observation Night (Leighty-Tabor Science Center)" }
+      { "time": "11:30 a.m.-1:30 p.m.", "title": "Lunch Special: National Glazed Ham Day (Dining Hall)" },
+      { "time": "6 p.m.", "title": "Baseball vs. Augustana College (Workman Family Baseball Field)" }
     ]
   },
-  { "date": "2026-04-08", "events": [{ "time": "3 p.m. & 5 p.m.", "title": "Softball vs. DePauw University (Workman Family Softball Field)" }] },
+  { "date": "2026-04-16", "events": [{ "time": "7:30-9:30 p.m.", "title": "Big Band Jazz Spring Concert (Albert Taylor Theatre)" }] },
   {
-    "date": "2026-04-09",
+    "date": "2026-04-17",
     "events": [
-      { "time": "11 a.m.- 2 p.m.", "title": "EAC Plant Sale (UC)" },
-      { "time": "7:30-9:30 p.m.", "title": "Holy Chicken Sandwich (Pipe Dreams)" }
-    ]
-  },
-  {
-    "date": "2026-04-10",
-    "events": [
-      { "time": "1-3 p.m.", "title": "Presidential Inauguration (Kirkland Fine Arts Center)" },
       { "time": "1-2 p.m.", "title": "Van Gogh With the Flow (UC 138)" },
-      { "time": "7:30-9:30 p.m.", "title": "Holy Chicken Sandwich (Pipe Dreams)" }
+      { "time": "4-6 p.m.", "title": "Decatur Area Alumni & Friends Social (Decatur Brew Works)" },
+      { "time": "6-9 p.m.", "title": "Milli-Fest (Quad)" },
+      { "time": "8:30-9:30 p.m.", "title": "Vulnerable EP Release Party (Lock, Stock, & Barrel)" }
     ]
   },
   {
-    "date": "2026-04-11",
+    "date": "2026-04-18",
     "events": [
-      { "time": "8 a.m.-Noon", "title": "Campus Visit Day" },
-      { "time": "Noon-4 p.m.", "title": "Wellness Retreat (Millikin Community Garden, NW Corner of Fairview Ave. & Wood St.)" },
-      { "time": "1-2 p.m.", "title": "MCAA Spring Recital (Kaeuper Hall)" },
-      { "time": "5 p.m.", "title": "Baseball vs. Carroll University (Workman Family Baseball Field)" },
-      { "time": "7:30-9:30 p.m.", "title": "Holy Chicken Sandwich (Pipe Dreams)" },
-      { "time": "7:30-9:30 p.m.", "title": "Masterworks IV: A German Requiem (Kirkland Fine Arts Center)" }
+      { "time": "11 a.m.-2 p.m.", "title": "Milli-Fest (Quad)" },
+      { "time": "11:30 a.m.-1:30 p.m.", "title": "Lunch Special: National Animal Cracker Day (Dining Hall)" },
+      { "time": "1-5 p.m.", "title": "Flute Day (Perkinson Music Center)" },
+      { "time": "6-9 p.m.", "title": "Milli-Fest College Night on the Quad" },
+      { "time": "7:30-9:30 p.m.", "title": "MSWE IV: Our Power, Our Planet (Kirkland Fine Arts Center)" }
     ]
   },
   {
-    "date": "2026-04-12",
+    "date": "2026-04-19",
     "events": [
-      { "time": "Noon", "title": "Baseball vs. Carroll University (Workman Family Baseball Field)" },
-      { "time": "2-3 p.m.", "title": "Hollis Prize: Winner's Recital (Gail Borden Public Library, Elgin, Ill.)" },
-      { "time": "2-4 p.m.", "title": "Holy Chicken Sandwich (Pipe Dreams)" }
+      { "time": "1 p.m. & 3 p.m.", "title": "Softball vs. Carthage College (Workman Family Softball Field)" },
+      { "time": "2-4 p.m.", "title": "Decatur Youth Symphony Orchestra (Kirkland Fine Arts Center)" },
+      { "time": "4-6 p.m.", "title": "Faculty Series III: Kenopsia: An Exploration of Memory Through Music (Kaeuper Hall)" }
     ]
   }
 ]
