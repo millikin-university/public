@@ -1841,9 +1841,9 @@ table.sdk--data-table-shrink {
 
 .sdk--hide-content.sdk--content-hidden:hover,
 .sdk--hide-content.sdk--content-hidden:focus {
-  color: var(--mu-blue-light);
   height: 100%;
   width: 100%;
+  font-weight: bold;
 }
 
 .sdk--hide-content.sdk--content-hidden .ds-icon {
