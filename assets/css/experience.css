@@ -1643,7 +1643,7 @@ button.sdk--link-modal .material-symbols-outlined {
 .mu--card-links.sdk--card-links-disabled a,
 .mu--card-links a.sdk--card-link-disabled,
 .mu--card-links.sdk--card-links-disabled button,
-.mu--card-links button.sdk--card-links-disabled,
+.mu--card-links button.sdk--card-link-disabled,
 .mu--card-links button:disabled {
   pointer-events: none;
   background-color: var(--mu-disabled-bg-color);
@@ -1652,20 +1652,20 @@ button.sdk--link-modal .material-symbols-outlined {
 .mu--card-links.sdk--card-links-disabled a .material-symbols-outlined,
 .mu--card-links a.sdk--card-link-disabled .material-symbols-outlined,
 .mu--card-links.sdk--card-links-disabled button .material-symbols-outlined,
-.mu--card-links button.sdk--card-links-disabled .material-symbols-outlined,
+.mu--card-links button.sdk--card-link-disabled .material-symbols-outlined,
 .mu--card-links button:disabled .material-symbols-outlined {
   color: var(--mu-disabled-color);
 }
 
 /* Handle Modal Links */
 .mu--card-links.sdk--card-links-disabled button.mu--modals,
-.mu--card-links button.mu--modals.sdk--card-links-disabled,
+.mu--card-links button.mu--modals.sdk--card-link-disabled,
 .mu--card-links button.mu--modals:disabled {
   background-color: var(--mu-disabled-color);
 }
 
 .mu--card-links.sdk--card-links-disabled button.mu--modals .material-symbols-outlined,
-.mu--card-links button.mu--modals.sdk--card-links-disabled .material-symbols-outlined,
+.mu--card-links button.mu--modals.sdk--card-link-disabled .material-symbols-outlined,
 .mu--card-links button.mu--modals:disabled .material-symbols-outlined {
   color: var(--mu-disabled-bg-color);
 }
