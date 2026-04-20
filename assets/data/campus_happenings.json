@@ -1,39 +1,56 @@
 [
-  { "date": "2026-04-13", "events": [{ "time": "11:30 a.m.-1:30 p.m.", "title": "Lunch Special: National Peach Cobbler Day (Dining Hall)" }] },
-  { "date": "2026-04-14", "events": [{ "time": "7:30-9:30 p.m.", "title": "Public Observation Night (Leighty-Tabor Science Center)" }] },
   {
-    "date": "2026-04-15",
+    "date": "2026-04-20",
     "events": [
-      { "time": "11:30 a.m.-1:30 p.m.", "title": "Lunch Special: National Glazed Ham Day (Dining Hall)" },
-      { "time": "6 p.m.", "title": "Baseball vs. Augustana College (Workman Family Baseball Field)" }
+      { "time": "9 a.m. & 2 p.m.", "title": "Men's Golf Jim Butts Classic" },
+      { "time": "1-2 p.m.", "title": "Walk-In Resume Hours (UC 336)" }
     ]
   },
-  { "date": "2026-04-16", "events": [{ "time": "7:30-9:30 p.m.", "title": "Big Band Jazz Spring Concert (Albert Taylor Theatre)" }] },
   {
-    "date": "2026-04-17",
+    "date": "2026-04-21",
     "events": [
+      { "time": "9 a.m. & 2 p.m.", "title": "Men's Golf Jim Butts Classic" },
+      { "time": "2-3 p.m.", "title": "Walk-In Resume Hours (UC 336)" },
+      { "time": "3 p.m.", "title": "Men's Tennis vs. Illinois Wesleyan University" },
+      { "time": "6-7 p.m.", "title": "UCB Big Event: mxmtoon LIVE on our campus! (Griswold)" },
+      { "time": "7:30-9:30 p.m.", "title": "Public Observation Night (Leighty-Tabor Science Center)" }
+    ]
+  },
+  {
+    "date": "2026-04-22",
+    "events": [
+      { "time": "11:30 a.m.-1:30 p.m.", "title": "Lunch Special: National Jelly Bean Day (Dining Hall)" },
+      { "time": "1-2 p.m.", "title": "Walk-In Resume Hours (UC 336)" },
+      { "time": "5:15 p.m.-7:15 p.m.", "title": "Earth Day Clean-Up (University Center Lobby meet-up, then move to location of street clean-up)" },
+      { "time": "6:30-7:30 p.m.", "title": "Sports to Skills (UC Lobby)" },
+      { "time": "7:30-9:30 p.m.", "title": "Guitar Ensembles: Spring Concert (Kaeuper Hall)" }
+    ]
+  },
+  {
+    "date": "2026-04-23",
+    "events": [
+      { "time": "All Day", "title": "Celebrations of Scholarship" },
+      { "time": "1-2 p.m.", "title": "Walk-In Resume Hours (UC 336)" },
+      { "time": "7-8 p.m.", "title": "Honors Convocation (Kirkland Fine Arts Center)" }
+    ]
+  },
+  {
+    "date": "2026-04-24",
+    "events": [
+      { "time": "All Day", "title": "Men’s and Women's Track and Field Big Blue Alumni Invite" },
+      { "time": "1-3 p.m.", "title": "The Judith & G. Richard Locke Poster Symposium (UC Banquet Rooms)" },
       { "time": "1-2 p.m.", "title": "Van Gogh With the Flow (UC 138)" },
-      { "time": "4-6 p.m.", "title": "Decatur Area Alumni & Friends Social (Decatur Brew Works)" },
-      { "time": "6-9 p.m.", "title": "Milli-Fest (Quad)" },
-      { "time": "8:30-9:30 p.m.", "title": "Vulnerable EP Release Party (Lock, Stock, & Barrel)" }
+      { "time": "4 p.m.", "title": "Men's Tennis vs. Wheaton College (Fairview Park Tennis Complex)" }
     ]
   },
+  { "date": "2026-04-25", "events": [{ "time": "7:30 p.m.", "title": "Percussion Ensemble Premieres (Albert Taylor Theatre)" }] },
   {
-    "date": "2026-04-18",
+    "date": "2026-04-26",
     "events": [
-      { "time": "11 a.m.-2 p.m.", "title": "Milli-Fest (Quad)" },
-      { "time": "11:30 a.m.-1:30 p.m.", "title": "Lunch Special: National Animal Cracker Day (Dining Hall)" },
-      { "time": "1-5 p.m.", "title": "Flute Day (Perkinson Music Center)" },
-      { "time": "6-9 p.m.", "title": "Milli-Fest College Night on the Quad" },
-      { "time": "7:30-9:30 p.m.", "title": "MSWE IV: Our Power, Our Planet (Kirkland Fine Arts Center)" }
-    ]
-  },
-  {
-    "date": "2026-04-19",
-    "events": [
-      { "time": "1 p.m. & 3 p.m.", "title": "Softball vs. Carthage College (Workman Family Softball Field)" },
-      { "time": "2-4 p.m.", "title": "Decatur Youth Symphony Orchestra (Kirkland Fine Arts Center)" },
-      { "time": "4-6 p.m.", "title": "Faculty Series III: Kenopsia: An Exploration of Memory Through Music (Kaeuper Hall)" }
+      { "time": "11:30 a.m.-1:30 p.m.", "title": "Lunch Special: National Pretzel Day (Dining Hall)" },
+      { "time": "1 p.m. & 3 p.m.", "title": "Softball vs. Carroll University (Workman Family Softball Field)" },
+      { "time": "3 p.m.", "title": "Baseball vs. North Park (Workman Family Baseball Field)" },
+      { "time": "4 p.m.", "title": "Spring Sing (Central Christian Church)" }
     ]
   }
 ]
