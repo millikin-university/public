@@ -20,7 +20,6 @@
     "eventType": "Academic Services",
     "eventCode": "A3841",
     "eventDescription": "Study Smart Challenge",
-    "longDescription": "Information on the major study strategies will be shared at the tables. Then, there will be a QR code to scan to take a short quiz about the study habits. If the student takes the quiz, then they can take a goodie back to help them through finals week.",
     "startDate": "05/04/2026",
     "startTime": "10:00 am",
     "endTime": "11:30 am",
@@ -29,7 +28,8 @@
     "functionCode": "XSSC",
     "functionDescription": "Student Success",
     "buildingDescription": "University Commons",
-    "locationDetails": "Tables"
+    "locationDetails": "Tables",
+    "eventComment": "Information on the major study strategies will be shared at the tables. Then, there will be a QR code to scan to take a short quiz about the study habits. If the student takes the quiz, then they can take a goodie back to help them through finals week."
   },
   {
     "eventTypeCode": "XADS",
