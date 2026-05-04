@@ -1,50 +1,59 @@
 [
   {
-    "date": "2026-05-04",
+    "date": "2026-04-27",
     "events": [
-      { "time": "All Week", "title": "Snack Week (Dining Hall)" },
-      { "time": "10-11:30 a.m.", "title": "WPA Study Smart Challenge (UC Lobby)" },
-      { "time": "6-7 p.m.", "title": "Growing Strong Sexual Assault Center: Educational Presentation (UC Room 142/144)" }
+      { "time": "1-2 p.m.", "title": "Walk-In Resume Hours (UC 336)" },
+      { "time": "6-8 p.m.", "title": "Millikin's Images in Motion Film Festival (Kirkland Fine Arts Center)" }
     ]
   },
   {
-    "date": "2026-05-05",
+    "date": "2026-04-28",
     "events": [
       { "time": "2-3 p.m.", "title": "Walk-In Resume Hours (UC 336)" },
+      { "time": "4-5 p.m.", "title": "Promotion and Tenure Informational Workshop (SCO 213)" },
+      { "time": "6-8 p.m.", "title": "MCAA Cello Choir Concert (Pilling Chapel)" },
       { "time": "7:30-9:30 p.m.", "title": "Public Observation Night (Leighty-Tabor Science Center)" }
     ]
   },
   {
-    "date": "2026-05-06",
+    "date": "2026-04-29",
     "events": [
       { "time": "1-2 p.m.", "title": "Walk-In Resume Hours (UC 336)" },
-      { "time": "5-6:30 p.m.", "title": "Graduate Champagne Celebration (The President's House, #4 Millikin Place)" },
-      { "time": "All Day", "title": "Baseball at CCIW Tournament (Workman Family Baseball Field)" }
+      { "time": "6-9 p.m.", "title": "The Original Big Blue: The Life and Times of James Millikin Documentary Premiere (Albert Taylor Theatre)" }
     ]
   },
   {
-    "date": "2026-05-07",
+    "date": "2026-04-30",
     "events": [
-      { "time": "1-2 p.m.", "title": "Walk-In Resume Hours (UC 336)" },
-      { "time": "All Day", "title": "Baseball at CCIW Tournament (Workman Family Baseball Field)" }
+      { "time": "All Day", "title": "Forever True Blue Challenge 2026" },
+      { "time": "11 a.m.-1 p.m.", "title": "Founder’s Day Celebration (UC Lobby)" },
+      { "time": "1-2 p.m.", "title": "Walk-In Resume Hours (UC 336)" }
     ]
   },
   {
-    "date": "2026-05-08",
+    "date": "2026-05-01",
     "events": [
-      { "time": "11:30 a.m.-1:30 p.m.", "title": "Handing Out Chocolate Chip Cookies for the Last Day of Classes (Dining Hall)" },
-      { "time": "11:30 a.m.-6 p.m.", "title": "Big Blue Club Golf Outing (South Side Country Club)" },
+      { "time": "All Day", "title": "School of Art & Creative Media Student Art Exhibition and Design Showcase (Kirkland Fine Arts Center)" },
+      { "time": "8-9 a.m.", "title": "Promotion and Tenure Informational Workshop (SCO 213)" },
       { "time": "1-2 p.m.", "title": "Van Gogh With the Flow (UC 138)" },
-      { "time": "6:30-9:30 p.m.", "title": "New Works Festival (Pipe Dreams Studio Theatre)" },
-      { "time": "All Day", "title": "Baseball at CCIW Tournament (Workman Family Baseball Field)" }
+      { "time": "7:30-9:30 p.m.", "title": "Cinderella (Virginia Rogers Theatre)" }
     ]
   },
   {
-    "date": "2026-05-09",
+    "date": "2026-05-02",
     "events": [
-      { "time": "2-4 p.m.", "title": "Jazz Bash (Lock, Stock & Barrel)" },
-      { "time": "7:30-9:30 p.m.", "title": "Danny Gokey (Kirkland Fine Arts Center)" },
-      { "time": "All Day", "title": "Baseball at CCIW Tournament (Workman Family Baseball Field)" }
+      { "time": "10 a.m.-4 p.m.", "title": "Unity Fest (Miller Quad)" },
+      { "time": "10:30 a.m.-3 p.m.", "title": "Carl Poelker ’68 Celebration of Life (Rathje Athletic Center; Frank M. Lindsay Field)" },
+      { "time": "1 p.m. & 3 p.m.", "title": "Softball vs. Wheaton College (Workman Family Softball Field)" },
+      { "time": "7:30 p.m.-9:30 p.m.", "title": "Cinderella (Virginia Rogers Theatre)" }
+    ]
+  },
+  {
+    "date": "2026-05-03",
+    "events": [
+      { "time": "1 p.m. & 3 p.m.", "title": "Softball vs. North Park University (Workman Family Softball Field)" },
+      { "time": "2-4 p.m.", "title": "Cinderella (Virginia Rogers Theatre)" },
+      { "time": "2-5 p.m.", "title": "The Original Big Blue: The Life and Times of James Millikin Documentary (Albert Taylor Theatre)" }
     ]
   }
 ]

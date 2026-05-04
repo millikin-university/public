@@ -16,18 +16,20 @@
     "locationDetails": "Lower Level"
   },
   {
-    "eventTypeCode": "XGEN",
-    "eventType": "General",
-    "eventCode": "A3833",
-    "eventDescription": "Millikin Market",
-    "startDate": "04/16/2026",
+    "eventTypeCode": "XADS",
+    "eventType": "Academic Services",
+    "eventCode": "A3841",
+    "eventDescription": "Study Smart Challenge",
+    "startDate": "05/04/2026",
     "startTime": "10:00 am",
-    "endTime": "5:00 pm",
-    "registrationLimit": false,
-    "functionTypeCode": "ANY",
-    "functionCode": "EVENT2",
-    "functionDescription": "Repeating Event 2",
-    "buildingDescription": "New Hall 2"
+    "endTime": "11:30 am",
+    "registrationLimit": true,
+    "functionTypeCode": "XADS",
+    "functionCode": "XSSC",
+    "functionDescription": "Student Success",
+    "buildingDescription": "University Commons",
+    "locationDetails": "Tables",
+    "eventComment": "Information on the major study strategies will be shared at the tables. Then, there will be a QR code to scan to take a short quiz about the study habits. If the student takes the quiz, then they can take a goodie back to help them through finals week."
   },
   {
     "eventTypeCode": "XADS",
