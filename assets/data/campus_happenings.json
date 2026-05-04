@@ -1,39 +1,50 @@
 [
-  { "date": "2026-04-13", "events": [{ "time": "11:30 a.m.-1:30 p.m.", "title": "Lunch Special: National Peach Cobbler Day (Dining Hall)" }] },
-  { "date": "2026-04-14", "events": [{ "time": "7:30-9:30 p.m.", "title": "Public Observation Night (Leighty-Tabor Science Center)" }] },
   {
-    "date": "2026-04-15",
+    "date": "2026-05-04",
     "events": [
-      { "time": "11:30 a.m.-1:30 p.m.", "title": "Lunch Special: National Glazed Ham Day (Dining Hall)" },
-      { "time": "6 p.m.", "title": "Baseball vs. Augustana College (Workman Family Baseball Field)" }
+      { "time": "All Week", "title": "Snack Week (Dining Hall)" },
+      { "time": "10-11:30 a.m.", "title": "WPA Study Smart Challenge (UC Lobby)" },
+      { "time": "6-7 p.m.", "title": "Growing Strong Sexual Assault Center: Educational Presentation (UC Room 142/144)" }
     ]
   },
-  { "date": "2026-04-16", "events": [{ "time": "7:30-9:30 p.m.", "title": "Big Band Jazz Spring Concert (Albert Taylor Theatre)" }] },
   {
-    "date": "2026-04-17",
+    "date": "2026-05-05",
     "events": [
+      { "time": "2-3 p.m.", "title": "Walk-In Resume Hours (UC 336)" },
+      { "time": "7:30-9:30 p.m.", "title": "Public Observation Night (Leighty-Tabor Science Center)" }
+    ]
+  },
+  {
+    "date": "2026-05-06",
+    "events": [
+      { "time": "1-2 p.m.", "title": "Walk-In Resume Hours (UC 336)" },
+      { "time": "5-6:30 p.m.", "title": "Graduate Champagne Celebration (The President's House, #4 Millikin Place)" },
+      { "time": "All Day", "title": "Baseball at CCIW Tournament (Workman Family Baseball Field)" }
+    ]
+  },
+  {
+    "date": "2026-05-07",
+    "events": [
+      { "time": "1-2 p.m.", "title": "Walk-In Resume Hours (UC 336)" },
+      { "time": "All Day", "title": "Baseball at CCIW Tournament (Workman Family Baseball Field)" }
+    ]
+  },
+  {
+    "date": "2026-05-08",
+    "events": [
+      { "time": "11:30 a.m.-1:30 p.m.", "title": "Handing Out Chocolate Chip Cookies for the Last Day of Classes (Dining Hall)" },
+      { "time": "11:30 a.m.-6 p.m.", "title": "Big Blue Club Golf Outing (South Side Country Club)" },
       { "time": "1-2 p.m.", "title": "Van Gogh With the Flow (UC 138)" },
-      { "time": "4-6 p.m.", "title": "Decatur Area Alumni & Friends Social (Decatur Brew Works)" },
-      { "time": "6-9 p.m.", "title": "Milli-Fest (Quad)" },
-      { "time": "8:30-9:30 p.m.", "title": "Vulnerable EP Release Party (Lock, Stock, & Barrel)" }
+      { "time": "6:30-9:30 p.m.", "title": "New Works Festival (Pipe Dreams Studio Theatre)" },
+      { "time": "All Day", "title": "Baseball at CCIW Tournament (Workman Family Baseball Field)" }
     ]
   },
   {
-    "date": "2026-04-18",
+    "date": "2026-05-09",
     "events": [
-      { "time": "11 a.m.-2 p.m.", "title": "Milli-Fest (Quad)" },
-      { "time": "11:30 a.m.-1:30 p.m.", "title": "Lunch Special: National Animal Cracker Day (Dining Hall)" },
-      { "time": "1-5 p.m.", "title": "Flute Day (Perkinson Music Center)" },
-      { "time": "6-9 p.m.", "title": "Milli-Fest College Night on the Quad" },
-      { "time": "7:30-9:30 p.m.", "title": "MSWE IV: Our Power, Our Planet (Kirkland Fine Arts Center)" }
-    ]
-  },
-  {
-    "date": "2026-04-19",
-    "events": [
-      { "time": "1 p.m. & 3 p.m.", "title": "Softball vs. Carthage College (Workman Family Softball Field)" },
-      { "time": "2-4 p.m.", "title": "Decatur Youth Symphony Orchestra (Kirkland Fine Arts Center)" },
-      { "time": "4-6 p.m.", "title": "Faculty Series III: Kenopsia: An Exploration of Memory Through Music (Kaeuper Hall)" }
+      { "time": "2-4 p.m.", "title": "Jazz Bash (Lock, Stock & Barrel)" },
+      { "time": "7:30-9:30 p.m.", "title": "Danny Gokey (Kirkland Fine Arts Center)" },
+      { "time": "All Day", "title": "Baseball at CCIW Tournament (Workman Family Baseball Field)" }
     ]
   }
 ]
