@@ -1756,18 +1756,18 @@ table.sdk--data-table-shrink {
   padding-bottom: 2px;
 }
 
-.sdk--ellucian-table .expand-icon-container {
+.sdk--ellucian-table .expand-row-button .expand-icon-container {
   height: 33px;
 }
 
-.sdk--ellucian-table .expand-icon-container svg {
-  fill: var(--mu-blue-dark);
+.sdk--ellucian-table .expand-row-button .expand-icon-container svg {
+  fill: var(--mu-blue);
 }
 
-.sdk--ellucian-table .expand-icon-container:focus svg,
-.sdk--ellucian-table .expand-icon-container:active svg,
-.sdk--ellucian-table .expand-icon-container:hover svg {
-  fill: var(--mu-blue);
+.sdk--ellucian-table .expand-row-button .expand-icon-container:focus svg,
+.sdk--ellucian-table .expand-row-button .expand-icon-container:active svg,
+.sdk--ellucian-table .expand-row-button .expand-icon-container:hover svg {
+  fill: var(--mu-blue-medium-light);
 }
 
 .sdk--tab-search-container {
