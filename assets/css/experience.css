@@ -1751,6 +1751,25 @@ table.sdk--data-table-shrink {
   vertical-align: top;
 }
 
+.sdk--ellucian-table .expand-row-button {
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.sdk--ellucian-table .expand-icon-container {
+  height: 33px;
+}
+
+.sdk--ellucian-table .expand-icon-container svg {
+  fill: var(--mu-blue-dark);
+}
+
+.sdk--ellucian-table .expand-icon-container:focus svg,
+.sdk--ellucian-table .expand-icon-container:active svg,
+.sdk--ellucian-table .expand-icon-container:hover svg {
+  fill: var(--mu-blue);
+}
+
 .sdk--tab-search-container {
   width: 100%;
   padding: 16px 8px;
