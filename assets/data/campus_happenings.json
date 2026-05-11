@@ -1,55 +1,17 @@
 [
   {
-    "date": "2026-05-04",
+    "date": "2026-05-12",
     "events": [
-      { "time": "All Day", "title": "Snack Week (Dining Hall)" },
-      { "time": "10-11:30 a.m.", "title": "WPA Study Smart Challenge (UC Lobby)" },
-      { "time": "6-7 p.m.", "title": "Growing Strong Sexual Assault Center: Educational Presentation (UC Room 142/144)" }
-    ]
-  },
-  {
-    "date": "2026-05-05",
-    "events": [
-      { "time": "All Day", "title": "Snack Week (Dining Hall)" },
       { "time": "2-3 p.m.", "title": "Walk-In Resume Hours (UC 336)" },
+      { "time": "5-7 p.m.", "title": "Business After Hours (Workman Family Baseball Field)" },
       { "time": "7:30-9:30 p.m.", "title": "Public Observation Night (Leighty-Tabor Science Center)" }
     ]
   },
+  { "date": "2026-05-13", "events": [{ "time": "1-2 p.m.", "title": "Walk-In Resume Hours (UC 336)" }] },
+  { "date": "2026-05-14", "events": [{ "time": "1-2 p.m.", "title": "Walk-In Resume Hours (UC 336)" }] },
   {
-    "date": "2026-05-06",
-    "events": [
-      { "time": "All Day", "title": "Snack Week (Dining Hall)" },
-      { "time": "All Day", "title": "Baseball at CCIW Tournament (Workman Family Baseball Field)" },
-      { "time": "1-2 p.m.", "title": "Walk-In Resume Hours (UC 336)" },
-      { "time": "5-6:30 p.m.", "title": "Graduate Champagne Celebration (The President's House, #4 Millikin Place)" }
-    ]
+    "date": "2026-05-15",
+    "events": [{ "time": "3-5 p.m.", "title": "Big Sky Beauty: Wildlife Photography Exhibition - Senior Capstone by Kayla Hanson (Blue Connection and BC Studios)" }]
   },
-  {
-    "date": "2026-05-07",
-    "events": [
-      { "time": "All Day", "title": "Snack Week (Dining Hall)" },
-      { "time": "All Day", "title": "Baseball at CCIW Tournament (Workman Family Baseball Field)" },
-      { "time": "1-2 p.m.", "title": "Walk-In Resume Hours (UC 336)" }
-    ]
-  },
-  {
-    "date": "2026-05-08",
-    "events": [
-      { "time": "All Day", "title": "Snack Week (Dining Hall)" },
-      { "time": "All Day", "title": "Baseball at CCIW Tournament (Workman Family Baseball Field)" },
-      { "time": "11:30 a.m.-1:30 p.m.", "title": "Handing Out Chocolate Chip Cookies for the Last Day of Classes (Dining Hall)" },
-      { "time": "11:30 a.m.-6 p.m.", "title": "Big Blue Club Golf Outing (South Side Country Club)" },
-      { "time": "1-2 p.m.", "title": "Van Gogh With the Flow (UC 138)" },
-      { "time": "6:30-9:30 p.m.", "title": "New Works Festival (Pipe Dreams Studio Theatre)" }
-    ]
-  },
-  {
-    "date": "2026-05-09",
-    "events": [
-      { "time": "All Day", "title": "Snack Week (Dining Hall)" },
-      { "time": "All Day", "title": "Baseball at CCIW Tournament (Workman Family Baseball Field)" },
-      { "time": "2-4 p.m.", "title": "Jazz Bash (Lock, Stock & Barrel)" },
-      { "time": "7:30-9:30 p.m.", "title": "Danny Gokey (Kirkland Fine Arts Center)" }
-    ]
-  }
+  { "date": "2026-05-17", "events": [{ "time": "10 a.m.-4 p.m.", "title": "Spring Commencement (Kirkland Fine Arts Center)" }] }
 ]
