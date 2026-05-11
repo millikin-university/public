@@ -711,8 +711,14 @@ a:focus .ss--mso {
   overflow-y: auto;
 }
 
-.mu--info-box h3 {
+.mu--info-box h3,
+.mu--modal-content h3 {
   font-size: 12pt;
+}
+
+.mu--info-box h2,
+.mu--modal-content h2 {
+  font-size: 11pt;
 }
 
 .mu--info-corner {
@@ -756,7 +762,9 @@ a:focus .ss--mso {
 .mu--info-box p,
 .mu--modal-content p,
 .mu--info-box h3,
-.mu--modal-content h3 {
+.mu--modal-content h3,
+.mu--info-box h2,
+.mu--modal-content h2 {
   margin: 0;
   line-height: 1.25;
   font-family: 'Roboto';
@@ -766,7 +774,9 @@ a:focus .ss--mso {
 .mu--info-box p:first-child,
 .mu--modal-content p:first-child,
 .mu--info-box h3:first-child,
-.mu--modal-content h3:first-child {
+.mu--modal-content h3:first-child,
+.mu--info-box h2:first-child,
+.mu--modal-content h2:first-child {
   padding-top: 0;
 }
 
