@@ -716,8 +716,8 @@ a:focus .ss--mso {
   font-size: 12pt;
 }
 
-.mu--info-box h2,
-.mu--modal-content h2 {
+.mu--info-box h4,
+.mu--modal-content h4 {
   font-size: 11pt;
 }
 
@@ -763,8 +763,8 @@ a:focus .ss--mso {
 .mu--modal-content p,
 .mu--info-box h3,
 .mu--modal-content h3,
-.mu--info-box h2,
-.mu--modal-content h2 {
+.mu--info-box h4,
+.mu--modal-content h4 {
   margin: 0;
   line-height: 1.25;
   font-family: 'Roboto';
@@ -775,8 +775,8 @@ a:focus .ss--mso {
 .mu--modal-content p:first-child,
 .mu--info-box h3:first-child,
 .mu--modal-content h3:first-child,
-.mu--info-box h2:first-child,
-.mu--modal-content h2:first-child {
+.mu--info-box h4:first-child,
+.mu--modal-content h4:first-child {
   padding-top: 0;
 }
 
