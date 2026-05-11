@@ -1612,6 +1612,12 @@ button.sdk--link-modal .material-symbols-outlined {
   padding: 0;
 }
 
+.sdk--tabbed-footer .sdk--MuiTabs button.MuiTab-root {
+  min-width: 60px;
+  min-height: 30px;
+  padding: 0px 12px;
+}
+
 .sdk--tabbed-footer button.MuiTab-fullWidth.Mui-selected {
   color: #ffffff;
   font-weight: bold;
