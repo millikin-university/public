@@ -1558,6 +1558,16 @@ button.sdk--link-modal .material-symbols-outlined {
   background-color: var(--mu-blue);
 }
 
+.sdk--slide-legend-blue-dark {
+  color: #ffffff;
+  background-color: var(--mu-blue-dark);
+}
+
+.sdk--slide-legend-grey {
+  color: var(--mu-blue-dark);
+  background-color: #e0e0e0;
+}
+
 /* Fading animation */
 .sdk--slide-fade {
   animation-name: sdkSlideFade;
