@@ -1,17 +1,24 @@
 [
+  { "date": "2026-05-13", "events": [{ "time": "1-2 p.m.", "title": "Walk-In Resume Hours (UC 336)" }] },
   {
-    "date": "2026-05-12",
+    "date": "2026-05-14",
     "events": [
-      { "time": "2-3 p.m.", "title": "Walk-In Resume Hours (UC 336)" },
-      { "time": "5-7 p.m.", "title": "Business After Hours (Workman Family Baseball Field)" },
-      { "time": "7:30-9:30 p.m.", "title": "Public Observation Night (Leighty-Tabor Science Center)" }
+      { "time": "1-2 p.m.", "title": "Walk-In Resume Hours (UC 336)" },
+      { "time": "4-6 p.m.", "title": "Community and Belonging Graduation Celebration (CTD Lower Lobby)" }
     ]
   },
-  { "date": "2026-05-13", "events": [{ "time": "1-2 p.m.", "title": "Walk-In Resume Hours (UC 336)" }] },
-  { "date": "2026-05-14", "events": [{ "time": "1-2 p.m.", "title": "Walk-In Resume Hours (UC 336)" }] },
   {
     "date": "2026-05-15",
-    "events": [{ "time": "3-5 p.m.", "title": "Big Sky Beauty: Wildlife Photography Exhibition - Senior Capstone by Kayla Hanson (Blue Connection and BC Studios)" }]
+    "events": [
+      { "time": "2:30 p.m.", "title": "Baseball vs. University of Wisconsin-La Crosse: 2026 NCAA DIII Tournament (Workman Family Baseball Field)" },
+      { "time": "3-5 p.m.", "title": "Big Sky Beauty: Wildlife Photography Exhibition — Senior Capstone by Kayla Hanson (Blue Connection and BC Studios)" }
+    ]
   },
-  { "date": "2026-05-17", "events": [{ "time": "10 a.m.-4 p.m.", "title": "Spring Commencement (Kirkland Fine Arts Center)" }] }
+  {
+    "date": "2026-05-17",
+    "events": [
+      { "time": "10 a.m.", "title": "Spring Commencement — College of Fine Arts and College of Professional Studies (Kirkland Fine Arts Center)" },
+      { "time": "3 p.m.", "title": "Spring Commencement — College of Arts & Sciences and Tabor School of Business (Kirkland Fine Arts Center)" }
+    ]
+  }
 ]
