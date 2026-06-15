@@ -1409,6 +1409,13 @@ button.sdk--link-modal .material-symbols-outlined {
   font-weight: bold;
 }
 
+.sdk--input-validation-message {
+  font-size: 9pt;
+  font-style: italic;
+  color: var(--mu-error-color);
+  padding: 4px 8px;
+}
+
 .sdk--inline-form,
 .sdk--inline-form-with-button {
   display: flex;
