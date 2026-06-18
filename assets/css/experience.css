@@ -1801,6 +1801,10 @@ table.sdk--data-table-shrink {
   padding-top: 12px;
 }
 
+.sdk--ellucian-table td .MuiCheckbox-root {
+  padding: 0;
+}
+
 .sdk--ellucian-table .expand-row-button {
   padding-top: 2px;
   padding-bottom: 2px;
