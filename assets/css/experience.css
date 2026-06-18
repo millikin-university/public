@@ -1307,6 +1307,10 @@ button.sdk--link-modal .material-symbols-outlined {
   color: var(--mu-blue-dark);
 }
 
+.sdk--input-text-area {
+  height: auto;
+}
+
 .sdk--input-button {
   height: 36px;
   width: 36px;
