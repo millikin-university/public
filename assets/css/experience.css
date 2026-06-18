@@ -1304,7 +1304,16 @@ button.sdk--link-modal .material-symbols-outlined {
 }
 
 .sdk--input-text:focus {
-  color: var(--mu-blue-dark);
+  border-color: var(--mu-blue-light);
+}
+
+.sdk--input-text.sdk--input-invalid,
+.sdk--input-select.sdk--input-invalid {
+  border-color: var(--mu-error-color);
+}
+.sdk--input-text.sdk--input-invalid:focus,
+.sdk--input-select.sdk--input-invalid:focus {
+  border-color: var(--mu-blue-light);
 }
 
 .sdk--input-textarea {
