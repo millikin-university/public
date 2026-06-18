@@ -1797,6 +1797,10 @@ table.sdk--data-table-shrink {
   vertical-align: top;
 }
 
+.sdk--ellucian-table td.MuiTableCell-head {
+  padding-top: 12px;
+}
+
 .sdk--ellucian-table .expand-row-button {
   padding-top: 2px;
   padding-bottom: 2px;
