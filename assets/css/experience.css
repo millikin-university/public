@@ -1427,6 +1427,7 @@ button.sdk--link-modal .material-symbols-outlined {
   font-style: italic;
   color: var(--mu-error-color);
   padding: 4px 8px;
+  white-space: pre-wrap;
 }
 
 .sdk-input-invalid {
