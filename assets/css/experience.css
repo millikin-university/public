@@ -1429,6 +1429,10 @@ button.sdk--link-modal .material-symbols-outlined {
   padding: 4px 8px;
 }
 
+.sdk-input-invalid {
+  border-color: var(--mu-alert-error-border);
+}
+
 .sdk--inline-form,
 .sdk--inline-form-with-button {
   display: flex;
