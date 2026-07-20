@@ -1137,7 +1137,7 @@ button.sdk--link-modal .material-symbols-outlined {
   background-color: var(--mu-blue);
 }
 
-.mu--link-button-dark .mu--link-label {
+.mu--link-button-dark:not(:disabled) .mu--link-label {
   color: #ffffff;
 }
 
@@ -1156,6 +1156,29 @@ button.sdk--link-modal .material-symbols-outlined {
 
 .mu--link-button-dark .mu--link-icon {
   background-color: #333333;
+}
+
+/* Link Button Alert Variant */
+.mu--link-button-alert {
+  border-color: var(--mu-alert-error-border);
+}
+
+.mu--link-button-alert:not(:disabled):hover,
+.mu--link-button-alert:not(:disabled):focus {
+  background-color: var(--mu-error-color);
+}
+
+.mu--link-button-alert:not(:disabled) .mu--link-label {
+  color: var(--mu-alert-error-color);
+}
+
+.mu--link-button-alert:not(:disabled):hover .mu--link-label {
+  color: #ffffff;
+}
+
+.mu--link-button-alert .material-symbols-outlined,
+.mu--link-button-alert .ss--mso {
+  color: var(--mu-error-color);
 }
 
 /* Link Button Medium Variant */
