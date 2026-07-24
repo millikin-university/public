@@ -1404,13 +1404,16 @@ button.sdk--link-modal .material-symbols-outlined {
 .sdk--input-select:disabled,
 .sdk--input-with-button input:disabled,
 .sdk--input-button:disabled,
-.mu--link-button:disabled {
+.mu--link-button:disabled,
+a.mu--link-button.sdk--link-button-disabled {
   color: var(--mu-disabled-color);
   background-color: var(--mu-disabled-bg-color);
   border-color: var(--mu-disabled-color);
+  pointer-events: none; /* a tags have no native disabled option, so this emulates that */
 }
 
-.mu--link-button:disabled .material-symbols-outlined {
+.mu--link-button:disabled .material-symbols-outlined,
+a.mu--link-button.sdk--link-button-disabled .material-symbols-outlined {
   color: var(--mu-disabled-color);
   background-color: var(--mu-disabled-bg-color);
 }
