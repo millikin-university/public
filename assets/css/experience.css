@@ -1448,6 +1448,10 @@ a.mu--link-button.sdk--link-button-disabled .material-symbols-outlined {
   font-weight: bold;
 }
 
+.sdk--input-select option:disabled {
+  color: var(--mu-disabled-color);
+}
+
 .sdk--input-validation-message {
   font-size: 9pt;
   font-style: italic;
