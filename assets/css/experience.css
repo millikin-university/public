@@ -55,7 +55,8 @@ html {
 
 .mu--body,
 .mu--page-body,
-.sdk--page-bodfy .ss--pgb {
+.sdk--page-body,
+.ss--pgb {
   height: 100%;
   width: 100%;
   margin: 0;
@@ -1448,7 +1449,7 @@ a.mu--link-button.sdk--link-button-disabled .material-symbols-outlined {
   font-weight: bold;
 }
 
-.sdk--input-select option:disabled {
+.sdk--input-select option:not([value='']):disabled {
   color: var(--mu-disabled-color);
 }
 
