@@ -1419,6 +1419,11 @@ a.mu--link-button.sdk--link-button-disabled .material-symbols-outlined {
   background-color: var(--mu-disabled-bg-color);
 }
 
+.mu--link-button:disabled .mu--link-label,
+a.mu--link-button.sdk--link-button-disabled .mu--link-label {
+  color: var(--mu-disabled-color);
+}
+
 .sdk--input-select:not(:disabled):hover option,
 .sdk--input-select:not(:disabled):focus option {
   color: #000000;
