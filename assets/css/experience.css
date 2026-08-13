@@ -1827,12 +1827,12 @@ table.sdk--data-table-shrink {
   font-weight: bold;
 }
 
-.sdk--ellucian-table tr {
+.sdk--ellucian-table thead tr {
   height: unset;
 }
 
-.sdk--ellucian-table.sdk--ellucian-table-tallrows tbody tr {
-  height: 48px;
+.sdk--ellucian-table:not(.sdk--ellucian-table-tallrows) tbody tr {
+  height: unset;
 }
 
 /* Use HR to break rows in a table instead of BR */
