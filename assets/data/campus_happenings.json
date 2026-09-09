@@ -1,35 +1,45 @@
 [
   {
-    "date": "2026-08-31",
+    "date": "2026-09-07",
     "events": [
-      { "time": "11:30 a.m.-5 p.m.", "title": "2026 Men's Basketball Golf Outing" },
-      { "time": "7-8 p.m.", "title": "Adoration (Pilling Chapel)" }
+      { "time": "All Day", "title": "Labor Day (University closed, no classes)" },
+      { "time": "6-8 p.m.", "title": "Labor Day Pops (Devon Lakeshore Amphitheater)" }
     ]
   },
+  { "date": "2026-09-08", "events": [{ "time": "7:30-9:30 p.m.", "title": "Public Observation Night (Requarth Observatory, Leighty-Tabor Science Center)" }] },
   {
-    "date": "2026-09-01",
-    "events": [
-      { "time": "6 p.m.", "title": "Women's Volleyball vs. (RV) University of Chicago (Griswold)" },
-      { "time": "7:30-8:30 p.m.", "title": "Bible Study w/ Nothing Bundt Cakes (Pilling Chapel)" }
-    ]
-  },
-  {
-    "date": "2026-09-02",
+    "date": "2026-09-09",
     "events": [
       { "time": "7:30-10 a.m.", "title": "Millikin WSOY Food Drive Collection (UC)" },
-      { "time": "10 a.m.-Noon", "title": "Millikin Retirees Brunch (UC Banquet Rooms)" },
-      { "time": "4 p.m.", "title": "Men's Tennis vs. Illinois College (Fairview Park Tennis Complex)" },
-      { "time": "4 p.m.", "title": "Women's Tennis vs. Illinois College (Fairview Park Tennis Complex)" }
+      { "time": "2-3 p.m.", "title": "Watercolor & Well-Being Wednesdays (UC OCLP)" },
+      { "time": "7 p.m.", "title": "Women's Soccer vs. Webster University (Frank M. Lindsay Field)" }
+    ]
+  },
+  { "date": "2026-09-10", "events": [{ "time": "4-6 p.m.", "title": "Wonders of Watercolor Opening Reception (Perkinson Gallery & Lower Gallery)" }] },
+  {
+    "date": "2026-09-11",
+    "events": [
+      { "time": "6-9 p.m.", "title": "Viva Brazil! (UC Banquet Rooms)" },
+      { "time": "7:30-9:30 p.m.", "title": "'Come From Away' (Albert Taylor Theatre)" },
+      { "time": "7:30-9:30 p.m.", "title": "'Ordinary Days' (concert/staged reading) (Kaeuper Hall)" }
     ]
   },
   {
-    "date": "2026-09-04",
+    "date": "2026-09-12",
     "events": [
-      { "time": "All Day", "title": "National College Colors Day" },
-      { "time": "4-6 p.m.", "title": "Maddie Tomblin Mazzola: Crowder Summer Residency Opening Reception (Robert Crowder Art Gallery)" },
-      { "time": "5:30 p.m.", "title": "Men's Cross Country vs. Wright Classic (South Shores Park)" },
-      { "time": "6:15 p.m.", "title": "Women's Cross Country vs. Wright Classic (South Shores Park)" }
+      { "time": "Noon", "title": "Women's Tennis vs. North Central College (Fairview Park Tennis Complex)" },
+      { "time": "1 p.m.", "title": "Football vs. Luther College (Frank M. Lindsay Field)" },
+      { "time": "2-4 p.m.", "title": "'Come From Away' (Albert Taylor Theatre)" },
+      { "time": "6 p.m.", "title": "Men's Soccer vs. Rose-Hulman (Frank M. Lindsay Field)" },
+      { "time": "7:30-9:30 p.m.", "title": "'Come From Away' (Albert Taylor Theatre)" },
+      { "time": "7:30-9:30 p.m.", "title": "'Ordinary Days' (concert/staged reading) (Kaeuper Hall)" }
     ]
   },
-  { "date": "2026-09-05", "events": [{ "time": "1 p.m.", "title": "Women's Soccer vs. Rose-Hulman (Frank M. Lindsay Field)" }] }
+  {
+    "date": "2026-09-13",
+    "events": [
+      { "time": "11 a.m.", "title": "Women's Tennis vs. Augustana College (Fairview Park Tennis Complex)" },
+      { "time": "2-4 p.m.", "title": "'Come From Away' (Albert Taylor Theatre)" }
+    ]
+  }
 ]
