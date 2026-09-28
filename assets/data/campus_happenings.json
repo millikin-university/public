@@ -1,45 +1,82 @@
 [
   {
-    "date": "2026-09-07",
+    "date": "2026-09-28",
     "events": [
-      { "time": "All Day", "title": "Labor Day (University closed, no classes)" },
-      { "time": "6-8 p.m.", "title": "Labor Day Pops (Devon Lakeshore Amphitheater)" }
+      { "time": "8:30 a.m.-3 p.m.", "title": "Future Lawyers Experience at Millikin" },
+      { "time": "9 a.m.-5 p.m.", "title": "Poster Invasion (UC South Patio)" },
+      { "time": "6-9 p.m.", "title": "Homecoming Kick-Off: Laser Tag, Mini Golf, Axe Throwing, and Walking Tacos (UC Banquet Rooms)" }
     ]
   },
-  { "date": "2026-09-08", "events": [{ "time": "7:30-9:30 p.m.", "title": "Public Observation Night (Requarth Observatory, Leighty-Tabor Science Center)" }] },
   {
-    "date": "2026-09-09",
+    "date": "2026-09-29",
+    "events": [
+      { "time": "9 a.m.-5 p.m.", "title": "Poster Invasion (UC South Patio)" },
+      { "time": "6-9 p.m.", "title": "Homecoming Bash: Yard Games, Musical Chairs, Food, and Music (Miller Quad)" },
+      { "time": "7 p.m.", "title": "Volleyball vs. Illinois College (Griswold Gym)" },
+      { "time": "7:30-9:30 p.m.", "title": "Public Observation Night (Requarth Observatory, Leighty-Tabor Science Center)" }
+    ]
+  },
+  {
+    "date": "2026-09-30",
     "events": [
       { "time": "7:30-10 a.m.", "title": "Millikin WSOY Food Drive Collection (UC)" },
+      { "time": "10 a.m.-1 p.m.", "title": "Study Abroad Fair (UC OCLP)" },
+      { "time": "2 p.m.", "title": "Women’s Tennis vs. North Park University (Fairview Park Tennis Complex)" },
       { "time": "2-3 p.m.", "title": "Watercolor & Well-Being Wednesdays (UC OCLP)" },
-      { "time": "7 p.m.", "title": "Women's Soccer vs. Webster University (Frank M. Lindsay Field)" }
-    ]
-  },
-  { "date": "2026-09-10", "events": [{ "time": "4-6 p.m.", "title": "Wonders of Watercolor Opening Reception (Perkinson Gallery & Lower Gallery)" }] },
-  {
-    "date": "2026-09-11",
-    "events": [
-      { "time": "6-9 p.m.", "title": "Viva Brazil! (UC Banquet Rooms)" },
-      { "time": "7:30-9:30 p.m.", "title": "'Come From Away' (Albert Taylor Theatre)" },
-      { "time": "7:30-9:30 p.m.", "title": "'Ordinary Days' (concert/staged reading) (Kaeuper Hall)" }
+      { "time": "4-5 p.m.", "title": "Pura Belpre Awards and Cake (UC OCLP)" },
+      { "time": "6-9 p.m.", "title": "Rollin' Back Home: Roller Skating (UC Banquet Rooms)" },
+      { "time": "7 p.m.", "title": "Women’s Soccer vs. Wheaton College (Frank M. Lindsay Field)" }
     ]
   },
   {
-    "date": "2026-09-12",
+    "date": "2026-10-01",
     "events": [
-      { "time": "Noon", "title": "Women's Tennis vs. North Central College (Fairview Park Tennis Complex)" },
-      { "time": "1 p.m.", "title": "Football vs. Luther College (Frank M. Lindsay Field)" },
-      { "time": "2-4 p.m.", "title": "'Come From Away' (Albert Taylor Theatre)" },
-      { "time": "6 p.m.", "title": "Men's Soccer vs. Rose-Hulman (Frank M. Lindsay Field)" },
-      { "time": "7:30-9:30 p.m.", "title": "'Come From Away' (Albert Taylor Theatre)" },
-      { "time": "7:30-9:30 p.m.", "title": "'Ordinary Days' (concert/staged reading) (Kaeuper Hall)" }
+      { "time": "10 a.m.-1 p.m.", "title": "Chalk the Walk (Front of UC)" },
+      { "time": "6 p.m.", "title": "Black Alumni Networking (UC OCLP)" }
     ]
   },
   {
-    "date": "2026-09-13",
+    "date": "2026-10-02",
     "events": [
-      { "time": "11 a.m.", "title": "Women's Tennis vs. Augustana College (Fairview Park Tennis Complex)" },
-      { "time": "2-4 p.m.", "title": "'Come From Away' (Albert Taylor Theatre)" }
+      { "time": "All Day", "title": "Homecoming 2026: Forever Blue" },
+      { "time": "All Day", "title": "College Radio Day" },
+      { "time": "6 a.m.-6 p.m.", "title": "WSOY Food Drive (Kroger at 1818 Airport Plaza Dr., Decatur, IL 62521)" },
+      { "time": "10 a.m.-1 p.m.", "title": "The Millikin Amazing Race Weekly Drawing" },
+      { "time": "3 p.m.", "title": "Women’s Tennis vs. Elmhurst University (Fairview Park Tennis Complex)" },
+      { "time": "3-5 p.m.", "title": "Legacy of the Lamp (Westminster Church)" },
+      { "time": "5-7 p.m.", "title": "Blue Connection: Watercolor Workshop/Exhibition (Robert Crowder Art Gallery)" },
+      { "time": "5:30-7:30 p.m.", "title": "Registration Required: Alumni Awards Dinner (UC Banquet Rooms)" }
+    ]
+  },
+  {
+    "date": "2026-10-03",
+    "events": [
+      { "time": "All Day", "title": "Homecoming 2026: Forever Blue" },
+      { "time": "8-10 a.m.", "title": "Black Alumni of Millikin (BAM): Step on the Quad" },
+      { "time": "9 a.m.-3 p.m.", "title": "PARTAZE! Photo Booth (UC OCLP)" },
+      { "time": "9:30-10 a.m.", "title": "Macon County - African American Heritage Trail Marker Unveiling (Outside UC)" },
+      { "time": "10-11 a.m.", "title": "Historical Campus Tour (Begins at Shilling Hall sidewalk)" },
+      { "time": "10 a.m.-noon", "title": "Paraprofessional Student Leader Reunion Mixer (UC OCLP)" },
+      { "time": "10 a.m.", "title": "Baseball Championship Ring Ceremony (Workman Family Baseball Field)" },
+      { "time": "11 a.m.-12:15 p.m.", "title": "Jazz on the Quad (CTD Patio)" },
+      { "time": "11 a.m.-1 p.m.", "title": "All Alumni Birthday BBQ (Miller Quad)" },
+      { "time": "11 a.m.-1 p.m.", "title": "Tailgates (Frank M. Lindsay Field)" },
+      { "time": "1 p.m.", "title": "Homecoming Football Game vs. Carroll University (Frank M. Lindsay Field)" },
+      { "time": "3-4:30 p.m.", "title": "Millikin Choirs Alumni Concert (Central Christian Church)" },
+      { "time": "3-5 p.m.", "title": "Pipe Dreams Paint & Sip (Pipe Dreams Studio Theatre)" },
+      { "time": "4-6 p.m.", "title": "Music Education Open House/Mixer (Perkinson Music Center)" },
+      { "time": "4-6 p.m.", "title": "Faculty/Alumni Jazz Jam Session (LSB)" },
+      { "time": "6-7 p.m.", "title": "Homecoming Cabaret (Albert Taylor Theatre)" },
+      { "time": "7:30 p.m.", "title": "Millikin Symphonic Wind Ensemble I with Alumni and Jazz Band I (Kirkland Fine Arts Center)" },
+      { "time": "7:30-9:30 p.m.", "title": "Sip & Sing (CTD Hegeler Lobby)" }
+    ]
+  },
+  {
+    "date": "2026-10-04",
+    "events": [
+      { "time": "All Day", "title": "Homecoming 2026: Forever Blue" },
+      { "time": "10 a.m.-noon", "title": "Registration Required: Athletic Hall of Fame Induction Brunch (UC Banquet Rooms)" },
+      { "time": "11 a.m.", "title": "Black Alumni of Millikin: Hymns Reimagined (CTD Hegeler Lobby)" }
     ]
   }
 ]
