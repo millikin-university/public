@@ -1,51 +1,54 @@
 [
+  { "date": "2026-10-12", "events": [{ "time": "8 a.m.-noon", "title": "Campus Visit Day" }] },
   {
-    "date": "2026-10-06",
+    "date": "2026-10-13",
     "events": [
-      { "time": "Noon-1 p.m.", "title": "¡Vamos a Hablar! (Shilling Hall 421 Language Lab)" },
-      { "time": "7:30-9:30 p.m.", "title": "Vocal Jazz Preview (Kaeuper Hall)" },
+      { "time": "6-8 p.m.", "title": "Movie Night by Latin American Student Organization (LASO) (UC Collaboration Rooms, 144)" },
       { "time": "7:30-9:30 p.m.", "title": "Public Observation Night (Requarth Observatory, Leighty-Tabor Science Center)" }
     ]
   },
   {
-    "date": "2026-10-07",
+    "date": "2026-10-14",
     "events": [
-      { "time": "Noon-1 p.m.", "title": "Hispanic in America Panel Discussion (UC)" },
-      { "time": "2-3 p.m.", "title": "Watercolor & Well-Being Wednesdays (UC OCLP)" },
-      { "time": "3 p.m.", "title": "Women's Tennis vs. Elmhurst University (Fairview Park Tennis Complex)" },
-      { "time": "4-5 p.m.", "title": "Latin Dancing (CTD 300)" },
-      { "time": "7 p.m.", "title": "Men's Soccer vs. North Central College (Frank M. Lindsay Field)" }
+      { "time": "10 a.m.-noon", "title": "Flu Shot Clinic (UC, President's Dining Room, Third Floor)" },
+      { "time": "11 a.m.-1 p.m.", "title": "Wellness Fair (UC Lobby)" },
+      { "time": "2-3 p.m.", "title": "Watercolor & Well-Being Wednesdays (UC OCLP)" }
     ]
   },
   {
-    "date": "2026-10-08",
+    "date": "2026-10-15",
     "events": [
-      { "time": "6-7 p.m.", "title": "Clean Up the Street: Service Hour Opportunity (Meet in Leighty-Tabor Science Center 224)" },
-      { "time": "7-9 p.m.", "title": "Queer Movie Night (UC Banquet Rooms)" },
-      { "time": "7:30-9:30 p.m.", "title": "Blithe Spirit (Virginia Rogers Theatre)" }
+      { "time": "Noon-3 p.m.", "title": "Fall 2026 Career and Internship Fair (UC Banquet Rooms)" },
+      { "time": "7:30-8:30 p.m.", "title": "Edward Tulane Performances (Pipe Dreams Studio Theatre)" }
     ]
   },
   {
-    "date": "2026-10-09",
+    "date": "2026-10-16",
     "events": [
       { "time": "10 a.m.-1 p.m.", "title": "The Millikin Amazing Race Weekly Drawing" },
-      { "time": "3-5 p.m.", "title": "Hispanic Treats (UC Lobby Table)" },
-      { "time": "3-5 p.m.", "title": "Queer Craft-ernoon (UC OCLP)" },
-      { "time": "7 p.m.", "title": "Big Blue Showdown: Volleyball vs. Carroll University (Griswold Gym)" },
-      { "time": "7:30-9:30 p.m.", "title": "Blithe Spirit (Virginia Rogers Theatre)" }
+      { "time": "7:30-8:30 p.m.", "title": "Edward Tulane Performances (Pipe Dreams Studio Theatre)" },
+      { "time": "7 p.m.", "title": "Volleyball vs. Elmhurst University (Griswold Gym)" }
     ]
   },
   {
-    "date": "2026-10-10",
+    "date": "2026-10-17",
     "events": [
-      { "time": "10 a.m.", "title": "Big Blue Showdown: Volleyball vs. Nebraska Wesleyan University (Griswold Gym)" },
-      { "time": "2 p.m.", "title": "Big Blue Showdown: Volleyball vs. Albion College (Griswold Gym)" },
-      { "time": "2 p.m.", "title": "Women's Soccer vs. Elmhurst University (Frank M. Lindsay Field)" },
-      { "time": "2-4 p.m.", "title": "Comedy Dance Chicago (Albert Taylor Theatre)" },
-      { "time": "4:30 p.m.", "title": "Men's Soccer vs. Elmhurst University (Frank M. Lindsay Field)" },
-      { "time": "7-9:30 p.m.", "title": "La Fiesta (UC Banquet Rooms)" },
-      { "time": "7:30-9:30 p.m.", "title": "Blithe Spirit (Virginia Rogers Theatre)" }
+      { "time": "9 a.m.-5 p.m.", "title": "Baseball Golf Outing (Red Tail Run Golf Course)" },
+      { "time": "11 a.m.", "title": "Softball vs. Heartland Community College (Workman Family Softball Field)" },
+      { "time": "1 p.m.", "title": "Softball vs. Heartland Community College (Workman Family Softball Field)" },
+      { "time": "1 p.m.", "title": "Women's Soccer vs. Augustana College (Frank M. Lindsay Field)" },
+      { "time": "3:30 p.m.", "title": "Men's Soccer vs. Augustana College (Frank M. Lindsay Field)" },
+      { "time": "6 p.m.", "title": "Real Men Wear Pink Football Game vs. Wesleyan University (Frank M. Lindsay Field)" },
+      { "time": "7:30-8:30 p.m.", "title": "Edward Tulane Performances (Pipe Dreams Studio Theatre)" },
+      { "time": "7:30-9:30 p.m.", "title": "Masterworks I: Pictures and Poetry (KFAC)" }
     ]
   },
-  { "date": "2026-10-11", "events": [{ "time": "2-4 p.m.", "title": "Blithe Spirit (Virginia Rogers Theatre)" }] }
+  {
+    "date": "2026-10-18",
+    "events": [
+      { "time": "10:30-11:30 a.m.", "title": "Edward Tulane Performances (Pipe Dreams Studio Theatre)" },
+      { "time": "11 a.m.-3 p.m.", "title": "Boo at MU! (UC)" },
+      { "time": "4-6 p.m.", "title": "Fall Festival of Choirs (Central Christian Church)" }
+    ]
+  }
 ]
