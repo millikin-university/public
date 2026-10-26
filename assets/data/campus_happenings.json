@@ -1,54 +1,41 @@
 [
-  { "date": "2026-10-12", "events": [{ "time": "8 a.m.-noon", "title": "Campus Visit Day" }] },
+  { "date": "2026-10-26", "events": [{ "time": "8:30 a.m.-12:30 p.m. ", "title": "Careers in the Visual Arts Day" }] },
   {
-    "date": "2026-10-13",
+    "date": "2026-10-27",
     "events": [
-      { "time": "6-8 p.m.", "title": "Movie Night by Latin American Student Organization (LASO) (UC Collaboration Rooms, 144)" },
+      { "time": "All Week", "title": "WPA Halloween Coloring Contest (Shilling Hall 210)" },
+      { "time": "9 a.m.-4 p.m.", "title": "Wellness Suite Open House (Shilling Hall 210)" },
+      { "time": "11 a.m.-2 p.m.", "title": "Flu Shots and Covid Vaccines Offered by the Macon County Health Department (UC OCLP)" },
+      { "time": "4-5:30 p.m.", "title": "Wellness Suite Ribbon Cutting (Shilling Hall 210)" },
       { "time": "7:30-9:30 p.m.", "title": "Public Observation Night (Requarth Observatory, Leighty-Tabor Science Center)" }
     ]
   },
   {
-    "date": "2026-10-14",
+    "date": "2026-10-28",
     "events": [
-      { "time": "10 a.m.-noon", "title": "Flu Shot Clinic (UC, President's Dining Room, Third Floor)" },
-      { "time": "11 a.m.-1 p.m.", "title": "Wellness Fair (UC Lobby)" },
-      { "time": "2-3 p.m.", "title": "Watercolor & Well-Being Wednesdays (UC OCLP)" }
+      { "time": "8 a.m.-3:30 p.m.", "title": "Real Estate Summit (UC Banquet Rooms)" },
+      { "time": "9 a.m.-4 p.m.", "title": "Wellness Suite Open House (Shilling Hall 210)" },
+      { "time": "2-3 p.m.", "title": "Watercolor & Well-Being Wednesdays (UC OCLP)" },
+      { "time": "6:30 p.m.", "title": "Women's Basketball vs. Illinois College (Griswold Gym)" }
     ]
   },
   {
-    "date": "2026-10-15",
+    "date": "2026-10-29",
     "events": [
-      { "time": "Noon-3 p.m.", "title": "Fall 2026 Career and Internship Fair (UC Banquet Rooms)" },
-      { "time": "7:30-8:30 p.m.", "title": "Edward Tulane Performances (Pipe Dreams Studio Theatre)" }
+      { "time": "9 a.m.-4 p.m.", "title": "Wellness Suite Open House (Shilling Hall 210)" },
+      { "time": "4-6 p.m. ", "title": "Nurse Anesthetist Info Session (Decatur Memorial Hospital)" },
+      { "time": "7:30-9:30 p.m.", "title": "Percussion Ensemble Halloween Concert (Albert Taylor Theatre)" }
     ]
   },
   {
-    "date": "2026-10-16",
+    "date": "2026-10-30",
     "events": [
-      { "time": "10 a.m.-1 p.m.", "title": "The Millikin Amazing Race Weekly Drawing" },
-      { "time": "7:30-8:30 p.m.", "title": "Edward Tulane Performances (Pipe Dreams Studio Theatre)" },
-      { "time": "7 p.m.", "title": "Volleyball vs. Elmhurst University (Griswold Gym)" }
+      { "time": "9 a.m.-4 p.m.", "title": "Wellness Suite Open House (Shilling Hall 210)" },
+      { "time": "10 a.m.-1 p.m. ", "title": "The Millikin Amazing Race Weekly Drawing " },
+      { "time": "5-7 p.m.", "title": "Percussion Ensemble Halloween Concert (Albert Taylor Theatre)" },
+      { "time": "7 p.m. ", "title": "Volleyball vs. Augustana College (Griswold Gym)" },
+      { "time": "7:30-9:30 p.m. ", "title": "Percussion Ensemble Halloween Concert (Albert Taylor Theatre)" }
     ]
   },
-  {
-    "date": "2026-10-17",
-    "events": [
-      { "time": "9 a.m.-5 p.m.", "title": "Baseball Golf Outing (Red Tail Run Golf Course)" },
-      { "time": "11 a.m.", "title": "Softball vs. Heartland Community College (Workman Family Softball Field)" },
-      { "time": "1 p.m.", "title": "Softball vs. Heartland Community College (Workman Family Softball Field)" },
-      { "time": "1 p.m.", "title": "Women's Soccer vs. Augustana College (Frank M. Lindsay Field)" },
-      { "time": "3:30 p.m.", "title": "Men's Soccer vs. Augustana College (Frank M. Lindsay Field)" },
-      { "time": "6 p.m.", "title": "Real Men Wear Pink Football Game vs. Wesleyan University (Frank M. Lindsay Field)" },
-      { "time": "7:30-8:30 p.m.", "title": "Edward Tulane Performances (Pipe Dreams Studio Theatre)" },
-      { "time": "7:30-9:30 p.m.", "title": "Masterworks I: Pictures and Poetry (KFAC)" }
-    ]
-  },
-  {
-    "date": "2026-10-18",
-    "events": [
-      { "time": "10:30-11:30 a.m.", "title": "Edward Tulane Performances (Pipe Dreams Studio Theatre)" },
-      { "time": "11 a.m.-3 p.m.", "title": "Boo at MU! (UC)" },
-      { "time": "4-6 p.m.", "title": "Fall Festival of Choirs (Central Christian Church)" }
-    ]
-  }
+  { "date": "2026-10-31", "events": [{ "time": "2 p.m.", "title": "Men's Basketball vs. Rose-Hulman (Griswold Gym) " }] }
 ]
