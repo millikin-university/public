@@ -1,41 +1,42 @@
 [
-  { "date": "2026-10-26", "events": [{ "time": "8:30 a.m.-12:30 p.m. ", "title": "Careers in the Visual Arts Day" }] },
   {
-    "date": "2026-10-27",
+    "date": "2026-11-02",
     "events": [
-      { "time": "All Week", "title": "WPA Halloween Coloring Contest (Shilling Hall 210)" },
-      { "time": "9 a.m.-4 p.m.", "title": "Wellness Suite Open House (Shilling Hall 210)" },
-      { "time": "11 a.m.-2 p.m.", "title": "Flu Shots and Covid Vaccines Offered by the Macon County Health Department (UC OCLP)" },
-      { "time": "4-5:30 p.m.", "title": "Wellness Suite Ribbon Cutting (Shilling Hall 210)" },
+      { "time": "8:30 a.m.-12:30 p.m.", "title": "Explore Nursing Day" },
+      { "time": "All Day", "title": "WPA Halloween Coloring Contest Ends (Shilling Hall 210)" }
+    ]
+  },
+  {
+    "date": "2026-11-03",
+    "events": [
+      { "time": "Noon-1 p.m.", "title": "¡Vamos a Hablar! (Shilling Hall 421 Language Lab)" },
+      { "time": "7-9 p.m.", "title": "Jam in the UC (UC OCLP)" },
       { "time": "7:30-9:30 p.m.", "title": "Public Observation Night (Requarth Observatory, Leighty-Tabor Science Center)" }
     ]
   },
   {
-    "date": "2026-10-28",
+    "date": "2026-11-04",
     "events": [
-      { "time": "8 a.m.-3:30 p.m.", "title": "Real Estate Summit (UC Banquet Rooms)" },
-      { "time": "9 a.m.-4 p.m.", "title": "Wellness Suite Open House (Shilling Hall 210)" },
       { "time": "2-3 p.m.", "title": "Watercolor & Well-Being Wednesdays (UC OCLP)" },
-      { "time": "6:30 p.m.", "title": "Women's Basketball vs. Illinois College (Griswold Gym)" }
+      { "time": "6 p.m.", "title": "Volleyball vs. North Park University (Griswold Gym)" }
+    ]
+  },
+  { "date": "2026-11-05", "events": [{ "time": "TBD", "title": "Women's Wrestling vs. Blackburn College (Griswold Gym)" }] },
+  {
+    "date": "2026-11-06",
+    "events": [
+      { "time": "All Day", "title": "Millikin Football Alumni Association Board Excellence in Life Awards Banquet (UC Banquet Rooms)" },
+      { "time": "10 a.m.-1 p.m.", "title": "The Millikin Amazing Race Weekly Drawing" },
+      { "time": "6 p.m.", "title": "Women's Basketball vs. Rose-Hulman (Griswold Gym)" }
     ]
   },
   {
-    "date": "2026-10-29",
+    "date": "2026-11-07",
     "events": [
-      { "time": "9 a.m.-4 p.m.", "title": "Wellness Suite Open House (Shilling Hall 210)" },
-      { "time": "4-6 p.m. ", "title": "Nurse Anesthetist Info Session (Decatur Memorial Hospital)" },
-      { "time": "7:30-9:30 p.m.", "title": "Percussion Ensemble Halloween Concert (Albert Taylor Theatre)" }
+      { "time": "All Day", "title": "Campus Visit Day" },
+      { "time": "Noon", "title": "Football vs. North Central College (Frank M. Lindsay Field)" },
+      { "time": "7:30-9:30 p.m.", "title": "Masterworks II: Beethoven and the Blues (Kirkland Fine Arts Center)" }
     ]
   },
-  {
-    "date": "2026-10-30",
-    "events": [
-      { "time": "9 a.m.-4 p.m.", "title": "Wellness Suite Open House (Shilling Hall 210)" },
-      { "time": "10 a.m.-1 p.m. ", "title": "The Millikin Amazing Race Weekly Drawing " },
-      { "time": "5-7 p.m.", "title": "Percussion Ensemble Halloween Concert (Albert Taylor Theatre)" },
-      { "time": "7 p.m. ", "title": "Volleyball vs. Augustana College (Griswold Gym)" },
-      { "time": "7:30-9:30 p.m. ", "title": "Percussion Ensemble Halloween Concert (Albert Taylor Theatre)" }
-    ]
-  },
-  { "date": "2026-10-31", "events": [{ "time": "2 p.m.", "title": "Men's Basketball vs. Rose-Hulman (Griswold Gym) " }] }
+  { "date": "2026-11-08", "events": [{ "time": "4-6 p.m.", "title": "Faculty Recital Series: Brasiliana (Kaeuper Hall)" }] }
 ]
