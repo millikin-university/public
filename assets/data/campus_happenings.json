@@ -1,42 +1,33 @@
 [
+  { "date": "2026-11-10", "events": [{ "time": "7:30-9:30 p.m.", "title": "Public Observation Night (Requarth Observatory, Leighty-Tabor Science Center)" }] },
   {
-    "date": "2026-11-02",
+    "date": "2026-11-11",
     "events": [
-      { "time": "8:30 a.m.-12:30 p.m.", "title": "Explore Nursing Day" },
-      { "time": "All Day", "title": "WPA Halloween Coloring Contest Ends (Shilling Hall 210)" }
-    ]
-  },
-  {
-    "date": "2026-11-03",
-    "events": [
-      { "time": "Noon-1 p.m.", "title": "¡Vamos a Hablar! (Shilling Hall 421 Language Lab)" },
-      { "time": "7-9 p.m.", "title": "Jam in the UC (UC OCLP)" },
-      { "time": "7:30-9:30 p.m.", "title": "Public Observation Night (Requarth Observatory, Leighty-Tabor Science Center)" }
-    ]
-  },
-  {
-    "date": "2026-11-04",
-    "events": [
+      { "time": "11 a.m.-1 p.m.", "title": "Native American Heritage Month Tables (UC Lobby)" },
       { "time": "2-3 p.m.", "title": "Watercolor & Well-Being Wednesdays (UC OCLP)" },
-      { "time": "6 p.m.", "title": "Volleyball vs. North Park University (Griswold Gym)" }
+      { "time": "7:30-9:30 p.m.", "title": "Jazz Showcase (Albert Taylor Theatre)" }
     ]
   },
-  { "date": "2026-11-05", "events": [{ "time": "TBD", "title": "Women's Wrestling vs. Blackburn College (Griswold Gym)" }] },
+  { "date": "2026-11-12", "events": [{ "time": "7:30-9:30 p.m.", "title": "\"Cabaret\" (Virginia Rogers Theatre)" }] },
   {
-    "date": "2026-11-06",
+    "date": "2026-11-13",
     "events": [
-      { "time": "All Day", "title": "Millikin Football Alumni Association Board Excellence in Life Awards Banquet (UC Banquet Rooms)" },
       { "time": "10 a.m.-1 p.m.", "title": "The Millikin Amazing Race Weekly Drawing" },
-      { "time": "6 p.m.", "title": "Women's Basketball vs. Rose-Hulman (Griswold Gym)" }
+      { "time": "4:30 p.m.", "title": "Backstage Blue Overnight Event" },
+      { "time": "7:30-9:30 p.m.", "title": "\"Cabaret\" (Virginia Rogers Theatre)" }
     ]
   },
   {
-    "date": "2026-11-07",
+    "date": "2026-11-14",
     "events": [
-      { "time": "All Day", "title": "Campus Visit Day" },
-      { "time": "Noon", "title": "Football vs. North Central College (Frank M. Lindsay Field)" },
-      { "time": "7:30-9:30 p.m.", "title": "Masterworks II: Beethoven and the Blues (Kirkland Fine Arts Center)" }
+      { "time": "All Day", "title": "Backstage Blue Overnight Event" },
+      { "time": "9:30 a.m.", "title": "Millikin Invite Men's Wrestling" },
+      { "time": "9:30 a.m.", "title": "Millikin Invite Women's Wrestling" },
+      { "time": "1-5 p.m.", "title": "Brass Day (Perkinson Music Center)" },
+      { "time": "1-3 p.m.", "title": "Central Illinois High School Student & Educator Art Exhibition (Perkinson Gallery & Lower Gallery)" },
+      { "time": "7:30-9:30 p.m.", "title": "MSWE II: Brass Extravaganza (Kirkland Fine Arts Center)" },
+      { "time": "7:30-9:30 p.m.", "title": "\"Cabaret\" (Virginia Rogers Theatre)" }
     ]
   },
-  { "date": "2026-11-08", "events": [{ "time": "4-6 p.m.", "title": "Faculty Recital Series: Brasiliana (Kaeuper Hall)" }] }
+  { "date": "2026-11-15", "events": [{ "time": "2-4 p.m.", "title": "\"Cabaret\" (Virginia Rogers Theatre)" }] }
 ]
