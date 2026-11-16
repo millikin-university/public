@@ -1,33 +1,23 @@
 [
-  { "date": "2026-11-10", "events": [{ "time": "7:30-9:30 p.m.", "title": "Public Observation Night (Requarth Observatory, Leighty-Tabor Science Center)" }] },
+  { "date": "2026-11-16", "events": [{ "time": "8:30 a.m.-12:30 p.m.", "title": "Explore the Arts Day" }] },
   {
-    "date": "2026-11-11",
+    "date": "2026-11-17",
+    "events": [
+      { "time": "5:30-6:30 p.m.", "title": "Expressions 101: “You Know What I Mean” With International Student Organization, ISO (UC 138)" },
+      { "time": "7:30-9:30 p.m.", "title": "Public Observation Night (Requarth Observatory, Leighty-Tabor Science Center)" }
+    ]
+  },
+  {
+    "date": "2026-11-18",
     "events": [
       { "time": "11 a.m.-1 p.m.", "title": "Native American Heritage Month Tables (UC Lobby)" },
       { "time": "2-3 p.m.", "title": "Watercolor & Well-Being Wednesdays (UC OCLP)" },
-      { "time": "7:30-9:30 p.m.", "title": "Jazz Showcase (Albert Taylor Theatre)" }
+      { "time": "4-6 p.m.", "title": "Gaming Gathering (UC 142-144)" },
+      { "time": "6-8 p.m.", "title": "Head Over Boots for St. Jude, Hosted by Tri Delta (Lock Stock & Barrel)" },
+      { "time": "6-9 p.m.", "title": "Reel Stories: Exploring Native American Experiences Through Film (UC OCLP)" },
+      { "time": "7:30-9:30 p.m.", "title": "Guitar Ensembles Fall Concert (Kaeuper Hall)" }
     ]
   },
-  { "date": "2026-11-12", "events": [{ "time": "7:30-9:30 p.m.", "title": "\"Cabaret\" (Virginia Rogers Theatre)" }] },
-  {
-    "date": "2026-11-13",
-    "events": [
-      { "time": "10 a.m.-1 p.m.", "title": "The Millikin Amazing Race Weekly Drawing" },
-      { "time": "4:30 p.m.", "title": "Backstage Blue Overnight Event" },
-      { "time": "7:30-9:30 p.m.", "title": "\"Cabaret\" (Virginia Rogers Theatre)" }
-    ]
-  },
-  {
-    "date": "2026-11-14",
-    "events": [
-      { "time": "All Day", "title": "Backstage Blue Overnight Event" },
-      { "time": "9:30 a.m.", "title": "Millikin Invite Men's Wrestling" },
-      { "time": "9:30 a.m.", "title": "Millikin Invite Women's Wrestling" },
-      { "time": "1-5 p.m.", "title": "Brass Day (Perkinson Music Center)" },
-      { "time": "1-3 p.m.", "title": "Central Illinois High School Student & Educator Art Exhibition (Perkinson Gallery & Lower Gallery)" },
-      { "time": "7:30-9:30 p.m.", "title": "MSWE II: Brass Extravaganza (Kirkland Fine Arts Center)" },
-      { "time": "7:30-9:30 p.m.", "title": "\"Cabaret\" (Virginia Rogers Theatre)" }
-    ]
-  },
-  { "date": "2026-11-15", "events": [{ "time": "2-4 p.m.", "title": "\"Cabaret\" (Virginia Rogers Theatre)" }] }
+  { "date": "2026-11-19", "events": [{ "time": "7:30-9:30 p.m.", "title": "Opera Scenes (Kaeuper Hall)" }] },
+  { "date": "2026-11-20", "events": [{ "time": "10 a.m.-1 p.m.", "title": "The Millikin Amazing Race Weekly Drawing" }] }
 ]
