@@ -1869,7 +1869,8 @@ table.sdk--data-table-shrink {
 }
 
 .sdk--ellucian-table .expand-row-button .expand-icon-container {
-  height: 33px;
+  height: 27px;
+  margin-top: 3px;
 }
 
 .sdk--ellucian-table .expand-row-button .expand-icon-container svg {
