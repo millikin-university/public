@@ -2066,3 +2066,11 @@ table.sdk--data-table-shrink {
 .sdk--message-error .MuiAlert-icon {
   color: var(--mu-alert-error-border);
 }
+/* MUI Tabs, two color symbols */
+.mu--page-body button[class$='MuiTab-root'].Mui-selected {
+  color: var(--mu-blue-medium);
+}
+
+.mu--page-body button[class$='MuiTab-root'].Mui-selected span.material-symbols-outlined {
+  color: var(--mu-blue);
+}
