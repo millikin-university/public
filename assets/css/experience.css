@@ -2094,7 +2094,7 @@ table.sdk--data-table-shrink {
 }
 
 .sdk--mini-button:hover,
-.sdk--mini-button:focus {
+.sdk--mini-button:focus-visible {
   color: #ffffff;
   background-color: var(--mu-blue-medium-light);
   border-color: #ffffff;
@@ -2123,7 +2123,7 @@ button.sdk--mini-symbol-button .material-symbols-outlined {
 }
 
 button.sdk--mini-symbol-button .material-symbols-outlined:hover,
-button.sdk--mini-symbol-button .material-symbols-outlined:focus {
+button.sdk--mini-symbol-button .material-symbols-outlined:focus-visible {
   color: #ffffff;
   background-color: var(--mu-blue-medium-light);
   border-color: #ffffff;
