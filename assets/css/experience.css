@@ -2074,3 +2074,59 @@ table.sdk--data-table-shrink {
 .mu--page-body button[class$='MuiTab-root'].Mui-selected span.material-symbols-outlined {
   color: var(--mu-blue);
 }
+
+/* Used for small tooltip type buttons (such as Copy to Clipboard */
+.sdk--mini-button {
+  height: 24px;
+  width: 24px;
+  padding: 2px;
+  margin-left: 4px;
+  color: var(--mu-blue-dark);
+  background-color: #ffffff;
+  border: 2px solid var(--mu-blue-medium-light);
+  border-radius: var(--rectangle-radius);
+  box-shadow: 2px 0px 4px -1px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+
+.sdk--mini-button .material-symbols-outlined {
+  font-size: 16px;
+}
+
+.sdk--mini-button:hover,
+.sdk--mini-button:focus {
+  color: #ffffff;
+  background-color: var(--mu-blue-medium-light);
+  border-color: #ffffff;
+  scale: 1.1;
+}
+
+/* Correct placement in an sdk table */
+.sdk--ellucian-table .sdk--mini-button {
+  position: relative;
+  top: 2px;
+  margin-top: -10px;
+}
+
+button.sdk--mini-symbol-button {
+  border: none;
+  background-color: unset;
+  margin-left: 2px;
+  padding: 2px;
+  cursor: pointer;
+}
+
+button.sdk--mini-symbol-button .material-symbols-outlined {
+  font-size: 9.5pt;
+  color: var(--mu-blue);
+  padding: 2px;
+}
+
+button.sdk--mini-symbol-button .material-symbols-outlined:hover,
+button.sdk--mini-symbol-button .material-symbols-outlined:focus {
+  color: #ffffff;
+  background-color: var(--mu-blue-medium-light);
+  border-color: #ffffff;
+  border-radius: var(--rectangle-radius);
+  box-shadow: 2px 0px 4px -1px rgba(0, 0, 0, 0.5);
+}
