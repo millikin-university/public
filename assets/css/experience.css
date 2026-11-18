@@ -2130,3 +2130,8 @@ button.sdk--mini-symbol-button .material-symbols-outlined:focus-visible {
   border-radius: var(--rectangle-radius);
   box-shadow: 2px 0px 4px -1px rgba(0, 0, 0, 0.5);
 }
+
+.sdk--mini-float-right {
+  display: 'inline-block';
+  float: 'right';
+}
