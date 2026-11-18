@@ -2132,6 +2132,5 @@ button.sdk--mini-symbol-button .material-symbols-outlined:focus-visible {
 }
 
 .sdk--mini-float-right {
-  display: 'inline-block';
-  float: 'right';
+  float: right;
 }
