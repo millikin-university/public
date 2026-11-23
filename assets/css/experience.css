@@ -1560,6 +1560,20 @@ a.mu--link-button.sdk--link-button-disabled .mu--link-label {
   height: calc(100% - 30px); /* Match the height for .sdk--slide-legend this allows slides to handle overflow-y properly */
 }
 
+.mu--card-shade.sdk--slide-content .sdk-slide-content-header {
+  color: var(--mu-blue-light);
+  font-weight: bold;
+  padding: 2px;
+  border-bottom: 1px solid var(--mu-blue-light);
+  border-image: linear-gradient(to right, var(--mu-blue-medium-light), var(--mu-blue)) 1;
+}
+
+.mu--card-shade.sdk--slide-content .sdk--slide-content-body {
+  color: #ffffff;
+  padding: 4px;
+  padding-left: 16px;
+}
+
 .sdk--carousel-container {
   height: 100%;
   width: 100%;
