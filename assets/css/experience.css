@@ -1560,7 +1560,7 @@ a.mu--link-button.sdk--link-button-disabled .mu--link-label {
   height: calc(100% - 30px); /* Match the height for .sdk--slide-legend this allows slides to handle overflow-y properly */
 }
 
-.mu--card-shade.sdk--slide-content .sdk-slide-content-header {
+.mu--card-shade.sdk--slide-content .sdk--slide-content-header {
   color: var(--mu-blue-light);
   font-weight: bold;
   padding: 2px;
